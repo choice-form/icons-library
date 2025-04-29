@@ -1,0 +1,17 @@
+{
+  "name": "Check",
+  "filename": "check.svg",
+  "category": "common",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "common",
+    "success",
+    "select",
+    "done",
+    "checked",
+    "tick",
+    "completed",
+    "choice"
+  ]
+}

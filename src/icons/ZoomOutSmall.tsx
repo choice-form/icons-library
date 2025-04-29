@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ZoomOutSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m12.5 12.5-2.175-2.175M6 7.5h3m-1.5 4a4 4 0 1 0 0-8 4 4 0 0 0 0 8" /></svg>;
+export { ZoomOutSmall };
