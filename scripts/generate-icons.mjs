@@ -25,11 +25,9 @@ const svgoConfig = {
       params: {
         overrides: {
           removeViewBox: false,
-          convertStyleToAttrs: false,
           cleanupNumericValues: true,
           collapseGroups: true,
           mergePaths: true,
-          convertStyleToAttrs: true,
           convertColors: {
             currentColor: /^#(000|000000)$|^black$/i,
           },
