@@ -1,0 +1,52 @@
+{
+  "name": "@choiceform/icons-generate",
+  "version": "1.0.4",
+  "description": "Generate Icons components from SVG files",
+  "type": "module",
+  "scripts": {
+    "generate": "node ./scripts/generate-icons.mjs",
+    "build": "pnpm generate && vite build",
+    "dev": "pnpm generate --watch",
+    "prepublishOnly": "pnpm build"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "choiceform"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@types/react": "^18.3.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "camelcase": "^8.0.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "svgo": "^3.3.2",
+    "typescript": "^5.4.5",
+    "usehooks-ts": "^3.1.0",
+    "vite": "^5.3.1",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

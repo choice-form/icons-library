@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+  overflow: hidden;
+  --layout-max-width: 96rem;
+  --sidebar-width: 272px;
+  --nav-height: 64px;
+  --icon-browser-padding-left: calc(
+    (100vw - var(--layout-max-width)) / 2 + var(--sidebar-width) + 1rem
+  );
+  --icon-browser-padding-right: calc(
+    (100vw - var(--layout-max-width)) / 2 + 1rem
+  );
+  --sidebar-padding-left: max(
+    32px,
+    calc((100% - (var(--layout-max-width) - 64px)) / 2)
+  );
+  --sidebar-container-width: calc(
+    (100% - (var(--layout-max-width) - 64px)) / 2 + var(--sidebar-width) - 32px
+  );
+
+  @media (width >= 64rem) {
+    --layout-max-width: 100%;
+  }
+  @media (width >= 80rem) {
+    --layout-max-width: 80rem;
+  }
+  @media (width >= 96rem) {
+    --layout-max-width: 96rem;
+  }
+}
+
+.icon-detail__preview-wrapper {
+  background-image:
+    linear-gradient(to right, var(--color-light-200) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-light-200) 1px, transparent 1px);
+  background-size: 8px 8px;
+  background-position: -1px -1px;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@choiceform/icons-preview",
+  "version": "1.0.0",
+  "description": "SVG icon preview for Choiceform",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "choiceform"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@vitejs/plugin-react": "^4.3.1",
+    "framer-motion": "^11.2.13",
+    "fuse.js": "^7.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.5.2",
+    "react-syntax-highlighter": "^15.5.0",
+    "sonner": "^1.4.41",
+    "typescript": "^5.4.5",
+    "usehooks-ts": "^3.1.0",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@choiceform/design-system": "^0.1.5",
+    "@choiceform/icons-generate": "workspace:*",
+    "@tailwindcss/vite": "^4.0.4",
+    "@tanstack/react-virtual": "^3.12.1",
+    "@types/react-dom": "^19.1.2",
+    "tailwindcss": "^4.1.4",
+    "use-resize-observer": "9.1.0"
+  }
+}
