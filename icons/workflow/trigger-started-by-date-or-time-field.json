@@ -1,0 +1,14 @@
+{
+  "name": "TriggerStartedByDateOrTimeField",
+  "filename": "trigger-started-by-date-or-time-field.svg",
+  "category": "workflow",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "workflow",
+    "trigger",
+    "calendar",
+    "date",
+    "time"
+  ]
+}

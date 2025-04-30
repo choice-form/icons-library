@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="empty-notifications[flash-screen,empty,bell,notification,alarm,buzz,alert,audio,sound]">
+<path id="Vector" d="M7.5 0.5V2.5M13 3L14.5 1.5M2 3L0.5 1.5" stroke="black" stroke-linecap="round"/>
+<path id="Vector_2" d="M0.5 13.5H14.5C14.5 13.5 12 12 11.5 9.5C11.0874 7.43686 9.9937 6.05477 8.5 5.63474V5.5C8.5 4.94772 8.05228 4.5 7.5 4.5C6.94772 4.5 6.5 4.94772 6.5 5.5V5.63474C5.0063 6.05477 3.91263 7.43686 3.5 9.5C3 12 0.5 13.5 0.5 13.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9.5 13.5C9.5 14.6046 8.60457 15.5 7.5 15.5C6.39543 15.5 5.5 14.6046 5.5 13.5H9.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

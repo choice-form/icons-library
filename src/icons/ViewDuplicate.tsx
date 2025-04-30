@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ViewDuplicate = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M1.5 6.5v-1a1 1 0 0 1 1-1h1m0 10h-1a1 1 0 0 1-1-1v-1m8 2h1a1 1 0 0 0 1-1v-1m-4 2h-2m-4-6v2M6.5 1.5h7a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1" /></g></svg>;
+export { ViewDuplicate };

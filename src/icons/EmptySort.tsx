@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmptySort = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round"><path d="M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5" /><path strokeLinejoin="round" d="M4.5 5.5v9m0 0L2 12m2.5 2.5L7 12m3.5 2.5v-9m0 0L13 8m-2.5-2.5L8 8" /></g></svg>;
+export { EmptySort };

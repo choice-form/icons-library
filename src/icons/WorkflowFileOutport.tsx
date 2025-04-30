@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WorkflowFileOutport = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M4.5 3.5v-1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1M1.5 13.5v-2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1M7.5 7.5h-3a1 1 0 0 0-1 1v2m4-3v-3m0 3h2a1 1 0 0 1 1 1v2M12.5 10.5l2 2m0 0-2 2m2-2h-7" /></g></svg>;
+export { WorkflowFileOutport };

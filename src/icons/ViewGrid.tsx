@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ViewGrid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M12.5 1.5h-10a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1M1.5 9.5h6m0 0v-4m0 4v4m0-4h6m-12-4h12" /></g></svg>;
+export { ViewGrid };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ActionWaitForSomeTime = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M12.5 8.5a5 5 0 1 1-5-5" /><path strokeOpacity={0.25} d="M9.5 3.916A5.02 5.02 0 0 1 12.084 6.5" /><path d="M7.5 6.5v2l-2 2M7.5 3.5v-2m-2 0h4" /></g></svg>;
+export { ActionWaitForSomeTime };

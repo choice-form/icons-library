@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="form-delete[forms,clear,remove,delete,survey]">
+<path id="Vector" d="M11.5 7.5H12.5M11.5 11.5H12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M7.5 10.5H3.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9.5 10.5C9.5 12.7091 7.70914 14.5 5.5 14.5C3.29086 14.5 1.5 12.7091 1.5 10.5C1.5 8.29086 3.29086 6.5 5.5 6.5C7.70914 6.5 9.5 8.29086 9.5 10.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M14.5 5.5L10.5 1.5V4.5C10.5 5.05228 10.9477 5.5 11.5 5.5H14.5Z" fill="black" fill-opacity="0.25"/>
+<path id="Vector_5" d="M10.5 1.5H6.5C5.94772 1.5 5.5 1.94771 5.5 2.5V4.5M10.5 1.5L14.5 5.5M10.5 1.5V4.5C10.5 5.05228 10.9477 5.5 11.5 5.5H14.5M14.5 5.5V13.5C14.5 14.0523 14.0523 14.5 13.5 14.5H10.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

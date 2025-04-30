@@ -1,0 +1,14 @@
+{
+  "name": "WarningLinkExpired",
+  "filename": "warning-link-expired.svg",
+  "category": "flash-screen",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "flash-screen",
+    "warning",
+    "unlink",
+    "broken",
+    "link"
+  ]
+}

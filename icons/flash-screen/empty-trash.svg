@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="empty-trash[flash-screen,empty,trash,remove,delete]">
+<path id="Vector" d="M7.5 0.5V2.5M13 3L14.5 1.5M2 3L0.5 1.5" stroke="black" stroke-linecap="round"/>
+<path id="Vector_2" d="M13 4.5H2C1.72386 4.5 1.5 4.72386 1.5 5V6C1.5 6.27614 1.72386 6.5 2 6.5H13C13.2761 6.5 13.5 6.27614 13.5 6V5C13.5 4.72386 13.2761 4.5 13 4.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M2.5 6.5L3.40116 14.6104C3.45743 15.1169 3.88549 15.5 4.39504 15.5H10.605C11.1145 15.5 11.5426 15.1169 11.5988 14.6104L12.5 6.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M7.5 8.5V13.5M9.5 8.5V13.5M5.5 8.5V13.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

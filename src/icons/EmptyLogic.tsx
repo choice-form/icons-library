@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmptyLogic = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round"><path d="M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5" /><path strokeLinejoin="round" d="M3.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M9.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M3.5 13.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" /><path strokeLinejoin="round" d="M4.5 12.5v-1a2 2 0 0 1 2-2h2a2 2 0 0 0 2-2v-1M4.5 6.5v2" /></g></svg>;
+export { EmptyLogic };

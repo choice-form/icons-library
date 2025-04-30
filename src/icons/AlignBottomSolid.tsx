@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const AlignBottomSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 12.5h10" /><path fill="currentColor" d="M4.5 10.5v-8h2v8zM8.5 10.5v-5h2v5z" /></g></svg>;
+export { AlignBottomSolid };

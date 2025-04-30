@@ -1,0 +1,20 @@
+{
+  "name": "FileSettings",
+  "filename": "file-settings.svg",
+  "category": "files",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "file",
+    "document",
+    "note",
+    "page",
+    "draft",
+    "item",
+    "sheet",
+    "content",
+    "control",
+    "preferences",
+    "system"
+  ]
+}

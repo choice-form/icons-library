@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const LayoutWallpaper = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path fill="currentColor" fillOpacity={0.25} d="M13.5 2.5h-12a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1" /><path d="M3.5 5.5h8m-8 2h8m-8 2h3" /></g></svg>;
+export { LayoutWallpaper };

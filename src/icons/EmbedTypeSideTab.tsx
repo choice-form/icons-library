@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmbedTypeSideTab = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M13.5 2.5h-12a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1" /><path fill="currentColor" fillOpacity={0.25} d="M12 4.5h-2a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5" /><path d="M7.5 7v1" /></g></svg>;
+export { EmbedTypeSideTab };

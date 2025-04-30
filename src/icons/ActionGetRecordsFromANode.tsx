@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ActionGetRecordsFromANode = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M8.5 12.5h-5a1 1 0 0 1-1-1v-2a1 1 0 0 1 1-1h7m-8-4v-2a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-10a1 1 0 0 1-1-1M11.5 14.5 13 13m0 0-2.5-1.5L12 10m1 3 1.5-1.5L12 10m1.5-1.5L12 10" /></g></svg>;
+export { ActionGetRecordsFromANode };

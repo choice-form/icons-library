@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="field-type-multi-select[field,type,data,datasheet,table]">
+<path id="Vector" d="M4.5 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V6C2.5 6.27614 2.72386 6.5 3 6.5H6C6.27614 6.5 6.5 6.27614 6.5 6V5.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M8.5 4.5H12.5M8.5 10.5H12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M6 8.5H3C2.72386 8.5 2.5 8.72386 2.5 9V12C2.5 12.2761 2.72386 12.5 3 12.5H6C6.27614 12.5 6.5 12.2761 6.5 12V9C6.5 8.72386 6.27614 8.5 6 8.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M4 4L5 5L7 3" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ActionGetOneRecordFromLinkedRecords = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M10.5 5.5h4" /><path fill="currentColor" fillOpacity={0.25} d="M10.5 5.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0M10.5 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" /><path d="M1.5 10.5h5m0 0-2-2m2 2-2 2M12.5 7.5v6a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1v-1m0-4v-6a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v1" /></g></svg>;
+export { ActionGetOneRecordFromLinkedRecords };

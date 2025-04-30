@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DistributeVerticalSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M12.5 3.5h-10m10 8h-10" /><path fill="currentColor" d="M10.5 6.5v2h-6v-2z" /></g></svg>;
+export { DistributeVerticalSolid };

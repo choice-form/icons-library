@@ -1,0 +1,20 @@
+{
+  "name": "PbpOutput",
+  "filename": "pbp-output.svg",
+  "category": "workflow",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "workflow",
+    "packaged",
+    "arrow",
+    "right",
+    "import",
+    "output",
+    "volume",
+    "axis",
+    "dimension",
+    "3d",
+    "cube"
+  ]
+}

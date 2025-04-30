@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="toolbar-group[data,datasheet,table,toolbar,group]">
+<path id="Vector" d="M12.5 1.5H2.5C1.94771 1.5 1.5 1.94771 1.5 2.5V6.5C1.5 7.05228 1.94771 7.5 2.5 7.5H12.5C13.0523 7.5 13.5 7.05228 13.5 6.5V2.5C13.5 1.94771 13.0523 1.5 12.5 1.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M3.5 4.5L4.5 5.5L6.5 3.5M8.5 4.5H11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M13.5 13.5V10.5C13.5 9.94772 13.0523 9.5 12.5 9.5H2.5C1.94771 9.5 1.5 9.94772 1.5 10.5V13.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M3.5 12.5L4.5 13.5L6.5 11.5M8.5 12.5H11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "ViewSettings",
+  "filename": "view-settings.svg",
+  "category": "datasheets",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "data",
+    "datasheet",
+    "table",
+    "view",
+    "control",
+    "preferences",
+    "system"
+  ]
+}

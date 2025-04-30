@@ -1,5 +1,5 @@
-<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="reload[common,loading,loop,process,arrow]">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="reload[common,loading,loop,process,arrow,refresh]">
 <g id="Group">
 <path id="Vector" d="M2.591 6.99999C2.81545 5.78104 3.44505 4.67363 4.37771 3.85732C5.31037 3.041 6.49142 2.56365 7.72936 2.50264C8.9673 2.44164 10.1896 2.80056 11.198 3.52121C12.2064 4.24187 12.9418 5.28201 13.285 6.47299" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
 <path id="Vector_2" d="M13.5 2.5V6.5L9.53101 6.007" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FieldTypeSystemUser = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g strokeLinecap="round" strokeLinejoin="round"><path stroke="currentColor" d="M3.5 12.5a3 3 0 0 1 3-3h1m2-4a2 2 0 1 1-4 0 2 2 0 0 1 4 0" /><path stroke="#05F" d="M10.5 13.5 12 12m0 0-2.5-1.5L11 9m1 3 1.5-1.5L11 9m1.5-1.5L11 9" /></g></svg>;
+export { FieldTypeSystemUser };

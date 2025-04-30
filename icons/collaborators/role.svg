@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="role[role,lock,security,safe,privacy,key,password]">
+<path id="Vector" d="M11.2071 9.7929L13.0858 7.91421C13.8668 7.13316 13.8668 5.86684 13.0858 5.08579L10.9142 2.91421C10.1332 2.13317 8.86683 2.13317 8.08579 2.91421L6.20711 4.79289C5.81658 5.18342 5.81658 5.81658 6.20711 6.20711L7 7L2.5 11.5V13.5H4.5L5.5 12.5V11.5H6.5V10.5H7.5L9 9L9.79289 9.79289C10.1834 10.1834 10.8166 10.1834 11.2071 9.7929Z" stroke="black" stroke-linejoin="round"/>
+<path id="Vector_2" d="M9.5 4.5L11.5 6.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

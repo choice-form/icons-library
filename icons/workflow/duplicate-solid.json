@@ -1,0 +1,16 @@
+{
+  "name": "DuplicateSolid",
+  "filename": "duplicate-solid.svg",
+  "category": "workflow",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "workflow",
+    "nodes",
+    "solid",
+    "duplicate",
+    "copy",
+    "clone",
+    "paste"
+  ]
+}
