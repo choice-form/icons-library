@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InfoSquare = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor"><path d="M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z" /><path strokeLinecap="round" d="M7.5 6.5v4" /><path strokeLinecap="round" strokeLinejoin="round" d="M7.5 4.5h.005" /></g></svg>;
+export { InfoSquare };

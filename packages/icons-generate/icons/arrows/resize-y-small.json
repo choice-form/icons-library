@@ -1,0 +1,12 @@
+{
+  "name": "ResizeYSmall",
+  "filename": "resize-y-small.svg",
+  "category": "common",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "resize",
+    "vertical",
+    "arrow"
+  ]
+}

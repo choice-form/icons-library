@@ -1,0 +1,13 @@
+{
+  "name": "CircleWarningLarge",
+  "filename": "circle-warning-large.svg",
+  "category": "alert",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "solid",
+    "alert",
+    "warning",
+    "circle"
+  ]
+}

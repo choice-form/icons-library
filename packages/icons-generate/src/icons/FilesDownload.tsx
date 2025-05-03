@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDownload = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M4.5 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5h-.5M2.5 10.5h11" /><path d="M10.5 6 8 8.5 5.5 6M8 2.5v6" /></g></svg>;
+export { FilesDownload };

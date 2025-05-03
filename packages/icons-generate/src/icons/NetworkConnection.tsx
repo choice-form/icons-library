@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const NetworkConnection = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M9.713 5.394 6.288 7.106M9.713 10.606 6.288 8.894M11.5 6.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M11.5 13.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M4.5 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /></g></svg>;
+export { NetworkConnection };

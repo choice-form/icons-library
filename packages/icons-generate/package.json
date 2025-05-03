@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-generate",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "Generate Icons components from SVG files",
   "type": "module",
   "scripts": {

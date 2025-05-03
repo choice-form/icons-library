@@ -1511,6 +1511,437 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"url(#a)\" d=\"M6.59 2.24 3.55 5.28a5.24 5.24 0 0 0 0 7.41l.435.436a2.62 2.62 0 0 1 0-3.705l2.027-2.027a1.97 1.97 0 0 0 .577-1.393z\"/><path fill=\"#05F\" d=\"M14 2.24 6.761 9.477a1.31 1.31 0 0 1-1.853 0l-.126-.126-.435.436a2.104 2.104 0 0 0 0 2.976l.365.364a2.105 2.105 0 0 0 2.975 0l5.734-5.734c.37-.37.577-.87.577-1.394z\"/><defs><linearGradient id=\"a\" x1=\"7.633\" x2=\"2.751\" y1=\"5.338\" y2=\"10.219\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#05F\"/><stop offset=\"1\" stop-color=\"#A5D4FF\"/></linearGradient></defs></svg>"
   },
   {
+    "name": "WarningPublishFail",
+    "filename": "warning-publish-fail.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "warning",
+      "publish",
+      "rocket",
+      "space"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7.5 13.5h-3m3 0c.49-.735.848-1.59 1-2.5 0 0 2.08.5 2.58 1.5s-1.5 3-1.5 3zm-3 0c-2-3-1.031-8 1.5-10.5M4.5 13.5l-1.92 2s-2-2-1.5-3S3.5 11 3.5 11M10.5 4v1.5M10.5 7.5h.005\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"m5.913 8.757 4.15-7.47a.5.5 0 0 1 .874 0l4.15 7.47a.5.5 0 0 1-.437.743h-8.3a.5.5 0 0 1-.437-.743\"/></g></svg>"
+  },
+  {
+    "name": "WarningNotFound",
+    "filename": "warning-not-found.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "warning",
+      "404"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M8.5 4.5h-1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1\"/><path d=\"M3.5 6.5v3m0 0v2m0-2h-3l2-5m1 5h1M14.5 6.5v3m0 0v2m0-2h-3l2-5m1 5h1M.5 2.5h15m-15 11h15\"/></g></svg>"
+  },
+  {
+    "name": "WarningLinkExpired",
+    "filename": "warning-link-expired.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "warning",
+      "unlink",
+      "broken",
+      "link"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m14.5.5-4 4m-10 10 4-4M9.5 7.5l.293.293a1 1 0 0 0 1.414 0l1.879-1.879a2 2 0 0 0 0-2.828l-1.172-1.172a2 2 0 0 0-2.828 0L7.207 3.793a1 1 0 0 0 0 1.414L7.5 5.5M5.5 7.5l-.293-.293a1 1 0 0 0-1.414 0L1.914 9.086a2 2 0 0 0 0 2.828l1.172 1.172a2 2 0 0 0 2.828 0l1.879-1.879a1 1 0 0 0 0-1.414L7.5 9.5M8 7 7 8M3 3 1.5 1.5M12 12l1.5 1.5m-1-4h2m-5 3v2m-7-9h-2m5-3v-2\"/></g></svg>"
+  },
+  {
+    "name": "WarningFileBroken",
+    "filename": "warning-file-broken.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "warning",
+      "broken",
+      "file",
+      "page",
+      "draft",
+      "item",
+      "document",
+      "content",
+      "data"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5.5h-2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9l-4-4h-1\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"m13.5 4.5-4-4v3a1 1 0 0 0 1 1z\"/><path d=\"m5.5.5-1 2 2 2v5l2-5-1-2 1-2\"/></g></svg>"
+  },
+  {
+    "name": "EmptyWorkspace",
+    "filename": "empty-workspace.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "desk",
+      "workspace",
+      "table"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M15 7.5H1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5\"/><path d=\"M1.5 9.5v6m8-6v2m0 0V15a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-3.5m-5 0h5m0-2v2M12.5 7.5l2.646-2.646a.5.5 0 0 0 0-.708L11.854.854a.5.5 0 0 0-.708 0L10 2\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"m6 2 4 4a2.828 2.828 0 1 0-4-4\"/></g></svg>"
+  },
+  {
+    "name": "EmptyWorkflow",
+    "filename": "empty-workflow.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "workflow",
+      "intelligence"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M10.5 4.5h-6a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path stroke-linejoin=\"round\" d=\"M5.5 6.5h4M6 12.5H1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5M14 12.5H9a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M3.5 12.5v-1a1 1 0 0 1 1-1h3m0 0h3a1 1 0 0 1 1 1v1m-4-2v-2\"/></g></svg>"
+  },
+  {
+    "name": "EmptyWorkflowNode",
+    "filename": "empty-workflow-node.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "workflow",
+      "network",
+      "intelligence"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8.5.5h-7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1M2.5 2.5h5M14.5 6.5h-4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M5.5 11.5h-4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path d=\"M12.5 10.5v2a1 1 0 0 1-1 1h-5M3.5 11.5v-7M9.5 2.5h2a1 1 0 0 1 1 1v3M11.5 8.5h2\"/></g></svg>"
+  },
+  {
+    "name": "EmptyUser",
+    "filename": "empty-user.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M5.5 6.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0\"/><path stroke-linejoin=\"round\" d=\"M12.5 14.5v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3v1\"/></g></svg>"
+  },
+  {
+    "name": "EmptyTrash",
+    "filename": "empty-trash.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "trash",
+      "remove",
+      "delete"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M13 4.5H2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5\"/><path stroke-linejoin=\"round\" d=\"m2.5 6.5.901 8.11a1 1 0 0 0 .994.89h6.21a1 1 0 0 0 .994-.89L12.5 6.5M7.5 8.5v5m2-5v5m-4-5v5\"/></g></svg>"
+  },
+  {
+    "name": "EmptySurvey",
+    "filename": "empty-survey.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "file",
+      "document",
+      "page",
+      "draft",
+      "item",
+      "sheet",
+      "content",
+      "data",
+      "survey",
+      "form"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M4.5 7.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M4.5 11.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.5 7.5h2m-2 4h2m-5-3a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.5 1.5h-5a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-8m-4-4 4 4m-4-4v3a1 1 0 0 0 1 1h3\"/></svg>"
+  },
+  {
+    "name": "EmptySort",
+    "filename": "empty-sort.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "sort",
+      "order",
+      "filter"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M4.5 5.5v9m0 0L2 12m2.5 2.5L7 12m3.5 2.5v-9m0 0L13 8m-2.5-2.5L8 8\"/></g></svg>"
+  },
+  {
+    "name": "EmptySearch",
+    "filename": "empty-search.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "search",
+      "find",
+      "lookup",
+      "explore",
+      "magnifier",
+      "question"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M.5 6.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0\"/><path d=\"M4.5 4.5c0-2.5 4-2.5 4 0 0 2-2 1-2 3M15.5 15.5l-3-3M6.505 9.5v1\"/></g></svg>"
+  },
+  {
+    "name": "EmptyOrganizations",
+    "filename": "empty-organizations.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "organization",
+      "team",
+      "group",
+      "building",
+      "business",
+      "company",
+      "warning"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M10.5 5.5v-4a1 1 0 0 0-1-1h-8a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h5\"/><path stroke-linejoin=\"round\" d=\"M4 2.5H3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5M8 2.5H7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5M4 6.5H3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V7a.5.5 0 0 0-.5-.5M4 10.5H3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M7.5 11.5a4 4 0 1 0 8 0 4 4 0 0 0-8 0\"/><path d=\"M11.5 9.5v2\"/><path stroke-linejoin=\"round\" d=\"M11.5 13.5h.005M8 6.5H7a.5.5 0 0 0-.5.5v1\"/></g></svg>"
+  },
+  {
+    "name": "EmptyNotifications",
+    "filename": "empty-notifications.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "bell",
+      "notification",
+      "alarm",
+      "buzz",
+      "alert",
+      "audio",
+      "sound"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M.5 13.5h14s-2.5-1.5-3-4c-.413-2.063-1.506-3.445-3-3.865V5.5a1 1 0 0 0-2 0v.135c-1.494.42-2.587 1.802-3 3.865-.5 2.5-3 4-3 4\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M9.5 13.5a2 2 0 1 1-4 0z\"/></g></svg>"
+  },
+  {
+    "name": "EmptyNoAuthority",
+    "filename": "empty-no-authority.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "lock",
+      "locked",
+      "secure",
+      "password",
+      "key",
+      "safety",
+      "privacy"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12.5 6.5h-10a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1M4.5 6.5v-2a3 3 0 0 1 6 0v2\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M6.5 9.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 10.5v2m0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/></svg>"
+  },
+  {
+    "name": "EmptyLogic",
+    "filename": "empty-logic.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "branch",
+      "logic",
+      "merge",
+      "commit"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M3.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M9.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M3.5 13.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path stroke-linejoin=\"round\" d=\"M4.5 12.5v-1a2 2 0 0 1 2-2h2a2 2 0 0 0 2-2v-1M4.5 6.5v2\"/></g></svg>"
+  },
+  {
+    "name": "EmptyImage",
+    "filename": "empty-image.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "image",
+      "photo",
+      "picture",
+      "media",
+      "gallery",
+      "graphic"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke=\"currentColor\" d=\"M2.5 7.5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2z\"/><path fill=\"currentColor\" d=\"M6 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0\"/><path stroke=\"currentColor\" stroke-linejoin=\"round\" d=\"m3 15 6.5-6.5 3 2\"/></svg>"
+  },
+  {
+    "name": "EmptyGroup",
+    "filename": "empty-group.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "group",
+      "check"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M1.5 6.5v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2\"/><path stroke-linejoin=\"round\" d=\"m3.5 6.5 1 1 2-2m2 1h3M13.5 14.5v-2a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v2\"/><path stroke-linejoin=\"round\" d=\"m3.5 14.5 1 1 2-2m2 1h3\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
+  },
+  {
+    "name": "EmptyFolder",
+    "filename": "empty-folder.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "folder",
+      "directory",
+      "folder-open",
+      "file",
+      "catalog"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"m3.5 12.5.772-2.316a1 1 0 0 1 .949-.684H13.5m0 0a.72.72 0 0 1 .684.949l-1.456 4.367a1 1 0 0 1-.949.684H2.5a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h1.586a1 1 0 0 1 .707.293l1.414 1.414a1 1 0 0 0 .707.293H12.5a1 1 0 0 1 1 1z\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
+  },
+  {
+    "name": "EmptyFilter",
+    "filename": "empty-filter.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "filter",
+      "funnel",
+      "search"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M7.5 4.5c-3.5 0-4 1-4 1s.5 1 4 1 4-1 4-1-.5-1-4-1\"/><path stroke-linejoin=\"round\" d=\"M2.5 6.5v.172a2 2 0 0 0 .586 1.414l3.121 3.121a1 1 0 0 1 .293.707V14.5l2 1v-3.586a1 1 0 0 1 .293-.707l3.121-3.121a2 2 0 0 0 .586-1.414V6.5\"/></g></svg>"
+  },
+  {
+    "name": "EmptyFile",
+    "filename": "empty-file.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "file",
+      "document",
+      "note",
+      "page",
+      "draft",
+      "item",
+      "sheet",
+      "content",
+      "data"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M3.5 15.5h8a1 1 0 0 0 1-1v-6l-4-4h-5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1M4.5 8.5h2m-2 3h6m-6 2h6\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"m12.5 8.5-4-4v3a1 1 0 0 0 1 1z\"/></g></svg>"
+  },
+  {
+    "name": "EmptyDynamic",
+    "filename": "empty-dynamic.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "sign",
+      "inbox",
+      "email",
+      "dynamic"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M9.454 7.306v3.474c0 1.071 1.694 1.31 2.58-.14.752-1.226.568-3.096-.37-4.326-1.382-1.812-4.576-2.49-6.896-.992-2.133 1.376-2.892 4.16-1.714 6.411 1.166 2.227 3.902 3.306 6.38 2.501m.012-4.803c0 1.153-.909 2.088-2.03 2.088s-2.03-.935-2.03-2.088.909-2.088 2.03-2.088 2.03.934 2.03 2.088\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
+  },
+  {
+    "name": "EmptyDatabase",
+    "filename": "empty-database.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "database",
+      "hosting",
+      "server",
+      "hardware"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M7.5 4.5c-2.551 0-3.882.61-4.511 1.052-.33.232-.33.664 0 .896C3.619 6.89 4.949 7.5 7.5 7.5s3.882-.61 4.511-1.052c.33-.232.33-.664 0-.896C11.381 5.11 10.051 4.5 7.5 4.5\"/><path stroke-linejoin=\"round\" d=\"M2.5 10s1 1.5 5 1.5 5-1.5 5-1.5\"/><path stroke-linejoin=\"round\" d=\"M7.5 4.5c-3.031 0-4.34.861-4.796 1.279-.145.133-.204.326-.204.524v7.394c0 .198.059.391.204.524C3.161 14.64 4.47 15.5 7.5 15.5s4.34-.861 4.796-1.279c.145-.133.204-.326.204-.524V6.303c0-.198-.059-.391-.204-.524C11.839 5.36 10.53 4.5 7.5 4.5\"/></g></svg>"
+  },
+  {
+    "name": "EmptyData",
+    "filename": "empty-data.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "data",
+      "archive",
+      "storage"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M4 9.5H.5v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5H11a.5.5 0 0 0-.5.5v1a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 0-.5-.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M4 9.5H.5l2.709-4.514a1 1 0 0 1 .857-.486h6.868a1 1 0 0 1 .857.486L14.5 9.5H11a.5.5 0 0 0-.5.5v1a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 0-.5-.5\"/><path d=\"M5.5 13.5h4M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
+  },
+  {
+    "name": "EmptyConnector",
+    "filename": "empty-connector.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "connector",
+      "connect",
+      "link"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.892 5.5A3.54 3.54 0 0 1 12 9l-3 3a3.54 3.54 0 0 1-3.5.892m5-9.784A3.54 3.54 0 0 0 7 4L4 7a3.54 3.54 0 0 0-.892 3.5M14.5 1.5l-5 5m-3 3-5 5\"/><path stroke-opacity=\".25\" d=\"M14.636 4.5A7.503 7.503 0 0 1 4.5 14.636M1.364 11.5a7.503 7.503 0 0 1 10.381-10\"/></g></svg>"
+  },
+  {
+    "name": "EmptyChart",
+    "filename": "empty-chart.svg",
+    "category": "flash-screen",
+    "tags": [
+      "flash-screen",
+      "empty",
+      "bar",
+      "chart",
+      "diagram"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path stroke-linecap=\"round\" d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 4.5H7a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5\"/><path stroke-linejoin=\"round\" d=\"M3 7.5H2a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5ZM13 5.5h-1a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M.5 15.5h14\"/></g></svg>"
+  },
+  {
     "name": "Folder",
     "filename": "folder.svg",
     "category": "files",
@@ -2038,437 +2469,6 @@ export const iconMetadata: Array<{
     "width": 16,
     "height": 16,
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"m14.5 5.5-4-4v3a1 1 0 0 0 1 1z\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.5 1.5h-4a1 1 0 0 0-1 1v2m5-3 4 4m-4-4v3a1 1 0 0 0 1 1h3m0 0v8a1 1 0 0 1-1 1h-3M7.5 10.5h-4m2 2v-4\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9.5 10.5a4 4 0 1 1-8 0 4 4 0 0 1 8 0\"/></svg>"
-  },
-  {
-    "name": "WarningPublishFail",
-    "filename": "warning-publish-fail.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "warning",
-      "publish",
-      "rocket",
-      "space"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7.5 13.5h-3m3 0c.49-.735.848-1.59 1-2.5 0 0 2.08.5 2.58 1.5s-1.5 3-1.5 3zm-3 0c-2-3-1.031-8 1.5-10.5M4.5 13.5l-1.92 2s-2-2-1.5-3S3.5 11 3.5 11M10.5 4v1.5M10.5 7.5h.005\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"m5.913 8.757 4.15-7.47a.5.5 0 0 1 .874 0l4.15 7.47a.5.5 0 0 1-.437.743h-8.3a.5.5 0 0 1-.437-.743\"/></g></svg>"
-  },
-  {
-    "name": "WarningNotFound",
-    "filename": "warning-not-found.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "warning",
-      "404"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M8.5 4.5h-1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1\"/><path d=\"M3.5 6.5v3m0 0v2m0-2h-3l2-5m1 5h1M14.5 6.5v3m0 0v2m0-2h-3l2-5m1 5h1M.5 2.5h15m-15 11h15\"/></g></svg>"
-  },
-  {
-    "name": "WarningLinkExpired",
-    "filename": "warning-link-expired.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "warning",
-      "unlink",
-      "broken",
-      "link"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m14.5.5-4 4m-10 10 4-4M9.5 7.5l.293.293a1 1 0 0 0 1.414 0l1.879-1.879a2 2 0 0 0 0-2.828l-1.172-1.172a2 2 0 0 0-2.828 0L7.207 3.793a1 1 0 0 0 0 1.414L7.5 5.5M5.5 7.5l-.293-.293a1 1 0 0 0-1.414 0L1.914 9.086a2 2 0 0 0 0 2.828l1.172 1.172a2 2 0 0 0 2.828 0l1.879-1.879a1 1 0 0 0 0-1.414L7.5 9.5M8 7 7 8M3 3 1.5 1.5M12 12l1.5 1.5m-1-4h2m-5 3v2m-7-9h-2m5-3v-2\"/></g></svg>"
-  },
-  {
-    "name": "WarningFileBroken",
-    "filename": "warning-file-broken.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "warning",
-      "broken",
-      "file",
-      "page",
-      "draft",
-      "item",
-      "document",
-      "content",
-      "data"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5.5h-2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9l-4-4h-1\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"m13.5 4.5-4-4v3a1 1 0 0 0 1 1z\"/><path d=\"m5.5.5-1 2 2 2v5l2-5-1-2 1-2\"/></g></svg>"
-  },
-  {
-    "name": "EmptyWorkspace",
-    "filename": "empty-workspace.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "desk",
-      "workspace",
-      "table"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M15 7.5H1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5\"/><path d=\"M1.5 9.5v6m8-6v2m0 0V15a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-3.5m-5 0h5m0-2v2M12.5 7.5l2.646-2.646a.5.5 0 0 0 0-.708L11.854.854a.5.5 0 0 0-.708 0L10 2\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"m6 2 4 4a2.828 2.828 0 1 0-4-4\"/></g></svg>"
-  },
-  {
-    "name": "EmptyWorkflow",
-    "filename": "empty-workflow.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "workflow",
-      "intelligence"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M10.5 4.5h-6a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path stroke-linejoin=\"round\" d=\"M5.5 6.5h4M6 12.5H1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5M14 12.5H9a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M3.5 12.5v-1a1 1 0 0 1 1-1h3m0 0h3a1 1 0 0 1 1 1v1m-4-2v-2\"/></g></svg>"
-  },
-  {
-    "name": "EmptyWorkflowNode",
-    "filename": "empty-workflow-node.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "workflow",
-      "network",
-      "intelligence"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8.5.5h-7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1M2.5 2.5h5M14.5 6.5h-4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M5.5 11.5h-4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path d=\"M12.5 10.5v2a1 1 0 0 1-1 1h-5M3.5 11.5v-7M9.5 2.5h2a1 1 0 0 1 1 1v3M11.5 8.5h2\"/></g></svg>"
-  },
-  {
-    "name": "EmptyUser",
-    "filename": "empty-user.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M5.5 6.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0\"/><path stroke-linejoin=\"round\" d=\"M12.5 14.5v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3v1\"/></g></svg>"
-  },
-  {
-    "name": "EmptyTrash",
-    "filename": "empty-trash.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "trash",
-      "remove",
-      "delete"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M13 4.5H2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5\"/><path stroke-linejoin=\"round\" d=\"m2.5 6.5.901 8.11a1 1 0 0 0 .994.89h6.21a1 1 0 0 0 .994-.89L12.5 6.5M7.5 8.5v5m2-5v5m-4-5v5\"/></g></svg>"
-  },
-  {
-    "name": "EmptySurvey",
-    "filename": "empty-survey.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "file",
-      "document",
-      "page",
-      "draft",
-      "item",
-      "sheet",
-      "content",
-      "data",
-      "survey",
-      "form"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M4.5 7.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M4.5 11.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.5 7.5h2m-2 4h2m-5-3a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.5 1.5h-5a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-8m-4-4 4 4m-4-4v3a1 1 0 0 0 1 1h3\"/></svg>"
-  },
-  {
-    "name": "EmptySort",
-    "filename": "empty-sort.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "sort",
-      "order",
-      "filter"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M4.5 5.5v9m0 0L2 12m2.5 2.5L7 12m3.5 2.5v-9m0 0L13 8m-2.5-2.5L8 8\"/></g></svg>"
-  },
-  {
-    "name": "EmptySearch",
-    "filename": "empty-search.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "search",
-      "find",
-      "lookup",
-      "explore",
-      "magnifier",
-      "question"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M.5 6.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0\"/><path d=\"M4.5 4.5c0-2.5 4-2.5 4 0 0 2-2 1-2 3M15.5 15.5l-3-3M6.505 9.5v1\"/></g></svg>"
-  },
-  {
-    "name": "EmptyOrganizations",
-    "filename": "empty-organizations.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "organization",
-      "team",
-      "group",
-      "building",
-      "business",
-      "company",
-      "warning"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M10.5 5.5v-4a1 1 0 0 0-1-1h-8a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h5\"/><path stroke-linejoin=\"round\" d=\"M4 2.5H3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5M8 2.5H7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5M4 6.5H3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V7a.5.5 0 0 0-.5-.5M4 10.5H3a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M7.5 11.5a4 4 0 1 0 8 0 4 4 0 0 0-8 0\"/><path d=\"M11.5 9.5v2\"/><path stroke-linejoin=\"round\" d=\"M11.5 13.5h.005M8 6.5H7a.5.5 0 0 0-.5.5v1\"/></g></svg>"
-  },
-  {
-    "name": "EmptyNotifications",
-    "filename": "empty-notifications.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "bell",
-      "notification",
-      "alarm",
-      "buzz",
-      "alert",
-      "audio",
-      "sound"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M.5 13.5h14s-2.5-1.5-3-4c-.413-2.063-1.506-3.445-3-3.865V5.5a1 1 0 0 0-2 0v.135c-1.494.42-2.587 1.802-3 3.865-.5 2.5-3 4-3 4\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M9.5 13.5a2 2 0 1 1-4 0z\"/></g></svg>"
-  },
-  {
-    "name": "EmptyNoAuthority",
-    "filename": "empty-no-authority.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "lock",
-      "locked",
-      "secure",
-      "password",
-      "key",
-      "safety",
-      "privacy"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12.5 6.5h-10a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1M4.5 6.5v-2a3 3 0 0 1 6 0v2\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M6.5 9.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 10.5v2m0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/></svg>"
-  },
-  {
-    "name": "EmptyLogic",
-    "filename": "empty-logic.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "branch",
-      "logic",
-      "merge",
-      "commit"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M3.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M9.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M3.5 13.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path stroke-linejoin=\"round\" d=\"M4.5 12.5v-1a2 2 0 0 1 2-2h2a2 2 0 0 0 2-2v-1M4.5 6.5v2\"/></g></svg>"
-  },
-  {
-    "name": "EmptyImage",
-    "filename": "empty-image.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "image",
-      "photo",
-      "picture",
-      "media",
-      "gallery",
-      "graphic"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke=\"currentColor\" d=\"M2.5 7.5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2z\"/><path fill=\"currentColor\" d=\"M6 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0\"/><path stroke=\"currentColor\" stroke-linejoin=\"round\" d=\"m3 15 6.5-6.5 3 2\"/></svg>"
-  },
-  {
-    "name": "EmptyGroup",
-    "filename": "empty-group.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "group",
-      "check"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M1.5 6.5v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2\"/><path stroke-linejoin=\"round\" d=\"m3.5 6.5 1 1 2-2m2 1h3M13.5 14.5v-2a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v2\"/><path stroke-linejoin=\"round\" d=\"m3.5 14.5 1 1 2-2m2 1h3\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
-  },
-  {
-    "name": "EmptyFolder",
-    "filename": "empty-folder.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "folder",
-      "directory",
-      "folder-open",
-      "file",
-      "catalog"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"m3.5 12.5.772-2.316a1 1 0 0 1 .949-.684H13.5m0 0a.72.72 0 0 1 .684.949l-1.456 4.367a1 1 0 0 1-.949.684H2.5a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1h1.586a1 1 0 0 1 .707.293l1.414 1.414a1 1 0 0 0 .707.293H12.5a1 1 0 0 1 1 1z\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
-  },
-  {
-    "name": "EmptyFilter",
-    "filename": "empty-filter.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "filter",
-      "funnel",
-      "search"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M7.5 4.5c-3.5 0-4 1-4 1s.5 1 4 1 4-1 4-1-.5-1-4-1\"/><path stroke-linejoin=\"round\" d=\"M2.5 6.5v.172a2 2 0 0 0 .586 1.414l3.121 3.121a1 1 0 0 1 .293.707V14.5l2 1v-3.586a1 1 0 0 1 .293-.707l3.121-3.121a2 2 0 0 0 .586-1.414V6.5\"/></g></svg>"
-  },
-  {
-    "name": "EmptyFile",
-    "filename": "empty-file.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "file",
-      "document",
-      "note",
-      "page",
-      "draft",
-      "item",
-      "sheet",
-      "content",
-      "data"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path stroke-linejoin=\"round\" d=\"M3.5 15.5h8a1 1 0 0 0 1-1v-6l-4-4h-5a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1M4.5 8.5h2m-2 3h6m-6 2h6\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"m12.5 8.5-4-4v3a1 1 0 0 0 1 1z\"/></g></svg>"
-  },
-  {
-    "name": "EmptyDynamic",
-    "filename": "empty-dynamic.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "sign",
-      "inbox",
-      "email",
-      "dynamic"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M9.454 7.306v3.474c0 1.071 1.694 1.31 2.58-.14.752-1.226.568-3.096-.37-4.326-1.382-1.812-4.576-2.49-6.896-.992-2.133 1.376-2.892 4.16-1.714 6.411 1.166 2.227 3.902 3.306 6.38 2.501m.012-4.803c0 1.153-.909 2.088-2.03 2.088s-2.03-.935-2.03-2.088.909-2.088 2.03-2.088 2.03.934 2.03 2.088\"/><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
-  },
-  {
-    "name": "EmptyDatabase",
-    "filename": "empty-database.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "database",
-      "hosting",
-      "server",
-      "hardware"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M7.5 4.5c-2.551 0-3.882.61-4.511 1.052-.33.232-.33.664 0 .896C3.619 6.89 4.949 7.5 7.5 7.5s3.882-.61 4.511-1.052c.33-.232.33-.664 0-.896C11.381 5.11 10.051 4.5 7.5 4.5\"/><path stroke-linejoin=\"round\" d=\"M2.5 10s1 1.5 5 1.5 5-1.5 5-1.5\"/><path stroke-linejoin=\"round\" d=\"M7.5 4.5c-3.031 0-4.34.861-4.796 1.279-.145.133-.204.326-.204.524v7.394c0 .198.059.391.204.524C3.161 14.64 4.47 15.5 7.5 15.5s4.34-.861 4.796-1.279c.145-.133.204-.326.204-.524V6.303c0-.198-.059-.391-.204-.524C11.839 5.36 10.53 4.5 7.5 4.5\"/></g></svg>"
-  },
-  {
-    "name": "EmptyData",
-    "filename": "empty-data.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "data",
-      "archive",
-      "storage"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M4 9.5H.5v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5H11a.5.5 0 0 0-.5.5v1a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 0-.5-.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linejoin=\"round\" d=\"M4 9.5H.5l2.709-4.514a1 1 0 0 1 .857-.486h6.868a1 1 0 0 1 .857.486L14.5 9.5H11a.5.5 0 0 0-.5.5v1a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 0-.5-.5\"/><path d=\"M5.5 13.5h4M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/></g></svg>"
-  },
-  {
-    "name": "EmptyConnector",
-    "filename": "empty-connector.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "connector",
-      "connect",
-      "link"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.892 5.5A3.54 3.54 0 0 1 12 9l-3 3a3.54 3.54 0 0 1-3.5.892m5-9.784A3.54 3.54 0 0 0 7 4L4 7a3.54 3.54 0 0 0-.892 3.5M14.5 1.5l-5 5m-3 3-5 5\"/><path stroke-opacity=\".25\" d=\"M14.636 4.5A7.503 7.503 0 0 1 4.5 14.636M1.364 11.5a7.503 7.503 0 0 1 10.381-10\"/></g></svg>"
-  },
-  {
-    "name": "EmptyChart",
-    "filename": "empty-chart.svg",
-    "category": "flash-screen",
-    "tags": [
-      "flash-screen",
-      "empty",
-      "bar",
-      "chart",
-      "diagram"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path stroke-linecap=\"round\" d=\"M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5\"/><path fill=\"currentColor\" fill-opacity=\".25\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 4.5H7a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5\"/><path stroke-linejoin=\"round\" d=\"M3 7.5H2a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5ZM13 5.5h-1a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M.5 15.5h14\"/></g></svg>"
   },
   {
     "name": "YesNo",
@@ -3374,20 +3374,6 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-opacity=\".25\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.5 2.5h-12a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1\"/></svg>"
   },
   {
-    "name": "Email",
-    "filename": "email.svg",
-    "category": "forms",
-    "tags": [
-      "forms",
-      "question",
-      "type",
-      "form"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M12.5 2.5h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m1.5 5.5 5.553 2.776a1 1 0 0 0 .894 0L13.5 5.5\"/></g></svg>"
-  },
-  {
     "name": "Dropdown",
     "filename": "dropdown.svg",
     "category": "forms",
@@ -3616,6 +3602,95 @@ export const iconMetadata: Array<{
     "width": 16,
     "height": 16,
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.603 7.192C12.536 4.392 10.452 1.5 7.5 1.5S2.464 4.392 3.397 7.192C4.191 9.572 7.5 13.5 7.5 13.5s3.31-3.928 4.103-6.308\"/><path d=\"M5.5 5.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0\"/></g></svg>"
+  },
+  {
+    "name": "Speechless",
+    "filename": "speechless.svg",
+    "category": "emoticons",
+    "tags": [
+      "nps",
+      "emoticon"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15\"/><path fill=\"currentColor\" d=\"M5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2M11 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5.5 10.5h5\"/></svg>"
+  },
+  {
+    "name": "Smile",
+    "filename": "smile.svg",
+    "category": "emoticons",
+    "tags": [
+      "nps",
+      "emoticon"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15\"/><path fill=\"currentColor\" d=\"M5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2M11 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11 9.8a3.5 3.5 0 0 1-6 0\"/></svg>"
+  },
+  {
+    "name": "Satisfied",
+    "filename": "satisfied.svg",
+    "category": "emoticons",
+    "tags": [
+      "nps",
+      "emoticon"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15\"/><path d=\"M12.388 9a4.5 4.5 0 0 1-8.776 0M3.5 6a1.5 1.5 0 0 1 3 0M9.5 6a1.5 1.5 0 0 1 3 0\"/></g></svg>"
+  },
+  {
+    "name": "Sad",
+    "filename": "sad.svg",
+    "category": "emoticons",
+    "tags": [
+      "nps",
+      "emoticon"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15\"/><path fill=\"currentColor\" d=\"M5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2M11 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5 11.2a3.5 3.5 0 0 1 6 0\"/></svg>"
+  },
+  {
+    "name": "DeleteReaction",
+    "filename": "delete-reaction.svg",
+    "category": "emoticons",
+    "tags": [
+      "emoticon",
+      "remove",
+      "delete",
+      "close"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 13.5a6 6 0 1 1 6-6m-4 2.236a3 3 0 0 1-2 .764 3 3 0 0 1-2-.764M15 12.5h-5m2.5 2.5v-5m-7-3.5h.005m3.995 0h.005\"/></svg>"
+  },
+  {
+    "name": "Angry",
+    "filename": "angry.svg",
+    "category": "emoticons",
+    "tags": [
+      "nps",
+      "emoticon"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15\"/><path d=\"M10 9.5H6a1.5 1.5 0 0 0 0 3h4a1.5 1.5 0 0 0 0-3M4.5 5.5l2 1M11.5 5.5l-2 1\"/></g></svg>"
+  },
+  {
+    "name": "AddReaction",
+    "filename": "add-reaction.svg",
+    "category": "emoticons",
+    "tags": [
+      "emoticon",
+      "add",
+      "plus",
+      "create",
+      "new"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7.5 13.5a6 6 0 1 1 6-6m-4 2.236a3 3 0 0 1-2 .764 3 3 0 0 1-2-.764m0-3.236h.005m3.995 0h.005M14.268 14.268l-3.536-3.536m0 3.536 3.536-3.536\"/></g></svg>"
   },
   {
     "name": "FieldTypeUser",
@@ -4135,521 +4210,533 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"currentColor\" stroke=\"currentColor\" d=\"M9.5 4.5a2 2 0 0 0 2-2 2 2 0 0 0 2 2 2 2 0 0 0-2 2 2 2 0 0 0-2-2\"/><path stroke=\"#AB0A83\" d=\"M2.5 9.5a4 4 0 0 0 4-4 4 4 0 0 0 4 4 4 4 0 0 0-4 4 4 4 0 0 0-4-4\"/></g></svg>"
   },
   {
-    "name": "UsersSmall",
-    "filename": "users-small.svg",
-    "category": "collaborators",
+    "name": "ViewSmall",
+    "filename": "view-small.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "organization",
-      "group",
-      "team"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M13 12.5v-1a2 2 0 0 0-1.5-1.935M10 3.565a2 2 0 0 1 0 3.875\"/></g></svg>"
-  },
-  {
-    "name": "UserSmall",
-    "filename": "user-small.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 12.5v-1a2 2 0 0 0-2-2h-3a2 2 0 0 0-2 2v1M8 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4\"/></g></svg>"
-  },
-  {
-    "name": "UserSettingsSmall",
-    "filename": "user-settings-small.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "control",
-      "preferences",
-      "system"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M7 9.5H5a2 2 0 0 0-2 2v1M12.85 10.2l-.45-.15M9.6 8.95l-.45-.15M10.3 11.35l.15-.45M11.55 8.1l.15-.45M11.8 11.35l-.2-.5M10.4 8.15l-.2-.5M9.15 10.3l.5-.2M12.35 8.9l.5-.2\"/></g></svg>"
-  },
-  {
-    "name": "UserSearchSmall",
-    "filename": "user-search-small.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "search",
-      "magnifier",
-      "glass",
       "view",
-      "lookup"
+      "watch",
+      "see",
+      "show",
+      "visibility",
+      "visible",
+      "preview",
+      "read"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M7.15 9.5H5.5a2 2 0 0 0-2 2v1M10.5 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M12.5 12.5l-.95-.95\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.638 8.528a1.08 1.08 0 0 1 0-1.056C3.308 6.283 5.179 3.5 8 3.5s4.692 2.783 5.362 3.972a1.08 1.08 0 0 1 0 1.056C12.692 9.717 10.821 12.5 8 12.5S3.308 9.717 2.638 8.528\"/><path d=\"M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4\"/></g></svg>"
   },
   {
-    "name": "UserRemoveSmall",
-    "filename": "user-remove-small.svg",
-    "category": "collaborators",
+    "name": "Version",
+    "filename": "version.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "clear",
-      "remove",
-      "delete"
+      "history",
+      "portfolio",
+      "versions",
+      "machine",
+      "backup",
+      "carousel"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M13 7.5h-3\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linejoin=\"round\"><path d=\"m7.5 1.5-6 3 6 3 6-3z\"/><path stroke-linecap=\"round\" d=\"m1.5 7.5 6 3 6-3M1.5 10.5l6 3 6-3\"/></g></svg>"
   },
   {
-    "name": "UserDeleteSmall",
-    "filename": "user-delete-small.svg",
-    "category": "collaborators",
+    "name": "TagSmall",
+    "filename": "tag-small.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "clear",
-      "remove",
-      "delete"
+      "label",
+      "badge",
+      "mark",
+      "ticket",
+      "tag"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M10.5 6 13 8.5M13 6l-2.5 2.5\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 2.5h5l5.561 5.561a1.5 1.5 0 0 1 0 2.121l-2.879 2.879a1.5 1.5 0 0 1-2.121 0L2.5 7.5z\"/></svg>"
   },
   {
-    "name": "UserCheckSmall",
-    "filename": "user-check-small.svg",
-    "category": "collaborators",
+    "name": "Swatchbook",
+    "filename": "swatchbook.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "success",
-      "select",
-      "done",
-      "checked",
-      "tick",
-      "completed",
-      "choice"
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
+      "paint",
+      "palette",
+      "color"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M10 7.5l1 1 2-2\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 2.5v9a2 2 0 1 0 4 0v-9a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1\"/><path d=\"M6.5 6.672 9.621 3.55a1 1 0 0 1 1.415 0l1.414 1.414a1 1 0 0 1 0 1.415l-6.95 6.95\"/><path d=\"M9.5 9.5h3a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-8M4.5 11.5h.005\"/></g></svg>"
   },
   {
-    "name": "UserAddSmall",
-    "filename": "user-add-small.svg",
-    "category": "collaborators",
+    "name": "SwatchbookAi",
+    "filename": "swatchbook-ai.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "plus",
-      "create",
-      "add"
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
+      "ai",
+      "color",
+      "palette",
+      "paint"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M11.5 6v3M13 7.5h-3\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"currentColor\" d=\"M2.5 2.5v9a2 2 0 1 0 4 0v-9a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1M6.5 6.672 9.621 3.55a1 1 0 0 1 1.415 0l1.414 1.414a1 1 0 0 1 0 1.415l-.293.293M8.5 13.5h-4M4.5 11.5h.005\"/><path stroke=\"#AB0A83\" d=\"M8.5 11.5c1.5 0 3-1.5 3-3 0 1.5 1.5 3 3 3-1.5 0-3 1.5-3 3 0-1.5-1.5-3-3-3\"/></g></svg>"
   },
   {
-    "name": "Use",
-    "filename": "use.svg",
-    "category": "collaborators",
+    "name": "Show",
+    "filename": "show.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member"
+      "view",
+      "watch",
+      "see",
+      "show",
+      "visibility",
+      "visible",
+      "preview",
+      "read"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M2.5 13.5v-1a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 7.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0\"/><path d=\"M7.5 5.5a2 2 0 0 1-2 2\"/><path d=\"M7.5 3.5c-3.185 0-5.102 2.536-5.75 3.57a.8.8 0 0 0 0 .86c.648 1.034 2.565 3.57 5.75 3.57s5.102-2.536 5.75-3.57a.8.8 0 0 0 0-.86C12.603 6.035 10.686 3.5 7.5 3.5\"/></g></svg>"
   },
   {
-    "name": "UseSettings",
-    "filename": "use-settings.svg",
-    "category": "collaborators",
+    "name": "Rename",
+    "filename": "rename.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "control",
-      "preferences",
-      "system"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 13.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M10.5 9.5v-1m0 5v1m2-3h1m-5 0h-1m4.414-1.414.707-.707m-3.535 3.535-.707.707m3.535-.707.707.707m-3.535-3.535-.707-.707M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2\"/></g></svg>"
-  },
-  {
-    "name": "UseRemove",
-    "filename": "use-remove.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "clear",
-      "remove",
-      "delete"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M13.5 9.5h-4\"/></g></svg>"
-  },
-  {
-    "name": "UseLock",
-    "filename": "use-lock.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "lock",
-      "security",
-      "safe",
-      "privacy"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h3\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M13.5 10.5h-3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path d=\"M10.5 10V9a1.5 1.5 0 0 1 3 0v1\"/></g></svg>"
-  },
-  {
-    "name": "UseInvitation",
-    "filename": "use-invitation.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "arrow",
-      "right",
-      "import",
-      "invitation"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 4.5a3 3 0 1 0-6 0 3 3 0 0 0 6 0M14.5 13.5v-1a3 3 0 0 0-3-3h-2M5.5 9.5l2 2m0 0-2 2m2-2h-6\"/></g></svg>"
-  },
-  {
-    "name": "UseEdit",
-    "filename": "use-edit.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
       "edit",
-      "design",
-      "pen",
       "pencil",
+      "create",
       "draw",
-      "create"
+      "writer",
+      "design"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M7.5 14.5l1-3 3.646-3.646a.5.5 0 0 1 .708 0l1.292 1.292a.5.5 0 0 1 0 .708L10.5 13.5z\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8.5 2.5h1m0 0h1m-1 0v11m-1 0h2M7.5 4.5h-5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5m4-7h1a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-1\"/></g></svg>"
   },
   {
-    "name": "UseDelete",
-    "filename": "use-delete.svg",
-    "category": "collaborators",
+    "name": "Printer",
+    "filename": "printer.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "clear",
+      "fax",
+      "device",
+      "office"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.5 10.5h-1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1m-9-7v-1a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v1m-1 6v3a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1\"/></svg>"
+  },
+  {
+    "name": "MaximizeAreaSmall",
+    "filename": "maximize-area-small.svg",
+    "category": "design",
+    "tags": [
+      "preview",
+      "zoom",
+      "expand",
+      "fullscreen",
+      "gallery"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v1.5M5.5 2.5H4A1.5 1.5 0 0 0 2.5 4v1.5M10.5 13.5H12a1.5 1.5 0 0 0 1.5-1.5v-1.5M5.5 13.5H4A1.5 1.5 0 0 1 2.5 12v-1.5M8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5\"/></g></svg>"
+  },
+  {
+    "name": "Image",
+    "filename": "image.svg",
+    "category": "design",
+    "tags": [
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path d=\"M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2\"/><path d=\"M13.5 9.5 10 6l-4 4-1.5-1.5-3 3\"/></g></svg>"
+  },
+  {
+    "name": "ImageSettings",
+    "filename": "image-settings.svg",
+    "category": "design",
+    "tags": [
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
+      "system",
+      "settings",
+      "gear",
+      "cog",
+      "tools",
+      "control",
+      "preferences"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 13.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M11.5 9.5v-1m0 5v1m2-3h1m-5 0h-1m4.414-1.414.707-.707m-3.535 3.535-.707.707m3.535-.707.707.707m-3.535-3.535-.707-.707M4.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path d=\"M12.5 6.5v-3a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h3\"/><path d=\"m2 11 2.5-2.5L6 10l3.5-3.5\"/></g></svg>"
+  },
+  {
+    "name": "ImageRemove",
+    "filename": "image-remove.svg",
+    "category": "design",
+    "tags": [
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
       "remove",
-      "delete"
+      "delete",
+      "close"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M12.914 10.914l-2.828-2.828m0 2.828 2.828-2.828\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path d=\"M12.5 8.5v-5a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h5M10.5 10.5l4 4m0-4-4 4\"/><path d=\"m2 11 2.5-2.5L6 10l3.5-3.5\"/></g></svg>"
   },
   {
-    "name": "UseCancelInvitation",
-    "filename": "use-cancel-invitation.svg",
-    "category": "collaborators",
+    "name": "ImageNew",
+    "filename": "image-new.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "arrow",
-      "right",
-      "import",
-      "cancel",
-      "invitation"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M12.5 4.5a3 3 0 1 0-6 0 3 3 0 0 0 6 0M14.5 13.5v-1a3 3 0 0 0-3-3M8.5 9.5l2 2m0 0-2 2m2-2h-4m-5 0h1\"/><path d=\"m6.5 8.5-4 6\"/></g></svg>"
-  },
-  {
-    "name": "UseAdminister",
-    "filename": "use-administer.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h3\"/><path d=\"m13.793 8.793-1.586-1.586a1 1 0 0 0-1.414 0l-.586.586a1 1 0 0 0 0 1.414l1.586 1.586a1 1 0 0 0 1.414 0l.586-.586a1 1 0 0 0 0-1.414Z\"/><path stroke-linecap=\"round\" d=\"m11 10-3.5 3.5M9.5 13.5l-1-1m2 0-1-1\"/></g></svg>"
-  },
-  {
-    "name": "UseAdd",
-    "filename": "use-add.svg",
-    "category": "collaborators",
-    "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
+      "image",
+      "photo",
+      "picture",
+      "media",
+      "gallery",
+      "graphic",
+      "add",
       "plus",
       "create",
-      "add"
+      "new"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M13.5 9.5h-4m2 2v-4\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 7.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M14.5 3.5h-4m2 2v-4M2 13l2.5-2.5L6 12l3.5-3.5\"/><path d=\"M12.5 8.5v4a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h4\"/></g></svg>"
   },
   {
-    "name": "Security",
-    "filename": "security.svg",
-    "category": "collaborators",
+    "name": "ImageImport",
+    "filename": "image-import.svg",
+    "category": "design",
     "tags": [
-      "role",
-      "lock",
-      "security",
-      "safe",
-      "privacy"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m7.5 1.5-5 3c0 6 5 9 5 9s5-3 5-9z\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M6.5 6.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path d=\"M7.5 7.5v2\"/></g></svg>"
-  },
-  {
-    "name": "Role",
-    "filename": "role.svg",
-    "category": "collaborators",
-    "tags": [
-      "role",
-      "lock",
-      "security",
-      "safe",
-      "privacy",
-      "key",
-      "password"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linejoin=\"round\"><path d=\"m11.207 9.793 1.879-1.879a2 2 0 0 0 0-2.828l-2.172-2.172a2 2 0 0 0-2.828 0L6.207 4.793a1 1 0 0 0 0 1.414L7 7l-4.5 4.5v2h2l1-1v-1h1v-1h1L9 9l.793.793a1 1 0 0 0 1.414 0Z\"/><path stroke-linecap=\"round\" d=\"m9.5 4.5 2 2\"/></g></svg>"
-  },
-  {
-    "name": "RoleRemove",
-    "filename": "role-remove.svg",
-    "category": "collaborators",
-    "tags": [
-      "role",
-      "lock",
-      "security",
-      "safe",
-      "privacy",
-      "key",
-      "password"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8.086 2.914 6.207 4.793a1 1 0 0 0 0 1.414L7 7l-4.5 4.5v2h2l1-1v-1h1v-1h1L9 9l.793.793a1 1 0 0 0 1.414 0l1.879-1.879a2 2 0 0 0 0-2.828l-2.172-2.172a2 2 0 0 0-2.828 0M9.5 4.5l2 2M14.5 12.5h-4\"/></g></svg>"
-  },
-  {
-    "name": "RoleAdd",
-    "filename": "role-add.svg",
-    "category": "collaborators",
-    "tags": [
-      "role",
-      "lock",
-      "security",
-      "safe",
-      "privacy",
-      "key",
-      "password"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.793 9.793 9 9l-1.5 1.5h-1v1h-1v1l-1 1h-2v-2L7 7l-.793-.793a1 1 0 0 1 0-1.414l1.879-1.879a2 2 0 0 1 2.828 0L13.5 5.5a1.414 1.414 0 0 1 0 2M9.5 4.5l2 2M14.5 11.5h-4m2 2v-4\"/></g></svg>"
-  },
-  {
-    "name": "Organization",
-    "filename": "organization.svg",
-    "category": "collaborators",
-    "tags": [
-      "organization",
-      "business",
-      "company",
-      "building"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 5.5h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m3 0h4a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1M4.5 7.5h.005m-.005 2h.005m-.005 2h.005M9.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005M11.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005\"/></g></svg>"
-  },
-  {
-    "name": "OrganizationSwitch",
-    "filename": "organization-switch.svg",
-    "category": "collaborators",
-    "tags": [
-      "organization",
-      "business",
-      "company",
-      "building",
-      "loading",
-      "loop",
-      "process",
-      "arrow",
-      "refresh"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 12.5H6A2.5 2.5 0 0 0 7.5 8m-2-.5H4A2.5 2.5 0 0 0 2.5 12\"/><path d=\"m6.5 10.5-2 2 2 2M3.5 5.5l2 2-2 2M7.5 5.5v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3M9.5 5.5h.005m-.005-2h.005M11.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005\"/></g></svg>"
-  },
-  {
-    "name": "OrganizationJoin",
-    "filename": "organization-join.svg",
-    "category": "collaborators",
-    "tags": [
-      "organization",
-      "business",
-      "company",
-      "building",
-      "arrow",
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
       "right",
-      "import",
-      "input"
+      "input",
+      "import"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 13.5h3a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v3m-2 0h-2a1 1 0 0 0-1 1v1m3 6h-2a1 1 0 0 1-1-1v-1M9.5 5.5h.005m-.005-2h.005M11.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005M7.5 7.5l2 2m0 0-2 2m2-2h-8\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path d=\"M12.5 8.5v-5a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h2\"/><path d=\"m2 11 2.5-2.5L6 10l3.5-3.5M12.5 10.5l2 2m0 0-2 2m2-2h-7\"/></g></svg>"
   },
   {
-    "name": "OrganizationAdd",
-    "filename": "organization-add.svg",
-    "category": "collaborators",
+    "name": "ImageExport",
+    "filename": "image-export.svg",
+    "category": "design",
     "tags": [
-      "organization",
-      "business",
-      "company",
-      "building",
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
+      "right",
+      "arrow",
+      "export"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m6.5 7.5 2 2m0 0-2 2m2-2h-7M5.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2M14.5 10.5 11 7l-1 1\"/><path d=\"M2.5 7.5v-4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2\"/></g></svg>"
+  },
+  {
+    "name": "ImageDuplicate",
+    "filename": "image-duplicate.svg",
+    "category": "design",
+    "tags": [
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
+      "duplicate",
+      "copy"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m6 9 4.5-4.5 3 3\"/><path d=\"M12.5 1.5h-6a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1\"/><path d=\"M3.25 6.5H2.5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-.75M7.5 3.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "ImageDelete",
+    "filename": "image-delete.svg",
+    "category": "design",
+    "tags": [
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
+      "remove",
+      "delete",
+      "close"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M4.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path stroke-linejoin=\"round\" d=\"M12.5 5.5v-2a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h3M2 11l2.5-2.5\"/><path d=\"M14.5 9.5h-7m1 0v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4\"/><path stroke-linejoin=\"round\" d=\"M9.5 9.5v-2h3v2\"/></g></svg>"
+  },
+  {
+    "name": "ImageAi",
+    "filename": "image-ai.svg",
+    "category": "design",
+    "tags": [
+      "image",
+      "photo",
+      "picture",
+      "media",
+      "gallery",
+      "graphic",
+      "ai"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke=\"currentColor\" d=\"M4.5 7.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path stroke=\"currentColor\" d=\"M12.5 8.5v4a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h4\"/><path stroke=\"currentColor\" d=\"m2 13 2.5-2.5L6 12l3.5-3.5\"/><path fill=\"#AB0A83\" stroke=\"#AB0A83\" d=\"M10.5 3.5a2 2 0 0 0 2-2 2 2 0 0 0 2 2 2 2 0 0 0-2 2 2 2 0 0 0-2-2\"/></g></svg>"
+  },
+  {
+    "name": "ImageAdd",
+    "filename": "image-add.svg",
+    "category": "design",
+    "tags": [
+      "photo",
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photography",
+      "graphic",
+      "add",
       "plus",
       "create",
-      "add"
+      "new"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 4.5v-2a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2m-2 1h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h1M14.5 10.5a4 4 0 1 1-8 0 4 4 0 0 1 8 0M12.5 10.5h-4m2 2v-4M4.5 7.5h.005m-.005 2h.005m-.005 2h.005M9.5 3.5h.005m1.995 0h.005\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/><path d=\"M12.5 8.5v-5a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h5M14.5 12.5h-4m2 2v-4\"/><path d=\"m2 11 2.5-2.5L6 10l3.5-3.5\"/></g></svg>"
   },
   {
-    "name": "MemberAccounts",
-    "filename": "member-accounts.svg",
-    "category": "collaborators",
+    "name": "Hide",
+    "filename": "hide.svg",
+    "category": "design",
     "tags": [
-      "user",
-      "account",
-      "profile",
-      "avatar",
-      "person",
-      "human",
-      "member",
-      "docment",
-      "book"
+      "view",
+      "watch",
+      "see",
+      "show",
+      "visibility",
+      "visible",
+      "preview",
+      "read"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M1.5 13V3.5a2 2 0 0 1 2-2h9a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3A1.5 1.5 0 0 0 1.5 13m0 0A1.5 1.5 0 0 0 3 14.5h9.5a1 1 0 0 0 1-1V13\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M6.5 5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0M4.5 10.5v1h7v-1a2 2 0 0 0-2-2h-3a2 2 0 0 0-2 2\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7.5 5.5c.512 0 1.024.195 1.414.586S9.5 6.988 9.5 7.5m-2 2a2 2 0 0 1-1.414-.586A2 2 0 0 1 5.5 7.5\"/><path d=\"M3 5.5a9 9 0 0 0-1.25 1.568.8.8 0 0 0 0 .863C2.397 8.964 4.314 11.5 7.5 11.5a5.8 5.8 0 0 0 1.5-.196M12 9.5a9 9 0 0 0 1.25-1.568.8.8 0 0 0 0-.863C12.603 6.036 10.686 3.5 7.5 3.5c-.536 0-1.036.072-1.5.196M2.5 2.5l10 10\"/></g></svg>"
+  },
+  {
+    "name": "FillColor",
+    "filename": "fill-color.svg",
+    "category": "design",
+    "tags": [
+      "image",
+      "media",
+      "picture",
+      "gallery",
+      "photo",
+      "photography",
+      "graphic",
+      "color",
+      "palette",
+      "paint"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M13.5 12.5a1 1 0 0 1-2 0c0-.8 1-2 1-2s1 1.2 1 2M6.5 6.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path d=\"m3.5 2.5 3 3m7 7a1 1 0 0 1-2 0c0-.8 1-2 1-2s1 1.2 1 2m-6-11L2.207 6.793a1 1 0 0 0 0 1.414l4.086 4.086a1 1 0 0 0 1.414 0L13 7zm0 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2\"/></g></svg>"
+  },
+  {
+    "name": "ExpandSmall",
+    "filename": "expand-small.svg",
+    "category": "design",
+    "tags": [
+      "preview",
+      "zoom",
+      "expand",
+      "fullscreen",
+      "gallery"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v1.5M5.5 2.5H4A1.5 1.5 0 0 0 2.5 4v1.5M10.5 13.5H12a1.5 1.5 0 0 0 1.5-1.5v-1.5M5.5 13.5H4A1.5 1.5 0 0 1 2.5 12v-1.5\"/></g></svg>"
+  },
+  {
+    "name": "Edit",
+    "filename": "edit.svg",
+    "category": "design",
+    "tags": [
+      "edit",
+      "pencil",
+      "create",
+      "draw",
+      "writer",
+      "design"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m11.793 3.793-.586-.586a1 1 0 0 0-1.414 0L2.5 10.5l-1 3 3-1 7.293-7.293a1 1 0 0 0 0-1.414M8.5 4.5l2 2M6.5 13.5h7\"/></g></svg>"
+  },
+  {
+    "name": "EditSmall",
+    "filename": "edit-small.svg",
+    "category": "design",
+    "tags": [
+      "edit",
+      "pencil",
+      "create",
+      "draw",
+      "writer",
+      "design"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 13.5h11M10.5 2.5l2 2-6 6-3 1 1-3z\"/></g></svg>"
+  },
+  {
+    "name": "EditReadonly",
+    "filename": "edit-readonly.svg",
+    "category": "design",
+    "tags": [
+      "edit",
+      "pencil",
+      "create",
+      "draw",
+      "writer",
+      "design"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 8.5-2 2-1 3 3-1 2-2m1-5 2.293-2.293a1 1 0 0 1 1.414 0l.586.586a1 1 0 0 1 0 1.414L10.5 7.5M9.5 4.5l2 2M2.5 2.5l11 11\"/></g></svg>"
+  },
+  {
+    "name": "Duplicate",
+    "filename": "duplicate.svg",
+    "category": "design",
+    "tags": [
+      "paste",
+      "clone",
+      "copy",
+      "duplicate"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7.5 1.5h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1M8.5 11.5v1a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h1\"/></g></svg>"
+  },
+  {
+    "name": "DuplicateNew",
+    "filename": "duplicate-new.svg",
+    "category": "design",
+    "tags": [
+      "paste",
+      "clone",
+      "copy",
+      "duplicate",
+      "add",
+      "plus",
+      "create",
+      "new"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><rect width=\"9\" height=\"9\" x=\"5\" y=\"5\" rx=\"1.5\"/><path d=\"M11 5V3.5A1.5 1.5 0 0 0 9.5 2h-6A1.5 1.5 0 0 0 2 3.5v6A1.5 1.5 0 0 0 3.5 11H5\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9.5 8v1.5m0 1.5V9.5m0 0H8m1.5 0H11\"/></g></svg>"
+  },
+  {
+    "name": "DeleteKeySmall",
+    "filename": "delete-key-small.svg",
+    "category": "design",
+    "tags": [
+      "backspace",
+      "remove",
+      "delete",
+      "close"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 3.5H6.5L2.5 8l4 4.5H12a1.5 1.5 0 0 0 1.5-1.5V5A1.5 1.5 0 0 0 12 3.5\"/></svg>"
+  },
+  {
+    "name": "CopySmall",
+    "filename": "copy-small.svg",
+    "category": "design",
+    "tags": [
+      "paste",
+      "clone",
+      "copy",
+      "duplicate"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M2.5 3.5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1z\"/><path d=\"M10.5 5.5h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-2\"/></g></svg>"
+  },
+  {
+    "name": "CollapseLayers",
+    "filename": "collapse-layers.svg",
+    "category": "design",
+    "tags": [
+      "collapse",
+      "expand",
+      "details",
+      "toggle",
+      "accordion",
+      "more",
+      "less",
+      "unfold"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"m9.5 12.5 2-2 2 2M9.5 3.5l2 2 2-2\"/><path d=\"M2.5 3.5h5m-5 3h5m-5 3h5m-5 3h5\"/></g></svg>"
   },
   {
     "name": "ViewSettings",
@@ -5558,6 +5645,523 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 12V3.5a2 2 0 0 1 2-2h7a1 1 0 0 1 1 1v8m-7-3 .5-1m0 0 1.5-3 1.5 3m-3 0h3m.5 1-.5-1\"/><path d=\"M12 13.5H4a1.5 1.5 0 0 1 0-3h8.5V13a.5.5 0 0 1-.5.5\"/></g></svg>"
   },
   {
+    "name": "UsersSmall",
+    "filename": "users-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "organization",
+      "group",
+      "team"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M13 12.5v-1a2 2 0 0 0-1.5-1.935M10 3.565a2 2 0 0 1 0 3.875\"/></g></svg>"
+  },
+  {
+    "name": "UserSmall",
+    "filename": "user-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 12.5v-1a2 2 0 0 0-2-2h-3a2 2 0 0 0-2 2v1M8 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4\"/></g></svg>"
+  },
+  {
+    "name": "UserSettingsSmall",
+    "filename": "user-settings-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "control",
+      "preferences",
+      "system"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M7 9.5H5a2 2 0 0 0-2 2v1M12.85 10.2l-.45-.15M9.6 8.95l-.45-.15M10.3 11.35l.15-.45M11.55 8.1l.15-.45M11.8 11.35l-.2-.5M10.4 8.15l-.2-.5M9.15 10.3l.5-.2M12.35 8.9l.5-.2\"/></g></svg>"
+  },
+  {
+    "name": "UserSearchSmall",
+    "filename": "user-search-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "search",
+      "magnifier",
+      "glass",
+      "view",
+      "lookup"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M7.15 9.5H5.5a2 2 0 0 0-2 2v1M10.5 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M12.5 12.5l-.95-.95\"/></g></svg>"
+  },
+  {
+    "name": "UserRemoveSmall",
+    "filename": "user-remove-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "clear",
+      "remove",
+      "delete"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M13 7.5h-3\"/></g></svg>"
+  },
+  {
+    "name": "UserDeleteSmall",
+    "filename": "user-delete-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "clear",
+      "remove",
+      "delete"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M10.5 6 13 8.5M13 6l-2.5 2.5\"/></g></svg>"
+  },
+  {
+    "name": "UserCheckSmall",
+    "filename": "user-check-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "success",
+      "select",
+      "done",
+      "checked",
+      "tick",
+      "completed",
+      "choice"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M10 7.5l1 1 2-2\"/></g></svg>"
+  },
+  {
+    "name": "UserAddSmall",
+    "filename": "user-add-small.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "plus",
+      "create",
+      "add"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M11.5 6v3M13 7.5h-3\"/></g></svg>"
+  },
+  {
+    "name": "Use",
+    "filename": "use.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M2.5 13.5v-1a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1\"/></g></svg>"
+  },
+  {
+    "name": "UseSettings",
+    "filename": "use-settings.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "control",
+      "preferences",
+      "system"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 13.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M10.5 9.5v-1m0 5v1m2-3h1m-5 0h-1m4.414-1.414.707-.707m-3.535 3.535-.707.707m3.535-.707.707.707m-3.535-3.535-.707-.707M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2\"/></g></svg>"
+  },
+  {
+    "name": "UseRemove",
+    "filename": "use-remove.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "clear",
+      "remove",
+      "delete"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M13.5 9.5h-4\"/></g></svg>"
+  },
+  {
+    "name": "UseLock",
+    "filename": "use-lock.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "lock",
+      "security",
+      "safe",
+      "privacy"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h3\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M13.5 10.5h-3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1\"/><path d=\"M10.5 10V9a1.5 1.5 0 0 1 3 0v1\"/></g></svg>"
+  },
+  {
+    "name": "UseInvitation",
+    "filename": "use-invitation.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "arrow",
+      "right",
+      "import",
+      "invitation"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 4.5a3 3 0 1 0-6 0 3 3 0 0 0 6 0M14.5 13.5v-1a3 3 0 0 0-3-3h-2M5.5 9.5l2 2m0 0-2 2m2-2h-6\"/></g></svg>"
+  },
+  {
+    "name": "UseEdit",
+    "filename": "use-edit.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "edit",
+      "design",
+      "pen",
+      "pencil",
+      "draw",
+      "create"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M7.5 14.5l1-3 3.646-3.646a.5.5 0 0 1 .708 0l1.292 1.292a.5.5 0 0 1 0 .708L10.5 13.5z\"/></g></svg>"
+  },
+  {
+    "name": "UseDelete",
+    "filename": "use-delete.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "clear",
+      "remove",
+      "delete"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M12.914 10.914l-2.828-2.828m0 2.828 2.828-2.828\"/></g></svg>"
+  },
+  {
+    "name": "UseCancelInvitation",
+    "filename": "use-cancel-invitation.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "arrow",
+      "right",
+      "import",
+      "cancel",
+      "invitation"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path stroke-linejoin=\"round\" d=\"M12.5 4.5a3 3 0 1 0-6 0 3 3 0 0 0 6 0M14.5 13.5v-1a3 3 0 0 0-3-3M8.5 9.5l2 2m0 0-2 2m2-2h-4m-5 0h1\"/><path d=\"m6.5 8.5-4 6\"/></g></svg>"
+  },
+  {
+    "name": "UseAdminister",
+    "filename": "use-administer.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h3\"/><path d=\"m13.793 8.793-1.586-1.586a1 1 0 0 0-1.414 0l-.586.586a1 1 0 0 0 0 1.414l1.586 1.586a1 1 0 0 0 1.414 0l.586-.586a1 1 0 0 0 0-1.414Z\"/><path stroke-linecap=\"round\" d=\"m11 10-3.5 3.5M9.5 13.5l-1-1m2 0-1-1\"/></g></svg>"
+  },
+  {
+    "name": "UseAdd",
+    "filename": "use-add.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "plus",
+      "create",
+      "add"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 4.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0M1.5 13.5v-1a3 3 0 0 1 3-3h2M13.5 9.5h-4m2 2v-4\"/></g></svg>"
+  },
+  {
+    "name": "Security",
+    "filename": "security.svg",
+    "category": "collaborators",
+    "tags": [
+      "role",
+      "lock",
+      "security",
+      "safe",
+      "privacy"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m7.5 1.5-5 3c0 6 5 9 5 9s5-3 5-9z\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M6.5 6.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0\"/><path d=\"M7.5 7.5v2\"/></g></svg>"
+  },
+  {
+    "name": "Role",
+    "filename": "role.svg",
+    "category": "collaborators",
+    "tags": [
+      "role",
+      "lock",
+      "security",
+      "safe",
+      "privacy",
+      "key",
+      "password"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linejoin=\"round\"><path d=\"m11.207 9.793 1.879-1.879a2 2 0 0 0 0-2.828l-2.172-2.172a2 2 0 0 0-2.828 0L6.207 4.793a1 1 0 0 0 0 1.414L7 7l-4.5 4.5v2h2l1-1v-1h1v-1h1L9 9l.793.793a1 1 0 0 0 1.414 0Z\"/><path stroke-linecap=\"round\" d=\"m9.5 4.5 2 2\"/></g></svg>"
+  },
+  {
+    "name": "RoleRemove",
+    "filename": "role-remove.svg",
+    "category": "collaborators",
+    "tags": [
+      "role",
+      "lock",
+      "security",
+      "safe",
+      "privacy",
+      "key",
+      "password"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8.086 2.914 6.207 4.793a1 1 0 0 0 0 1.414L7 7l-4.5 4.5v2h2l1-1v-1h1v-1h1L9 9l.793.793a1 1 0 0 0 1.414 0l1.879-1.879a2 2 0 0 0 0-2.828l-2.172-2.172a2 2 0 0 0-2.828 0M9.5 4.5l2 2M14.5 12.5h-4\"/></g></svg>"
+  },
+  {
+    "name": "RoleAdd",
+    "filename": "role-add.svg",
+    "category": "collaborators",
+    "tags": [
+      "role",
+      "lock",
+      "security",
+      "safe",
+      "privacy",
+      "key",
+      "password"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.793 9.793 9 9l-1.5 1.5h-1v1h-1v1l-1 1h-2v-2L7 7l-.793-.793a1 1 0 0 1 0-1.414l1.879-1.879a2 2 0 0 1 2.828 0L13.5 5.5a1.414 1.414 0 0 1 0 2M9.5 4.5l2 2M14.5 11.5h-4m2 2v-4\"/></g></svg>"
+  },
+  {
+    "name": "Organization",
+    "filename": "organization.svg",
+    "category": "collaborators",
+    "tags": [
+      "organization",
+      "business",
+      "company",
+      "building"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 5.5h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m3 0h4a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1M4.5 7.5h.005m-.005 2h.005m-.005 2h.005M9.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005M11.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005\"/></g></svg>"
+  },
+  {
+    "name": "OrganizationSwitch",
+    "filename": "organization-switch.svg",
+    "category": "collaborators",
+    "tags": [
+      "organization",
+      "business",
+      "company",
+      "building",
+      "loading",
+      "loop",
+      "process",
+      "arrow",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 12.5H6A2.5 2.5 0 0 0 7.5 8m-2-.5H4A2.5 2.5 0 0 0 2.5 12\"/><path d=\"m6.5 10.5-2 2 2 2M3.5 5.5l2 2-2 2M7.5 5.5v-3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-3M9.5 5.5h.005m-.005-2h.005M11.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005\"/></g></svg>"
+  },
+  {
+    "name": "OrganizationJoin",
+    "filename": "organization-join.svg",
+    "category": "collaborators",
+    "tags": [
+      "organization",
+      "business",
+      "company",
+      "building",
+      "arrow",
+      "right",
+      "import",
+      "input"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 13.5h3a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v3m-2 0h-2a1 1 0 0 0-1 1v1m3 6h-2a1 1 0 0 1-1-1v-1M9.5 5.5h.005m-.005-2h.005M11.5 5.5h.005m-.005 2h.005m-.005 2h.005m-.005 2h.005m-.005-8h.005M7.5 7.5l2 2m0 0-2 2m2-2h-8\"/></g></svg>"
+  },
+  {
+    "name": "OrganizationAdd",
+    "filename": "organization-add.svg",
+    "category": "collaborators",
+    "tags": [
+      "organization",
+      "business",
+      "company",
+      "building",
+      "plus",
+      "create",
+      "add"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 4.5v-2a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v2m-2 1h-2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h1M14.5 10.5a4 4 0 1 1-8 0 4 4 0 0 1 8 0M12.5 10.5h-4m2 2v-4M4.5 7.5h.005m-.005 2h.005m-.005 2h.005M9.5 3.5h.005m1.995 0h.005\"/></g></svg>"
+  },
+  {
+    "name": "MemberAccounts",
+    "filename": "member-accounts.svg",
+    "category": "collaborators",
+    "tags": [
+      "user",
+      "account",
+      "profile",
+      "avatar",
+      "person",
+      "human",
+      "member",
+      "docment",
+      "book"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M1.5 13V3.5a2 2 0 0 1 2-2h9a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3A1.5 1.5 0 0 0 1.5 13m0 0A1.5 1.5 0 0 0 3 14.5h9.5a1 1 0 0 0 1-1V13\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M6.5 5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0M4.5 10.5v1h7v-1a2 2 0 0 0-2-2h-3a2 2 0 0 0-2 2\"/></g></svg>"
+  },
+  {
     "name": "ZoomOut",
     "filename": "zoom-out.svg",
     "category": "common",
@@ -5618,56 +6222,54 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m12.5 12.5-2.175-2.175M7.5 6v3M6 7.5h3m-1.5 4a4 4 0 1 0 0-8 4 4 0 0 0 0 8\"/></svg>"
   },
   {
-    "name": "TriangleUp",
-    "filename": "triangle-up.svg",
+    "name": "UnlockSmall",
+    "filename": "unlock-small.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "up"
+      "lock",
+      "locked",
+      "secure",
+      "password",
+      "key",
+      "safety",
+      "privacy"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 11.5h11L8 3.5z\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 7.5h-6a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1M8.5 7V5a2.5 2.5 0 0 1 5 0\"/></g></svg>"
   },
   {
-    "name": "TriangleRight",
-    "filename": "triangle-right.svg",
+    "name": "Trash",
+    "filename": "trash.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "right"
+      "remove",
+      "delete",
+      "close",
+      "garbage",
+      "bin"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 2.5v11l8-5.5z\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M1.5 3.5h2m0 0v9a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-9m-8 0h2m8 0h-2m0 0h-2m-4 0v-1a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1m-4 0h4\"/></svg>"
   },
   {
-    "name": "TriangleLeft",
-    "filename": "triangle-left.svg",
+    "name": "TrashSmall",
+    "filename": "trash-small.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "left"
+      "remove",
+      "delete",
+      "close",
+      "garbage",
+      "bin"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.5 2.5v11L3.5 8z\"/></svg>"
-  },
-  {
-    "name": "TriangleDown",
-    "filename": "triangle-down.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "down"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 4.5h11l-5.5 8z\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3.5 4.5h9m-1 0v7c0 .5-.5 1-1 1h-5c-.5 0-1-.5-1-1v-7m1.5 0v-1c0-.5.5-1 1-1h2c.5 0 1 .5 1 1v1\"/></svg>"
   },
   {
     "name": "ThemeSystem",
@@ -5714,6 +6316,293 @@ export const iconMetadata: Array<{
     "width": 16,
     "height": 16,
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M1.5 9a4.5 4.5 0 0 0 8.247 2.493C6.5 11.493 3.5 7.5 6.253 4.507 3.711 4.367 1.5 6.449 1.5 9M7.5 2.5h2m-1-1v2M11.5 4.5v4m-2-2h4\"/></g></svg>"
+  },
+  {
+    "name": "TagRemove",
+    "filename": "tag-remove.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "tag",
+      "label",
+      "badge",
+      "ticket",
+      "remove",
+      "minus",
+      "delete",
+      "close"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 12.5h4M11.892 4.5A3.54 3.54 0 0 1 11 8l-3 3a3.54 3.54 0 0 1-3.5.892m5-9.784A3.54 3.54 0 0 0 6 3L3 6a3.54 3.54 0 0 0-.892 3.5M12.5 1.5l-4 4m-3 3-4 4\"/></g></svg>"
+  },
+  {
+    "name": "TagAdd",
+    "filename": "tag-add.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "tag",
+      "label",
+      "badge",
+      "ticket",
+      "add",
+      "plus",
+      "create",
+      "new"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 10.5v4M10.5 12.5h4M11.892 4.5A3.54 3.54 0 0 1 11 8l-3 3a3.54 3.54 0 0 1-3.5.892m5-9.784A3.54 3.54 0 0 0 6 3L3 6a3.54 3.54 0 0 0-.892 3.5M12.5 1.5l-4 4m-3 3-4 4\"/></g></svg>"
+  },
+  {
+    "name": "SystemPreferences",
+    "filename": "system-preferences.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 13.5v-2M4.5 5.5v-3M4.5 11.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M11.5 2.5v2M11.5 10.5v3M11.5 8.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4\"/></g></svg>"
+  },
+  {
+    "name": "SystemConfiguration",
+    "filename": "system-configuration.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 7.5v4M9.5 3.5v2M11.5 5.5h-4M5.5 7.5v-4M5.5 11.5v-2M7.5 9.5h-4M1.5 12.5v-10a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-10a1 1 0 0 1-1-1\"/></g></svg>"
+  },
+  {
+    "name": "Support",
+    "filename": "support.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "help",
+      "lifesaver",
+      "preserver"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M5.379 9.621a3 3 0 0 0 4.242 0l2.122 2.122a6 6 0 0 1-8.486 0zM5.379 5.379a3 3 0 0 1 4.242 0l2.122-2.122a6 6 0 0 0-8.486 0z\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5.379 9.621a3 3 0 0 0 4.242 0l2.122 2.122a6 6 0 0 1-8.486 0zM5.379 5.379a3 3 0 0 1 4.242 0l2.122-2.122a6 6 0 0 0-8.486 0z\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5.379 5.379a3 3 0 0 0 0 4.242l-2.122 2.122a6 6 0 0 1 0-8.486zM9.621 9.621a3 3 0 0 0 0-4.242l2.122-2.122a6 6 0 0 1 0 8.486z\"/></svg>"
+  },
+  {
+    "name": "SupportSmall",
+    "filename": "support-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "help",
+      "lifesaver",
+      "preserver"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9.767 6.233 2.122-2.122M9.767 9.767l2.122 2.122M6.233 9.767l-2.122 2.122M6.233 6.233 4.111 4.111M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11\"/><path d=\"M8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5\"/></g></svg>"
+  },
+  {
+    "name": "Star",
+    "filename": "star.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "bookmark",
+      "favorite",
+      "like",
+      "review",
+      "rating"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m8 2.769 1.7 3.444 3.8.552-2.75 2.68.649 3.786L8 11.444l-3.399 1.787.649-3.786-2.75-2.68 3.8-.552z\"/></svg>"
+  },
+  {
+    "name": "StarSolid",
+    "filename": "star-solid.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "bookmark",
+      "favorite",
+      "like",
+      "review",
+      "rating",
+      "solid"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"m13.572 6.27-3.54-.514-1.584-3.208a.52.52 0 0 0-.9 0l-1.58 3.208-3.54.514a.5.5 0 0 0-.277.853l2.562 2.5-.606 3.526a.5.5 0 0 0 .726.527L8 12.008l3.167 1.665a.5.5 0 0 0 .726-.527l-.606-3.526 2.562-2.5a.5.5 0 0 0-.277-.853z\"/></svg>"
+  },
+  {
+    "name": "SquareRemoveSquarevg",
+    "filename": "square-remove.squarevg.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "square",
+      "remove",
+      "delete",
+      "close"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5M10.121 5.879l-4.242 4.242M5.879 5.879l4.242 4.242\"/></g></svg>"
+  },
+  {
+    "name": "SquareDeleteSquarevg",
+    "filename": "square-delete.squarevg.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "square",
+      "remove",
+      "minus",
+      "delete",
+      "close"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5M5 8h6\"/></g></svg>"
+  },
+  {
+    "name": "SquareAddSquarevg",
+    "filename": "square-add.squarevg.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "square",
+      "add",
+      "plus",
+      "create",
+      "new"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 5v6M5 8h6M12 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5\"/></g></svg>"
+  },
+  {
+    "name": "SocialSharing",
+    "filename": "social-sharing.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "network",
+      "share",
+      "connections",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V5A1.5 1.5 0 0 1 4 3.5h1.5\"/><path d=\"M9.5 9.5v-2c-1.832 0-3.858.152-5 2 0-3.77 2.688-5 5-5v-2l4 3.5z\"/></g></svg>"
+  },
+  {
+    "name": "Sharing",
+    "filename": "sharing.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "network",
+      "share",
+      "connections",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 3.5H12A1.5 1.5 0 0 1 13.5 5v7a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 12v-1.5\"/><path d=\"m2.5 6 4-3.5v2c2.312 0 5 1.23 5 5-1.142-1.848-3.168-2-5-2v2z\"/></g></svg>"
+  },
+  {
+    "name": "Share",
+    "filename": "share.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "network",
+      "share",
+      "connections",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 2.5 3 3-3 3\"/><path d=\"M13.5 5.5h-5a2 2 0 0 0-2 2v2\"/><path d=\"M12.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V5A1.5 1.5 0 0 1 4 3.5h1.5\"/></g></svg>"
+  },
+  {
+    "name": "SetupPreferences",
+    "filename": "setup-preferences.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 4.5h4M1.5 4.5h2M5.5 6.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M5.5 10.5h-4M14.5 10.5h-2M10.5 8.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4\"/></g></svg>"
+  },
+  {
+    "name": "Settings",
+    "filename": "settings.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "system",
+      "settings",
+      "gear",
+      "cog",
+      "tools",
+      "control",
+      "preferences"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3\"/><path d=\"M14.5 8.867V7.133l-1.887-.314a4.7 4.7 0 0 0-.52-1.246l1.112-1.56-1.218-1.222-1.56 1.111a4.7 4.7 0 0 0-1.246-.515L8.867 1.5H7.133L6.82 3.387a4.7 4.7 0 0 0-1.246.515l-1.56-1.11-1.222 1.221 1.111 1.56c-.23.389-.404.808-.515 1.246L1.5 7.133v1.734l1.887.314c.111.438.285.857.515 1.246l-1.11 1.56 1.221 1.222 1.56-1.111c.389.231.808.407 1.246.52l.314 1.882h1.734l.314-1.887a4.7 4.7 0 0 0 1.246-.52l1.56 1.112 1.222-1.218-1.111-1.56c.231-.388.407-.808.52-1.246z\"/></g></svg>"
+  },
+  {
+    "name": "Send",
+    "filename": "send.svg",
+    "category": "common",
+    "tags": [
+      "email",
+      "send",
+      "message",
+      "letter",
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 9.045V12.5l1.859-2.272M4.5 9.045l9-7.545m-9 7.545 1.859 1.183m0 0L11.5 13.5l2-12m0 0L1.5 7 3 8\"/></svg>"
+  },
+  {
+    "name": "SendMessageSmall",
+    "filename": "send-message-small.svg",
+    "category": "common",
+    "tags": [
+      "email",
+      "send",
+      "message",
+      "letter",
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m7.5 8.5-5-2 11-4-4 11zm0 0 2-2\"/></svg>"
   },
   {
     "name": "Search",
@@ -5782,36 +6671,88 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m3.5 3.5 9 9m0-9-9 9\"/></svg>"
   },
   {
-    "name": "Reload",
-    "filename": "reload.svg",
+    "name": "RadioBtn",
+    "filename": "radio-btn.svg",
     "category": "common",
     "tags": [
       "common",
-      "loading",
-      "loop",
-      "process",
-      "arrow",
-      "refresh"
+      "circle"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.591 7a5.5 5.5 0 0 1 10.694-.527\"/><path d=\"M13.5 2.5v4l-3.969-.493M13.409 9a5.5 5.5 0 0 1-10.694.527\"/><path d=\"M2.5 13.5v-4l3.969.493\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11\"/></svg>"
   },
   {
-    "name": "Refresh",
-    "filename": "refresh.svg",
+    "name": "RadioBtnChecked",
+    "filename": "radio-btn-checked.svg",
     "category": "common",
     "tags": [
       "common",
-      "loading",
-      "loop",
-      "process",
-      "arrow",
-      "refresh"
+      "circle",
+      "complete",
+      "done",
+      "check"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.606 11.008a5.5 5.5 0 1 1 .679-4.535\"/><path d=\"M13.5 2.5v4l-3.969-.493\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11\"/><path fill=\"currentColor\" d=\"M8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5\"/><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5\"/></svg>"
+  },
+  {
+    "name": "QrCode",
+    "filename": "qr-code.svg",
+    "category": "common",
+    "tags": [
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 1.5H2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5M13 1.5h-3a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5M5 9.5H2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5M7.5 3.5v2a2 2 0 0 1-2 2h-1m-3 0h1M13.5 9.5H10a.5.5 0 0 0-.5.5v3.5M13.5 7.5v.005M7.5 9.5v.005M7.5 1.5v.005M3.5 3.5v.005M3.5 11.5v.005M11.5 3.5v.005M7.5 11.5v2m4-6h-2M13.5 12v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5\"/></g></svg>"
+  },
+  {
+    "name": "Preferences",
+    "filename": "preferences.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 8V3M2.5 5.5h3M7.5 5.5h6M10.5 13V8M13.5 10.5h-3M8.5 10.5h-6\"/></g></svg>"
+  },
+  {
+    "name": "Options",
+    "filename": "options.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 10.5H3M5.5 13.5v-3M5.5 8.5v-6M13 5.5H8M10.5 2.5v3M10.5 7.5v6\"/></g></svg>"
+  },
+  {
+    "name": "NetworkConnection",
+    "filename": "network-connection.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "network",
+      "share",
+      "connections"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.713 5.394 6.288 7.106M9.713 10.606 6.288 8.894M11.5 6.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M11.5 13.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M4.5 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4\"/></g></svg>"
   },
   {
     "name": "Mixed",
@@ -5824,6 +6765,89 @@ export const iconMetadata: Array<{
     "width": 16,
     "height": 16,
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8\"/></svg>"
+  },
+  {
+    "name": "Menu",
+    "filename": "menu.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "bars",
+      "navigation",
+      "hamburger",
+      "options"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 2.5h11m-11 10h11m-11-5h11\"/></svg>"
+  },
+  {
+    "name": "MailSmall",
+    "filename": "mail-small.svg",
+    "category": "common",
+    "tags": [
+      "email",
+      "send",
+      "message",
+      "letter",
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3.5H4A1.5 1.5 0 0 0 2.5 5v6A1.5 1.5 0 0 0 4 12.5h8a1.5 1.5 0 0 0 1.5-1.5V5A1.5 1.5 0 0 0 12 3.5\"/><path d=\"m4.5 5.5 3.5 3 3.5-3\"/></g></svg>"
+  },
+  {
+    "name": "LogLists",
+    "filename": "log-lists.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools",
+      "list"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M12.5 2.5h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1Z\"/><path d=\"M3.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0Z\"/><path stroke-linecap=\"round\" d=\"M7.5 5.5h4\"/><path d=\"M3.5 9.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0Z\"/><path stroke-linecap=\"round\" d=\"M7.5 9.5h4\"/></g></svg>"
+  },
+  {
+    "name": "Lock",
+    "filename": "lock.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "lock",
+      "locked",
+      "secure",
+      "password",
+      "key",
+      "safety",
+      "privacy"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13 15.5H3A1.5 1.5 0 0 1 1.5 14V9A1.5 1.5 0 0 1 3 7.5h10A1.5 1.5 0 0 1 14.5 9v5a1.5 1.5 0 0 1-1.5 1.5M4.5 5.5V4a3.5 3.5 0 1 1 7 0v1.5\"/><path d=\"M8 13a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3\"/></g></svg>"
+  },
+  {
+    "name": "LockSmall",
+    "filename": "lock-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "lock",
+      "locked",
+      "secure",
+      "password",
+      "key",
+      "safety",
+      "privacy"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 7.5h-7a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1M5.5 7V5a2.5 2.5 0 0 1 5 0v2\"/></g></svg>"
   },
   {
     "name": "LoaderCircle",
@@ -5839,6 +6863,192 @@ export const iconMetadata: Array<{
     "width": 16,
     "height": 16,
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path stroke-opacity=\".25\" d=\"M2.5 8a5.5 5.5 0 1 0 11 0 5.5 5.5 0 0 0-11 0\"/><path d=\"M13.5 8A5.5 5.5 0 0 0 8 2.5\"/></g></svg>"
+  },
+  {
+    "name": "Like",
+    "filename": "like.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "bookmark",
+      "favorite",
+      "like",
+      "review",
+      "rating"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 2.5h-2v5h2M4.5 7.5l2 6H7A1.5 1.5 0 0 0 8.5 12V9.5h3.27a1.5 1.5 0 0 0 1.485-1.712l-.571-4A1.5 1.5 0 0 0 11.2 2.5H4.5z\"/></g></svg>"
+  },
+  {
+    "name": "Launch",
+    "filename": "launch.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "network",
+      "share",
+      "connections",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V6A1.5 1.5 0 0 1 4 4.5h1.5M8.5 2.5h5v5M13.5 2.5l-6 6\"/></g></svg>"
+  },
+  {
+    "name": "LaunchApp",
+    "filename": "launch-app.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "network",
+      "share",
+      "connections",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h1.5M8.5 2.5h5v5M13.5 2.5l-6 6\"/></g></svg>"
+  },
+  {
+    "name": "GripVerticalSmall",
+    "filename": "grip-vertical-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "dots",
+      "menu",
+      "circle",
+      "more",
+      "vertical"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 8.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M6 4.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M6 12.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M10 8.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M10 4.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M10 12.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1\"/></g></svg>"
+  },
+  {
+    "name": "GripHorizontalSmall",
+    "filename": "grip-horizontal-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "dots",
+      "menu",
+      "circle",
+      "more",
+      "horizontal"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 6.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M12 6.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M4 6.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M8 10.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M12 10.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M4 10.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1\"/></g></svg>"
+  },
+  {
+    "name": "GridInterface",
+    "filename": "grid-interface.svg",
+    "category": "common",
+    "tags": [
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6.5 2.5h-4v4h4zM13.5 2.5h-4v4h4zM6.5 9.5h-4v4h4zM13.5 9.5h-4v4h4z\"/></g></svg>"
+  },
+  {
+    "name": "GalleryView",
+    "filename": "gallery-view.svg",
+    "category": "common",
+    "tags": [
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 2.5v11M2.5 8h11M12 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5\"/></g></svg>"
+  },
+  {
+    "name": "Favorite",
+    "filename": "favorite.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "bookmark",
+      "favorite",
+      "like",
+      "review",
+      "rating"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12.64 4.4a2.836 2.836 0 0 0-4.148 0A3 3 0 0 0 8 5.116a3 3 0 0 0-.493-.716 2.84 2.84 0 0 0-4.148 0 3.185 3.185 0 0 0 0 4.351L8 13.5l4.64-4.748a3.18 3.18 0 0 0 0-4.352\"/></svg>"
+  },
+  {
+    "name": "FavoriteSolid",
+    "filename": "favorite-solid.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "bookmark",
+      "favorite",
+      "like",
+      "review",
+      "rating",
+      "solid"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M12.988 4.055a3.34 3.34 0 0 0-5.001.149 3.336 3.336 0 0 0-5.006-.141A3.7 3.7 0 0 0 2.989 9.1l4.641 4.75a.5.5 0 0 0 .715 0l4.644-4.75a3.614 3.614 0 0 0-.001-5.045\"/></svg>"
+  },
+  {
+    "name": "Email",
+    "filename": "email.svg",
+    "category": "common",
+    "tags": [
+      "forms",
+      "question",
+      "type",
+      "form",
+      "email",
+      "send",
+      "message",
+      "letter",
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M12.5 2.5h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m1.5 5.5 5.553 2.776a1 1 0 0 0 .894 0L13.5 5.5\"/></g></svg>"
+  },
+  {
+    "name": "EllipsisVerticalSmall",
+    "filename": "ellipsis-vertical-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "dots",
+      "menu",
+      "circle",
+      "more",
+      "ellipsis",
+      "vertical"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 8.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M8 4.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M8 12.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1\"/></g></svg>"
+  },
+  {
+    "name": "EllipsisSmall",
+    "filename": "ellipsis-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "dots",
+      "menu",
+      "circle",
+      "more",
+      "ellipsis",
+      "horizontal"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 8.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M12 8.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M4 8.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1\"/></g></svg>"
   },
   {
     "name": "Dot",
@@ -5889,152 +7099,125 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 8h10\"/></svg>"
   },
   {
-    "name": "Cycle",
-    "filename": "cycle.svg",
+    "name": "CogwheelSolidSmall",
+    "filename": "cogwheel-solid-small.svg",
     "category": "common",
     "tags": [
       "common",
-      "loading",
-      "loop",
-      "process",
-      "arrow",
-      "refresh"
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools",
+      "cog",
+      "solid"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 2.5 2 2H6a3.5 3.5 0 1 0 0 7h.5M10.5 13.5l-2-2H10a3.5 3.5 0 1 0 0-7h-.5\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"m13.555 7-1.486-.165a4.2 4.2 0 0 0-.37-.893l.934-1.168a.5.5 0 0 0-.037-.666l-.707-.708a.5.5 0 0 0-.666-.037l-1.168.937a4.2 4.2 0 0 0-.893-.37L9 2.445A.5.5 0 0 0 8.5 2h-1a.5.5 0 0 0-.5.445l-.162 1.486q-.467.134-.893.37l-1.168-.934a.5.5 0 0 0-.666.037l-.711.707a.5.5 0 0 0-.037.666L4.3 5.945a4.2 4.2 0 0 0-.37.893L2.445 7A.5.5 0 0 0 2 7.5v1a.5.5 0 0 0 .445.5l1.486.165q.134.467.37.893l-.934 1.165a.5.5 0 0 0 .037.666l.707.707a.5.5 0 0 0 .666.037l1.168-.933q.425.236.893.37L7 13.555a.5.5 0 0 0 .5.445h1a.5.5 0 0 0 .5-.445l.165-1.486q.467-.134.893-.37l1.168.934a.5.5 0 0 0 .666-.037l.707-.707a.5.5 0 0 0 .037-.666l-.936-1.168a4.2 4.2 0 0 0 .37-.893L13.555 9A.5.5 0 0 0 14 8.5v-1a.5.5 0 0 0-.445-.5M8 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4\"/></svg>"
   },
   {
-    "name": "CurvedArrowRight",
-    "filename": "curved-arrow-right.svg",
+    "name": "CogwheelSmall",
+    "filename": "cogwheel-small.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "left",
-      "forward"
+      "system",
+      "settings",
+      "control",
+      "preferences",
+      "tools",
+      "cog"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10 6 3.5 3.5L10 13\"/><path d=\"M13.5 9.5H6a3.5 3.5 0 1 1 0-7h3.5\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 8.9V7.1l-1.668-.185a4 4 0 0 0-.355-.857l1.049-1.311-1.273-1.273-1.311 1.049a4 4 0 0 0-.857-.355L8.9 2.5H7.1l-.185 1.668a4 4 0 0 0-.857.355L4.747 3.474 3.474 4.747l1.049 1.311c-.151.27-.27.559-.355.857L2.5 7.1v1.8l1.668.185q.128.449.355.857l-1.049 1.311 1.273 1.272 1.311-1.048c.27.151.559.27.857.355L7.1 13.5h1.8l.185-1.668q.449-.128.857-.355l1.311 1.048 1.273-1.272-1.049-1.311c.151-.27.27-.559.355-.857z\"/><path d=\"M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3\"/></g></svg>"
   },
   {
-    "name": "CurvedArrowLeft",
-    "filename": "curved-arrow-left.svg",
+    "name": "Clock",
+    "filename": "clock.svg",
     "category": "common",
     "tags": [
-      "common",
-      "arrow",
-      "right",
-      "back"
+      "common"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 9.5H10a3.5 3.5 0 1 0 0-7H6.5\"/><path d=\"M6 6 2.5 9.5 6 13\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 4.5V8h3.5\"/><path d=\"M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11\"/></g></svg>"
   },
   {
-    "name": "ChevronUp",
-    "filename": "chevron-up.svg",
+    "name": "CircleRemove",
+    "filename": "circle-remove.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "up"
+      "circle",
+      "remove",
+      "delete",
+      "close"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 10.5 4-4 4 4\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M6 6l4 4M10 6l-4 4\"/></g></svg>"
   },
   {
-    "name": "ChevronUpSmall",
-    "filename": "chevron-up-small.svg",
+    "name": "CircleCirclehecirclek",
+    "filename": "circle-circlehecirclek.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "up"
+      "circle",
+      "complete",
+      "done",
+      "checkbox",
+      "check"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 8.5-2-2-2 2\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 8.5 2 2 4-5\"/><path d=\"M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11\"/></g></svg>"
   },
   {
-    "name": "ChevronRight",
-    "filename": "chevron-right.svg",
+    "name": "CircleAdd",
+    "filename": "circle-add.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "right"
+      "circle",
+      "add",
+      "plus",
+      "create",
+      "new"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m6.5 12 4-4-4-4\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M8 5v6M5 8h6\"/></g></svg>"
   },
   {
-    "name": "ChevronRightSmall",
-    "filename": "chevron-right-small.svg",
+    "name": "CheckboxBtn",
+    "filename": "checkbox-btn.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "right"
+      "square"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m7.5 10 2-2-2-2\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5\"/></svg>"
   },
   {
-    "name": "ChevronLeft",
-    "filename": "chevron-left.svg",
+    "name": "CheckboxBtnChecked",
+    "filename": "checkbox-btn-checked.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "left"
+      "square",
+      "checkbox",
+      "check",
+      "done",
+      "complete"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10.5 12-4-4 4-4\"/></svg>"
-  },
-  {
-    "name": "ChevronLeftSmall",
-    "filename": "chevron-left-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "left"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9.5 10-2-2 2-2\"/></svg>"
-  },
-  {
-    "name": "ChevronDown",
-    "filename": "chevron-down.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "down"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 6.5 4 4 4-4\"/></svg>"
-  },
-  {
-    "name": "ChevronDownSmall",
-    "filename": "chevron-down-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "down"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 6.5-2 2-2-2\"/></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5\"/><path d=\"m4.5 8.5 2 2 5-5\"/></g></svg>"
   },
   {
     "name": "Check",
@@ -6055,56 +7238,87 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 7.5 3 3 4-6\"/></svg>"
   },
   {
-    "name": "ArrowUp",
-    "filename": "arrow-up.svg",
+    "name": "Ban",
+    "filename": "ban.svg",
     "category": "common",
     "tags": [
       "common",
-      "arrow",
-      "up"
+      "circle",
+      "cancel",
+      "ban",
+      "error",
+      "slash",
+      "wrong",
+      "failure",
+      "null"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 2.5v11M4 6.5l4-4 4 4\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m4.111 11.889 7.778-7.778M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11\"/></g></svg>"
   },
   {
-    "name": "ArrowRight",
-    "filename": "arrow-right.svg",
+    "name": "AttachSmall",
+    "filename": "attach-small.svg",
     "category": "common",
     "tags": [
-      "common",
-      "arrow",
-      "right"
+      "attach",
+      "file",
+      "attachment",
+      "inbox",
+      "email",
+      "common"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 8h-11M9.5 4l4 4-4 4\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8.654 5.982 6.36 8.277a1.335 1.335 0 1 0 1.889 1.889l3.1-3.1A2.673 2.673 0 0 0 7.57 3.287L4.2 6.657a4.009 4.009 0 0 0 5.669 5.669l3.1-3.1\"/></svg>"
   },
   {
-    "name": "ArrowLeft",
-    "filename": "arrow-left.svg",
+    "name": "AtSign",
+    "filename": "at-sign.svg",
     "category": "common",
     "tags": [
-      "common",
-      "arrow",
-      "left"
+      "mention",
+      "email",
+      "send",
+      "sign",
+      "at",
+      "common"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M6.5 12l-4-4 4-4\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" clip-path=\"url(#a)\"><path d=\"M8 10.667a2.667 2.667 0 1 0 0-5.334 2.667 2.667 0 0 0 0 5.334\"/><path d=\"M10.667 5.333v3.334a2 2 0 1 0 4 0V8A6.667 6.667 0 1 0 12 13.333\"/></g><defs><clipPath id=\"a\"><path fill=\"#fff\" d=\"M0 0h16v16H0z\"/></clipPath></defs></svg>"
   },
   {
-    "name": "ArrowDown",
-    "filename": "arrow-down.svg",
+    "name": "AtSignSmall",
+    "filename": "at-sign-small.svg",
     "category": "common",
     "tags": [
-      "common",
-      "arrow",
-      "down"
+      "mention",
+      "email",
+      "send",
+      "sign",
+      "at",
+      "common"
     ],
     "width": 16,
     "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13.5v-11M12 9.5l-4 4-4-4\"/></g></svg>"
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.067 5.587v3.821c0 1.179 1.791 1.441 2.729-.153.795-1.349.6-3.406-.393-4.76-1.461-1.993-4.839-2.738-7.293-1.091-2.255 1.514-3.058 4.577-1.812 7.053 1.233 2.45 4.127 3.637 6.747 2.751\"/><path d=\"M7.911 10.221c1.186 0 2.147-1.028 2.147-2.297s-.961-2.297-2.147-2.297-2.147 1.028-2.147 2.297.961 2.297 2.147 2.297\"/></g></svg>"
+  },
+  {
+    "name": "Ai",
+    "filename": "ai.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "sparks",
+      "ai",
+      "effect",
+      "brightness",
+      "interlligence"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M1.5 9.5a5 5 0 0 0 5-5 5 5 0 0 0 5 5 5 5 0 0 0-5 5 5 5 0 0 0-5-5\"/><path fill=\"currentColor\" d=\"M10.5 3.5a2 2 0 0 0 2-2 2 2 0 0 0 2 2 2 2 0 0 0-2 2 2 2 0 0 0-2-2\"/></g></svg>"
   },
   {
     "name": "Add",
@@ -7142,5 +8356,1395 @@ export const iconMetadata: Array<{
     "width": 16,
     "height": 16,
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 12.5h10\"/><path fill=\"currentColor\" d=\"M4.5 10.5v-8h2v8zM8.5 10.5v-5h2v5z\"/></g></svg>"
+  },
+  {
+    "name": "Upload",
+    "filename": "upload.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 7.5H4A1.5 1.5 0 0 0 2.5 9v3A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 12 7.5h-1.5M5 5.5l3-3 3 3M8 10.5v-8\"/></g></svg>"
+  },
+  {
+    "name": "UploadData",
+    "filename": "upload-data.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 7.5 8 3.5l-3.5 4h2v4h3v-4zM13.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5h-1.5M2.5 10.5V12A1.5 1.5 0 0 0 4 13.5h1.5M13.5 5.5V4A1.5 1.5 0 0 0 12 2.5h-1.5M2.5 5.5V4A1.5 1.5 0 0 1 4 2.5h1.5\"/></g></svg>"
+  },
+  {
+    "name": "Undo",
+    "filename": "undo.svg",
+    "category": "arrows",
+    "tags": [
+      "common",
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 5.5v3h3\"/><path d=\"M12.5 10.5A4.5 4.5 0 0 0 8 6a4.5 4.5 0 0 0-3 1.15L3.5 8.5\"/></g></svg>"
+  },
+  {
+    "name": "UndoSmall",
+    "filename": "undo-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 5.5v3h3\"/><path d=\"M12.5 10.5A4.5 4.5 0 0 0 8 6a4.5 4.5 0 0 0-3 1.15L3.5 8.5\"/></g></svg>"
+  },
+  {
+    "name": "TriangleUp",
+    "filename": "triangle-up.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 11.5h11L8 3.5z\"/></svg>"
+  },
+  {
+    "name": "TriangleRight",
+    "filename": "triangle-right.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 2.5v11l8-5.5z\"/></svg>"
+  },
+  {
+    "name": "TriangleLeft",
+    "filename": "triangle-left.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.5 2.5v11L3.5 8z\"/></svg>"
+  },
+  {
+    "name": "TriangleDown",
+    "filename": "triangle-down.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 4.5h11l-5.5 8z\"/></svg>"
+  },
+  {
+    "name": "TransactionSmall",
+    "filename": "transaction-small.svg",
+    "category": "common",
+    "tags": [
+      "arrow",
+      "common",
+      "horizontal",
+      "flip",
+      "directions",
+      "swap"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 13.5 3-3-3-3M13.5 10.5h-6M5.5 2.5l-3 3 3 3M2.5 5.5h6\"/></g></svg>"
+  },
+  {
+    "name": "TrafficSmall",
+    "filename": "traffic-small.svg",
+    "category": "common",
+    "tags": [
+      "arrow",
+      "common",
+      "swap",
+      "vertical",
+      "flip"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3 6 2.5-2.5L8 6M5.5 3.5v9M13 10l-2.5 2.5L8 10M10.5 12.5v-9\"/></g></svg>"
+  },
+  {
+    "name": "SystemUpdate",
+    "filename": "system-update.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h1.5\"/><path d=\"m11 7.5-3 3-3-3M8 2.5v8\"/></g></svg>"
+  },
+  {
+    "name": "SwapVerticalSmall",
+    "filename": "swap-vertical-small.svg",
+    "category": "common",
+    "tags": [
+      "flip",
+      "arrow",
+      "common",
+      "swap",
+      "vertical"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3 5 2.5-2.5L8 5M5.5 2.5v11M13 11l-2.5 2.5L8 11M10.5 2.5v11\"/></g></svg>"
+  },
+  {
+    "name": "SwapHorizontalSmall",
+    "filename": "swap-horizontal-small.svg",
+    "category": "common",
+    "tags": [
+      "arrow",
+      "common",
+      "horizontal",
+      "flip",
+      "directions",
+      "swap"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m11 8 2.5 2.5L11 13M2.5 10.5h11M5 8 2.5 5.5 5 3M2.5 5.5h11\"/></g></svg>"
+  },
+  {
+    "name": "SlideRight",
+    "filename": "slide-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M10.5 11l3-3-3-3M2.5 3.5h5M2.5 12.5h5\"/></g></svg>"
+  },
+  {
+    "name": "SlideLeft",
+    "filename": "slide-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M5.5 5l-3 3 3 3M13.5 3.5h-5M13.5 12.5h-5\"/></g></svg>"
+  },
+  {
+    "name": "RespondArrow",
+    "filename": "respond-arrow.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m13.5 8-5-4.5v3c-2.773 0-6 1.233-6 6a6.62 6.62 0 0 1 6-3v3z\"/></svg>"
+  },
+  {
+    "name": "ResizeYSmall",
+    "filename": "resize-y-small.svg",
+    "category": "common",
+    "tags": [
+      "resize",
+      "vertical",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10 6.5-2-2-2 2M10 9.5l-2 2-2-2M13.5 2.5h-11M13.5 13.5h-11\"/></g></svg>"
+  },
+  {
+    "name": "ResizeXSmall",
+    "filename": "resize-x-small.svg",
+    "category": "common",
+    "tags": [
+      "resize",
+      "horizontal",
+      "arrow",
+      "common"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9.5 10 2-2-2-2M6.5 10l-2-2 2-2M13.5 13.5v-11M2.5 13.5v-11\"/></g></svg>"
+  },
+  {
+    "name": "ReplyArrow",
+    "filename": "reply-arrow.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.5 8 5-4.5v3c2.773 0 6 1.233 6 6a6.62 6.62 0 0 0-6-3v3z\"/></svg>"
+  },
+  {
+    "name": "Reload",
+    "filename": "reload.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "loading",
+      "loop",
+      "process",
+      "arrow",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.591 7a5.5 5.5 0 0 1 10.694-.527\"/><path d=\"M13.5 2.5v4l-3.969-.493M13.409 9a5.5 5.5 0 0 1-10.694.527\"/><path d=\"M2.5 13.5v-4l3.969.493\"/></g></svg>"
+  },
+  {
+    "name": "Refresh",
+    "filename": "refresh.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "loading",
+      "loop",
+      "process",
+      "arrow",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.606 11.008a5.5 5.5 0 1 1 .679-4.535\"/><path d=\"M13.5 2.5v4l-3.969-.493\"/></g></svg>"
+  },
+  {
+    "name": "Redo",
+    "filename": "redo.svg",
+    "category": "arrows",
+    "tags": [
+      "common",
+      "arrow",
+      "right",
+      "redo",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 5.5v3h-3\"/><path d=\"M3.5 10.5A4.5 4.5 0 0 1 8 6a4.5 4.5 0 0 1 3 1.15l1.5 1.35\"/></g></svg>"
+  },
+  {
+    "name": "RedoSmall",
+    "filename": "redo-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "right",
+      "redo",
+      "forward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 5.5v3h-3\"/><path d=\"M3.5 10.5A4.5 4.5 0 0 1 8 6a4.5 4.5 0 0 1 3 1.15l1.5 1.35\"/></g></svg>"
+  },
+  {
+    "name": "Logout",
+    "filename": "logout.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 5 3 3-3 3M13.5 8h-8M7.5 13.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h3.5\"/></g></svg>"
+  },
+  {
+    "name": "LogOutSmall",
+    "filename": "log-out-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 4.5 3 3m0 0-3 3m3-3h-8M5.5 2.5h-1a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1\"/></g></svg>"
+  },
+  {
+    "name": "LogIn",
+    "filename": "log-in.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 8h-9M8.5 11l3-3-3-3\"/><path d=\"M5.5 4.5V4A1.5 1.5 0 0 1 7 2.5h5A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H7A1.5 1.5 0 0 1 5.5 12v-.5\"/></g></svg>"
+  },
+  {
+    "name": "Input",
+    "filename": "input.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 8h-8M7.5 11l3-3-3-3\"/><path d=\"M2.5 5.5V4A1.5 1.5 0 0 1 4 2.5h8A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12v-1.5\"/></g></svg>"
+  },
+  {
+    "name": "Forward",
+    "filename": "forward.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 5.5 3-3 3 3M8 2.5v8M2.5 12.5h11M2.5 9.5h3M10.5 9.5h3\"/></g></svg>"
+  },
+  {
+    "name": "FormatRight",
+    "filename": "format-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 5 3 3-3 3M13.5 8h-7M2.5 3.5h6M2.5 12.5h6M2.5 9.5h2M2.5 6.5h2\"/></g></svg>"
+  },
+  {
+    "name": "FormatLeft",
+    "filename": "format-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 11-3-3 3-3M9.5 8h-7M13.5 3.5h-6M13.5 12.5h-6M13.5 9.5h-2M13.5 6.5h-2\"/></g></svg>"
+  },
+  {
+    "name": "FilesUpload",
+    "filename": "files-upload.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5h-.5M2.5 10.5h11\"/><path d=\"M5.5 5 8 2.5 10.5 5M8 8.5v-6\"/></g></svg>"
+  },
+  {
+    "name": "FilesDownload",
+    "filename": "files-download.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5h-.5M2.5 10.5h11\"/><path d=\"M10.5 6 8 8.5 5.5 6M8 2.5v6\"/></g></svg>"
+  },
+  {
+    "name": "Enlarge",
+    "filename": "enlarge.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m11.5 10.5-3.5 3-3.5-3M4.5 5.5l3.5-3 3.5 3\"/></g></svg>"
+  },
+  {
+    "name": "EnlargeH",
+    "filename": "enlarge-h.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 11.5 2.5 8l3-3.5M10.5 4.5l3 3.5-3 3.5\"/></g></svg>"
+  },
+  {
+    "name": "Download",
+    "filename": "download.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 5.5H4A1.5 1.5 0 0 0 2.5 7v4A1.5 1.5 0 0 0 4 12.5h8a1.5 1.5 0 0 0 1.5-1.5V7A1.5 1.5 0 0 0 12 5.5h-1.5\"/><path d=\"m11 7.5-3 3-3-3M8 2.5v8\"/></g></svg>"
+  },
+  {
+    "name": "DownloadData",
+    "filename": "download-data.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "import",
+      "download",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 8.5v-4h-3v4h-2l3.5 4 3.5-4zM10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v1.5M5.5 2.5H4A1.5 1.5 0 0 0 2.5 4v1.5M10.5 13.5H12a1.5 1.5 0 0 0 1.5-1.5v-1.5M5.5 13.5H4A1.5 1.5 0 0 1 2.5 12v-1.5\"/></g></svg>"
+  },
+  {
+    "name": "DoubleArrowRight",
+    "filename": "double-arrow-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3.5 2.5 6 5.5-6 5.5\"/><path d=\"m7.5 2.5 6 5.5-6 5.5\"/></g></svg>"
+  },
+  {
+    "name": "DoubleArrowLeft",
+    "filename": "double-arrow-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 2.5 6.5 8l6 5.5\"/><path d=\"M8.5 2.5 2.5 8l6 5.5\"/></g></svg>"
+  },
+  {
+    "name": "DataUpload",
+    "filename": "data-upload.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 6.5v4h-3v-4h-2l3.5-4 3.5 4z\"/><path d=\"M13.5 9.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V9.5\"/></g></svg>"
+  },
+  {
+    "name": "DataDownload",
+    "filename": "data-download.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "file",
+      "data",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 6.5v-4h-3v4h-2l3.5 4 3.5-4z\"/><path d=\"M13.5 9.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V9.5\"/></g></svg>"
+  },
+  {
+    "name": "Cycle",
+    "filename": "cycle.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "loading",
+      "loop",
+      "process",
+      "arrow",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 2.5 2 2H6a3.5 3.5 0 1 0 0 7h.5M10.5 13.5l-2-2H10a3.5 3.5 0 1 0 0-7h-.5\"/></g></svg>"
+  },
+  {
+    "name": "CurvedArrowRight",
+    "filename": "curved-arrow-right.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "left",
+      "forward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10 6 3.5 3.5L10 13\"/><path d=\"M13.5 9.5H6a3.5 3.5 0 1 1 0-7h3.5\"/></g></svg>"
+  },
+  {
+    "name": "CurvedArrowLeft",
+    "filename": "curved-arrow-left.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "right",
+      "back"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 9.5H10a3.5 3.5 0 1 0 0-7H6.5\"/><path d=\"M6 6 2.5 9.5 6 13\"/></g></svg>"
+  },
+  {
+    "name": "ConversionSmall",
+    "filename": "conversion-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "horizontal",
+      "flip",
+      "directions",
+      "swap",
+      "conversion"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 9.5h-11l4 4M2.5 6.5h11l-4-4\"/></g></svg>"
+  },
+  {
+    "name": "ChevronUp",
+    "filename": "chevron-up.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 10.5 4-4 4 4\"/></svg>"
+  },
+  {
+    "name": "ChevronUpSmall",
+    "filename": "chevron-up-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 8.5-2-2-2 2\"/></svg>"
+  },
+  {
+    "name": "ChevronRight",
+    "filename": "chevron-right.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m6.5 12 4-4-4-4\"/></svg>"
+  },
+  {
+    "name": "ChevronRightSmall",
+    "filename": "chevron-right-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m7.5 10 2-2-2-2\"/></svg>"
+  },
+  {
+    "name": "ChevronLeft",
+    "filename": "chevron-left.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10.5 12-4-4 4-4\"/></svg>"
+  },
+  {
+    "name": "ChevronLeftSmall",
+    "filename": "chevron-left-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9.5 10-2-2 2-2\"/></svg>"
+  },
+  {
+    "name": "ChevronDown",
+    "filename": "chevron-down.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 6.5 4 4 4-4\"/></svg>"
+  },
+  {
+    "name": "ChevronDownSmall",
+    "filename": "chevron-down-small.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 6.5-2 2-2-2\"/></svg>"
+  },
+  {
+    "name": "Backward",
+    "filename": "backward.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 10.5 3 3 3-3M8 13.5v-8M2.5 3.5h11M2.5 6.5h3M10.5 6.5h3\"/></g></svg>"
+  },
+  {
+    "name": "ArrowsMaximize",
+    "filename": "arrows-maximize.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "fullscreen",
+      "expand"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" d=\"M13.5 1.5 9 6m4.5-4.5H9m4.5 0V6m-12 7.5L6 9m-4.5 4.5H6m-4.5 0V9\"/></svg>"
+  },
+  {
+    "name": "ArrowUp",
+    "filename": "arrow-up.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 2.5v11M4 6.5l4-4 4 4\"/></g></svg>"
+  },
+  {
+    "name": "ArrowRight",
+    "filename": "arrow-right.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 8h-11M9.5 4l4 4-4 4\"/></g></svg>"
+  },
+  {
+    "name": "ArrowMinimize",
+    "filename": "arrow-minimize.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "exit",
+      "close",
+      "shrink"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\"><path d=\"M9.5 6.5 14 2M9.5 6.5H14m-4.5 0V2M6.5 9.5 2 14m4.5-4.5H2m4.5 0V14\"/></g></svg>"
+  },
+  {
+    "name": "ArrowLeft",
+    "filename": "arrow-left.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M6.5 12l-4-4 4-4\"/></g></svg>"
+  },
+  {
+    "name": "ArrowDown",
+    "filename": "arrow-down.svg",
+    "category": "common",
+    "tags": [
+      "common",
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13.5v-11M12 9.5l-4 4-4-4\"/></g></svg>"
+  },
+  {
+    "name": "XCircle",
+    "filename": "x-circle.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "remove",
+      "delete",
+      "close",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M1.5 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9.5 5.5-4 4m0-4 4 4\"/></g></svg>"
+  },
+  {
+    "name": "XCircle1",
+    "filename": "x-circle-1.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "remove",
+      "delete",
+      "close",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9.5 5.5-4 4m0-4 4 4\"/></g></svg>"
+  },
+  {
+    "name": "WarningTriangle",
+    "filename": "warning-triangle.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "warning",
+      "triangle",
+      "info"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\"><path d=\"M7.5 5.5v4\"/><path stroke-linejoin=\"round\" d=\"M7.5 11.5h.005\"/><path d=\"m1.862 12.776 5.19-10.382a.5.5 0 0 1 .895 0l5.191 10.382a.5.5 0 0 1-.447.724H2.309a.5.5 0 0 1-.447-.724Z\"/></g></svg>"
+  },
+  {
+    "name": "WarningTriangleSmall",
+    "filename": "warning-triangle-small.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "warning",
+      "triangle",
+      "info"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7.5 7v1.5M7.5 10.5h.005M2.5 12.5l5-9 5 9z\"/></g></svg>"
+  },
+  {
+    "name": "WarningSquare",
+    "filename": "warning-square.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "info",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z\"/><path stroke-linecap=\"round\" d=\"M7.5 4.5v4\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 10.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "WarningRhomboidSmall",
+    "filename": "warning-rhomboid-small.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "warning",
+      "info"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m2.5 7.5 5-5 5 5-5 5zM7.5 5.5v2M7.5 9.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "WarningHexagonSmall",
+    "filename": "warning-hexagon-small.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "warning",
+      "info"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 5.5v3M8 10.5h.005\"/><path d=\"m13 8-2.5 4.5h-5L3 8l2.5-4.5h5z\"/></g></svg>"
+  },
+  {
+    "name": "WarningCircle",
+    "filename": "warning-circle.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "info",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M1.5 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z\"/><path stroke-linecap=\"round\" d=\"M7.5 4.5v4\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 10.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "TriangleWarningLarge",
+    "filename": "triangle-warning-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "warning"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M8 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2m1-3.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z\"/><path d=\"M14.037 16H1.955a1.93 1.93 0 0 1-1.649-.932 2.04 2.04 0 0 1-.086-1.999L6.228 1.088A1.94 1.94 0 0 1 7.959 0h.005c.731 0 1.395.413 1.732 1.08l6.073 11.982a2.04 2.04 0 0 1-.082 2.003 1.93 1.93 0 0 1-1.65.935M7.965 2.087l-5.958 11.88L13.972 14z\"/></g></svg>"
+  },
+  {
+    "name": "TriangleWarningLargeSolid",
+    "filename": "triangle-warning-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "warning"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M15.8 12.526 9.483.88A1.67 1.67 0 0 0 8.8.2a1.693 1.693 0 0 0-2.284.68L.2 12.526A1.678 1.678 0 0 0 1.686 15h12.628a1.7 1.7 0 0 0 1.308-.615 1.67 1.67 0 0 0 .178-1.859M8 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2m1-3.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z\"/></svg>"
+  },
+  {
+    "name": "SquareWarningLarge",
+    "filename": "square-warning-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "warning",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m0 14H2V2h12z\"/><path d=\"M8.5 4h-1a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-.5-.5M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/></g></svg>"
+  },
+  {
+    "name": "SquareWarningLargeSolid",
+    "filename": "square-warning-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "warning",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2m1-3.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z\"/></svg>"
+  },
+  {
+    "name": "SquareQuestionLarge",
+    "filename": "square-question-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "question",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m0 14H2V2h12z\"/><path d=\"M8 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.687 5.446c.357-.34.821-.546 1.313-.583 1 0 1 .518 1 .712 0 .366-.159.532-.65.954A3.12 3.12 0 0 0 7 9a1 1 0 0 0 2 0c0-.365.158-.532.649-.952A3.12 3.12 0 0 0 11 5.575c0-1.621-1.2-2.711-3.047-2.711a4.15 4.15 0 0 0-2.64 1.129 1 1 0 1 0 1.374 1.453\"/></g></svg>"
+  },
+  {
+    "name": "SquareQuestionLargeSolid",
+    "filename": "square-question-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "question",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2m1.647-4.952c-.491.42-.649.587-.649.952a1 1 0 1 1-2 0c0-1.315.811-2.011 1.348-2.471.491-.422.65-.588.65-.954 0-.194 0-.712-.998-.712-.456.025-.94.232-1.311.583a1 1 0 1 1-1.374-1.453 4.15 4.15 0 0 1 2.632-1.129h.003c1.844 0 3.047 1.09 3.047 2.711 0 1.316-.812 2.012-1.349 2.473z\"/></svg>"
+  },
+  {
+    "name": "SquareInfoLarge",
+    "filename": "square-info-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "info",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m0 14H2V2h12z\"/><path d=\"M8.5 7h-1a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-.5-.5M8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/></g></svg>"
+  },
+  {
+    "name": "SquareInfoLargeSolid",
+    "filename": "square-info-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "info",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M9 11.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5zM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2\"/></svg>"
+  },
+  {
+    "name": "QuestionSquare",
+    "filename": "question-square.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "question",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z\"/><path stroke-linecap=\"round\" d=\"M5.5 6.5c0-1 .5-2 2-2s2.5 1 2 2-2 1-2 2.5\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 10.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "QuestionCircle",
+    "filename": "question-circle.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "question",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M1.5 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z\"/><path stroke-linecap=\"round\" d=\"M5.5 6.5c0-1 .5-2 2-2s2.5 1 2 2-2 1-2 2.5\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 10.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "Notifications",
+    "filename": "notifications.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "alarm",
+      "notification",
+      "bell"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 7.5c0 2.035-.92 2.69-1.513 2.9-.26.093-.487.324-.487.6a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5c0-.276-.227-.507-.488-.6-.591-.21-1.512-.865-1.512-2.9 0-3.04-2.822-4.5-3.725-4.89a.76.76 0 0 0-.557-.022C6.306 2.904 3.5 4.15 3.5 7.5M7.5 2.5v-1\"/><path fill=\"currentColor\" fill-opacity=\".25\" d=\"M9.5 11.5a2 2 0 1 1-4 0z\"/></g></svg>"
+  },
+  {
+    "name": "Megaphone",
+    "filename": "megaphone.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "alarm",
+      "notification",
+      "bell"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m8.151 10.401.717 1.425a1.151 1.151 0 0 1-2.047 1.048L4.576 8.5\"/><path d=\"M12.5 10.5s-2.952-2-4.976-2H4.5a2 2 0 1 1 0-4h3.024c1.976 0 4.976-2 4.976-2z\"/></g></svg>"
+  },
+  {
+    "name": "InfoSquare",
+    "filename": "info-square.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "info",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z\"/><path stroke-linecap=\"round\" d=\"M7.5 6.5v4\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 4.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "InfoCircle",
+    "filename": "info-circle.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "info",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M1.5 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z\"/><path stroke-linecap=\"round\" d=\"M7.5 6.5v4\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.5 4.5h.005\"/></g></svg>"
+  },
+  {
+    "name": "Comment",
+    "filename": "comment.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "alarm",
+      "answer",
+      "reply",
+      "message",
+      "chat"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.5 7.267C13.5 4.634 11.037 2.5 8 2.5S2.5 4.634 2.5 7.267s2.463 4.766 5.5 4.766a6.4 6.4 0 0 0 1.123-.1L12 13.5v-3a4.46 4.46 0 0 0 1.5-3.233\"/></svg>"
+  },
+  {
+    "name": "CircleWarningLarge",
+    "filename": "circle-warning-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "warning",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M8 0a8 8 0 1 0 8 8 8.024 8.024 0 0 0-8-8m0 14a6 6 0 1 1 6-6 6.02 6.02 0 0 1-6 6\"/><path d=\"M8.5 4h-1a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-.5-.5M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/></g></svg>"
+  },
+  {
+    "name": "CircleWarningLargeSolid",
+    "filename": "circle-warning-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "warning",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8m0 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2m1-3.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z\"/></svg>"
+  },
+  {
+    "name": "CircleRemoveLarge",
+    "filename": "circle-remove-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "remove",
+      "delete",
+      "close",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8m0 14c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6\"/><path d=\"m9.414 8 1.768-1.768a.5.5 0 0 0 0-.707l-.707-.707a.5.5 0 0 0-.707 0L8 6.586 6.232 4.818a.5.5 0 0 0-.707 0l-.707.707a.5.5 0 0 0 0 .707L6.586 8 4.818 9.768a.5.5 0 0 0 0 .707l.707.707a.5.5 0 0 0 .707 0L8 9.414l1.768 1.768a.5.5 0 0 0 .707 0l.707-.707a.5.5 0 0 0 0-.707z\"/></g></svg>"
+  },
+  {
+    "name": "CircleRemoveLargeSolid",
+    "filename": "circle-remove-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "remove",
+      "delete",
+      "close",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8m3.182 9.768a.5.5 0 0 1 0 .707l-.707.707a.5.5 0 0 1-.707 0L8 9.414l-1.768 1.768a.5.5 0 0 1-.707 0l-.707-.707a.5.5 0 0 1 0-.707L6.586 8 4.818 6.232a.5.5 0 0 1 0-.707l.707-.707a.5.5 0 0 1 .707 0L8 6.586l1.768-1.768a.5.5 0 0 1 .707 0l.707.707a.5.5 0 0 1 0 .707L9.414 8z\"/></svg>"
+  },
+  {
+    "name": "CircleQuestionLarge",
+    "filename": "circle-question-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "question",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M8 0a8 8 0 1 0 8 8 8.024 8.024 0 0 0-8-8m0 14a6 6 0 1 1 6-6 6.02 6.02 0 0 1-6 6\"/><path d=\"M8 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2M8 10a1 1 0 0 1-1-1 3.06 3.06 0 0 1 1.322-2.427c.5-.425.622-.57.622-.906 0-.183 0-.667-.944-.667a2.05 2.05 0 0 0-1.258.561 1 1 0 1 1-1.373-1.456A4.08 4.08 0 0 1 7.948 3a2.68 2.68 0 0 1 2.993 2.666 3.05 3.05 0 0 1-1.318 2.426C9.126 8.519 9 8.663 9 9a1 1 0 0 1-1 1\"/></g></svg>"
+  },
+  {
+    "name": "CircleQuestionLargeSolid",
+    "filename": "circle-question-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "question",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8m0 13a1 1 0 1 1 0-2 1 1 0 0 1 0 2m1.623-4.908C9.126 8.519 9 8.663 9 9a1 1 0 1 1-2 0c0-1.294.795-1.976 1.322-2.427.497-.425.623-.57.623-.906 0-.183 0-.667-.944-.667a2.05 2.05 0 0 0-1.258.561A1 1 0 1 1 5.37 4.106a4.08 4.08 0 0 1 2.579-1.104h.003c1.812 0 2.993 1.071 2.993 2.666 0 1.293-.795 1.975-1.321 2.425z\"/></svg>"
+  },
+  {
+    "name": "CircleInfoLarge",
+    "filename": "circle-info-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "info",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M8 0a8 8 0 1 0 8 8 8.024 8.024 0 0 0-8-8m0 14a6 6 0 1 1 6-6 6.02 6.02 0 0 1-6 6\"/><path d=\"M8.5 7h-1a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-.5-.5M8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2\"/></g></svg>"
+  },
+  {
+    "name": "CircleInfoLargeSolid",
+    "filename": "circle-info-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "info",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8m1 11.5a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5zM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2\"/></svg>"
+  },
+  {
+    "name": "CircleCheckLarge",
+    "filename": "circle-check-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "check",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M8 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8m0 14c-3.309 0-6-2.691-6-6s2.691-6 6-6 6 2.691 6 6-2.691 6-6 6\"/><path d=\"M7 11a1 1 0 0 1-.707-.293l-2-2a.999.999 0 1 1 1.414-1.414L7 8.586l3.293-3.293a.999.999 0 1 1 1.414 1.414l-4 4A1 1 0 0 1 7 11\"/></g></svg>"
+  },
+  {
+    "name": "CircleCheckLargeSolid",
+    "filename": "circle-check-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "check",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8m3.707 6.707-4 4a.997.997 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414L7 8.586l3.293-3.293a.999.999 0 1 1 1.414 1.414\"/></svg>"
+  },
+  {
+    "name": "CheckSquare",
+    "filename": "check-square.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "check",
+      "square"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 7.5 2 2 4-4\"/></g></svg>"
+  },
+  {
+    "name": "CheckCircle",
+    "filename": "check-circle.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "check",
+      "circle"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\"><path d=\"M1.5 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z\"/><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 7.5 2 2 4-4\"/></g></svg>"
+  },
+  {
+    "name": "Chat",
+    "filename": "chat.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "alarm",
+      "answer",
+      "reply",
+      "message",
+      "chat"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 4v5A1.5 1.5 0 0 0 4 10.5h2l2 3 2-3h2A1.5 1.5 0 0 0 13.5 9V4A1.5 1.5 0 0 0 12 2.5H4A1.5 1.5 0 0 0 2.5 4\"/></svg>"
+  },
+  {
+    "name": "ChatLarge",
+    "filename": "chat-large.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "chat",
+      "message",
+      "reply",
+      "answer"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M14 0H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h2.6l2.7 2.7c.2.2.4.3.7.3s.5-.1.7-.3l2.7-2.7H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m0 11h-3c-.3 0-.5.1-.7.3L8 13.6l-2.3-2.3c-.2-.2-.4-.3-.7-.3H2V2h12z\"/></svg>"
+  },
+  {
+    "name": "ChatLargeSolid",
+    "filename": "chat-large-solid.svg",
+    "category": "alert",
+    "tags": [
+      "solid",
+      "alert",
+      "answer"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M14 0H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.266l2.35 2.82a.5.5 0 0 0 .768 0l2.35-2.82H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2\"/></svg>"
+  },
+  {
+    "name": "AlarmSmall",
+    "filename": "alarm-small.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "alarm",
+      "notification",
+      "bell"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6.592 12.5a1.491 1.491 0 0 0 2.816 0M2.5 10.5h11M13.5 10.5a2.15 2.15 0 0 1-2-2V6a3.5 3.5 0 1 0-7 0v2.5a2.15 2.15 0 0 1-2 2\"/></g></svg>"
+  },
+  {
+    "name": "AlarmSmallSolid",
+    "filename": "alarm-small-solid.svg",
+    "category": "alert",
+    "tags": [
+      "alert",
+      "alarm",
+      "notification",
+      "bell",
+      "solid"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g fill=\"currentColor\"><path d=\"M13.5 10A1.65 1.65 0 0 1 12 8.5V6a4 4 0 1 0-8 0v2.5A1.65 1.65 0 0 1 2.5 10a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1M8 14a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2\"/></g></svg>"
   }
 ];

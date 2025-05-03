@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WarningTriangle = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round"><path d="M7.5 5.5v4" /><path strokeLinejoin="round" d="M7.5 11.5h.005" /><path d="m1.862 12.776 5.19-10.382a.5.5 0 0 1 .895 0l5.191 10.382a.5.5 0 0 1-.447.724H2.309a.5.5 0 0 1-.447-.724Z" /></g></svg>;
+export { WarningTriangle };
