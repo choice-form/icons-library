@@ -1,12 +1,11 @@
 {
   "name": "SwapHorizontalSmall",
   "filename": "swap-horizontal-small.svg",
-  "category": "common",
+  "category": "arrows",
   "width": 16,
   "height": 16,
   "tags": [
     "arrow",
-    "common",
     "horizontal",
     "flip",
     "directions",

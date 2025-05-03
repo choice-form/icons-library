@@ -1,11 +1,10 @@
 {
   "name": "ArrowUp",
   "filename": "arrow-up.svg",
-  "category": "common",
+  "category": "arrows",
   "width": 16,
   "height": 16,
   "tags": [
-    "common",
     "arrow",
     "up"
   ]

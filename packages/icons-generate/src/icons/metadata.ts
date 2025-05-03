@@ -8118,6 +8118,815 @@ export const iconMetadata: Array<{
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M1.5 12.5h2m0 0h10m-10 0v-11m0 11v2m6.5-4h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5M7.5 10V4a.5.5 0 0 0-.5-.5H6a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5\"/></svg>"
   },
   {
+    "name": "Upload",
+    "filename": "upload.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 7.5H4A1.5 1.5 0 0 0 2.5 9v3A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 12 7.5h-1.5M5 5.5l3-3 3 3M8 10.5v-8\"/></g></svg>"
+  },
+  {
+    "name": "UploadData",
+    "filename": "upload-data.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 7.5 8 3.5l-3.5 4h2v4h3v-4zM13.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5h-1.5M2.5 10.5V12A1.5 1.5 0 0 0 4 13.5h1.5M13.5 5.5V4A1.5 1.5 0 0 0 12 2.5h-1.5M2.5 5.5V4A1.5 1.5 0 0 1 4 2.5h1.5\"/></g></svg>"
+  },
+  {
+    "name": "UpArrowSmall",
+    "filename": "up-arrow-small.svg",
+    "category": "arrows",
+    "tags": [],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.5 10.5 5.5-6 5.5 6\"/></svg>"
+  },
+  {
+    "name": "Undo",
+    "filename": "undo.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 5.5v3h3\"/><path d=\"M12.5 10.5A4.5 4.5 0 0 0 8 6a4.5 4.5 0 0 0-3 1.15L3.5 8.5\"/></g></svg>"
+  },
+  {
+    "name": "TriangleUp",
+    "filename": "triangle-up.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 11.5h11L8 3.5z\"/></svg>"
+  },
+  {
+    "name": "TriangleRight",
+    "filename": "triangle-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 2.5v11l8-5.5z\"/></svg>"
+  },
+  {
+    "name": "TriangleLeft",
+    "filename": "triangle-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.5 2.5v11L3.5 8z\"/></svg>"
+  },
+  {
+    "name": "TriangleDown",
+    "filename": "triangle-down.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 4.5h11l-5.5 8z\"/></svg>"
+  },
+  {
+    "name": "TransactionSmall",
+    "filename": "transaction-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "horizontal",
+      "flip",
+      "directions",
+      "swap"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 13.5 3-3-3-3M13.5 10.5h-6M5.5 2.5l-3 3 3 3M2.5 5.5h6\"/></g></svg>"
+  },
+  {
+    "name": "TrafficSmall",
+    "filename": "traffic-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "swap",
+      "vertical",
+      "flip"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3 6 2.5-2.5L8 6M5.5 3.5v9M13 10l-2.5 2.5L8 10M10.5 12.5v-9\"/></g></svg>"
+  },
+  {
+    "name": "SystemUpdate",
+    "filename": "system-update.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h1.5\"/><path d=\"m11 7.5-3 3-3-3M8 2.5v8\"/></g></svg>"
+  },
+  {
+    "name": "SwapVerticalSmall",
+    "filename": "swap-vertical-small.svg",
+    "category": "arrows",
+    "tags": [
+      "flip",
+      "arrow",
+      "swap",
+      "vertical"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3 5 2.5-2.5L8 5M5.5 2.5v11M13 11l-2.5 2.5L8 11M10.5 2.5v11\"/></g></svg>"
+  },
+  {
+    "name": "SwapHorizontalSmall",
+    "filename": "swap-horizontal-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "horizontal",
+      "flip",
+      "directions",
+      "swap"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m11 8 2.5 2.5L11 13M2.5 10.5h11M5 8 2.5 5.5 5 3M2.5 5.5h11\"/></g></svg>"
+  },
+  {
+    "name": "SlideRight",
+    "filename": "slide-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M10.5 11l3-3-3-3M2.5 3.5h5M2.5 12.5h5\"/></g></svg>"
+  },
+  {
+    "name": "SlideLeft",
+    "filename": "slide-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M5.5 5l-3 3 3 3M13.5 3.5h-5M13.5 12.5h-5\"/></g></svg>"
+  },
+  {
+    "name": "RightArrowSmall",
+    "filename": "right-arrow-small.svg",
+    "category": "arrows",
+    "tags": [],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m5.5 2.5 6 5.5-6 5.5\"/></svg>"
+  },
+  {
+    "name": "RespondArrow",
+    "filename": "respond-arrow.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m13.5 8-5-4.5v3c-2.773 0-6 1.233-6 6a6.62 6.62 0 0 1 6-3v3z\"/></svg>"
+  },
+  {
+    "name": "ResizeYSmall",
+    "filename": "resize-y-small.svg",
+    "category": "arrows",
+    "tags": [
+      "resize",
+      "vertical",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10 6.5-2-2-2 2M10 9.5l-2 2-2-2M13.5 2.5h-11M13.5 13.5h-11\"/></g></svg>"
+  },
+  {
+    "name": "ResizeXSmall",
+    "filename": "resize-x-small.svg",
+    "category": "arrows",
+    "tags": [
+      "resize",
+      "horizontal",
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9.5 10 2-2-2-2M6.5 10l-2-2 2-2M13.5 13.5v-11M2.5 13.5v-11\"/></g></svg>"
+  },
+  {
+    "name": "ReplyArrow",
+    "filename": "reply-arrow.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.5 8 5-4.5v3c2.773 0 6 1.233 6 6a6.62 6.62 0 0 0-6-3v3z\"/></svg>"
+  },
+  {
+    "name": "Reload",
+    "filename": "reload.svg",
+    "category": "arrows",
+    "tags": [
+      "loading",
+      "loop",
+      "process",
+      "arrow",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.591 7a5.5 5.5 0 0 1 10.694-.527\"/><path d=\"M13.5 2.5v4l-3.969-.493M13.409 9a5.5 5.5 0 0 1-10.694.527\"/><path d=\"M2.5 13.5v-4l3.969.493\"/></g></svg>"
+  },
+  {
+    "name": "Refresh",
+    "filename": "refresh.svg",
+    "category": "arrows",
+    "tags": [
+      "loading",
+      "loop",
+      "process",
+      "arrow",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.606 11.008a5.5 5.5 0 1 1 .679-4.535\"/><path d=\"M13.5 2.5v4l-3.969-.493\"/></g></svg>"
+  },
+  {
+    "name": "Redo",
+    "filename": "redo.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "redo",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 5.5v3h-3\"/><path d=\"M3.5 10.5A4.5 4.5 0 0 1 8 6a4.5 4.5 0 0 1 3 1.15l1.5 1.35\"/></g></svg>"
+  },
+  {
+    "name": "Logout",
+    "filename": "logout.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 5 3 3-3 3M13.5 8h-8M7.5 13.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h3.5\"/></g></svg>"
+  },
+  {
+    "name": "LogOutSmall",
+    "filename": "log-out-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 4.5 3 3m0 0-3 3m3-3h-8M5.5 2.5h-1a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1\"/></g></svg>"
+  },
+  {
+    "name": "LogIn",
+    "filename": "log-in.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 8h-9M8.5 11l3-3-3-3\"/><path d=\"M5.5 4.5V4A1.5 1.5 0 0 1 7 2.5h5A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H7A1.5 1.5 0 0 1 5.5 12v-.5\"/></g></svg>"
+  },
+  {
+    "name": "LeftArrowSmall",
+    "filename": "left-arrow-small.svg",
+    "category": "arrows",
+    "tags": [],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.5 13.5 4.5 8l6-5.5\"/></svg>"
+  },
+  {
+    "name": "Input",
+    "filename": "input.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 8h-8M7.5 11l3-3-3-3\"/><path d=\"M2.5 5.5V4A1.5 1.5 0 0 1 4 2.5h8A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12v-1.5\"/></g></svg>"
+  },
+  {
+    "name": "Forward",
+    "filename": "forward.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 5.5 3-3 3 3M8 2.5v8M2.5 12.5h11M2.5 9.5h3M10.5 9.5h3\"/></g></svg>"
+  },
+  {
+    "name": "FormatRight",
+    "filename": "format-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 5 3 3-3 3M13.5 8h-7M2.5 3.5h6M2.5 12.5h6M2.5 9.5h2M2.5 6.5h2\"/></g></svg>"
+  },
+  {
+    "name": "FormatLeft",
+    "filename": "format-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 11-3-3 3-3M9.5 8h-7M13.5 3.5h-6M13.5 12.5h-6M13.5 9.5h-2M13.5 6.5h-2\"/></g></svg>"
+  },
+  {
+    "name": "FilesUpload",
+    "filename": "files-upload.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5h-.5M2.5 10.5h11\"/><path d=\"M5.5 5 8 2.5 10.5 5M8 8.5v-6\"/></g></svg>"
+  },
+  {
+    "name": "FilesDownload",
+    "filename": "files-download.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5h-.5M2.5 10.5h11\"/><path d=\"M10.5 6 8 8.5 5.5 6M8 2.5v6\"/></g></svg>"
+  },
+  {
+    "name": "Enlarge",
+    "filename": "enlarge.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m11.5 10.5-3.5 3-3.5-3M4.5 5.5l3.5-3 3.5 3\"/></g></svg>"
+  },
+  {
+    "name": "EnlargeH",
+    "filename": "enlarge-h.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 11.5 2.5 8l3-3.5M10.5 4.5l3 3.5-3 3.5\"/></g></svg>"
+  },
+  {
+    "name": "Download",
+    "filename": "download.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "data",
+      "file",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 5.5H4A1.5 1.5 0 0 0 2.5 7v4A1.5 1.5 0 0 0 4 12.5h8a1.5 1.5 0 0 0 1.5-1.5V7A1.5 1.5 0 0 0 12 5.5h-1.5\"/><path d=\"m11 7.5-3 3-3-3M8 2.5v8\"/></g></svg>"
+  },
+  {
+    "name": "DownloadData",
+    "filename": "download-data.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "import",
+      "download",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 8.5v-4h-3v4h-2l3.5 4 3.5-4zM10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v1.5M5.5 2.5H4A1.5 1.5 0 0 0 2.5 4v1.5M10.5 13.5H12a1.5 1.5 0 0 0 1.5-1.5v-1.5M5.5 13.5H4A1.5 1.5 0 0 1 2.5 12v-1.5\"/></g></svg>"
+  },
+  {
+    "name": "DownArrowSmall",
+    "filename": "down-arrow-small.svg",
+    "category": "arrows",
+    "tags": [],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.5 5.5 5.5 6 5.5-6\"/></svg>"
+  },
+  {
+    "name": "DoubleArrowRight",
+    "filename": "double-arrow-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "forward",
+      "more"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3.5 2.5 6 5.5-6 5.5\"/><path d=\"m7.5 2.5 6 5.5-6 5.5\"/></g></svg>"
+  },
+  {
+    "name": "DoubleArrowLeft",
+    "filename": "double-arrow-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "back",
+      "backward"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 2.5 6.5 8l6 5.5\"/><path d=\"M8.5 2.5 2.5 8l6 5.5\"/></g></svg>"
+  },
+  {
+    "name": "DataUpload",
+    "filename": "data-upload.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "top",
+      "up",
+      "upload",
+      "push",
+      "data",
+      "file"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 6.5v4h-3v-4h-2l3.5-4 3.5 4z\"/><path d=\"M13.5 9.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V9.5\"/></g></svg>"
+  },
+  {
+    "name": "DataDownload",
+    "filename": "data-download.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "file",
+      "data",
+      "import",
+      "download"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 6.5v-4h-3v4h-2l3.5 4 3.5-4z\"/><path d=\"M13.5 9.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V9.5\"/></g></svg>"
+  },
+  {
+    "name": "Cycle",
+    "filename": "cycle.svg",
+    "category": "arrows",
+    "tags": [
+      "loading",
+      "loop",
+      "process",
+      "arrow",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 2.5 2 2H6a3.5 3.5 0 1 0 0 7h.5M10.5 13.5l-2-2H10a3.5 3.5 0 1 0 0-7h-.5\"/></g></svg>"
+  },
+  {
+    "name": "CurvedArrowRight",
+    "filename": "curved-arrow-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left",
+      "forward",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10 6 3.5 3.5L10 13\"/><path d=\"M13.5 9.5H6a3.5 3.5 0 1 1 0-7h3.5\"/></g></svg>"
+  },
+  {
+    "name": "CurvedArrowLeft",
+    "filename": "curved-arrow-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right",
+      "back",
+      "refresh"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 9.5H10a3.5 3.5 0 1 0 0-7H6.5\"/><path d=\"M6 6 2.5 9.5 6 13\"/></g></svg>"
+  },
+  {
+    "name": "ConversionSmall",
+    "filename": "conversion-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "horizontal",
+      "flip",
+      "directions",
+      "swap",
+      "conversion"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 9.5h-11l4 4M2.5 6.5h11l-4-4\"/></g></svg>"
+  },
+  {
+    "name": "ChevronUp",
+    "filename": "chevron-up.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 10.5 4-4 4 4\"/></svg>"
+  },
+  {
+    "name": "ChevronUpSmall",
+    "filename": "chevron-up-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 8.5-2-2-2 2\"/></svg>"
+  },
+  {
+    "name": "ChevronRight",
+    "filename": "chevron-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m6.5 12 4-4-4-4\"/></svg>"
+  },
+  {
+    "name": "ChevronRightSmall",
+    "filename": "chevron-right-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m7.5 10 2-2-2-2\"/></svg>"
+  },
+  {
+    "name": "ChevronLeft",
+    "filename": "chevron-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10.5 12-4-4 4-4\"/></svg>"
+  },
+  {
+    "name": "ChevronLeftSmall",
+    "filename": "chevron-left-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9.5 10-2-2 2-2\"/></svg>"
+  },
+  {
+    "name": "ChevronDown",
+    "filename": "chevron-down.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 6.5 4 4 4-4\"/></svg>"
+  },
+  {
+    "name": "ChevronDownSmall",
+    "filename": "chevron-down-small.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 6.5-2 2-2-2\"/></svg>"
+  },
+  {
+    "name": "Backward",
+    "filename": "backward.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 10.5 3 3 3-3M8 13.5v-8M2.5 3.5h11M2.5 6.5h3M10.5 6.5h3\"/></g></svg>"
+  },
+  {
+    "name": "ArrowsMaximize",
+    "filename": "arrows-maximize.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "fullscreen",
+      "expand"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" d=\"M13.5 1.5 9 6m4.5-4.5H9m4.5 0V6m-12 7.5L6 9m-4.5 4.5H6m-4.5 0V9\"/></svg>"
+  },
+  {
+    "name": "ArrowUp",
+    "filename": "arrow-up.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "up"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 2.5v11M4 6.5l4-4 4 4\"/></g></svg>"
+  },
+  {
+    "name": "ArrowRight",
+    "filename": "arrow-right.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "right"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 8h-11M9.5 4l4 4-4 4\"/></g></svg>"
+  },
+  {
+    "name": "ArrowMinimize",
+    "filename": "arrow-minimize.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "exit",
+      "close",
+      "shrink"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\"><path d=\"M9.5 6.5 14 2M9.5 6.5H14m-4.5 0V2M6.5 9.5 2 14m4.5-4.5H2m4.5 0V14\"/></g></svg>"
+  },
+  {
+    "name": "ArrowLeft",
+    "filename": "arrow-left.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "left"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M6.5 12l-4-4 4-4\"/></g></svg>"
+  },
+  {
+    "name": "ArrowDown",
+    "filename": "arrow-down.svg",
+    "category": "arrows",
+    "tags": [
+      "arrow",
+      "down"
+    ],
+    "width": 16,
+    "height": 16,
+    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13.5v-11M12 9.5l-4 4-4-4\"/></g></svg>"
+  },
+  {
     "name": "DistributeVertical",
     "filename": "distribute-vertical.svg",
     "category": "alignment",
@@ -8356,836 +9165,6 @@ export const iconMetadata: Array<{
     "width": 16,
     "height": 16,
     "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 12.5h10\"/><path fill=\"currentColor\" d=\"M4.5 10.5v-8h2v8zM8.5 10.5v-5h2v5z\"/></g></svg>"
-  },
-  {
-    "name": "Upload",
-    "filename": "upload.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "top",
-      "up",
-      "upload",
-      "push",
-      "data",
-      "file"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 7.5H4A1.5 1.5 0 0 0 2.5 9v3A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 12 7.5h-1.5M5 5.5l3-3 3 3M8 10.5v-8\"/></g></svg>"
-  },
-  {
-    "name": "UploadData",
-    "filename": "upload-data.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "top",
-      "up",
-      "upload",
-      "push",
-      "file"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 7.5 8 3.5l-3.5 4h2v4h3v-4zM13.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5h-1.5M2.5 10.5V12A1.5 1.5 0 0 0 4 13.5h1.5M13.5 5.5V4A1.5 1.5 0 0 0 12 2.5h-1.5M2.5 5.5V4A1.5 1.5 0 0 1 4 2.5h1.5\"/></g></svg>"
-  },
-  {
-    "name": "Undo",
-    "filename": "undo.svg",
-    "category": "arrows",
-    "tags": [
-      "common",
-      "arrow",
-      "left",
-      "back",
-      "backward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 5.5v3h3\"/><path d=\"M12.5 10.5A4.5 4.5 0 0 0 8 6a4.5 4.5 0 0 0-3 1.15L3.5 8.5\"/></g></svg>"
-  },
-  {
-    "name": "UndoSmall",
-    "filename": "undo-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "left",
-      "back",
-      "backward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3.5 5.5v3h3\"/><path d=\"M12.5 10.5A4.5 4.5 0 0 0 8 6a4.5 4.5 0 0 0-3 1.15L3.5 8.5\"/></g></svg>"
-  },
-  {
-    "name": "TriangleUp",
-    "filename": "triangle-up.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "up"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 11.5h11L8 3.5z\"/></svg>"
-  },
-  {
-    "name": "TriangleRight",
-    "filename": "triangle-right.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "right"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.5 2.5v11l8-5.5z\"/></svg>"
-  },
-  {
-    "name": "TriangleLeft",
-    "filename": "triangle-left.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "left"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.5 2.5v11L3.5 8z\"/></svg>"
-  },
-  {
-    "name": "TriangleDown",
-    "filename": "triangle-down.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "down"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M2.5 4.5h11l-5.5 8z\"/></svg>"
-  },
-  {
-    "name": "TransactionSmall",
-    "filename": "transaction-small.svg",
-    "category": "common",
-    "tags": [
-      "arrow",
-      "common",
-      "horizontal",
-      "flip",
-      "directions",
-      "swap"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 13.5 3-3-3-3M13.5 10.5h-6M5.5 2.5l-3 3 3 3M2.5 5.5h6\"/></g></svg>"
-  },
-  {
-    "name": "TrafficSmall",
-    "filename": "traffic-small.svg",
-    "category": "common",
-    "tags": [
-      "arrow",
-      "common",
-      "swap",
-      "vertical",
-      "flip"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3 6 2.5-2.5L8 6M5.5 3.5v9M13 10l-2.5 2.5L8 10M10.5 12.5v-9\"/></g></svg>"
-  },
-  {
-    "name": "SystemUpdate",
-    "filename": "system-update.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "data",
-      "file",
-      "import",
-      "download"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h1.5\"/><path d=\"m11 7.5-3 3-3-3M8 2.5v8\"/></g></svg>"
-  },
-  {
-    "name": "SwapVerticalSmall",
-    "filename": "swap-vertical-small.svg",
-    "category": "common",
-    "tags": [
-      "flip",
-      "arrow",
-      "common",
-      "swap",
-      "vertical"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3 5 2.5-2.5L8 5M5.5 2.5v11M13 11l-2.5 2.5L8 11M10.5 2.5v11\"/></g></svg>"
-  },
-  {
-    "name": "SwapHorizontalSmall",
-    "filename": "swap-horizontal-small.svg",
-    "category": "common",
-    "tags": [
-      "arrow",
-      "common",
-      "horizontal",
-      "flip",
-      "directions",
-      "swap"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m11 8 2.5 2.5L11 13M2.5 10.5h11M5 8 2.5 5.5 5 3M2.5 5.5h11\"/></g></svg>"
-  },
-  {
-    "name": "SlideRight",
-    "filename": "slide-right.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "right",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M10.5 11l3-3-3-3M2.5 3.5h5M2.5 12.5h5\"/></g></svg>"
-  },
-  {
-    "name": "SlideLeft",
-    "filename": "slide-left.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "left",
-      "back",
-      "backward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M5.5 5l-3 3 3 3M13.5 3.5h-5M13.5 12.5h-5\"/></g></svg>"
-  },
-  {
-    "name": "RespondArrow",
-    "filename": "respond-arrow.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "right",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m13.5 8-5-4.5v3c-2.773 0-6 1.233-6 6a6.62 6.62 0 0 1 6-3v3z\"/></svg>"
-  },
-  {
-    "name": "ResizeYSmall",
-    "filename": "resize-y-small.svg",
-    "category": "common",
-    "tags": [
-      "resize",
-      "vertical",
-      "arrow"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10 6.5-2-2-2 2M10 9.5l-2 2-2-2M13.5 2.5h-11M13.5 13.5h-11\"/></g></svg>"
-  },
-  {
-    "name": "ResizeXSmall",
-    "filename": "resize-x-small.svg",
-    "category": "common",
-    "tags": [
-      "resize",
-      "horizontal",
-      "arrow",
-      "common"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m9.5 10 2-2-2-2M6.5 10l-2-2 2-2M13.5 13.5v-11M2.5 13.5v-11\"/></g></svg>"
-  },
-  {
-    "name": "ReplyArrow",
-    "filename": "reply-arrow.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "left",
-      "back",
-      "backward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m2.5 8 5-4.5v3c2.773 0 6 1.233 6 6a6.62 6.62 0 0 0-6-3v3z\"/></svg>"
-  },
-  {
-    "name": "Reload",
-    "filename": "reload.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "loading",
-      "loop",
-      "process",
-      "arrow",
-      "refresh"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.591 7a5.5 5.5 0 0 1 10.694-.527\"/><path d=\"M13.5 2.5v4l-3.969-.493M13.409 9a5.5 5.5 0 0 1-10.694.527\"/><path d=\"M2.5 13.5v-4l3.969.493\"/></g></svg>"
-  },
-  {
-    "name": "Refresh",
-    "filename": "refresh.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "loading",
-      "loop",
-      "process",
-      "arrow",
-      "refresh"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.606 11.008a5.5 5.5 0 1 1 .679-4.535\"/><path d=\"M13.5 2.5v4l-3.969-.493\"/></g></svg>"
-  },
-  {
-    "name": "Redo",
-    "filename": "redo.svg",
-    "category": "arrows",
-    "tags": [
-      "common",
-      "arrow",
-      "right",
-      "redo",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 5.5v3h-3\"/><path d=\"M3.5 10.5A4.5 4.5 0 0 1 8 6a4.5 4.5 0 0 1 3 1.15l1.5 1.35\"/></g></svg>"
-  },
-  {
-    "name": "RedoSmall",
-    "filename": "redo-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "right",
-      "redo",
-      "forward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 5.5v3h-3\"/><path d=\"M3.5 10.5A4.5 4.5 0 0 1 8 6a4.5 4.5 0 0 1 3 1.15l1.5 1.35\"/></g></svg>"
-  },
-  {
-    "name": "Logout",
-    "filename": "logout.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "right",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 5 3 3-3 3M13.5 8h-8M7.5 13.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h3.5\"/></g></svg>"
-  },
-  {
-    "name": "LogOutSmall",
-    "filename": "log-out-small.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "right",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 4.5 3 3m0 0-3 3m3-3h-8M5.5 2.5h-1a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1\"/></g></svg>"
-  },
-  {
-    "name": "LogIn",
-    "filename": "log-in.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "right",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11.5 8h-9M8.5 11l3-3-3-3\"/><path d=\"M5.5 4.5V4A1.5 1.5 0 0 1 7 2.5h5A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H7A1.5 1.5 0 0 1 5.5 12v-.5\"/></g></svg>"
-  },
-  {
-    "name": "Input",
-    "filename": "input.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "data",
-      "file"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10.5 8h-8M7.5 11l3-3-3-3\"/><path d=\"M2.5 5.5V4A1.5 1.5 0 0 1 4 2.5h8A1.5 1.5 0 0 1 13.5 4v8a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12v-1.5\"/></g></svg>"
-  },
-  {
-    "name": "Forward",
-    "filename": "forward.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "top",
-      "up",
-      "upload",
-      "push"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 5.5 3-3 3 3M8 2.5v8M2.5 12.5h11M2.5 9.5h3M10.5 9.5h3\"/></g></svg>"
-  },
-  {
-    "name": "FormatRight",
-    "filename": "format-right.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "right",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10.5 5 3 3-3 3M13.5 8h-7M2.5 3.5h6M2.5 12.5h6M2.5 9.5h2M2.5 6.5h2\"/></g></svg>"
-  },
-  {
-    "name": "FormatLeft",
-    "filename": "format-left.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "left",
-      "back",
-      "backward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 11-3-3 3-3M9.5 8h-7M13.5 3.5h-6M13.5 12.5h-6M13.5 9.5h-2M13.5 6.5h-2\"/></g></svg>"
-  },
-  {
-    "name": "FilesUpload",
-    "filename": "files-upload.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "data",
-      "file"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5h-.5M2.5 10.5h11\"/><path d=\"M5.5 5 8 2.5 10.5 5M8 8.5v-6\"/></g></svg>"
-  },
-  {
-    "name": "FilesDownload",
-    "filename": "files-download.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "data",
-      "file",
-      "import",
-      "download"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4.5 2.5H4A1.5 1.5 0 0 0 2.5 4v8A1.5 1.5 0 0 0 4 13.5h8a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 12 2.5h-.5M2.5 10.5h11\"/><path d=\"M10.5 6 8 8.5 5.5 6M8 2.5v6\"/></g></svg>"
-  },
-  {
-    "name": "Enlarge",
-    "filename": "enlarge.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m11.5 10.5-3.5 3-3.5-3M4.5 5.5l3.5-3 3.5 3\"/></g></svg>"
-  },
-  {
-    "name": "EnlargeH",
-    "filename": "enlarge-h.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 11.5 2.5 8l3-3.5M10.5 4.5l3 3.5-3 3.5\"/></g></svg>"
-  },
-  {
-    "name": "Download",
-    "filename": "download.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "data",
-      "file",
-      "import",
-      "download"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5.5 5.5H4A1.5 1.5 0 0 0 2.5 7v4A1.5 1.5 0 0 0 4 12.5h8a1.5 1.5 0 0 0 1.5-1.5V7A1.5 1.5 0 0 0 12 5.5h-1.5\"/><path d=\"m11 7.5-3 3-3-3M8 2.5v8\"/></g></svg>"
-  },
-  {
-    "name": "DownloadData",
-    "filename": "download-data.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "import",
-      "download",
-      "file"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 8.5v-4h-3v4h-2l3.5 4 3.5-4zM10.5 2.5H12A1.5 1.5 0 0 1 13.5 4v1.5M5.5 2.5H4A1.5 1.5 0 0 0 2.5 4v1.5M10.5 13.5H12a1.5 1.5 0 0 0 1.5-1.5v-1.5M5.5 13.5H4A1.5 1.5 0 0 1 2.5 12v-1.5\"/></g></svg>"
-  },
-  {
-    "name": "DoubleArrowRight",
-    "filename": "double-arrow-right.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "right",
-      "forward",
-      "more"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m3.5 2.5 6 5.5-6 5.5\"/><path d=\"m7.5 2.5 6 5.5-6 5.5\"/></g></svg>"
-  },
-  {
-    "name": "DoubleArrowLeft",
-    "filename": "double-arrow-left.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "left",
-      "back",
-      "backward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12.5 2.5 6.5 8l6 5.5\"/><path d=\"M8.5 2.5 2.5 8l6 5.5\"/></g></svg>"
-  },
-  {
-    "name": "DataUpload",
-    "filename": "data-upload.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "top",
-      "up",
-      "upload",
-      "push",
-      "data",
-      "file"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 6.5v4h-3v-4h-2l3.5-4 3.5 4z\"/><path d=\"M13.5 9.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V9.5\"/></g></svg>"
-  },
-  {
-    "name": "DataDownload",
-    "filename": "data-download.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "file",
-      "data",
-      "import",
-      "download"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.5 6.5v-4h-3v4h-2l3.5 4 3.5-4z\"/><path d=\"M13.5 9.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V9.5\"/></g></svg>"
-  },
-  {
-    "name": "Cycle",
-    "filename": "cycle.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "loading",
-      "loop",
-      "process",
-      "arrow",
-      "refresh"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5.5 2.5 2 2H6a3.5 3.5 0 1 0 0 7h.5M10.5 13.5l-2-2H10a3.5 3.5 0 1 0 0-7h-.5\"/></g></svg>"
-  },
-  {
-    "name": "CurvedArrowRight",
-    "filename": "curved-arrow-right.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "left",
-      "forward"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m10 6 3.5 3.5L10 13\"/><path d=\"M13.5 9.5H6a3.5 3.5 0 1 1 0-7h3.5\"/></g></svg>"
-  },
-  {
-    "name": "CurvedArrowLeft",
-    "filename": "curved-arrow-left.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "right",
-      "back"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 9.5H10a3.5 3.5 0 1 0 0-7H6.5\"/><path d=\"M6 6 2.5 9.5 6 13\"/></g></svg>"
-  },
-  {
-    "name": "ConversionSmall",
-    "filename": "conversion-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "horizontal",
-      "flip",
-      "directions",
-      "swap",
-      "conversion"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 9.5h-11l4 4M2.5 6.5h11l-4-4\"/></g></svg>"
-  },
-  {
-    "name": "ChevronUp",
-    "filename": "chevron-up.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "up"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 10.5 4-4 4 4\"/></svg>"
-  },
-  {
-    "name": "ChevronUpSmall",
-    "filename": "chevron-up-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "up"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 8.5-2-2-2 2\"/></svg>"
-  },
-  {
-    "name": "ChevronRight",
-    "filename": "chevron-right.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "right"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m6.5 12 4-4-4-4\"/></svg>"
-  },
-  {
-    "name": "ChevronRightSmall",
-    "filename": "chevron-right-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "right"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m7.5 10 2-2-2-2\"/></svg>"
-  },
-  {
-    "name": "ChevronLeft",
-    "filename": "chevron-left.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "left"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10.5 12-4-4 4-4\"/></svg>"
-  },
-  {
-    "name": "ChevronLeftSmall",
-    "filename": "chevron-left-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "left"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9.5 10-2-2 2-2\"/></svg>"
-  },
-  {
-    "name": "ChevronDown",
-    "filename": "chevron-down.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "down"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4 6.5 4 4 4-4\"/></svg>"
-  },
-  {
-    "name": "ChevronDownSmall",
-    "filename": "chevron-down-small.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "down"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m10 6.5-2 2-2-2\"/></svg>"
-  },
-  {
-    "name": "Backward",
-    "filename": "backward.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m5 10.5 3 3 3-3M8 13.5v-8M2.5 3.5h11M2.5 6.5h3M10.5 6.5h3\"/></g></svg>"
-  },
-  {
-    "name": "ArrowsMaximize",
-    "filename": "arrows-maximize.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "fullscreen",
-      "expand"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\" d=\"M13.5 1.5 9 6m4.5-4.5H9m4.5 0V6m-12 7.5L6 9m-4.5 4.5H6m-4.5 0V9\"/></svg>"
-  },
-  {
-    "name": "ArrowUp",
-    "filename": "arrow-up.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "up"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 2.5v11M4 6.5l4-4 4 4\"/></g></svg>"
-  },
-  {
-    "name": "ArrowRight",
-    "filename": "arrow-right.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "right"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M13.5 8h-11M9.5 4l4 4-4 4\"/></g></svg>"
-  },
-  {
-    "name": "ArrowMinimize",
-    "filename": "arrow-minimize.svg",
-    "category": "arrows",
-    "tags": [
-      "arrow",
-      "exit",
-      "close",
-      "shrink"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-miterlimit=\"10\"><path d=\"M9.5 6.5 14 2M9.5 6.5H14m-4.5 0V2M6.5 9.5 2 14m4.5-4.5H2m4.5 0V14\"/></g></svg>"
-  },
-  {
-    "name": "ArrowLeft",
-    "filename": "arrow-left.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "left"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 8h11M6.5 12l-4-4 4-4\"/></g></svg>"
-  },
-  {
-    "name": "ArrowDown",
-    "filename": "arrow-down.svg",
-    "category": "common",
-    "tags": [
-      "common",
-      "arrow",
-      "down"
-    ],
-    "width": 16,
-    "height": 16,
-    "optimizedSvg": "<svg width=\"16\" height=\"16\" fill=\"none\" viewBox=\"0 0 16 16\"><g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 13.5v-11M12 9.5l-4 4-4-4\"/></g></svg>"
   },
   {
     "name": "XCircle",

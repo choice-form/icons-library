@@ -1,12 +1,11 @@
 {
   "name": "TrafficSmall",
   "filename": "traffic-small.svg",
-  "category": "common",
+  "category": "arrows",
   "width": 16,
   "height": 16,
   "tags": [
     "arrow",
-    "common",
     "swap",
     "vertical",
     "flip"

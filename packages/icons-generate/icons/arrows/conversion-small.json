@@ -1,11 +1,10 @@
 {
   "name": "ConversionSmall",
   "filename": "conversion-small.svg",
-  "category": "common",
+  "category": "arrows",
   "width": 16,
   "height": 16,
   "tags": [
-    "common",
     "arrow",
     "horizontal",
     "flip",
