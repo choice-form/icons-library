@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-preview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SVG icon preview for Choiceform",
   "type": "module",
   "scripts": {
@@ -17,27 +17,27 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^18.3.3",
+    "@choiceform/icons-generate": "workspace:*",
+    "@tailwindcss/vite": "^4.1.4",
+    "@types/react": "^18.3.20",
     "@types/react-syntax-highlighter": "^15.5.13",
-    "@vitejs/plugin-react": "^4.3.1",
-    "framer-motion": "^11.2.13",
-    "fuse.js": "^7.0.0",
+    "@vitejs/plugin-react": "^4.4.1",
+    "framer-motion": "^11.18.2",
+    "fuse.js": "^7.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.5.2",
-    "react-syntax-highlighter": "^15.5.0",
-    "sonner": "^1.4.41",
-    "typescript": "^5.4.5",
-    "usehooks-ts": "^3.1.0",
-    "vite": "^5.3.1"
+    "react-router-dom": "^7.5.3",
+    "react-syntax-highlighter": "^15.6.1",
+    "sonner": "^1.7.4",
+    "typescript": "^5.8.3",
+    "usehooks-ts": "^3.1.1",
+    "vite": "^5.4.19"
   },
   "dependencies": {
-    "@choiceform/design-system": "^0.1.5",
-    "@choiceform/icons-generate": "workspace:*",
-    "@tailwindcss/vite": "^4.0.4",
-    "@tanstack/react-virtual": "^3.12.1",
-    "@types/react-dom": "^19.1.2",
-    "tailwindcss": "^4.1.4",
+    "@choiceform/design-system": "^0.1.7",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/react-dom": "^19.1.3",
+    "tailwindcss": "^4.1.5",
     "use-resize-observer": "9.1.0"
   }
 }

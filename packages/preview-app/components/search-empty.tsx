@@ -1,5 +1,5 @@
 import { Button } from "@choiceform/design-system";
-import { Search } from "@choiceform/icons-library";
+import { Search } from "@choiceform/icons-generate";
 
 interface SearchEmptyProps {
   searchTerm: string;
@@ -8,7 +8,7 @@ interface SearchEmptyProps {
 
 export const SearchEmpty = ({ searchTerm, onClear }: SearchEmptyProps) => {
   return (
-    <div className="flex flex-col items-center justify-center py-8 px-4 text-secondary">
+    <div className="flex flex-col items-center justify-center py-8 px-4 text-secondary_text">
       <Search width={64} height={64} />
       <p className="p-8 text-base">No icons found matching "{searchTerm}".</p>
 

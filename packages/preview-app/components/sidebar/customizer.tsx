@@ -1,5 +1,5 @@
 import { IconButton, Range } from "@choiceform/design-system";
-import { Refresh } from "@choiceform/icons-library";
+import { Refresh } from "@choiceform/icons-generate";
 import { forwardRef } from "react";
 import { useCustomizer } from "../../context";
 
@@ -21,7 +21,7 @@ export const Customizer = forwardRef<
     <div
       ref={ref}
       {...props}
-      className="pl-4 pr-2 pt-2 pb-4 bg-body rounded-field mr-4
+      className="pl-4 pr-2 pt-2 pb-4 bg-default_bg rounded-md mr-4
       grid grid-cols-[1fr_auto] gap-2 items-center"
     >
       <h2 className="text-sm font-medium">Customizer</h2>
@@ -42,8 +42,8 @@ export const Customizer = forwardRef<
       <span>Color</span>
       <label
         htmlFor="color-picker"
-        className="relative flex items-center gap-1 bg-light-100 rounded-field px-2 py-1
-        border border-transparent hover:border-accent"
+        className="relative flex items-center gap-1 bg-secondary_bg rounded-md px-2 py-1
+        border border-transparent hover:border-selected_border"
       >
         <div
           className="w-4 h-4 rounded-full"

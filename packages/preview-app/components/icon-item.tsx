@@ -20,8 +20,8 @@ export const IconItem = memo(function IconItem(props: IconItemProps) {
         <div
           className={tcx(
             "flex h-12 w-12 items-center justify-center rounded-md border-2 border-transparent",
-            "bg-light-50 hover:bg-light-100",
-            isSelected && "border-accent",
+            "bg-secondary_bg hover:bg-secondary_bg/50",
+            isSelected && "border-selected_border"
           )}
           onMouseDown={() => onIconSelect(icon)}
         >

@@ -1,19 +1,19 @@
-# @choiceform/icons-library-preview
+# @choiceform/icons-generate-preview
 
 Icon Library Preview App
 
-This project provides a visual preview, search, and category browsing interface for all SVG icons available in the Choiceform icon library (@choiceform/icons-library). It is designed to help designers and developers easily find, compare, and test all available icons.
+This project provides a visual preview, search, and category browsing interface for all SVG icons available in the Choiceform icon library (@choiceform/icons-generate). It is designed to help designers and developers easily find, compare, and test all available icons.
 
 ## Features
 
-- Browse and search all icons from @choiceform/icons-library
+- Browse and search all icons from @choiceform/icons-generate
 - Filter by category and tags
 - View usage code for each icon component
 - Responsive design for various screen sizes
 
 ## Installation & Dependencies
 
-This project depends on the icons-library package. Install all dependencies from the monorepo root:
+This project depends on the icons-generate package. Install all dependencies from the monorepo root:
 
 ```bash
 pnpm install
@@ -24,7 +24,7 @@ pnpm install
 From the monorepo root, run:
 
 ```bash
-pnpm --filter @choiceform/icons-library-preview dev
+pnpm --filter @choiceform/icons-generate-preview dev
 ```
 
 After starting, open the local address shown in the terminal (e.g., http://localhost:5173) to browse the icon preview app.
@@ -32,7 +32,7 @@ After starting, open the local address shown in the terminal (e.g., http://local
 ## Build for Production
 
 ```bash
-pnpm --filter @choiceform/icons-library-preview build
+pnpm --filter @choiceform/icons-generate-preview build
 ```
 
 The build output will be in the `dist/` directory and can be deployed to any static server.

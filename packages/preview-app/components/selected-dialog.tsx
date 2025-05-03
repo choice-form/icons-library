@@ -1,10 +1,10 @@
 import { Button, IconButton } from "@choiceform/design-system";
 import {
-  FieldDuplicate,
-  FileDownload,
+  Duplicate,
+  FilesDownload,
   Folder,
   RemoveSmall,
-} from "@choiceform/icons-library";
+} from "@choiceform/icons-generate";
 import { motion } from "framer-motion";
 import { Prism, SyntaxHighlighterProps } from "react-syntax-highlighter";
 import {
@@ -42,9 +42,9 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
   return (
     <motion.div
       className="fixed bottom-0 left-4 right-4
-      lg:left-[var(--icon-browser-padding-left)]
-      lg:right-[var(--icon-browser-padding-right)]
-      rounded-t-xl p-4 bg-anchor shadow-medium"
+      lg:left-(--icon-browser-padding-left)
+      lg:right-(--icon-browser-padding-right)
+      rounded-t-lg p-4 bg-default_bg shadow-xl"
       initial={{ opacity: 0, y: 32 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 32 }}
@@ -52,14 +52,13 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
     >
       <div className="grid sm:grid-cols-[auto_1fr] gap-8">
         <div
-          className="bg-gray-100 rounded-md overflow-hidden p-4
+          className="bg-secondary_bg rounded-md overflow-hidden p-4
           flex items-center justify-center self-start
-          icon-detail__preview-wrapper
-          dark:bg-gray-800"
+          icon-detail__preview-wrapper"
           style={{
             width: `calc(${Number(selectedIcon.width) * 8}px - 1px + 32px)`,
             height: `calc(${Number(selectedIcon.height) * 8}px - 1px + 32px)`,
-            boxShadow: "0 0 0 1px var(--color-light-200)",
+            boxShadow: "0 0 0 1px var(--color-default_border)",
           }}
         >
           <selectedIcon.IconComponent
@@ -76,10 +75,10 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
         </IconButton>
 
         <div className="flex flex-col items-start gap-4 min-w-0">
-          <span className="text-base font-medium">
+          <span className="text-lg font-medium">
             {selectedIcon.filename.replace(".svg", "").replace(/\[.*?\]/g, "")}
           </span>
-          <span className="text-sm text-secondary capitalize flex gap-2 items-center">
+          <span className="text-sm text-secondary_text capitalize flex gap-2 items-center">
             <Folder />
             {selectedIcon.category}
           </span>
@@ -88,7 +87,7 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
             {selectedIcon.tags.map((tag) => (
               <span
                 key={tag}
-                className="bg-light-100 rounded-full px-1.5 h-field-small"
+                className="bg-secondary_bg rounded-full px-1.5 h-field-small"
               >
                 {tag}
               </span>
@@ -97,15 +96,15 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
 
           <div className="flex gap-2 flex-wrap">
             <Button variant="solid" onClick={handleCopySVG}>
-              <FieldDuplicate />
+              <Duplicate />
               Copy SVG
             </Button>
             <Button variant="solid" onClick={handleDownloadSVG}>
-              <FileDownload />
+              <FilesDownload />
               Download SVG
             </Button>
             <Button variant="solid" onClick={handleCopyReactComponent}>
-              <FieldDuplicate />
+              <Duplicate />
               Copy React Component
             </Button>
           </div>

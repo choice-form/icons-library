@@ -17,9 +17,9 @@ export const CategorySidebar = (props: CategorySidebarProps) => {
     groupedAndSortedIcons,
   } = props;
   return (
-    <div className="pt-[var(--nav-height)] flex flex-col gap-4 pb-32">
+    <div className="pt-(--nav-height) flex flex-col gap-4 pb-32">
       <Customizer />
-      <div className="text-sm font-medium mb-1 px-1 text-secondary">
+      <div className="text-sm font-medium mb-1 px-1 text-secondary_text">
         Categories
       </div>
       <nav className="flex flex-col gap-1 pr-4">

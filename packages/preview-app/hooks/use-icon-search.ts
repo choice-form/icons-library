@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import * as Icons from "@choiceform/icons-library";
-import { iconMetadata } from "@choiceform/icons-library";
+import * as Icons from "@choiceform/icons-generate";
+import { iconMetadata } from "@choiceform/icons-generate";
 import type { IconComponentProps, IconItemData, IconMetadata } from "../types";
 
 export function useIconSearch() {
@@ -61,9 +61,9 @@ export function useIconSearch() {
     () =>
       Object.values(groupedAndSortedIcons).reduce(
         (sum, icons) => sum + icons.length,
-        0,
+        0
       ),
-    [groupedAndSortedIcons],
+    [groupedAndSortedIcons]
   );
 
   return {

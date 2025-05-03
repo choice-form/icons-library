@@ -33,7 +33,7 @@ export const IconBrowser = () => {
   const virtualRows = useVirtualRows(
     sortedCategories,
     groupedAndSortedIcons,
-    columnCount,
+    columnCount
   );
 
   const rowVirtualizer = useVirtualizer({
@@ -50,7 +50,7 @@ export const IconBrowser = () => {
   const { activeCategory, handleCategoryClick, TITLE_HEIGHT } = useCategorySync(
     virtualRows,
     rowVirtualizer,
-    parentRef,
+    parentRef
   );
 
   const handleIconSelect = useCallback((iconData: IconItemData) => {
@@ -93,7 +93,7 @@ export const IconBrowser = () => {
 
   const codeExample = selectedIcon
     ? `
-import { ${selectedIcon.name} } from "@choiceform/icons-library";
+import { ${selectedIcon.name} } from "@choiceform/icons-generate";
 
 const MyComponent = () => {
   return (
@@ -110,7 +110,7 @@ export default MyComponent;
       icons: IconItemData[],
       isSelected: (name: string) => boolean,
       onIconSelect: (icon: IconItemData) => void,
-      colCount: number,
+      colCount: number
     ) => {
       return (
         <div className="flex flex-row px-3 lg:px-0">
@@ -135,15 +135,15 @@ export default MyComponent;
         </div>
       );
     },
-    [ICON_SIZE, GAP],
+    [ICON_SIZE, GAP]
   );
 
   return (
     <>
       <aside
-        className="fixed z-10 bg-light-50 left-0 inset-y-0
-         w-[var(--sidebar-container-width)]
-         pl-[var(--sidebar-padding-left)] hidden lg:block"
+        className="fixed z-10 bg-secondary_bg left-0 inset-y-0
+         w-(--sidebar-container-width)
+         pl-(--sidebar-padding-left) hidden lg:block"
       >
         <Scroll className="h-screen">
           <Scroll.Viewport className="h-full">
@@ -161,8 +161,8 @@ export default MyComponent;
         <Scroll>
           <Scroll.Viewport
             className="flex-1 h-screen min-w-0 overflow-auto pt-16 pb-64
-             pl-[var(--icon-browser-padding-left)]
-             pr-[var(--icon-browser-padding-right)]"
+             pl-(--icon-browser-padding-left)
+             pr-(--icon-browser-padding-right)"
             ref={parentRef}
           >
             <SearchBar
@@ -207,7 +207,7 @@ export default MyComponent;
                     {row.type === "title" ? (
                       <div
                         className="w-full h-12 flex items-center
-                         font-medium text-base text-secondary
+                         font-medium text-base text-secondary_text
                          px-5 lg:px-3"
                       >
                         {row.category}
@@ -217,7 +217,7 @@ export default MyComponent;
                         row.icons || [],
                         (name) => selectedIcon?.name === name,
                         handleIconSelect,
-                        columnCount,
+                        columnCount
                       )
                     )}
                   </div>

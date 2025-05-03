@@ -1,10 +1,5 @@
-import {
-  Button,
-  Dropdown,
-  DropdownItem,
-  SearchInput,
-} from "@choiceform/design-system";
-import { Folder } from "@choiceform/icons-library";
+import { Dropdown, SearchInput } from "@choiceform/design-system";
+import { Folder } from "@choiceform/icons-generate";
 import { memo, useEffect, useMemo, useState } from "react";
 
 interface SearchBarProps {
@@ -44,33 +39,28 @@ export const SearchBar = memo((props: SearchBarProps) => {
   return (
     <div
       className="sticky top-0 z-10
-      bg-body mb-4 px-5 flex items-center gap-4
-      shadow-[0_16px_24px_var(--color-body)]
+      bg-default_bg mb-4 px-5 flex items-center gap-4
+      shadow-[0_16px_24px_var(--color-default_bg)]
       lg:px-2"
     >
       {!isLargeScreen && (
-        <Dropdown
-          selection={true}
-          trigger={(open) => (
-            <Button
-              active={open}
-              size="large"
-              variant="secondary"
-              className="text-left justify-start"
-            >
-              <Folder />
-              <span className="hidden md:block truncate">{activeCategory}</span>
-            </Button>
-          )}
-        >
+        <Dropdown selection={true}>
+          <Dropdown.Trigger
+            size="large"
+            variant="secondary"
+            className="text-left justify-start"
+          >
+            <Folder />
+            <span className="hidden md:block truncate">{activeCategory}</span>
+          </Dropdown.Trigger>
           {sortedCategories.map((category) => (
-            <DropdownItem
+            <Dropdown.Item
               key={category}
               selected={activeCategory === category}
               onMouseUp={() => handleCategoryClick(category)}
             >
               {category}
-            </DropdownItem>
+            </Dropdown.Item>
           ))}
         </Dropdown>
       )}

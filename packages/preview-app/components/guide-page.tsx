@@ -27,7 +27,7 @@ export const Guide = () => {
             <section>
               <h2>Introduction</h2>
               <p>
-                @choiceform/icons-library is an SVG icon library for the
+                @choiceform/icons-generate is an SVG icon library for the
                 Choiceform project.
               </p>
               <p>
@@ -84,7 +84,7 @@ export const Guide = () => {
                 >
                   {`{
   "dependencies": {
-    "@choiceform/icons-library": "workspace:*"
+    "@choiceform/icons-generate": "workspace:*"
   }
 }`}
                 </SyntaxHighlighter>
@@ -114,7 +114,7 @@ export const Guide = () => {
                     padding: "1em",
                   }}
                 >
-                  {`import { CheckCircle14, User } from "@choiceform/icons-library";
+                  {`import { CheckCircle14, User } from "@choiceform/icons-generate";
 
 function MyComponent() {
   return (
@@ -139,7 +139,7 @@ function MyComponent() {
               <ol>
                 <li>
                   Place your new <code>.svg</code> file inside the{" "}
-                  <code>packages/icons-library/icons/</code> directory. You can
+                  <code>packages/icons-generate/icons/</code> directory. You can
                   create subdirectories for categorization (e.g.,{" "}
                   <code>icons/ui/</code>, <code>icons/logos/</code>).
                 </li>
@@ -156,9 +156,10 @@ function MyComponent() {
                 <li>
                   <strong>Run Generation:</strong> From the{" "}
                   <strong>monorepo root</strong>, run{" "}
-                  <code>pnpm --filter @choiceform/icons-library generate</code>
-                  (or <code>
-                    pnpm --filter @choiceform/icons-library build
+                  <code>pnpm --filter @choiceform/icons-generate generate</code>
+                  (or{" "}
+                  <code>
+                    pnpm --filter @choiceform/icons-generate build
                   </code>{" "}
                   which includes generation).
                 </li>

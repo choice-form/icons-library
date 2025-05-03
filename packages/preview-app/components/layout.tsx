@@ -19,7 +19,9 @@ export const Layout = () => {
 
   const styles = useMemo(() => {
     return {
-      "--color-accent": iconColor,
+      "--color-accent_bg": iconColor,
+      "--color-accent_text": iconColor,
+      "--color-selected_border": iconColor,
       "--icon-color": iconColor,
       "--icon-stroke-width": iconStrokeWidth,
       "--icon-size": iconSize,

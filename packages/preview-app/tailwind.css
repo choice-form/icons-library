@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@import "@choiceform/design-system/styles/theme.css";
+@import "@choiceform/design-system/styles/components.css";
+@source "../../node_modules/@choiceform/design-system";
 
 body {
   overflow: hidden;
@@ -32,8 +37,8 @@ body {
 
 .icon-detail__preview-wrapper {
   background-image:
-    linear-gradient(to right, var(--color-light-200) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--color-light-200) 1px, transparent 1px);
+    linear-gradient(to right, var(--color-default_border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-default_border) 1px, transparent 1px);
   background-size: 8px 8px;
   background-position: -1px -1px;
 }

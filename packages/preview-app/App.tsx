@@ -1,6 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Guide, IconBrowser, Layout } from "./components";
-import "./tailwind.css";
 
 function App() {
   return (
