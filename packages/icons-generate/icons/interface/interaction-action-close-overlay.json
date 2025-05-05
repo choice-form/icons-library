@@ -1,0 +1,14 @@
+{
+  "name": "InteractionActionCloseOverlay",
+  "filename": "interaction-action-close-overlay.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "interaction",
+    "remove",
+    "delete",
+    "close"
+  ]
+}

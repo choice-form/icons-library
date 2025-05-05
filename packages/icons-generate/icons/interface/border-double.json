@@ -1,0 +1,13 @@
+{
+  "name": "BorderDouble",
+  "filename": "border-double.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "border",
+    "divider",
+    "alignment"
+  ]
+}

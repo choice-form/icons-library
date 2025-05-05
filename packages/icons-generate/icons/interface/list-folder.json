@@ -1,0 +1,16 @@
+{
+  "name": "ListFolder",
+  "filename": "list-folder.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "folder",
+    "directory",
+    "folder-open",
+    "folder-closed",
+    "file",
+    "catalog"
+  ]
+}

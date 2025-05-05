@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Border = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M2.5 3.5h10" /><path fill="currentColor" d="M12.5 6.5h-10v1h10zM12.5 10.5h-10v2h10z" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M12.5 6.5h-10v1h10zM12.5 10.5h-10v2h10z" /></svg>;
+export { Border };
