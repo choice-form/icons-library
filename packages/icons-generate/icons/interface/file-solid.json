@@ -1,0 +1,17 @@
+{
+  "name": "FileSolid",
+  "filename": "file-solid.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "solid",
+    "folder",
+    "directory",
+    "folder-open",
+    "folder-closed",
+    "file",
+    "catalog"
+  ]
+}

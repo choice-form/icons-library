@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InteractionActionScrollTo = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M7.5 5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m0 0v7m4-3a5 5 0 0 1-8 0m3-2h2" /></svg>;
+export { InteractionActionScrollTo };

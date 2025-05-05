@@ -1,0 +1,16 @@
+{
+  "name": "InteractionActionNavigateTo",
+  "filename": "interaction-action-navigate-to.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "horizontal",
+    "arrow",
+    "right",
+    "next",
+    "forward",
+    "interaction"
+  ]
+}

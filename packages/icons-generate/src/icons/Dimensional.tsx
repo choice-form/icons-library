@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Dimensional = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M7.5 8.5v5m0-5-5-3m5 3 5-3m-5 8-5-3v-5m5 8 5-3v-5m-10 0 5-3 5 3" /></svg>;
+export { Dimensional };

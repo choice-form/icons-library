@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Mask = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M6 5.5h2.5a1 1 0 0 1 1 1V9m-6-3.5a1 1 0 0 0-1 1m3 6h1m-4-4v1m1 3a1 1 0 0 1-1-1m7 0a1 1 0 0 1-1 1" /><path d="M5.5 6a3.5 3.5 0 1 0 7 0 3.5 3.5 0 0 0-7 0" /></g></svg>;
+export { Mask };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Send = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M4.5 9.045V12.5l1.859-2.272M4.5 9.045l9-7.545m-9 7.545 1.859 1.183m0 0L11.5 13.5l2-12m0 0L1.5 7 3 8" /></svg>;
+export { Send };

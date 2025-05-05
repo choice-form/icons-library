@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InteractionTriggerKeyGamepad = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M8.5 2.5h-2a1 1 0 0 0-1 1v2h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2v-2a1 1 0 0 0-1-1" /><path d="M6.5 7.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" /></g></svg>;
+export { InteractionTriggerKeyGamepad };

@@ -1,0 +1,13 @@
+{
+  "name": "WarningTriangle",
+  "filename": "warning-triangle.svg",
+  "category": "alert",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "alert",
+    "warning",
+    "triangle",
+    "info"
+  ]
+}

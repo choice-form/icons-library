@@ -1,0 +1,16 @@
+{
+  "name": "InteractionActionConditional",
+  "filename": "interaction-action-conditional.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "interaction",
+    "branch",
+    "split",
+    "if",
+    "logic",
+    "git"
+  ]
+}

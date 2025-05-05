@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="edit-object[interface,shape,square,line,group,path]">
+<path id="Vector" d="M2.5 3.5C2.5 4.05228 2.94771 4.5 3.5 4.5C4.05228 4.5 4.5 4.05228 4.5 3.5C4.5 2.94771 4.05228 2.5 3.5 2.5C2.94771 2.5 2.5 2.94771 2.5 3.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector_2" d="M10.5 3.5C10.5 4.05228 10.9477 4.5 11.5 4.5C12.0523 4.5 12.5 4.05228 12.5 3.5C12.5 2.94771 12.0523 2.5 11.5 2.5C10.9477 2.5 10.5 2.94771 10.5 3.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector_3" d="M2.5 11.5C2.5 12.0523 2.94771 12.5 3.5 12.5C4.05228 12.5 4.5 12.0523 4.5 11.5C4.5 10.9477 4.05228 10.5 3.5 10.5C2.94771 10.5 2.5 10.9477 2.5 11.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector_4" d="M10.5 11.5C10.5 12.0523 10.9477 12.5 11.5 12.5C12.0523 12.5 12.5 12.0523 12.5 11.5C12.5 10.9477 12.0523 10.5 11.5 10.5C10.9477 10.5 10.5 10.9477 10.5 11.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector_5" d="M4.5 3.5H10.5" stroke="black" stroke-linecap="round"/>
+<path id="Vector_6" d="M11.5 4.5V10.5M10.5 11.5H4.5M3.5 10.5V4.5" stroke="black" stroke-linecap="round"/>
+</g>
+</svg>

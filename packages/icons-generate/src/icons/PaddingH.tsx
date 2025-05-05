@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaddingH = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 12.5v-10M12.5 12.5v-10" /><path strokeOpacity={0.5} d="M9.5 4.5h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1" /></g></svg>;
+export { PaddingH };

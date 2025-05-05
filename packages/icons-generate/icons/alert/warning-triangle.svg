@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="warning-triangle[alert,warning,triangle,info]">
+<path id="Vector" d="M7.5 5.5V9.5" stroke="black" stroke-linecap="round"/>
+<path id="Vector_2" d="M7.5 11.5H7.505" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M1.8618 12.7764L7.05278 2.39443C7.23704 2.0259 7.76294 2.0259 7.9472 2.39443L13.1382 12.7764C13.3044 13.1088 13.0627 13.5 12.691 13.5H2.30901C1.93732 13.5 1.69557 13.1088 1.8618 12.7764Z" stroke="black" stroke-linecap="round"/>
+</g>
+</svg>

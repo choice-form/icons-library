@@ -1,0 +1,15 @@
+{
+  "name": "Comment",
+  "filename": "comment.svg",
+  "category": "alert",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "alert",
+    "alarm",
+    "answer",
+    "reply",
+    "message",
+    "chat"
+  ]
+}

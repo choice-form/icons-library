@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const LaunchApp = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M13.5 10.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V4A1.5 1.5 0 0 1 4 2.5h1.5M8.5 2.5h5v5M13.5 2.5l-6 6" /></g></svg>;
+export { LaunchApp };

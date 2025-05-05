@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BooleanDifference = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M6.5 12.5h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1h-5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1" /><path fill="currentColor" fillOpacity={0.25} d="M2.5 3.5v5a1 1 0 0 0 1 1h2v-3a1 1 0 0 1 1-1h3v-2a1 1 0 0 0-1-1h-5a1 1 0 0 0-1 1" /></g></svg>;
+export { BooleanDifference };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const RespondArrow = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m13.5 8-5-4.5v3c-2.773 0-6 1.233-6 6a6.62 6.62 0 0 1 6-3v3z" /></svg>;
+export { RespondArrow };

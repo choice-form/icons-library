@@ -1,0 +1,12 @@
+{
+  "name": "SpanRow",
+  "filename": "span-row.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "grid",
+    "span"
+  ]
+}

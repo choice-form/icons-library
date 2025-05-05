@@ -1,0 +1,15 @@
+{
+  "name": "ChatLarge",
+  "filename": "chat-large.svg",
+  "category": "alert",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "solid",
+    "alert",
+    "chat",
+    "message",
+    "reply",
+    "answer"
+  ]
+}

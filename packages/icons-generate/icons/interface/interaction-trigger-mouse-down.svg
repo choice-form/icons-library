@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="interaction-trigger-mouse-down[interface,interaction]">
+<path id="Vector" d="M4 8.0733C3.04778 8.45331 2.5 8.97665 2.5 9.5C2.5 10.5 4.5 11.5 7.5 11.5C10.5 11.5 12.5 10.5 12.5 9.5C12.5 8.97665 11.9522 8.45331 11 8.0733" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M7.5 6V9.5M7.5 9.5L9 8M7.5 9.5L6 8" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9 3L8.5 4M6 3L6.5 4M10 5.5L11 5M5 5.5L4 5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
