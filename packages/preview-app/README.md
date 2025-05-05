@@ -1,5 +1,7 @@
 # @choiceform/icons-preview
 
+[icons.choiceform.app/](https://icons.choiceform.app/)
+
 Interactive web application for previewing, searching and exploring the Choiceform icon library.
 
 ## Overview
