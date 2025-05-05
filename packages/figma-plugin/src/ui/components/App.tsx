@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { usePluginMessages } from "../hooks/usePluginMessages";
 import IconResult from "./IconResult";
 import TagInput from "./TagInput";
+import PresetTagsSelector from "./PresetTagsSelector";
 
 const App: React.FC = () => {
   const {
@@ -14,6 +15,8 @@ const App: React.FC = () => {
     downloadAll,
     batchAddTag,
     batchRemoveTag,
+    autoUpdateEnabled,
+    toggleAutoUpdate,
   } = usePluginMessages();
 
   // 批量标签状态
@@ -22,25 +25,20 @@ const App: React.FC = () => {
   >(null);
   const [batchTagsValue, setBatchTagsValue] = useState("");
 
+  // 处理自动更新选项变更
+  const handleAutoUpdateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    toggleAutoUpdate(e.target.checked);
+  };
+
   // 处理批量操作标签
   const handleBatchTag = () => {
     if (!batchTagsValue.trim()) return;
 
-    // 获取多个标签
-    const tags = batchTagsValue
-      .split(",")
-      .map((tag) => tag.trim())
-      .filter((tag) => tag !== "");
-
-    if (tags.length === 0) return;
-
-    // 批量处理所有标签，一个一个处理
+    // 直接传递所有标签，让插件处理标签数组
     if (batchTagOperation === "add") {
-      // 处理添加标签，每个标签一个一个处理
-      tags.forEach((tag) => batchAddTag(tag));
+      batchAddTag(batchTagsValue);
     } else if (batchTagOperation === "remove") {
-      // 处理删除标签，每个标签一个一个处理
-      tags.forEach((tag) => batchRemoveTag(tag));
+      batchRemoveTag(batchTagsValue);
     }
 
     // 重置状态
@@ -57,6 +55,21 @@ const App: React.FC = () => {
   // 处理标签值变化
   const handleTagsChange = (value: string) => {
     setBatchTagsValue(value);
+  };
+
+  // 处理预设标签选择
+  const handlePresetTagSelect = (tag: string) => {
+    // 当前标签列表
+    const currentTags = batchTagsValue
+      .split(",")
+      .map((t) => t.trim())
+      .filter((t) => t !== "");
+
+    // 添加新标签（如果不存在）
+    if (!currentTags.includes(tag)) {
+      const newTags = [...currentTags, tag].join(",");
+      setBatchTagsValue(newTags);
+    }
   };
 
   // 解析状态文本，提取进度信息
@@ -96,15 +109,45 @@ const App: React.FC = () => {
       </p>
 
       <div className="controls">
-        <button
-          onClick={exportFrames}
-          aria-label="Export Selected Frames"
-          data-variant={"primary"}
-          disabled={loading.export}
-        >
-          {loading.export ? "Exporting..." : "Export Selected Frames"}
-        </button>
+        <div className="controls__left">
+          <button
+            onClick={exportFrames}
+            aria-label="Export Selected Frames"
+            data-variant={"primary"}
+            disabled={loading.export}
+          >
+            {loading.export ? "Exporting..." : "Export Selected Frames"}
+          </button>
 
+          <div className="auto-update-container">
+            <div
+              className={`auto-update__checkbox ${
+                autoUpdateEnabled ? "auto-update__checkbox--checked" : ""
+              }`}
+            >
+              {autoUpdateEnabled && (
+                <svg width="16" height="16" fill="none" viewBox="0 0 16 16">
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="m4.5 7.5 3 3 4-6"
+                  />
+                </svg>
+              )}
+            </div>
+            <input
+              type="checkbox"
+              id="auto-update"
+              checked={autoUpdateEnabled}
+              onChange={handleAutoUpdateChange}
+              className="auto-update__input"
+            />
+            <label htmlFor="auto-update" className="auto-update__label">
+              Auto Selection
+            </label>
+          </div>
+        </div>
         <button
           id="downloadAll"
           onClick={downloadAll}
@@ -149,30 +192,41 @@ const App: React.FC = () => {
         )}
 
         {batchTagOperation && (
-          <div className="batch-tag-inline">
-            <div className="batch-tag-input-wrapper">
-              <TagInput
-                value={batchTagsValue}
-                onChange={handleTagsChange}
-                placeholder={
-                  batchTagOperation === "add"
-                    ? "Enter tags to add"
-                    : "Enter tags to remove"
-                }
-              />
+          <div className="batch-tag-operation">
+            <div className="batch-tag-inline">
+              <div className="batch-tag-input-wrapper">
+                <TagInput
+                  value={batchTagsValue}
+                  onChange={handleTagsChange}
+                  placeholder={
+                    batchTagOperation === "add"
+                      ? "Enter tags to add"
+                      : "Enter tags to remove"
+                  }
+                />
+              </div>
+
+              <div className="batch-controls">
+                <button
+                  onClick={handleBatchTag}
+                  data-variant="primary"
+                  disabled={!batchTagsValue.trim() || loading.tags}
+                >
+                  {loading.tags ? "Processing..." : "Confirm"}
+                </button>
+                <button
+                  onClick={closeBatchTagOperation}
+                  data-variant="secondary"
+                >
+                  Cancel
+                </button>
+              </div>
             </div>
-            <div className="batch-controls">
-              <button
-                onClick={handleBatchTag}
-                data-variant="primary"
-                disabled={!batchTagsValue.trim() || loading.tags}
-              >
-                {loading.tags ? "Processing..." : "Confirm"}
-              </button>
-              <button onClick={closeBatchTagOperation} data-variant="secondary">
-                Cancel
-              </button>
-            </div>
+
+            <PresetTagsSelector
+              onTagSelect={handlePresetTagSelect}
+              className="batch-preset-tags--batch"
+            />
           </div>
         )}
       </div>

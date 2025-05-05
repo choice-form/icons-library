@@ -3,30 +3,29 @@ import { tagPresets } from "../types";
 
 interface PresetTagsSelectorProps {
   onTagSelect: (tag: string) => void;
+  className?: string;
 }
 
 const PresetTagsSelector: React.FC<PresetTagsSelectorProps> = ({
   onTagSelect,
+  className = "",
 }) => {
-  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedPreset, setSelectedPreset] = useState("");
 
-  const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedCategory(e.target.value);
-  };
-
-  const handleTagClick = (tag: string) => {
-    onTagSelect(tag);
+  // 处理预设选择变更
+  const handlePresetChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedPreset(event.target.value);
   };
 
   return (
-    <div className="preset-container">
-      <label className="preset-label">Preset Tags:</label>
+    <div className={`preset-container ${className}`}>
+      <label className="preset-label">Preset tags:</label>
       <select
         className="preset-dropdown"
-        value={selectedCategory}
-        onChange={handleCategoryChange}
+        value={selectedPreset}
+        onChange={handlePresetChange}
       >
-        <option value="">-- Select Preset --</option>
+        <option value="">-- Select preset --</option>
         {Object.keys(tagPresets).map((category) => (
           <option key={category} value={category}>
             {category}
@@ -34,13 +33,13 @@ const PresetTagsSelector: React.FC<PresetTagsSelectorProps> = ({
         ))}
       </select>
 
-      {selectedCategory && (
+      {selectedPreset && (
         <div className="preset-tags">
-          {tagPresets[selectedCategory].map((tag) => (
+          {tagPresets[selectedPreset].map((tag) => (
             <span
               key={tag}
               className="preset-tag"
-              onClick={() => handleTagClick(tag)}
+              onClick={() => onTagSelect(tag)}
             >
               {tag}
             </span>

@@ -99,17 +99,70 @@ const TagInput: React.FC<TagInputProps> = ({
     }
   };
 
-  // 处理粘贴事件，按逗号分隔添加多个标签
+  // 批量添加多个标签
+  const addTags = (tagTexts: string[]) => {
+    if (tagTexts.length === 0) return;
+
+    // 过滤出所有有效且不重复的标签
+    const validTags: Tag[] = [];
+    const existingTexts = tags.map((tag) => tag.text.toLowerCase());
+
+    tagTexts.forEach((text) => {
+      const trimmed = text.trim();
+      if (trimmed !== "" && !existingTexts.includes(trimmed.toLowerCase())) {
+        validTags.push({
+          id: `tag-${Math.random().toString(36).substring(2, 9)}`,
+          text: trimmed,
+        });
+        // 添加到已存在列表中避免重复
+        existingTexts.push(trimmed.toLowerCase());
+      }
+    });
+
+    if (validTags.length > 0) {
+      // 一次性更新所有标签
+      updateTags([...tags, ...validTags]);
+    }
+  };
+
+  // 处理粘贴事件，支持多种格式的标签粘贴
   const handlePaste = (e: React.ClipboardEvent<HTMLInputElement>) => {
     e.preventDefault();
     const pastedData = e.clipboardData.getData("text");
-    const pastedTags = pastedData.split(/[,\s]+/); // 按逗号或空格分割
 
-    pastedTags.forEach((tag) => {
-      if (tag.trim() !== "") {
-        addTag(tag);
+    // 处理多行文本，合并成一行
+    const normalizedData = pastedData.replace(/\r\n|\r|\n/g, ",");
+
+    // 提取所有有效的标签
+    const allTags: string[] = [];
+
+    // 匹配带引号的内容：支持单引号、双引号
+    const quotedRegex = /(['"])(.*?)\1/g;
+    let match;
+
+    // 提取所有引号内的内容
+    while ((match = quotedRegex.exec(normalizedData)) !== null) {
+      const tagContent = match[2].trim();
+      if (tagContent !== "") {
+        allTags.push(tagContent);
       }
-    });
+    }
+
+    // 如果没有找到带引号的标签，或者希望也处理非引号内容
+    if (allTags.length === 0) {
+      // 按逗号或空格分割
+      const simpleTags = normalizedData.split(/[,\s]+/);
+      simpleTags.forEach((tag) => {
+        const trimmed = tag.trim();
+        if (trimmed !== "") {
+          allTags.push(trimmed);
+        }
+      });
+    }
+
+    // 批量添加所有找到的标签
+    console.log("解析出的标签:", allTags);
+    addTags(allTags);
   };
 
   // 点击容器时聚焦输入框

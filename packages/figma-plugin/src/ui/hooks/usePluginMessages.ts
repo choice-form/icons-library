@@ -33,11 +33,20 @@ export function usePluginMessages() {
     rename: false,
   });
 
+  // 自动更新状态
+  const [autoUpdateEnabled, setAutoUpdateEnabled] = useState(false);
+
   // 使用ref记录最新的results，避免useEffect依赖过多导致不必要的重新订阅
   const resultsRef = useRef<ExportResult[]>(results);
   useEffect(() => {
     resultsRef.current = results;
   }, [results]);
+
+  // 自动更新ref，用于在事件处理中访问最新状态
+  const autoUpdateEnabledRef = useRef(autoUpdateEnabled);
+  useEffect(() => {
+    autoUpdateEnabledRef.current = autoUpdateEnabled;
+  }, [autoUpdateEnabled]);
 
   // 使用ref记录批量操作队列
   const batchQueueRef = useRef<{
@@ -244,51 +253,57 @@ export function usePluginMessages() {
     }
   }, [loading.tags, processBatchQueue]);
 
-  // 处理批量添加标签 - 只初始化队列，不执行实际操作
-  const batchAddTag = useCallback(
-    (tag: string) => {
-      if (!tag.trim() || resultsRef.current.length < 2) return;
+  // 处理批量添加标签
+  const batchAddTag = useCallback((tag: string) => {
+    if (!tag.trim() || resultsRef.current.length < 2) return;
 
-      const nodeIds = resultsRef.current.map((result) => result.nodeId);
+    const nodeIds = resultsRef.current.map((result) => result.nodeId);
 
-      // 设置批量操作队列
-      batchQueueRef.current = {
-        type: "add",
-        tag: tag.trim(),
-        nodeIds: nodeIds,
-        currentIndex: 0,
-        processing: true,
-      };
+    // 直接发送批量添加标签消息，让插件处理
+    setLoading((prev) => ({ ...prev, tags: true }));
+    parent.postMessage(
+      {
+        pluginMessage: {
+          type: MESSAGE_TYPES.BATCH_ADD_TAG,
+          nodeIds,
+          tag: tag.trim(),
+        },
+      },
+      "*"
+    );
 
-      // 开始处理队列
-      setLoading((prev) => ({ ...prev, tags: true }));
-      processBatchQueue();
-    },
-    [processBatchQueue]
-  );
+    setStatus(`正在处理批量添加标签...`);
+  }, []);
 
-  // 处理批量删除标签 - 只初始化队列，不执行实际操作
-  const batchRemoveTag = useCallback(
-    (tag: string) => {
-      if (!tag.trim() || resultsRef.current.length < 2) return;
+  // 处理批量删除标签
+  const batchRemoveTag = useCallback((tag: string) => {
+    if (!tag.trim() || resultsRef.current.length < 2) return;
 
-      const nodeIds = resultsRef.current.map((result) => result.nodeId);
+    const nodeIds = resultsRef.current.map((result) => result.nodeId);
 
-      // 设置批量操作队列
-      batchQueueRef.current = {
-        type: "remove",
-        tag: tag.trim(),
-        nodeIds: nodeIds,
-        currentIndex: 0,
-        processing: true,
-      };
+    // 直接发送批量删除标签消息，让插件处理
+    setLoading((prev) => ({ ...prev, tags: true }));
+    parent.postMessage(
+      {
+        pluginMessage: {
+          type: MESSAGE_TYPES.BATCH_REMOVE_TAG,
+          nodeIds,
+          tag: tag.trim(),
+        },
+      },
+      "*"
+    );
 
-      // 开始处理队列
-      setLoading((prev) => ({ ...prev, tags: true }));
-      processBatchQueue();
-    },
-    [processBatchQueue]
-  );
+    setStatus(`正在处理批量删除标签...`);
+  }, []);
+
+  // 处理选择变更，如果启用了自动更新则自动导出
+  const handleSelectionChange = useCallback(() => {
+    // 如果启用了自动更新，自动触发导出
+    if (autoUpdateEnabledRef.current && !loading.export) {
+      exportFrames();
+    }
+  }, [loading.export]);
 
   // 设置消息监听
   useEffect(() => {
@@ -333,6 +348,14 @@ export function usePluginMessages() {
           }
 
           case MESSAGE_TYPES.SELECTION_UPDATED: {
+            // 当选择变更时，如果启用了自动更新，触发导出
+            if (autoUpdateEnabledRef.current && !loading.export) {
+              // 短暂延迟确保UI更新后再导出
+              setTimeout(() => {
+                exportFrames();
+              }, 100);
+            }
+
             // 当选择变更或其他更新时，如果我们已经有results，只更新它们的metadata但不清除
             if (resultsRef.current.length > 0) {
               // 获取当前选择的节点信息
@@ -541,6 +564,11 @@ export function usePluginMessages() {
     };
   }, []); // 空依赖数组，只在组件挂载时设置一次监听器
 
+  // 切换自动更新状态
+  const toggleAutoUpdate = useCallback((enabled: boolean) => {
+    setAutoUpdateEnabled(enabled);
+  }, []);
+
   // 返回所有需要的状态和函数
   return {
     status,
@@ -552,5 +580,7 @@ export function usePluginMessages() {
     downloadAll,
     batchAddTag,
     batchRemoveTag,
+    autoUpdateEnabled,
+    toggleAutoUpdate,
   };
 }

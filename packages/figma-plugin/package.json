@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-figma-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Figma plugin to export SVG icons with metadata",
   "scripts": {
     "build": "webpack --mode=production",

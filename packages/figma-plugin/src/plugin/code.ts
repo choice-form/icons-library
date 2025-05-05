@@ -212,32 +212,60 @@ figma.ui.onmessage = async (msg) => {
       // 存储已更新的节点信息
       const updatedNodes: { id: string; name: string }[] = [];
 
-      // 处理每个节点，等待所有异步操作完成
-      await Promise.all(
-        nodeIds.map(async (nodeId: string) => {
-          const node = await figma.getNodeByIdAsync(nodeId);
+      // 解析多个标签，如果有逗号则分割
+      const tagsToAdd = tag.includes(",")
+        ? tag
+            .split(",")
+            .map((t: string) => t.trim())
+            .filter((t: string) => t.length > 0)
+        : [tag];
 
-          if (node && "name" in node) {
-            // 提取现有标签和名称
-            const { cleanName, tags } = extractTags(node.name);
+      console.log("需要添加的标签:", tagsToAdd);
 
-            // 检查标签是否已存在
-            if (!tags.includes(tag)) {
-              tags.push(tag);
+      // 一个一个处理节点，但是不用Promise.all来并行处理
+      for (let i = 0; i < nodeIds.length; i++) {
+        const nodeId = nodeIds[i];
 
-              // 创建新的节点名称，包含所有标签
-              const newTags = tags.join(",");
-              const updatedName = updateFrameNameWithTags(cleanName, newTags);
+        // 获取节点
+        const node = await figma.getNodeByIdAsync(nodeId);
 
-              // 更新节点名称
-              node.name = updatedName;
+        if (node && "name" in node) {
+          // 获取当前节点的名称和标签
+          const { cleanName, tags: currentTags } = extractTags(node.name);
+
+          // 复制当前标签数组，以便我们可以修改它
+          const newTags = [...currentTags];
+
+          // 添加所有新标签，确保不重复
+          let changed = false;
+          for (const newTag of tagsToAdd) {
+            if (newTag && !newTags.includes(newTag)) {
+              newTags.push(newTag);
+              changed = true;
             }
-
-            // 记录已更新的节点
-            updatedNodes.push({ id: nodeId, name: node.name });
           }
-        })
-      );
+
+          // 只有当有新标签添加时才更新节点名称
+          if (changed) {
+            // 创建新名称并更新节点
+            const updatedName = updateFrameNameWithTags(
+              cleanName,
+              newTags.join(",")
+            );
+            node.name = updatedName;
+            console.log(
+              `节点 ${i + 1}/${nodeIds.length} (${nodeId}) 更新后名称: ${updatedName}`
+            );
+          } else {
+            console.log(
+              `节点 ${i + 1}/${nodeIds.length} (${nodeId}) 没有变化，跳过`
+            );
+          }
+
+          // 记录已更新的节点
+          updatedNodes.push({ id: nodeId, name: node.name });
+        }
+      }
 
       // 发送批量更新结果回 UI
       figma.ui.postMessage({
@@ -245,10 +273,12 @@ figma.ui.onmessage = async (msg) => {
         updatedNodes,
       });
 
-      figma.notify(`Added tag "${tag}" to ${updatedNodes.length} icons`);
+      figma.notify(
+        `已添加 ${tagsToAdd.length} 个标签到 ${updatedNodes.length} 个图标`
+      );
     } catch (error) {
-      console.error("Batch add tag error:", error);
-      figma.notify(`Error adding tag: ${(error as Error).message}`);
+      console.error("批量添加标签错误:", error);
+      figma.notify(`添加标签出错: ${(error as Error).message}`);
     }
   } else if (msg.type === MESSAGE_TYPES.BATCH_REMOVE_TAG) {
     const { nodeIds, tag } = msg;
@@ -261,38 +291,67 @@ figma.ui.onmessage = async (msg) => {
     try {
       // 存储已更新的节点信息
       const updatedNodes: { id: string; name: string }[] = [];
-      let removedCount = 0;
+      let totalRemoved = 0;
 
-      // 处理每个节点，等待所有异步操作完成
-      await Promise.all(
-        nodeIds.map(async (nodeId: string) => {
-          const node = await figma.getNodeByIdAsync(nodeId);
+      // 解析多个标签，如果有逗号则分割
+      const tagsToRemove = tag.includes(",")
+        ? tag
+            .split(",")
+            .map((t: string) => t.trim())
+            .filter((t: string) => t.length > 0)
+        : [tag];
 
-          if (node && "name" in node) {
-            // 提取现有标签和名称
-            const { cleanName, tags } = extractTags(node.name);
+      console.log("需要移除的标签:", tagsToRemove);
 
-            // 查找标签索引
-            const tagIndex = tags.indexOf(tag);
+      // 一个一个处理节点，但是不用Promise.all来并行处理
+      for (let i = 0; i < nodeIds.length; i++) {
+        const nodeId = nodeIds[i];
 
-            // 如果标签存在，移除它
-            if (tagIndex !== -1) {
-              tags.splice(tagIndex, 1);
-              removedCount++;
+        // 获取节点
+        const node = await figma.getNodeByIdAsync(nodeId);
 
-              // 创建新的节点名称，包含所有剩余标签
-              const newTags = tags.join(",");
-              const updatedName = updateFrameNameWithTags(cleanName, newTags);
+        if (node && "name" in node) {
+          // 获取当前节点的名称和标签
+          const { cleanName, tags: currentTags } = extractTags(node.name);
 
-              // 更新节点名称
-              node.name = updatedName;
+          // 复制当前标签数组，以便我们可以修改它
+          const newTags = [...currentTags];
+
+          // 移除所有指定标签
+          let removed = 0;
+          for (const tagToRemove of tagsToRemove) {
+            if (tagToRemove) {
+              const index = newTags.indexOf(tagToRemove);
+              if (index !== -1) {
+                newTags.splice(index, 1);
+                removed++;
+              }
             }
-
-            // 记录已更新的节点
-            updatedNodes.push({ id: nodeId, name: node.name });
           }
-        })
-      );
+
+          totalRemoved += removed;
+
+          // 只有当有标签被移除时才更新节点名称
+          if (removed > 0) {
+            // 创建新名称并更新节点
+            const updatedName = updateFrameNameWithTags(
+              cleanName,
+              newTags.join(",")
+            );
+            node.name = updatedName;
+            console.log(
+              `节点 ${i + 1}/${nodeIds.length} (${nodeId}) 移除了 ${removed} 个标签，更新后名称: ${updatedName}`
+            );
+          } else {
+            console.log(
+              `节点 ${i + 1}/${nodeIds.length} (${nodeId}) 没有标签被移除，跳过`
+            );
+          }
+
+          // 记录已更新的节点
+          updatedNodes.push({ id: nodeId, name: node.name });
+        }
+      }
 
       // 发送批量更新结果回 UI
       figma.ui.postMessage({
@@ -300,10 +359,12 @@ figma.ui.onmessage = async (msg) => {
         updatedNodes,
       });
 
-      figma.notify(`Removed tag "${tag}" from ${removedCount} icons`);
+      figma.notify(
+        `从 ${updatedNodes.length} 个图标中移除了 ${totalRemoved} 个标签`
+      );
     } catch (error) {
-      console.error("Batch remove tag error:", error);
-      figma.notify(`Error removing tag: ${(error as Error).message}`);
+      console.error("批量移除标签错误:", error);
+      figma.notify(`移除标签出错: ${(error as Error).message}`);
     }
   } else if (msg.type === MESSAGE_TYPES.GET_SELECTION) {
     updateSelectionInfo();

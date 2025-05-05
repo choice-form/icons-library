@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { tagPresets } from "../types";
 import TagInput from "./TagInput";
+import PresetTagsSelector from "./PresetTagsSelector";
 
 interface TagEditorProps {
   initialTags: string;
@@ -14,33 +14,27 @@ const TagEditor: React.FC<TagEditorProps> = ({
   onCancel,
 }) => {
   const [tags, setTags] = useState(initialTags);
-  const [selectedPreset, setSelectedPreset] = useState("");
 
-  // Handle tag input changes
+  // 处理标签输入变化
   const handleTagChange = (newTags: string) => {
     setTags(newTags);
   };
 
-  // Handle preset selection changes
-  const handlePresetChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedPreset(event.target.value);
-  };
-
-  // Handle preset tag click
+  // 处理预设标签点击
   const handlePresetTagClick = (tag: string) => {
-    // Check if tag already exists in the current tags
+    // 检查标签是否已存在
     const currentTags = tags
       .split(",")
       .map((t) => t.trim())
       .filter(Boolean);
     if (!currentTags.includes(tag)) {
-      // Add the tag
+      // 添加标签
       const newTags = [...currentTags, tag].join(",");
       setTags(newTags);
     }
   };
 
-  // Handle confirm button click
+  // 处理确认按钮点击
   const handleConfirm = () => {
     onConfirm(tags);
   };
@@ -50,38 +44,10 @@ const TagEditor: React.FC<TagEditorProps> = ({
       <TagInput
         value={tags}
         onChange={handleTagChange}
-        placeholder="Add tags..."
+        placeholder="Enter tags..."
       />
 
-      <div className="preset-container">
-        <label className="preset-label">Preset Tags:</label>
-        <select
-          className="preset-dropdown"
-          value={selectedPreset}
-          onChange={handlePresetChange}
-        >
-          <option value="">-- Select Preset --</option>
-          {Object.keys(tagPresets).map((category) => (
-            <option key={category} value={category}>
-              {category}
-            </option>
-          ))}
-        </select>
-
-        {selectedPreset && (
-          <div className="preset-tags">
-            {tagPresets[selectedPreset].map((tag) => (
-              <span
-                key={tag}
-                className="preset-tag"
-                onClick={() => handlePresetTagClick(tag)}
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
-      </div>
+      <PresetTagsSelector onTagSelect={handlePresetTagClick} />
 
       <div className="edit-buttons">
         <button onClick={handleConfirm} data-variant="primary">
