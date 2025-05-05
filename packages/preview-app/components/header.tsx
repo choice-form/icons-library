@@ -1,6 +1,13 @@
-import { Dropdown, Tabs, tcx } from "@choiceform/design-system";
+import {
+  Dropdown,
+  IconButton,
+  Segmented,
+  Tabs,
+  tcx,
+} from "@choiceform/design-system";
 import {
   Choiceform,
+  Github,
   ThemeMoonDark,
   ThemeSunBright,
   ThemeSystem,
@@ -98,22 +105,30 @@ export const Header = (props: HeaderProps) => {
             <Tabs.Item value="guide">Guide</Tabs.Item>
           </Tabs>
 
-          <Dropdown selection={true}>
-            <Dropdown.Trigger>
-              <activeOption.Icon />
-              <span className="hidden lg:block">{activeOption.text} Theme</span>
-            </Dropdown.Trigger>
+          <Segmented
+            value={activeOption.value}
+            onChange={(value) => onThemeChange(value as Theme)}
+          >
             {themeOptionsData.map((option) => (
-              <Dropdown.Item
+              <Segmented.Item
                 key={option.value}
-                selected={activeOption.value === option.value}
-                onMouseUp={() => onThemeChange(option.value as Theme)}
+                value={option.value}
+                tooltip={option.text}
               >
                 <option.Icon />
-                <span>{option.text} Theme</span>
-              </Dropdown.Item>
+              </Segmented.Item>
             ))}
-          </Dropdown>
+          </Segmented>
+
+          <IconButton asChild>
+            <a
+              href="https://github.com/choice-form/icons-library"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github />
+            </a>
+          </IconButton>
         </div>
       </div>
     </header>
