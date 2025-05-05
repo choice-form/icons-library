@@ -2,6 +2,8 @@
 
 ![cover](https://github.com/user-attachments/assets/d9cb55e3-7e8e-4f85-8f33-574b7e3e2c9a)
 
+[choiceform-svg-icons-exporter](https://www.figma.com/community/plugin/1499166753064086486/choiceform-svg-icons-exporter)
+
 A Figma plugin built with React that helps designers and developers quickly edit and export SVG icons along with their metadata. This plugin is an essential part of the Choiceform Icons Library ecosystem, streamlining the workflow from design to implementation.
 
 ## Features
