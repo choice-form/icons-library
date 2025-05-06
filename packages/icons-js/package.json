@@ -1,0 +1,39 @@
+{
+  "name": "@choiceform/icons-js",
+  "version": "1.0.0",
+  "description": "JavaScript library for SVG icons",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/umd/icons-js.js",
+  "jsdelivr": "./dist/umd/icons-js.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/umd/icons-js.js"
+    }
+  },
+  "scripts": {
+    "build": "npm run generate && tsup",
+    "dev": "concurrently \"npm run generate -- --watch\" \"tsup --watch\"",
+    "generate": "node ./scripts/generate-icons.mjs"
+  },
+  "dependencies": {
+    "@choiceform/icons-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "concurrently": "^8.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
