@@ -2,31 +2,19 @@ import { mergeAttributes } from '../utils';
 import { Icon } from '../types';
 
 /**
- * BorderPer icon
+ * border-per icon
  */
 const BorderPer: Icon = {
   name: 'border-per',
   toSvg(attrs = {}) {
-    const defaultAttrs = {
-      xmlns: 'http://www.w3.org/2000/svg',
-      width: "16",
-      height: "16",
-      fill: "currentColor",
-      viewBox: "0 0 16 16",
-      stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      d: "M4.5 2.5h6m-8 2v6m2 2h6m2-8v6",
-      class: 'choiceform-icon'
-    };
+    const defaultAttrs = {width: "16", height: "16", fill: "none", viewBox: "0 0 16 16", xmlns: "http://www.w3.org/2000/svg"};
     
     const iconAttributes = mergeAttributes(defaultAttrs, attrs);
     const attributesString = Object.entries(iconAttributes)
       .map(([key, value]) => `${key}="${value}"`)
       .join(' ');
     
-    const innerSvgContent = '<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M4.5 2.5h6m-8 2v6m2 2h6m2-8v6"/>';
-    return `<svg ${attributesString}>${innerSvgContent}</svg>`;
+    return `<svg ${attributesString}><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M4.5 2.5h6m-8 2v6m2 2h6m2-8v6"/></svg>`;
   },
   toString() {
     return this.toSvg();

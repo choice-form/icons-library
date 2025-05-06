@@ -202,6 +202,13 @@ import AlignmentRight from './AlignmentRight';
 import AlignmentLeft from './AlignmentLeft';
 import AlignmentCenter from './AlignmentCenter';
 import Address from './Address';
+import Speechless from './Speechless';
+import Smile from './Smile';
+import Satisfied from './Satisfied';
+import Sad from './Sad';
+import DeleteReaction from './DeleteReaction';
+import Angry from './Angry';
+import AddReaction from './AddReaction';
 import Folder from './Folder';
 import FolderSettings from './FolderSettings';
 import FolderRemove from './FolderRemove';
@@ -228,13 +235,6 @@ import FileDownload from './FileDownload';
 import FileDelete from './FileDelete';
 import FileClear from './FileClear';
 import FileAdd from './FileAdd';
-import Speechless from './Speechless';
-import Smile from './Smile';
-import Satisfied from './Satisfied';
-import Sad from './Sad';
-import DeleteReaction from './DeleteReaction';
-import Angry from './Angry';
-import AddReaction from './AddReaction';
 import Visible from './Visible';
 import Viewport from './Viewport';
 import VariablesString from './VariablesString';
@@ -442,6 +442,33 @@ import DuplicateNew from './DuplicateNew';
 import DeleteKeySmall from './DeleteKeySmall';
 import CopySmall from './CopySmall';
 import CollapseLayers from './CollapseLayers';
+import UsersSmall from './UsersSmall';
+import UserSmall from './UserSmall';
+import UserSettingsSmall from './UserSettingsSmall';
+import UserSearchSmall from './UserSearchSmall';
+import UserRemoveSmall from './UserRemoveSmall';
+import UserDeleteSmall from './UserDeleteSmall';
+import UserCheckSmall from './UserCheckSmall';
+import UserAddSmall from './UserAddSmall';
+import Use from './Use';
+import UseSettings from './UseSettings';
+import UseRemove from './UseRemove';
+import UseLock from './UseLock';
+import UseInvitation from './UseInvitation';
+import UseEdit from './UseEdit';
+import UseDelete from './UseDelete';
+import UseCancelInvitation from './UseCancelInvitation';
+import UseAdminister from './UseAdminister';
+import UseAdd from './UseAdd';
+import Security from './Security';
+import Role from './Role';
+import RoleRemove from './RoleRemove';
+import RoleAdd from './RoleAdd';
+import Organization from './Organization';
+import OrganizationSwitch from './OrganizationSwitch';
+import OrganizationJoin from './OrganizationJoin';
+import OrganizationAdd from './OrganizationAdd';
+import MemberAccounts from './MemberAccounts';
 import ViewSettings from './ViewSettings';
 import ViewKanban from './ViewKanban';
 import ViewGrid from './ViewGrid';
@@ -494,33 +521,22 @@ import DynamicValue from './DynamicValue';
 import DynamicLinked from './DynamicLinked';
 import DynamicDate from './DynamicDate';
 import ApiDocument from './ApiDocument';
-import UsersSmall from './UsersSmall';
-import UserSmall from './UserSmall';
-import UserSettingsSmall from './UserSettingsSmall';
-import UserSearchSmall from './UserSearchSmall';
-import UserRemoveSmall from './UserRemoveSmall';
-import UserDeleteSmall from './UserDeleteSmall';
-import UserCheckSmall from './UserCheckSmall';
-import UserAddSmall from './UserAddSmall';
-import Use from './Use';
-import UseSettings from './UseSettings';
-import UseRemove from './UseRemove';
-import UseLock from './UseLock';
-import UseInvitation from './UseInvitation';
-import UseEdit from './UseEdit';
-import UseDelete from './UseDelete';
-import UseCancelInvitation from './UseCancelInvitation';
-import UseAdminister from './UseAdminister';
-import UseAdd from './UseAdd';
-import Security from './Security';
-import Role from './Role';
-import RoleRemove from './RoleRemove';
-import RoleAdd from './RoleAdd';
-import Organization from './Organization';
-import OrganizationSwitch from './OrganizationSwitch';
-import OrganizationJoin from './OrganizationJoin';
-import OrganizationAdd from './OrganizationAdd';
-import MemberAccounts from './MemberAccounts';
+import DistributeVertical from './DistributeVertical';
+import DistributeVerticalSolid from './DistributeVerticalSolid';
+import DistributeHorizontal from './DistributeHorizontal';
+import DistributeHorizontalSolid from './DistributeHorizontalSolid';
+import AlignTop from './AlignTop';
+import AlignTopSolid from './AlignTopSolid';
+import AlignRight from './AlignRight';
+import AlignRightSolid from './AlignRightSolid';
+import AlignLeft from './AlignLeft';
+import AlignLeftSolid from './AlignLeftSolid';
+import AlignCenterVertical from './AlignCenterVertical';
+import AlignCenterVerticalSolid from './AlignCenterVerticalSolid';
+import AlignCenterHorizontal from './AlignCenterHorizontal';
+import AlignCenterHorizontalSolid from './AlignCenterHorizontalSolid';
+import AlignBottom from './AlignBottom';
+import AlignBottomSolid from './AlignBottomSolid';
 import ViewChart from './ViewChart';
 import TrendLine from './TrendLine';
 import Table from './Table';
@@ -638,62 +654,6 @@ import AtSignSmall from './AtSignSmall';
 import Ai from './Ai';
 import Add from './Add';
 import AddSmall from './AddSmall';
-import DistributeVertical from './DistributeVertical';
-import DistributeVerticalSolid from './DistributeVerticalSolid';
-import DistributeHorizontal from './DistributeHorizontal';
-import DistributeHorizontalSolid from './DistributeHorizontalSolid';
-import AlignTop from './AlignTop';
-import AlignTopSolid from './AlignTopSolid';
-import AlignRight from './AlignRight';
-import AlignRightSolid from './AlignRightSolid';
-import AlignLeft from './AlignLeft';
-import AlignLeftSolid from './AlignLeftSolid';
-import AlignCenterVertical from './AlignCenterVertical';
-import AlignCenterVerticalSolid from './AlignCenterVerticalSolid';
-import AlignCenterHorizontal from './AlignCenterHorizontal';
-import AlignCenterHorizontalSolid from './AlignCenterHorizontalSolid';
-import AlignBottom from './AlignBottom';
-import AlignBottomSolid from './AlignBottomSolid';
-import XCircle from './XCircle';
-import XCircle1 from './XCircle1';
-import WarningTriangle from './WarningTriangle';
-import WarningTriangleSmall from './WarningTriangleSmall';
-import WarningSquare from './WarningSquare';
-import WarningRhomboidSmall from './WarningRhomboidSmall';
-import WarningHexagonSmall from './WarningHexagonSmall';
-import WarningCircle from './WarningCircle';
-import TriangleWarningLarge from './TriangleWarningLarge';
-import TriangleWarningLargeSolid from './TriangleWarningLargeSolid';
-import SquareWarningLarge from './SquareWarningLarge';
-import SquareWarningLargeSolid from './SquareWarningLargeSolid';
-import SquareQuestionLarge from './SquareQuestionLarge';
-import SquareQuestionLargeSolid from './SquareQuestionLargeSolid';
-import SquareInfoLarge from './SquareInfoLarge';
-import SquareInfoLargeSolid from './SquareInfoLargeSolid';
-import QuestionSquare from './QuestionSquare';
-import QuestionCircle from './QuestionCircle';
-import Notifications from './Notifications';
-import Megaphone from './Megaphone';
-import InfoSquare from './InfoSquare';
-import InfoCircle from './InfoCircle';
-import Comment from './Comment';
-import CircleWarningLarge from './CircleWarningLarge';
-import CircleWarningLargeSolid from './CircleWarningLargeSolid';
-import CircleRemoveLarge from './CircleRemoveLarge';
-import CircleRemoveLargeSolid from './CircleRemoveLargeSolid';
-import CircleQuestionLarge from './CircleQuestionLarge';
-import CircleQuestionLargeSolid from './CircleQuestionLargeSolid';
-import CircleInfoLarge from './CircleInfoLarge';
-import CircleInfoLargeSolid from './CircleInfoLargeSolid';
-import CircleCheckLarge from './CircleCheckLarge';
-import CircleCheckLargeSolid from './CircleCheckLargeSolid';
-import CheckSquare from './CheckSquare';
-import CheckCircle from './CheckCircle';
-import Chat from './Chat';
-import ChatLarge from './ChatLarge';
-import ChatLargeSolid from './ChatLargeSolid';
-import AlarmSmall from './AlarmSmall';
-import AlarmSmallSolid from './AlarmSmallSolid';
 import Upload from './Upload';
 import UploadData from './UploadData';
 import UpArrowSmall from './UpArrowSmall';
@@ -755,6 +715,46 @@ import ArrowRight from './ArrowRight';
 import ArrowMinimize from './ArrowMinimize';
 import ArrowLeft from './ArrowLeft';
 import ArrowDown from './ArrowDown';
+import XCircle from './XCircle';
+import XCircle1 from './XCircle1';
+import WarningTriangle from './WarningTriangle';
+import WarningTriangleSmall from './WarningTriangleSmall';
+import WarningSquare from './WarningSquare';
+import WarningRhomboidSmall from './WarningRhomboidSmall';
+import WarningHexagonSmall from './WarningHexagonSmall';
+import WarningCircle from './WarningCircle';
+import TriangleWarningLarge from './TriangleWarningLarge';
+import TriangleWarningLargeSolid from './TriangleWarningLargeSolid';
+import SquareWarningLarge from './SquareWarningLarge';
+import SquareWarningLargeSolid from './SquareWarningLargeSolid';
+import SquareQuestionLarge from './SquareQuestionLarge';
+import SquareQuestionLargeSolid from './SquareQuestionLargeSolid';
+import SquareInfoLarge from './SquareInfoLarge';
+import SquareInfoLargeSolid from './SquareInfoLargeSolid';
+import QuestionSquare from './QuestionSquare';
+import QuestionCircle from './QuestionCircle';
+import Notifications from './Notifications';
+import Megaphone from './Megaphone';
+import InfoSquare from './InfoSquare';
+import InfoCircle from './InfoCircle';
+import Comment from './Comment';
+import CircleWarningLarge from './CircleWarningLarge';
+import CircleWarningLargeSolid from './CircleWarningLargeSolid';
+import CircleRemoveLarge from './CircleRemoveLarge';
+import CircleRemoveLargeSolid from './CircleRemoveLargeSolid';
+import CircleQuestionLarge from './CircleQuestionLarge';
+import CircleQuestionLargeSolid from './CircleQuestionLargeSolid';
+import CircleInfoLarge from './CircleInfoLarge';
+import CircleInfoLargeSolid from './CircleInfoLargeSolid';
+import CircleCheckLarge from './CircleCheckLarge';
+import CircleCheckLargeSolid from './CircleCheckLargeSolid';
+import CheckSquare from './CheckSquare';
+import CheckCircle from './CheckCircle';
+import Chat from './Chat';
+import ChatLarge from './ChatLarge';
+import ChatLargeSolid from './ChatLargeSolid';
+import AlarmSmall from './AlarmSmall';
+import AlarmSmallSolid from './AlarmSmallSolid';
 
 export {
   Workspace,
@@ -961,6 +961,13 @@ export {
   AlignmentLeft,
   AlignmentCenter,
   Address,
+  Speechless,
+  Smile,
+  Satisfied,
+  Sad,
+  DeleteReaction,
+  Angry,
+  AddReaction,
   Folder,
   FolderSettings,
   FolderRemove,
@@ -987,13 +994,6 @@ export {
   FileDelete,
   FileClear,
   FileAdd,
-  Speechless,
-  Smile,
-  Satisfied,
-  Sad,
-  DeleteReaction,
-  Angry,
-  AddReaction,
   Visible,
   Viewport,
   VariablesString,
@@ -1201,6 +1201,33 @@ export {
   DeleteKeySmall,
   CopySmall,
   CollapseLayers,
+  UsersSmall,
+  UserSmall,
+  UserSettingsSmall,
+  UserSearchSmall,
+  UserRemoveSmall,
+  UserDeleteSmall,
+  UserCheckSmall,
+  UserAddSmall,
+  Use,
+  UseSettings,
+  UseRemove,
+  UseLock,
+  UseInvitation,
+  UseEdit,
+  UseDelete,
+  UseCancelInvitation,
+  UseAdminister,
+  UseAdd,
+  Security,
+  Role,
+  RoleRemove,
+  RoleAdd,
+  Organization,
+  OrganizationSwitch,
+  OrganizationJoin,
+  OrganizationAdd,
+  MemberAccounts,
   ViewSettings,
   ViewKanban,
   ViewGrid,
@@ -1253,33 +1280,22 @@ export {
   DynamicLinked,
   DynamicDate,
   ApiDocument,
-  UsersSmall,
-  UserSmall,
-  UserSettingsSmall,
-  UserSearchSmall,
-  UserRemoveSmall,
-  UserDeleteSmall,
-  UserCheckSmall,
-  UserAddSmall,
-  Use,
-  UseSettings,
-  UseRemove,
-  UseLock,
-  UseInvitation,
-  UseEdit,
-  UseDelete,
-  UseCancelInvitation,
-  UseAdminister,
-  UseAdd,
-  Security,
-  Role,
-  RoleRemove,
-  RoleAdd,
-  Organization,
-  OrganizationSwitch,
-  OrganizationJoin,
-  OrganizationAdd,
-  MemberAccounts,
+  DistributeVertical,
+  DistributeVerticalSolid,
+  DistributeHorizontal,
+  DistributeHorizontalSolid,
+  AlignTop,
+  AlignTopSolid,
+  AlignRight,
+  AlignRightSolid,
+  AlignLeft,
+  AlignLeftSolid,
+  AlignCenterVertical,
+  AlignCenterVerticalSolid,
+  AlignCenterHorizontal,
+  AlignCenterHorizontalSolid,
+  AlignBottom,
+  AlignBottomSolid,
   ViewChart,
   TrendLine,
   Table,
@@ -1397,62 +1413,6 @@ export {
   Ai,
   Add,
   AddSmall,
-  DistributeVertical,
-  DistributeVerticalSolid,
-  DistributeHorizontal,
-  DistributeHorizontalSolid,
-  AlignTop,
-  AlignTopSolid,
-  AlignRight,
-  AlignRightSolid,
-  AlignLeft,
-  AlignLeftSolid,
-  AlignCenterVertical,
-  AlignCenterVerticalSolid,
-  AlignCenterHorizontal,
-  AlignCenterHorizontalSolid,
-  AlignBottom,
-  AlignBottomSolid,
-  XCircle,
-  XCircle1,
-  WarningTriangle,
-  WarningTriangleSmall,
-  WarningSquare,
-  WarningRhomboidSmall,
-  WarningHexagonSmall,
-  WarningCircle,
-  TriangleWarningLarge,
-  TriangleWarningLargeSolid,
-  SquareWarningLarge,
-  SquareWarningLargeSolid,
-  SquareQuestionLarge,
-  SquareQuestionLargeSolid,
-  SquareInfoLarge,
-  SquareInfoLargeSolid,
-  QuestionSquare,
-  QuestionCircle,
-  Notifications,
-  Megaphone,
-  InfoSquare,
-  InfoCircle,
-  Comment,
-  CircleWarningLarge,
-  CircleWarningLargeSolid,
-  CircleRemoveLarge,
-  CircleRemoveLargeSolid,
-  CircleQuestionLarge,
-  CircleQuestionLargeSolid,
-  CircleInfoLarge,
-  CircleInfoLargeSolid,
-  CircleCheckLarge,
-  CircleCheckLargeSolid,
-  CheckSquare,
-  CheckCircle,
-  Chat,
-  ChatLarge,
-  ChatLargeSolid,
-  AlarmSmall,
-  AlarmSmallSolid,
   Upload,
   UploadData,
   UpArrowSmall,
@@ -1513,7 +1473,47 @@ export {
   ArrowRight,
   ArrowMinimize,
   ArrowLeft,
-  ArrowDown
+  ArrowDown,
+  XCircle,
+  XCircle1,
+  WarningTriangle,
+  WarningTriangleSmall,
+  WarningSquare,
+  WarningRhomboidSmall,
+  WarningHexagonSmall,
+  WarningCircle,
+  TriangleWarningLarge,
+  TriangleWarningLargeSolid,
+  SquareWarningLarge,
+  SquareWarningLargeSolid,
+  SquareQuestionLarge,
+  SquareQuestionLargeSolid,
+  SquareInfoLarge,
+  SquareInfoLargeSolid,
+  QuestionSquare,
+  QuestionCircle,
+  Notifications,
+  Megaphone,
+  InfoSquare,
+  InfoCircle,
+  Comment,
+  CircleWarningLarge,
+  CircleWarningLargeSolid,
+  CircleRemoveLarge,
+  CircleRemoveLargeSolid,
+  CircleQuestionLarge,
+  CircleQuestionLargeSolid,
+  CircleInfoLarge,
+  CircleInfoLargeSolid,
+  CircleCheckLarge,
+  CircleCheckLargeSolid,
+  CheckSquare,
+  CheckCircle,
+  Chat,
+  ChatLarge,
+  ChatLargeSolid,
+  AlarmSmall,
+  AlarmSmallSolid
 };
 
 // Named exports with kebab-case names for compatibility
@@ -1722,6 +1722,13 @@ const iconExports = {
   'alignment-left': AlignmentLeft,
   'alignment-center': AlignmentCenter,
   'address': Address,
+  'speechless': Speechless,
+  'smile': Smile,
+  'satisfied': Satisfied,
+  'sad': Sad,
+  'delete-reaction': DeleteReaction,
+  'angry': Angry,
+  'add-reaction': AddReaction,
   'folder': Folder,
   'folder-settings': FolderSettings,
   'folder-remove': FolderRemove,
@@ -1748,13 +1755,6 @@ const iconExports = {
   'file-delete': FileDelete,
   'file-clear': FileClear,
   'file-add': FileAdd,
-  'speechless': Speechless,
-  'smile': Smile,
-  'satisfied': Satisfied,
-  'sad': Sad,
-  'delete-reaction': DeleteReaction,
-  'angry': Angry,
-  'add-reaction': AddReaction,
   'visible': Visible,
   'viewport': Viewport,
   'variables-string': VariablesString,
@@ -1962,6 +1962,33 @@ const iconExports = {
   'delete-key-small': DeleteKeySmall,
   'copy-small': CopySmall,
   'collapse-layers': CollapseLayers,
+  'users-small': UsersSmall,
+  'user-small': UserSmall,
+  'user-settings-small': UserSettingsSmall,
+  'user-search-small': UserSearchSmall,
+  'user-remove-small': UserRemoveSmall,
+  'user-delete-small': UserDeleteSmall,
+  'user-check-small': UserCheckSmall,
+  'user-add-small': UserAddSmall,
+  'use': Use,
+  'use-settings': UseSettings,
+  'use-remove': UseRemove,
+  'use-lock': UseLock,
+  'use-invitation': UseInvitation,
+  'use-edit': UseEdit,
+  'use-delete': UseDelete,
+  'use-cancel-invitation': UseCancelInvitation,
+  'use-administer': UseAdminister,
+  'use-add': UseAdd,
+  'security': Security,
+  'role': Role,
+  'role-remove': RoleRemove,
+  'role-add': RoleAdd,
+  'organization': Organization,
+  'organization-switch': OrganizationSwitch,
+  'organization-join': OrganizationJoin,
+  'organization-add': OrganizationAdd,
+  'member-accounts': MemberAccounts,
   'view-settings': ViewSettings,
   'view-kanban': ViewKanban,
   'view-grid': ViewGrid,
@@ -2014,33 +2041,22 @@ const iconExports = {
   'dynamic-linked': DynamicLinked,
   'dynamic-date': DynamicDate,
   'api-document': ApiDocument,
-  'users-small': UsersSmall,
-  'user-small': UserSmall,
-  'user-settings-small': UserSettingsSmall,
-  'user-search-small': UserSearchSmall,
-  'user-remove-small': UserRemoveSmall,
-  'user-delete-small': UserDeleteSmall,
-  'user-check-small': UserCheckSmall,
-  'user-add-small': UserAddSmall,
-  'use': Use,
-  'use-settings': UseSettings,
-  'use-remove': UseRemove,
-  'use-lock': UseLock,
-  'use-invitation': UseInvitation,
-  'use-edit': UseEdit,
-  'use-delete': UseDelete,
-  'use-cancel-invitation': UseCancelInvitation,
-  'use-administer': UseAdminister,
-  'use-add': UseAdd,
-  'security': Security,
-  'role': Role,
-  'role-remove': RoleRemove,
-  'role-add': RoleAdd,
-  'organization': Organization,
-  'organization-switch': OrganizationSwitch,
-  'organization-join': OrganizationJoin,
-  'organization-add': OrganizationAdd,
-  'member-accounts': MemberAccounts,
+  'distribute-vertical': DistributeVertical,
+  'distribute-vertical-solid': DistributeVerticalSolid,
+  'distribute-horizontal': DistributeHorizontal,
+  'distribute-horizontal-solid': DistributeHorizontalSolid,
+  'align-top': AlignTop,
+  'align-top-solid': AlignTopSolid,
+  'align-right': AlignRight,
+  'align-right-solid': AlignRightSolid,
+  'align-left': AlignLeft,
+  'align-left-solid': AlignLeftSolid,
+  'align-center-vertical': AlignCenterVertical,
+  'align-center-vertical-solid': AlignCenterVerticalSolid,
+  'align-center-horizontal': AlignCenterHorizontal,
+  'align-center-horizontal-solid': AlignCenterHorizontalSolid,
+  'align-bottom': AlignBottom,
+  'align-bottom-solid': AlignBottomSolid,
   'view-chart': ViewChart,
   'trend-line': TrendLine,
   'table': Table,
@@ -2158,62 +2174,6 @@ const iconExports = {
   'ai': Ai,
   'add': Add,
   'add-small': AddSmall,
-  'distribute-vertical': DistributeVertical,
-  'distribute-vertical-solid': DistributeVerticalSolid,
-  'distribute-horizontal': DistributeHorizontal,
-  'distribute-horizontal-solid': DistributeHorizontalSolid,
-  'align-top': AlignTop,
-  'align-top-solid': AlignTopSolid,
-  'align-right': AlignRight,
-  'align-right-solid': AlignRightSolid,
-  'align-left': AlignLeft,
-  'align-left-solid': AlignLeftSolid,
-  'align-center-vertical': AlignCenterVertical,
-  'align-center-vertical-solid': AlignCenterVerticalSolid,
-  'align-center-horizontal': AlignCenterHorizontal,
-  'align-center-horizontal-solid': AlignCenterHorizontalSolid,
-  'align-bottom': AlignBottom,
-  'align-bottom-solid': AlignBottomSolid,
-  'x-circle': XCircle,
-  'x-circle1': XCircle1,
-  'warning-triangle': WarningTriangle,
-  'warning-triangle-small': WarningTriangleSmall,
-  'warning-square': WarningSquare,
-  'warning-rhomboid-small': WarningRhomboidSmall,
-  'warning-hexagon-small': WarningHexagonSmall,
-  'warning-circle': WarningCircle,
-  'triangle-warning-large': TriangleWarningLarge,
-  'triangle-warning-large-solid': TriangleWarningLargeSolid,
-  'square-warning-large': SquareWarningLarge,
-  'square-warning-large-solid': SquareWarningLargeSolid,
-  'square-question-large': SquareQuestionLarge,
-  'square-question-large-solid': SquareQuestionLargeSolid,
-  'square-info-large': SquareInfoLarge,
-  'square-info-large-solid': SquareInfoLargeSolid,
-  'question-square': QuestionSquare,
-  'question-circle': QuestionCircle,
-  'notifications': Notifications,
-  'megaphone': Megaphone,
-  'info-square': InfoSquare,
-  'info-circle': InfoCircle,
-  'comment': Comment,
-  'circle-warning-large': CircleWarningLarge,
-  'circle-warning-large-solid': CircleWarningLargeSolid,
-  'circle-remove-large': CircleRemoveLarge,
-  'circle-remove-large-solid': CircleRemoveLargeSolid,
-  'circle-question-large': CircleQuestionLarge,
-  'circle-question-large-solid': CircleQuestionLargeSolid,
-  'circle-info-large': CircleInfoLarge,
-  'circle-info-large-solid': CircleInfoLargeSolid,
-  'circle-check-large': CircleCheckLarge,
-  'circle-check-large-solid': CircleCheckLargeSolid,
-  'check-square': CheckSquare,
-  'check-circle': CheckCircle,
-  'chat': Chat,
-  'chat-large': ChatLarge,
-  'chat-large-solid': ChatLargeSolid,
-  'alarm-small': AlarmSmall,
-  'alarm-small-solid': AlarmSmallSolid,
   'upload': Upload,
   'upload-data': UploadData,
   'up-arrow-small': UpArrowSmall,
@@ -2274,7 +2234,47 @@ const iconExports = {
   'arrow-right': ArrowRight,
   'arrow-minimize': ArrowMinimize,
   'arrow-left': ArrowLeft,
-  'arrow-down': ArrowDown
+  'arrow-down': ArrowDown,
+  'x-circle': XCircle,
+  'x-circle1': XCircle1,
+  'warning-triangle': WarningTriangle,
+  'warning-triangle-small': WarningTriangleSmall,
+  'warning-square': WarningSquare,
+  'warning-rhomboid-small': WarningRhomboidSmall,
+  'warning-hexagon-small': WarningHexagonSmall,
+  'warning-circle': WarningCircle,
+  'triangle-warning-large': TriangleWarningLarge,
+  'triangle-warning-large-solid': TriangleWarningLargeSolid,
+  'square-warning-large': SquareWarningLarge,
+  'square-warning-large-solid': SquareWarningLargeSolid,
+  'square-question-large': SquareQuestionLarge,
+  'square-question-large-solid': SquareQuestionLargeSolid,
+  'square-info-large': SquareInfoLarge,
+  'square-info-large-solid': SquareInfoLargeSolid,
+  'question-square': QuestionSquare,
+  'question-circle': QuestionCircle,
+  'notifications': Notifications,
+  'megaphone': Megaphone,
+  'info-square': InfoSquare,
+  'info-circle': InfoCircle,
+  'comment': Comment,
+  'circle-warning-large': CircleWarningLarge,
+  'circle-warning-large-solid': CircleWarningLargeSolid,
+  'circle-remove-large': CircleRemoveLarge,
+  'circle-remove-large-solid': CircleRemoveLargeSolid,
+  'circle-question-large': CircleQuestionLarge,
+  'circle-question-large-solid': CircleQuestionLargeSolid,
+  'circle-info-large': CircleInfoLarge,
+  'circle-info-large-solid': CircleInfoLargeSolid,
+  'circle-check-large': CircleCheckLarge,
+  'circle-check-large-solid': CircleCheckLargeSolid,
+  'check-square': CheckSquare,
+  'check-circle': CheckCircle,
+  'chat': Chat,
+  'chat-large': ChatLarge,
+  'chat-large-solid': ChatLargeSolid,
+  'alarm-small': AlarmSmall,
+  'alarm-small-solid': AlarmSmallSolid
 };
 
 export default iconExports;

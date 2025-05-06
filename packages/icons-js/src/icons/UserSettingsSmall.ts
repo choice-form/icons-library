@@ -2,31 +2,19 @@ import { mergeAttributes } from '../utils';
 import { Icon } from '../types';
 
 /**
- * UserSettingsSmall icon
+ * user-settings-small icon
  */
 const UserSettingsSmall: Icon = {
   name: 'user-settings-small',
   toSvg(attrs = {}) {
-    const defaultAttrs = {
-      xmlns: 'http://www.w3.org/2000/svg',
-      width: "16",
-      height: "16",
-      fill: "currentColor",
-      viewBox: "0 0 16 16",
-      stroke: "currentColor",
-      "stroke-linecap": "round",
-      "stroke-linejoin": "round",
-      d: "M11 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M7 9.5H5a2 2 0 0 0-2 2v1M12.85 10.2l-.45-.15M9.6 8.95l-.45-.15M10.3 11.35l.15-.45M11.55 8.1l.15-.45M11.8 11.35l-.2-.5M10.4 8.15l-.2-.5M9.15 10.3l.5-.2M12.35 8.9l.5-.2",
-      class: 'choiceform-icon'
-    };
+    const defaultAttrs = {width: "16", height: "16", fill: "none", viewBox: "0 0 16 16", xmlns: "http://www.w3.org/2000/svg"};
     
     const iconAttributes = mergeAttributes(defaultAttrs, attrs);
     const attributesString = Object.entries(iconAttributes)
       .map(([key, value]) => `${key}="${value}"`)
       .join(' ');
     
-    const innerSvgContent = '<g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M11 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M7 9.5H5a2 2 0 0 0-2 2v1M12.85 10.2l-.45-.15M9.6 8.95l-.45-.15M10.3 11.35l.15-.45M11.55 8.1l.15-.45M11.8 11.35l-.2-.5M10.4 8.15l-.2-.5M9.15 10.3l.5-.2M12.35 8.9l.5-.2"/></g>';
-    return `<svg ${attributesString}>${innerSvgContent}</svg>`;
+    return `<svg ${attributesString}><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M11 11a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M7 9.5H5a2 2 0 0 0-2 2v1M12.85 10.2l-.45-.15M9.6 8.95l-.45-.15M10.3 11.35l.15-.45M11.55 8.1l.15-.45M11.8 11.35l-.2-.5M10.4 8.15l-.2-.5M9.15 10.3l.5-.2M12.35 8.9l.5-.2"/></g></svg>`;
   },
   toString() {
     return this.toSvg();

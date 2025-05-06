@@ -18,12 +18,29 @@ async function buildUMD() {
     outfile,
     platform: "browser",
     target: ["es2020"],
+    banner: {
+      js: `/* 
+ * @choiceform/icons-js
+ * UMD bundle automatically adds createIcons to window.iconsJs
+ */`,
+    },
   });
 
-  console.log(`✅ UMD build completed: ${outfile}`);
+  const content = fs.readFileSync(outfile, "utf-8");
+
+  const patchedContent = content.replace(
+    /\/\*.*@choiceform\/icons-js.*\*\//,
+    `/* 
+ * @choiceform/icons-js
+ * UMD bundle for browser usage with kebab-case support
+ */`
+  );
+
+  fs.writeFileSync(outfile, patchedContent, "utf-8");
+  console.log(`✅ UMD build completed and patched: ${outfile}`);
 }
 
-buildUMD().catch((err) => {
-  console.error("❌ UMD build failed:", err);
+buildUMD().catch((e) => {
+  console.error("Build failed:", e);
   process.exit(1);
 });

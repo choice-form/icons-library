@@ -67,11 +67,19 @@ class JavaScriptIconGenerator extends BaseIconGenerator {
    */
   extractSvgAttrs(svgString) {
     const attrs = {};
+
+    // 只提取SVG标签的直接属性，而非内部元素的属性
+    const svgTagMatch = svgString.match(/<svg([^>]*)>/);
+    if (!svgTagMatch || !svgTagMatch[1]) {
+      return attrs;
+    }
+
+    const svgAttrsString = svgTagMatch[1];
     // 正则匹配所有属性
     const attrRegex = /\s([a-zA-Z0-9:_-]+)="([^"]*)"/g;
     let match;
 
-    while ((match = attrRegex.exec(svgString)) !== null) {
+    while ((match = attrRegex.exec(svgAttrsString)) !== null) {
       const [, name, value] = match;
       if (name !== "xmlns" && name !== "class") {
         // 排除 xmlns 和 class，它们会单独处理
@@ -83,68 +91,65 @@ class JavaScriptIconGenerator extends BaseIconGenerator {
   }
 
   /**
-   * 生成属性对象的代码，处理带破折号的属性名
+   * 将对象转换为字符串形式的属性对象表示
    * @param {object} attrs 属性对象
-   * @returns {string} 属性代码
+   * @returns {string} 属性对象字符串表示
    */
-  generateAttrsCode(attrs) {
-    const lines = [];
-
-    // 处理属性，将 fill="none" 替换为 fill="currentColor"
-    if (attrs.fill === "none") {
-      attrs.fill = "currentColor";
-    }
+  generateAttrsObjectString(attrs) {
+    const parts = [];
 
     Object.entries(attrs).forEach(([key, value]) => {
-      // 如果属性名包含破折号，使用引号括起来
       if (key.includes("-")) {
-        lines.push(`      "${key}": "${value}",`);
+        parts.push(`"${key}": "${value}"`);
       } else {
-        lines.push(`      ${key}: "${value}",`);
+        parts.push(`${key}: "${value}"`);
       }
     });
 
-    return lines.join("\n");
+    return `{${parts.join(", ")}}`;
   }
 
   /**
    * Create icon template
    */
   createIconTemplate(iconName, optimizedSvg, kebabName) {
-    // 提取内部 SVG 内容（去除 svg 标签但保留内容）
-    const innerSvgContent = optimizedSvg
-      .replace(/<svg[^>]*>/, "")
-      .replace(/<\/svg>/, "")
-      .trim();
-
-    // 从 SVG 提取属性
+    // 提取SVG标签属性
     const svgAttrs = this.extractSvgAttrs(optimizedSvg);
 
-    // 生成属性代码
-    const attrsCode = this.generateAttrsCode(svgAttrs);
+    // 添加默认属性（不包括class，由外部合并提供）
+    const defaultAttrs = {
+      xmlns: "http://www.w3.org/2000/svg",
+      // 移除class属性，避免重复
+    };
+
+    // 合并属性
+    const allAttrs = { ...svgAttrs, ...defaultAttrs };
+
+    // 生成属性对象字符串
+    const attrsString = this.generateAttrsObjectString(allAttrs);
+
+    // 从 SVG 字符串中提取内容（跳过开始和结束标签）
+    const svgContent = optimizedSvg
+      .replace(/<svg[^>]*>/, "")
+      .replace(/<\/svg>$/, "");
 
     return `import { mergeAttributes } from '../utils';
 import { Icon } from '../types';
 
 /**
- * ${iconName} icon
+ * ${kebabName} icon
  */
 const ${iconName}: Icon = {
   name: '${kebabName}',
   toSvg(attrs = {}) {
-    const defaultAttrs = {
-      xmlns: 'http://www.w3.org/2000/svg',
-${attrsCode}
-      class: '${this.iconClassName}'
-    };
+    const defaultAttrs = ${attrsString};
     
     const iconAttributes = mergeAttributes(defaultAttrs, attrs);
     const attributesString = Object.entries(iconAttributes)
       .map(([key, value]) => \`\${key}="\${value}"\`)
       .join(' ');
     
-    const innerSvgContent = '${innerSvgContent.replace(/'/g, "\\'")}';
-    return \`<svg \${attributesString}>\${innerSvgContent}</svg>\`;
+    return \`<svg \${attributesString}>${svgContent}</svg>\`;
   },
   toString() {
     return this.toSvg();
@@ -158,7 +163,7 @@ export default ${iconName};
   /**
    * 更新 index.ts 文件中的配置，从全局配置注入
    */
-  async updateIndexConfig() {
+  async updateConfiguration() {
     if (!fs.existsSync(indexFilePath)) {
       console.warn("⚠️ index.ts file not found, skipping config update");
       return;
@@ -171,14 +176,15 @@ export default ${iconName};
     // 使用正则表达式替换配置值
     indexContent = indexContent.replace(
       /const iconConfig = \{[\s\S]*?\};/m,
-      `// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-const iconConfig = {
+      `const iconConfig = {
   iconClassName: "${this.iconClassName}"
 };`
     );
 
     await fs.writeFile(indexFilePath, indexContent);
+    console.log(
+      `✅ Updated iconClassName to "${this.iconClassName}" in index.ts`
+    );
   }
 
   /**
@@ -227,7 +233,7 @@ export default iconExports;
    */
   async generateIcons() {
     await this.cleanOutputDir();
-    await this.updateIndexConfig();
+    await this.updateConfiguration();
 
     const svgFiles = await this.findSvgFiles();
 

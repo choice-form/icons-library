@@ -6,24 +6,11 @@ export { createElement, mergeAttributes };
 
 // Export all icons and metadata
 export * from "./icons";
+// 导入kebab-case映射作为默认导出
+import iconMapByKebabName from "./icons";
+export { default } from "./icons";
 export { iconMetadata } from "./icons/metadata";
 
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
-// 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
-// 仅设置类名，其他属性保留 SVG 原始值
 // 这些值会在构建时由生成脚本从根目录的 icon-config.json 文件中注入
 // 仅设置类名，其他属性保留 SVG 原始值
 const iconConfig = {
@@ -47,7 +34,14 @@ export function createIcons(options: IconsOptions = { icons: {} }): void {
 
   const nameAttr = options.nameAttr || "data-icon";
   const attrs = { ...defaultAttributes, ...(options.attrs || {}) };
-  const icons = options.icons || {};
+
+  // 如果没有提供图标，使用默认的kebab-case映射
+  let icons = options.icons || {};
+
+  // 如果传入的是空对象且存在默认导出，则使用默认导出
+  if (!Object.keys(icons).length && iconMapByKebabName) {
+    icons = iconMapByKebabName;
+  }
 
   if (!Object.keys(icons).length) {
     console.warn("No icons provided to createIcons function");
