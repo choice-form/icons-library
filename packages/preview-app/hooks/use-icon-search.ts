@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import * as Icons from "@choiceform/icons-generate";
-import { iconMetadata } from "@choiceform/icons-generate";
+import * as Icons from "@choiceform/icons-react";
+import { iconMetadata } from "@choiceform/icons-react";
 import type { IconComponentProps, IconItemData, IconMetadata } from "../types";
 
 export function useIconSearch() {

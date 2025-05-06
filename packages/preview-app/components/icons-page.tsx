@@ -79,6 +79,13 @@ export const IconBrowser = () => {
     }
   }, [selectedIcon]);
 
+  const dashedName = selectedIcon?.name
+    .replace(/([A-Z])/g, (match) =>
+      match === match.toUpperCase() ? `-${match}` : match
+    )
+    .toLowerCase()
+    .replace(/^-/, "");
+
   const handleCopyReactComponent = useCallback(() => {
     if (selectedIcon) {
       const reactComponent = `<${selectedIcon.name} />`;
@@ -91,9 +98,42 @@ export const IconBrowser = () => {
     setSelectedIcon(null);
   }, []);
 
-  const codeExample = selectedIcon
+  const handleCopyVueComponent = useCallback(() => {
+    if (selectedIcon) {
+      const vueComponent = `<${selectedIcon.name} />`;
+      navigator.clipboard.writeText(vueComponent);
+      toast.success("Vue component copied to clipboard");
+    }
+  }, [selectedIcon]);
+
+  const handleCopyAngularComponent = useCallback(() => {
+    if (selectedIcon) {
+      const angularComponent = `<cf-${dashedName}>
+      </cf-${dashedName}>`;
+      navigator.clipboard.writeText(angularComponent);
+      toast.success("Angular component copied to clipboard");
+    }
+  }, [selectedIcon]);
+
+  const handleCopySolidComponent = useCallback(() => {
+    if (selectedIcon) {
+      const solidComponent = `<${selectedIcon.name} />`;
+      navigator.clipboard.writeText(solidComponent);
+      toast.success("Solid component copied to clipboard");
+    }
+  }, [selectedIcon]);
+
+  const handleCopyJsComponent = useCallback(() => {
+    if (selectedIcon) {
+      const jsComponent = `<i data-icon="${dashedName}"></i>`;
+      navigator.clipboard.writeText(jsComponent);
+      toast.success("JavaScript component copied to clipboard");
+    }
+  }, [selectedIcon]);
+
+  const reactCodeExample = selectedIcon
     ? `
-import { ${selectedIcon.name} } from "@choiceform/icons-generate";
+import { ${selectedIcon.name} } from "@choiceform/icons-react";
 
 const MyComponent = () => {
   return (
@@ -104,6 +144,74 @@ const MyComponent = () => {
 export default MyComponent;
 `.trim()
     : "";
+
+  const vueCodeExample = selectedIcon
+    ? `
+<template>
+  <${selectedIcon.name} />
+</template>
+
+<script setup>
+  import { ${selectedIcon.name} } from "@choiceform/icons-vue";
+</script>
+`.trim()
+    : "";
+
+  const angularCodeExample = selectedIcon
+    ? `
+import { ${selectedIcon.name}Component } from '@choiceform/icons-angular';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [
+    ${selectedIcon.name}Component,
+  ],
+  template: \`
+    <cf-${dashedName} />
+  \`
+})
+
+export class AppComponent {
+  title = 'angular';
+}
+`.trim()
+    : "";
+
+  const solidCodeExample = selectedIcon
+    ? `
+import { ${selectedIcon.name} } from "@choiceform/icons-solid";
+
+function App() {
+  return (
+    <${selectedIcon.name} />
+  );
+}
+`.trim()
+    : "";
+
+  const jsCodeExample = selectedIcon
+    ? `
+<body>
+  <i data-icon="${dashedName}"></i>
+
+  <script src="https://unpkg.com/@choiceform/icons-js@latest/dist/umd/icons-js.js"></script>
+
+  <script>
+    iconsJs.createIcons({
+      icons: iconsJs.default,
+    });
+  </script>
+</body>
+`.trim()
+    : "";
+
+  const handleTagClick = useCallback(
+    (tag: string) => {
+      setSearchTerm(tag);
+    },
+    [setSearchTerm]
+  );
 
   const renderIconRow = useCallback(
     (
@@ -236,7 +344,16 @@ export default MyComponent;
             handleCopySVG={handleCopySVG}
             handleDownloadSVG={handleDownloadSVG}
             handleCopyReactComponent={handleCopyReactComponent}
-            codeExample={codeExample}
+            handleCopyVueComponent={handleCopyVueComponent}
+            handleCopyAngularComponent={handleCopyAngularComponent}
+            handleCopySolidComponent={handleCopySolidComponent}
+            handleCopyJsComponent={handleCopyJsComponent}
+            ReactCodeExample={reactCodeExample}
+            VueCodeExample={vueCodeExample}
+            AngularCodeExample={angularCodeExample}
+            SolidCodeExample={solidCodeExample}
+            JavaScriptCodeExample={jsCodeExample}
+            handleTagClick={handleTagClick}
           />
         )}
       </AnimatePresence>

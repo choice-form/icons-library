@@ -1,5 +1,5 @@
 import { Dropdown, SearchInput } from "@choiceform/design-system";
-import { Folder } from "@choiceform/icons-generate";
+import { Folder } from "@choiceform/icons-react";
 import { memo, useEffect, useMemo, useState } from "react";
 
 interface SearchBarProps {

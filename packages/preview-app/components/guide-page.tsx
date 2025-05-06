@@ -19,7 +19,7 @@ export const Guide = () => {
       <Scroll className="h-full">
         <Scroll.Viewport
           className="px-8 pb-16 pt-32 w-full h-full max-w-none
-          prose prose-sm dark:prose-invert"
+          prose dark:prose-invert"
         >
           <div className="mx-auto xl:container xl:px-8">
             <h1>Usage Guide</h1>
@@ -27,7 +27,7 @@ export const Guide = () => {
             <section>
               <h2>Introduction</h2>
               <p>
-                @choiceform/icons-generate is an SVG icon library for the
+                @choiceform/icons-react is an SVG icon library for the
                 Choiceform project.
               </p>
               <p>
@@ -84,7 +84,7 @@ export const Guide = () => {
                 >
                   {`{
   "dependencies": {
-    "@choiceform/icons-generate": "workspace:*"
+    "@choiceform/icons-react": "workspace:*"
   }
 }`}
                 </SyntaxHighlighter>
@@ -114,7 +114,7 @@ export const Guide = () => {
                     padding: "1em",
                   }}
                 >
-                  {`import { CheckCircle14, User } from "@choiceform/icons-generate";
+                  {`import { CheckCircle14, User } from "@choiceform/icons-react";
 
 function MyComponent() {
   return (
@@ -156,10 +156,9 @@ function MyComponent() {
                 <li>
                   <strong>Run Generation:</strong> From the{" "}
                   <strong>monorepo root</strong>, run{" "}
-                  <code>pnpm --filter @choiceform/icons-generate generate</code>
-                  (or{" "}
-                  <code>
-                    pnpm --filter @choiceform/icons-generate build
+                  <code>pnpm --filter @choiceform/icons-react generate</code>
+                  (or <code>
+                    pnpm --filter @choiceform/icons-react build
                   </code>{" "}
                   which includes generation).
                 </li>

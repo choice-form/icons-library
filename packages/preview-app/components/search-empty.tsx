@@ -1,5 +1,5 @@
 import { Button } from "@choiceform/design-system";
-import { Search } from "@choiceform/icons-generate";
+import { Search } from "@choiceform/icons-react";
 
 interface SearchEmptyProps {
   searchTerm: string;

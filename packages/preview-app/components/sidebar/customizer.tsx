@@ -1,5 +1,5 @@
 import { IconButton, Range } from "@choiceform/design-system";
-import { Refresh } from "@choiceform/icons-generate";
+import { Refresh } from "@choiceform/icons-react";
 import { forwardRef } from "react";
 import { useCustomizer } from "../../context";
 

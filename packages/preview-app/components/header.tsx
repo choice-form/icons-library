@@ -1,4 +1,5 @@
 import {
+  Button,
   Dropdown,
   IconButton,
   Segmented,
@@ -11,9 +12,9 @@ import {
   ThemeMoonDark,
   ThemeSunBright,
   ThemeSystem,
-} from "@choiceform/icons-generate";
+} from "@choiceform/icons-react";
 import { useEffect, useMemo } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 type Theme = "light" | "dark" | "system";
 
@@ -74,7 +75,8 @@ export const Header = (props: HeaderProps) => {
     [themeOptionsData, theme]
   );
 
-  const isGuidePage = location.pathname === "/guide";
+  const isIconPage = location.pathname === "/";
+  const isPackagesPage = location.pathname === "/packages";
 
   return (
     <header className="fixed top-0 left-0 right-0 h-(--nav-height) z-50">
@@ -85,13 +87,13 @@ export const Header = (props: HeaderProps) => {
         <div
           className={tcx(
             "flex items-center gap-2 pr-4 pl-4",
-            isGuidePage ? "bg-default_bg" : "bg-default_bg lg:bg-transparent"
+            isPackagesPage ? "bg-default_bg" : "bg-default_bg lg:bg-transparent"
           )}
         >
           <div
             className={tcx(
               "flex items-center gap-2 h-(--nav-height) w-full lg:mr-4",
-              isGuidePage ? "" : "lg:bg-secondary_bg"
+              isPackagesPage ? "bg-default_bg" : "lg:bg-secondary_bg"
             )}
           >
             <Choiceform width={32} height={32} />
@@ -100,10 +102,23 @@ export const Header = (props: HeaderProps) => {
         </div>
 
         <div className="flex items-center justify-end bg-default_bg gap-4 h-(--nav-height)">
-          <Tabs value={activeTab} onChange={handleTabChange}>
-            <Tabs.Item value="icon">Icons</Tabs.Item>
-            <Tabs.Item value="guide">Guide</Tabs.Item>
-          </Tabs>
+          <div className="flex items-center gap-2">
+            <Button
+              variant={isIconPage ? "link" : "ghost"}
+              asChild
+              active={isIconPage}
+            >
+              <Link to="/">Icons</Link>
+            </Button>
+
+            <Button
+              variant={isPackagesPage ? "link" : "ghost"}
+              asChild
+              active={isPackagesPage}
+            >
+              <Link to="/packages">Packages</Link>
+            </Button>
+          </div>
 
           <Segmented
             value={activeOption.value}
