@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd ../.. && pnpm install && cd packages/icons-generate && pnpm build && cd ../preview-app && pnpm build",
+  "buildCommand": "cd ../.. && pnpm install && cd packages/icons-react && pnpm build && cd ../preview-app && pnpm build",
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
