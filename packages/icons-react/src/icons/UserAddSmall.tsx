@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserAddSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M10 12.5v-1a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v1M6.5 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4M11.5 6v3M13 7.5h-3" /></g></svg>;
+export { UserAddSmall };

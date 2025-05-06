@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilterBlock = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round"><path strokeLinejoin="round" d="M1.5 2.5h12m-8 2h4M2.5 4.5l4 4v3m6-7-2 2" /><path fill="currentColor" fillOpacity={0.25} d="M13.5 8.5h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1Z" /></g></svg>;
+export { FilterBlock };

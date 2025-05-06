@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Satisfied = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15" /><path d="M12.388 9a4.5 4.5 0 0 1-8.776 0M3.5 6a1.5 1.5 0 0 1 3 0M9.5 6a1.5 1.5 0 0 1 3 0" /></g></svg>;
+export { Satisfied };

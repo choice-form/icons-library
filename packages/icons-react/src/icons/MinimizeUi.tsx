@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MinimizeUi = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round"><path strokeLinejoin="round" d="M12.6 2.5H3.4a.9.9 0 0 0-.9.9v8.2a.9.9 0 0 0 .9.9h9.2a.9.9 0 0 0 .9-.9V3.4a.9.9 0 0 0-.9-.9" /><path d="M6.5 4.5v6" /></g></svg>;
+export { MinimizeUi };

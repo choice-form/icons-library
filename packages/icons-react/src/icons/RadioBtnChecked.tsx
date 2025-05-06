@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const RadioBtnChecked = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M8 13.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11" /><path fill="currentColor" d="M8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M8 10.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" /></svg>;
+export { RadioBtnChecked };

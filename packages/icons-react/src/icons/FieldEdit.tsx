@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FieldEdit = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path fill="currentColor" fillOpacity={0.25} d="M5.5 12.5v-10a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M8.5 8.5v-6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3m-11-3v10a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1M7.5 14.5l1-3 3.646-3.646a.5.5 0 0 1 .708 0l1.292 1.292a.5.5 0 0 1 0 .708L10.5 13.5z" /></svg>;
+export { FieldEdit };

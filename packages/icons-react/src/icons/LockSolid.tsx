@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const LockSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path fill="currentColor" d="M11.5 8.5h-7a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1" /><path d="M5.5 6.5V5a2.5 2.5 0 0 1 5 0v1.5" /></g></svg>;
+export { LockSolid };

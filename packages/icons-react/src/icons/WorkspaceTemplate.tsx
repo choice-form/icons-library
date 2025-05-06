@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WorkspaceTemplate = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor"><path d="M12.5 1.5h-10a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1Z" /><path fill="currentColor" strokeLinejoin="round" d="M6.5 3.5h-3v3h3zM11.5 8.5h-3v3h3z" /></g></svg>;
+export { WorkspaceTemplate };

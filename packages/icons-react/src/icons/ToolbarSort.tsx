@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ToolbarSort = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M4.5 3.5v9m0 0L2 10m2.5 2.5L7 10m3.5 1.5v-9m0 0L13 5m-2.5-2.5L8 5" /></svg>;
+export { ToolbarSort };

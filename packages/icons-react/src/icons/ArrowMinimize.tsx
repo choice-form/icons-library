@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ArrowMinimize = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10}><path d="M9.5 6.5 14 2M9.5 6.5H14m-4.5 0V2M6.5 9.5 2 14m4.5-4.5H2m4.5 0V14" /></g></svg>;
+export { ArrowMinimize };

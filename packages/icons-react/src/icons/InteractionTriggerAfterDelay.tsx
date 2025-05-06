@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InteractionTriggerAfterDelay = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M6.5 2.5h2m-1 6L9 7m2.5 1.5a4 4 0 1 1-8 0 4 4 0 0 1 8 0" /></svg>;
+export { InteractionTriggerAfterDelay };

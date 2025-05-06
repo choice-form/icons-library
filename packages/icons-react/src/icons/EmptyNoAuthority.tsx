@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmptyNoAuthority = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M12.5 6.5h-10a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1M4.5 6.5v-2a3 3 0 0 1 6 0v2" /><path fill="currentColor" fillOpacity={0.25} d="M6.5 9.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M7.5 10.5v2m0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2" /></svg>;
+export { EmptyNoAuthority };

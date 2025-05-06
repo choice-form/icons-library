@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Collector = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M9.5 3.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0M7.5 3.5h-4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-4" /></g></svg>;
+export { Collector };

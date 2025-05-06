@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InteractionTriggerMouseLeave = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M11.5 9.5v1a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v1m-7 2h5m0 0-2-2m2 2-2 2" /></svg>;
+export { InteractionTriggerMouseLeave };

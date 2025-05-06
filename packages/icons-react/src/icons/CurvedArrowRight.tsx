@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const CurvedArrowRight = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="m10 6 3.5 3.5L10 13" /><path d="M13.5 9.5H6a3.5 3.5 0 1 1 0-7h3.5" /></g></svg>;
+export { CurvedArrowRight };

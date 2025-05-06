@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PlaySolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path fill="currentColor" fillRule="evenodd" d="M4.249 3.068a.5.5 0 0 1 .5-.002l7 4a.5.5 0 0 1 0 .868l-7 4A.5.5 0 0 1 4 11.5v-8a.5.5 0 0 1 .249-.432" clipRule="evenodd" /></svg>;
+export { PlaySolid };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const AlignLeftSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 2.5v10" /><path fill="currentColor" d="M4.5 4.5h8v2h-8zM4.5 8.5h5v2h-5z" /></g></svg>;
+export { AlignLeftSolid };

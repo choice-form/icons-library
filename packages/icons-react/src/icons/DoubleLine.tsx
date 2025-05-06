@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DoubleLine = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M1.5 12.5h2m0 0h10m-10 0v-11m0 11v2M5.5 8.5l2-2 3 3 3-3M6.5 10.5l1-1M10 6l3.5-3.5" /></g></svg>;
+export { DoubleLine };

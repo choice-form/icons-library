@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const RefreshAll = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round"><path strokeLinejoin="round" d="M9.5 14.5 12 8l2.5 6.5M10.5 12.5h3" /><path d="M10.036 3.964A5 5 0 1 0 7.5 12.4" /><path strokeLinejoin="round" d="M7.5 4.5h3v-3" /></g></svg>;
+export { RefreshAll };

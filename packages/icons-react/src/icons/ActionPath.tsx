@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ActionPath = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 2.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" /><path fill="currentColor" fillOpacity={0.25} d="M11.5 2.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M11.5 7.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M11.5 12.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" /><path d="M4.5 2.5h7m0 5h-6m-2-2v6a1 1 0 0 0 1 1h7" /></g></svg>;
+export { ActionPath };

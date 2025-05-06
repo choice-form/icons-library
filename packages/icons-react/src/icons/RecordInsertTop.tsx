@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const RecordInsertTop = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="m4.5 1.5 2 2m0 0-2 2m2-2h-3a2 2 0 0 0-2 2v2" /><path fill="currentColor" fillOpacity={0.25} d="M12.5 10.5h-10a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1" /><path d="M13.5 3.5h-4m2 2v-4" /></g></svg>;
+export { RecordInsertTop };

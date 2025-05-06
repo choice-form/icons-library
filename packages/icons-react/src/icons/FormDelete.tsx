@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FormDelete = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M11.5 7.5h1m-1 4h1M7.5 10.5h-4M9.5 10.5a4 4 0 1 1-8 0 4 4 0 0 1 8 0" /><path fill="currentColor" fillOpacity={0.25} d="m14.5 5.5-4-4v3a1 1 0 0 0 1 1z" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5h-4a1 1 0 0 0-1 1v2m5-3 4 4m-4-4v3a1 1 0 0 0 1 1h3m0 0v8a1 1 0 0 1-1 1h-3" /></svg>;
+export { FormDelete };

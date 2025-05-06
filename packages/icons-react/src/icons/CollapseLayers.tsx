@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const CollapseLayers = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round"><path strokeLinejoin="round" d="m9.5 12.5 2-2 2 2M9.5 3.5l2 2 2-2" /><path d="M2.5 3.5h5m-5 3h5m-5 3h5m-5 3h5" /></g></svg>;
+export { CollapseLayers };

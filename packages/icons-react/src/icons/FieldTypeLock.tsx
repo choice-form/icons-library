@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FieldTypeLock = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M10.5 7.5h-6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1M5.5 7V5.5a2 2 0 1 1 4 0V7" /></g></svg>;
+export { FieldTypeLock };

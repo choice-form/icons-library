@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Security = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="m7.5 1.5-5 3c0 6 5 9 5 9s5-3 5-9z" /><path fill="currentColor" fillOpacity={0.25} d="M6.5 6.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" /><path d="M7.5 7.5v2" /></g></svg>;
+export { Security };

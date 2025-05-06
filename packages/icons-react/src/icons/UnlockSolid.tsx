@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UnlockSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path fill="currentColor" d="M9.5 8.5h-6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1" /><path d="M8.5 6.5V5a2.5 2.5 0 0 1 5 0v.5" /></g></svg>;
+export { UnlockSolid };

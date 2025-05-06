@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FileRefresh = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path fill="currentColor" fillOpacity={0.25} d="m13.5 5.5-4-4v3a1 1 0 0 0 1 1z" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M9.5 1.5h-4a1 1 0 0 0-1 1v2m5-3 4 4m-4-4v3a1 1 0 0 0 1 1h3m0 0v7a1 1 0 0 1-1 1h-2M9.364 9.465A4 4 0 1 0 9.208 12" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m7.422 9.095 1.932.517.517-1.931" /></svg>;
+export { FileRefresh };

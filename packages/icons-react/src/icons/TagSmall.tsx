@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TagSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M2.5 2.5h5l5.561 5.561a1.5 1.5 0 0 1 0 2.121l-2.879 2.879a1.5 1.5 0 0 1-2.121 0L2.5 7.5z" /></svg>;
+export { TagSmall };

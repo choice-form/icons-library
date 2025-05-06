@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EffectInnerShadow = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M11.6 2.5H4.4a.9.9 0 0 0-.9.9v7.2a.9.9 0 0 0 .9.9h7.2a.9.9 0 0 0 .9-.9V3.4a.9.9 0 0 0-.9-.9" /><path fill="currentColor" fillOpacity={0.25} d="M13 10.611c0 .753-.61 1.364-1.364 1.364H4.364C3.61 11.975 3 11.365 3 10.61V9h10z" /></svg>;
+export { EffectInnerShadow };

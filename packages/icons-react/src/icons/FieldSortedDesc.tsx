@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FieldSortedDesc = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M1.5 2.5h10m-10 4h7m-7 4h5M11.5 6.5v6m0 0-2-2m2 2 2-2" /></g></svg>;
+export { FieldSortedDesc };

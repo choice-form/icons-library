@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ActionGetOneRecordFromADatasheet = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M12.5 7.5v6a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v1M6.5 5.5h8" /><path fill="currentColor" fillOpacity={0.25} d="M6.5 5.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0M6.5 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" /><path d="M8.5 10.5h2" /></g></svg>;
+export { ActionGetOneRecordFromADatasheet };

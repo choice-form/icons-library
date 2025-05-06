@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FileSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M4.5 2.5h2v4a1 1 0 0 0 1 1h4v4a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1" /><path d="M8.5 5.5v-3l3 3z" /></g></svg>;
+export { FileSolid };

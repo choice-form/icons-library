@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ToolbarScreenAspectSquareSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path fill="currentColor" fillRule="evenodd" d="M1 3.5A2.5 2.5 0 0 1 3.5 1h9A2.5 2.5 0 0 1 15 3.5v9a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5z" clipRule="evenodd" /></svg>;
+export { ToolbarScreenAspectSquareSolid };

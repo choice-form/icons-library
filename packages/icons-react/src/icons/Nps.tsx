@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Nps = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path strokeOpacity={0.25} d="M10.5 8.5c0 .546-.146 1.059-.401 1.5M7.5 5.5A3 3 0 0 0 4.901 10" /><path d="M12.374 12a6 6 0 1 0-9.748 0M7.5 8.5l3-3M5.5 12.5h4" /></g></svg>;
+export { Nps };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BooleanIntersection = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M6.5 12.5h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1h-2v3a1 1 0 0 1-1 1h-3v2a1 1 0 0 0 1 1" /><path d="M8.5 2.5h-5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h2v-3a1 1 0 0 1 1-1h3v-2a1 1 0 0 0-1-1" /><path fill="currentColor" fillOpacity={0.25} d="M6.5 5.5h3v3a1 1 0 0 1-1 1h-3v-3a1 1 0 0 1 1-1" /></g></svg>;
+export { BooleanIntersection };

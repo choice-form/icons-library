@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DataDownload = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M9.5 6.5v-4h-3v4h-2l3.5 4 3.5-4z" /><path d="M13.5 9.5V12a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 12V9.5" /></g></svg>;
+export { DataDownload };

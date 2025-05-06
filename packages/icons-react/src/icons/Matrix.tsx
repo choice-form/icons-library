@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Matrix = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M3.5 5.5h8m-8 4h8m-6-6v8m4-8v8" /><path d="M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z" /></g></svg>;
+export { Matrix };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmptySurvey = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path fill="currentColor" fillOpacity={0.25} d="M4.5 7.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0M4.5 11.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M8.5 7.5h2m-2 4h2m-5-3a1 1 0 1 1 0-2 1 1 0 0 1 0 2m0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M8.5 1.5h-5a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-8m-4-4 4 4m-4-4v3a1 1 0 0 0 1 1h3" /></svg>;
+export { EmptySurvey };

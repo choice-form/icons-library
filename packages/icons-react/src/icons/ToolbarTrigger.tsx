@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ToolbarTrigger = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M1.5 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0M5.5 5.5h2m0 0h2m-2 0v5" /></g></svg>;
+export { ToolbarTrigger };

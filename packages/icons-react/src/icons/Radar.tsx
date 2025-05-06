@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const Radar = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="m10 11-3 1.5L2.5 10V5L7 2.5 10 4" /><path fill="currentColor" fillOpacity={0.25} d="m13.5 4.5-5 3 5 3z" /></g></svg>;
+export { Radar };

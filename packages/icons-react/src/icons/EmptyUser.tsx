@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmptyUser = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round"><path d="M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5" /><path fill="currentColor" fillOpacity={0.25} strokeLinejoin="round" d="M5.5 6.5a2 2 0 1 0 4 0 2 2 0 0 0-4 0" /><path strokeLinejoin="round" d="M12.5 14.5v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3v1" /></g></svg>;
+export { EmptyUser };

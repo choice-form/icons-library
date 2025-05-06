@@ -1,0 +1,48 @@
+{
+  "name": "@choiceform/icons-react",
+  "version": "1.0.0",
+  "description": "React components for SVG icons",
+  "type": "module",
+  "scripts": {
+    "build": "npm run generate && vite build",
+    "generate": "node ./scripts/generate-icons.mjs",
+    "dev": "node ./scripts/generate-icons.mjs --watch"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./metadata": {
+      "import": "./dist/metadata.js",
+      "types": "./dist/metadata.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
+    "@types/react": "^18.2.55",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.1",
+    "svgo": "^3.3.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.1.1",
+    "vite-plugin-dts": "^3.7.2"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

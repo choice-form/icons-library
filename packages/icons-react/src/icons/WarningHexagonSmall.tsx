@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WarningHexagonSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M8 5.5v3M8 10.5h.005" /><path d="m13 8-2.5 4.5h-5L3 8l2.5-4.5h5z" /></g></svg>;
+export { WarningHexagonSmall };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BooleanUnion = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><path fill="currentColor" fillOpacity={0.25} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M7.5 2.5h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h3v3a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3v-3a1 1 0 0 0-1-1" /></svg>;
+export { BooleanUnion };

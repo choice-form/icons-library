@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FieldTypeAi = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g strokeLinecap="round" strokeLinejoin="round"><path fill="currentColor" stroke="currentColor" d="M9.5 4.5a2 2 0 0 0 2-2 2 2 0 0 0 2 2 2 2 0 0 0-2 2 2 2 0 0 0-2-2" /><path stroke="#AB0A83" d="M2.5 9.5a4 4 0 0 0 4-4 4 4 0 0 0 4 4 4 4 0 0 0-4 4 4 4 0 0 0-4-4" /></g></svg>;
+export { FieldTypeAi };

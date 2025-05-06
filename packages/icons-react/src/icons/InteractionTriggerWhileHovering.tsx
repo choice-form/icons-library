@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InteractionTriggerWhileHovering = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 9.5c0-1 2-2 5-2s5 1 5 2m-10 0c0 1 2 2 5 2s5-1 5-2m-10 0v2c0 1 2 2 5 2s5-1 5-2v-2M6 4.5a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0" /></g></svg>;
+export { InteractionTriggerWhileHovering };

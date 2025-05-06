@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WarningRhomboidSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="m2.5 7.5 5-5 5 5-5 5zM7.5 5.5v2M7.5 9.5h.005" /></g></svg>;
+export { WarningRhomboidSmall };

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DynamicLinked = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" className="choiceform-icon" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M10.5 13.5 12 12m0 0-2.5-1.5L11 9m1 3 1.5-1.5L11 9m1.5-1.5L11 9M1.5 6.5h7m0 0-2-2m2 2-2 2M2.5 1.5h11m-11 10h4" /></g></svg>;
+export { DynamicLinked };
