@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const FieldTypeTime = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M7.5 2.5a5 5 0 1 1 0 10 5 5 0 0 1 0-10" /><path d="M7.5 4.5v3h2" /></g></svg>;
-export { FieldTypeTime };

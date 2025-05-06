@@ -7,3 +7,5 @@ export * from "./search-empty";
 export * from "./layout";
 export * from "./icons-page";
 export * from "./guide-page";
+export * from "./packages-page";
+export * from "./package-details";

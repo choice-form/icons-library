@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const PaddingPer = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 10.5v-6M12.5 10.5v-6M4.5 2.5h6M4.5 12.5h6" /><path strokeOpacity={0.5} d="M9.5 4.5h-4a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1" /></g></svg>;
-export { PaddingPer };

@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const LockSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M11.5 7.5h-7a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1M5.5 7V5a2.5 2.5 0 0 1 5 0v2" /></g></svg>;
-export { LockSmall };

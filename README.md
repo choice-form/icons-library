@@ -1,117 +1,173 @@
-# Choiceform Icons Library (Monorepo)
+# Choiceform Icons
 
-This monorepo contains a comprehensive toolkit for creating, managing, and using SVG icons in Choiceform projects. The repository is organized into three interconnected packages that work together to provide a seamless icon management workflow.
+A comprehensive, customizable SVG icon library designed for Choiceform products.
 
-## Repository Structure
+![GitHub license](https://img.shields.io/github/license/choice-form/icons-library)
+![GitHub package version](https://img.shields.io/github/package-json/v/choice-form/icons-library)
+![Build Status](https://img.shields.io/github/workflow/status/choice-form/icons-library/CI)
 
-This monorepo contains the following packages:
+## Overview
 
-- **[@choiceform/icons-generate](./packages/icons-generate)**: Core package that generates React components from SVG files with metadata support.
-- **[@choiceform/icons-figma-plugin](./packages/figma-plugin)**: Figma plugin for exporting SVG icons with proper metadata and formatting.
-- **[@choiceform/icons-preview](./packages/preview-app)**: Web application for previewing, searching, and exploring the available icons.
+Choiceform Icons is a collection of beautifully designed SVG icons, optimized for web usage. Each icon is available in multiple framework formats, allowing for seamless integration into various technology stacks.
 
-## Features
+## Packages
 
-- **End-to-End Icon Management**: From design in Figma to implementation in React applications.
-- **Consistent Format**: Standardized SVG export process with proper metadata.
-- **Automatic Component Generation**: SVGs are automatically converted into tree-shakable React components.
-- **Rich Metadata Support**: Includes categories (based on folder structure) and tags (from filenames like `icon-name[tag1,tag2].svg`).
-- **Interactive Preview**: Browse, search, and preview all icons with their metadata.
-- **Color Customization**: By default, black (`#000`) strokes/fills are converted to `currentColor`, allowing color control via CSS.
-- **SVG Optimization**: SVGs are optimized using SVGO during the build process.
+| Package                                                 | Description                      | Version                                                                                                                           |
+| ------------------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| [`@choiceform/icons`](./packages/icons)                 | Core SVG icon files and metadata | -                                                                                                                                 |
+| [`@choiceform/icons-react`](./packages/icons-react)     | React components                 | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-react)](https://www.npmjs.com/package/@choiceform/icons-react)     |
+| [`@choiceform/icons-vue`](./packages/icons-vue)         | Vue components                   | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-vue)](https://www.npmjs.com/package/@choiceform/icons-vue)         |
+| [`@choiceform/icons-angular`](./packages/icons-angular) | Angular components               | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-angular)](https://www.npmjs.com/package/@choiceform/icons-angular) |
+| [`@choiceform/icons-solid`](./packages/icons-solid)     | SolidJS components               | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-solid)](https://www.npmjs.com/package/@choiceform/icons-solid)     |
+| [`@choiceform/icons-js`](./packages/icons-js)           | JavaScript library               | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-js)](https://www.npmjs.com/package/@choiceform/icons-js)           |
+| [`@choiceform/icons-core`](./packages/icons-core)       | Core utilities                   | -                                                                                                                                 |
+| [`@choiceform/figma-plugin`](./packages/figma-plugin)   | Figma plugin                     | -                                                                                                                                 |
 
-## Getting Started
+## Quick Start
 
-### Prerequisites
-
-This project uses [pnpm](https://pnpm.io/) as the package manager. Make sure you have it installed:
-
-```bash
-npm install -g pnpm
-```
-
-### Installation
-
-1. Clone the repository:
+### React
 
 ```bash
-git clone https://github.com/choiceform/icons-library.git
-cd icons-library
+# npm
+npm install @choiceform/icons-react
+
+# pnpm
+pnpm add @choiceform/icons-react
+
+# yarn
+yarn add @choiceform/icons-react
 ```
 
-2. Install dependencies:
+```jsx
+import { Search, CircleAdd, SettingsSolid } from "@choiceform/icons-react";
 
-```bash
-pnpm install
-```
-
-### Development
-
-To start development across all packages:
-
-```bash
-pnpm dev
-```
-
-To build all packages:
-
-```bash
-pnpm build
-```
-
-## Package Details
-
-### @choiceform/icons-generate
-
-Core package that handles the generation of React components from SVG files. It processes SVG files with metadata (categories and tags) and outputs optimized React components.
-
-#### Usage
-
-```tsx
-import { CheckCircle, User } from "@choiceform/icons-generate";
-
-function MyComponent() {
+function App() {
   return (
     <div>
-      <User className="w-5 h-5 text-blue-500" />
-      <CheckCircle size={32} />
+      <Search width={16} height={16} />
+      <CircleAdd color="#ff5252" />
+      <SettingsSolid />
     </div>
   );
 }
 ```
 
-### @choiceform/icons-figma-plugin
+### Vue
 
-Figma plugin that facilitates the export of SVG icons with proper formatting and metadata. It ensures consistency in the icon design process and prepares SVGs for the generation pipeline.
+```bash
+# npm
+npm install @choiceform/icons-vue
 
-#### Features
+# pnpm
+pnpm add @choiceform/icons-vue
 
-- Export icons directly from Figma with proper naming conventions
-- Add metadata (tags, categories) during the export process
-- Batch export multiple icons at once
-- Ensure consistent formatting across the icon library
+# yarn
+yarn add @choiceform/icons-vue
+```
 
-### @choiceform/icons-preview
+```vue
+<template>
+  <div>
+    <Search width="16" height="16" />
+    <CircleAdd color="#ff5252" />
+    <SettingsSolid />
+  </div>
+</template>
 
-Web application for previewing and exploring all available icons. It provides an interactive interface to browse, search, and copy code snippets for using icons in your applications.
+<script setup>
+import { Search, CircleAdd, SettingsSolid } from "@choiceform/icons-vue";
+</script>
+```
 
-#### Features
+### Angular
 
-- Search icons by name, category, or tag
-- Preview icons with different sizes and colors
-- Copy React import code snippets
-- Responsive design for desktop and mobile
+```bash
+# npm
+npm install @choiceform/icons-angular
+
+# pnpm
+pnpm add @choiceform/icons-angular
+
+# yarn
+yarn add @choiceform/icons-angular
+```
+
+```typescript
+import { Component } from "@angular/core";
+import {
+  WorkspaceComponent,
+  FileUploadComponent,
+} from "@choiceform/icons-angular";
+
+@Component({
+  selector: "app-example",
+  standalone: true,
+  imports: [WorkspaceComponent, FileUploadComponent],
+  template: `
+    <cf-workspace></cf-workspace>
+    <cf-file-upload
+      [width]="16"
+      [height]="16"
+      [color]="'#1976d2'"
+    ></cf-file-upload>
+  `,
+})
+export class ExampleComponent {}
+```
+
+## Features
+
+- **Multiple Framework Support**: React, Vue, Angular, SolidJS, and vanilla JavaScript
+- **Tree Shakable**: Only import the icons you use
+- **Optimized SVGs**: All icons are optimized with SVGO
+- **Consistent Design**: All icons follow the Choiceform design guidelines
+- **TypeScript Support**: Full TypeScript definitions for all components
+- **Customizable**: Style icons with CSS or component props
+- **Metadata Included**: Rich metadata for building icon pickers and documentation
+
+## Development
+
+This is a monorepo managed with pnpm workspaces. To get started with development:
+
+```bash
+# Install dependencies
+pnpm install
+
+# Generate icons for all frameworks
+pnpm run generate
+
+# Build all packages
+pnpm run build
+
+# Run the preview app
+pnpm run preview
+```
+
+### Project Structure
+
+```
+choiceform-icons/
+├── packages/
+│   ├── icons/                # Source SVG files
+│   ├── icons-core/           # Core utilities
+│   ├── icons-react/          # React components
+│   ├── icons-vue/            # Vue components
+│   ├── icons-angular/        # Angular components
+│   ├── icons-solid/          # SolidJS components
+│   ├── icons-js/             # JavaScript library
+│   ├── figma-plugin/         # Figma plugin source
+│   └── preview-app/          # Preview application
+└── scripts/                  # Build and utility scripts
+```
 
 ## Contributing
 
-Contributions to any of the packages are welcome! Please feel free to submit issues or pull requests.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md) for details on how to submit pull requests, report issues, or request features.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the [MIT License](./LICENSE).
+
+## Credits
+
+Choiceform Icons is developed and maintained by the Choiceform design and engineering team.

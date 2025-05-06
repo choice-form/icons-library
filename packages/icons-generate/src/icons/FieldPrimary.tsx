@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const FieldPrimary = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path fill="currentColor" fillOpacity={0.25} d="m4.5 2.5 8 4-8 4z" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M2.5 1.5v12m10-7-8-4v8z" /></svg>;
-export { FieldPrimary };

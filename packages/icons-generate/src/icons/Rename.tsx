@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Rename = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M8.5 2.5h1m0 0h1m-1 0v11m-1 0h2M7.5 4.5h-5a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5m4-7h1a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-1" /></g></svg>;
-export { Rename };

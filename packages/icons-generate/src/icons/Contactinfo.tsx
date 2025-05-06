@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Contactinfo = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor"><path d="M12.5 1.5h-9a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1Z" /><path strokeLinecap="round" strokeLinejoin="round" d="M11.5 12.5v-1a2 2 0 0 0-2-2h-3a2 2 0 0 0-2 2v1" /><path fill="currentColor" fillOpacity={0.25} strokeLinecap="round" strokeLinejoin="round" d="M8 7.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /></g></svg>;
-export { Contactinfo };

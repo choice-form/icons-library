@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icons.js createElement Demo</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        padding: 20px;
+      }
+      .demo-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 15px;
+        margin-top: 20px;
+      }
+      .icon-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border: 1px solid #eee;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      .icon-name {
+        margin-top: 8px;
+        font-size: 12px;
+      }
+      .choiceform-icon {
+        width: 24px;
+        height: 24px;
+        fill: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Icons.js createElement Demo</h1>
+    <p>这个示例展示了如何使用 CDN 引入库后，通过 createElement 方法创建图标</p>
+
+    <div id="demo-container" class="demo-container">
+      <!-- 图标将在这里渲染 -->
+    </div>
+
+    <!-- 引入 UMD 版本 -->
+    <script src="https://unpkg.com/@choiceform/icons-js@latest/dist/umd/icons-js.js"></script>
+
+    <script>
+      // 等待文档加载完成
+      document.addEventListener("DOMContentLoaded", function () {
+        // 获取容器元素
+        const container = document.getElementById("demo-container");
+
+        // 要展示的图标名称列表
+        const iconNames = [
+          "workspace",
+          "file-upload",
+          "settings",
+          "folder",
+          "calendar",
+        ];
+
+        // 遍历图标名称，创建并添加图标
+        iconNames.forEach((iconName) => {
+          // 确保图标存在
+          const icon = iconsJs.default[iconName];
+          if (!icon) {
+            console.warn(`图标 '${iconName}' 不存在`);
+            return;
+          }
+
+          // 创建容器
+          const box = document.createElement("div");
+          box.className = "icon-box";
+
+          // 使用 createElement 创建图标
+          const svgElement = iconsJs.createElement(icon, {
+            // 可以添加自定义属性
+            fill: "none",
+            stroke: "currentColor",
+          });
+
+          // 添加图标名称
+          const nameElement = document.createElement("div");
+          nameElement.className = "icon-name";
+          nameElement.textContent = iconName;
+
+          // 将元素添加到容器
+          box.appendChild(svgElement);
+          box.appendChild(nameElement);
+          container.appendChild(box);
+        });
+
+        // 添加一个使用 toString 方法的例子
+        const toStringBox = document.createElement("div");
+        toStringBox.className = "icon-box";
+
+        // 使用图标的 toString 方法获取 SVG 字符串
+        const workspaceIcon = iconsJs.default["workspace"];
+        toStringBox.innerHTML =
+          workspaceIcon.toString() + '<div class="icon-name">toString()</div>';
+
+        container.appendChild(toStringBox);
+      });
+    </script>
+  </body>
+</html>

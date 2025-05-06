@@ -1,5 +1,5 @@
 import { tcx } from "@choiceform/design-system";
-import { Folder, FolderOpen } from "@choiceform/icons-generate";
+import { Folder, FolderOpen } from "@choiceform/icons-react";
 import { forwardRef, memo, useMemo } from "react";
 import type { IconItemData } from "../../types";
 

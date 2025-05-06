@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const ToolbarScreenAspectVerticalRegular = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M13.5 2.5h-11a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2" /></svg>;
-export { ToolbarScreenAspectVerticalRegular };

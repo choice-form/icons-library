@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const BlockAdd = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round"><path fill="currentColor" fillOpacity={0.25} strokeLinejoin="round" d="M14.5 10.5a4 4 0 1 0-8 0 4 4 0 0 0 8 0" /><path strokeLinejoin="round" d="M12.5 10.5h-4m2-2v4" /><path d="M12.5 1.5h-10a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1ZM4.5 7.5h-2a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h2" /></g></svg>;
-export { BlockAdd };

@@ -1,0 +1,32 @@
+{
+  "name": "@choiceform/icons-angular",
+  "version": "1.0.0",
+  "description": "Angular components for SVG icons",
+  "keywords": [
+    "angular",
+    "icons",
+    "svg",
+    "choiceform"
+  ],
+  "scripts": {
+    "build": "npm run generate && ng-packagr -p ng-package.json",
+    "generate": "node ./scripts/generate-icons.mjs",
+    "dev": "node ./scripts/generate-icons.mjs --watch"
+  },
+  "peerDependencies": {
+    "@angular/common": "^15.0.0 || ^16.0.0 || ^17.0.0",
+    "@angular/core": "^15.0.0 || ^16.0.0 || ^17.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "ng-packagr": "^17.0.0",
+    "typescript": "~5.2.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

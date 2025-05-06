@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const UseInvitation = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M12.5 4.5a3 3 0 1 0-6 0 3 3 0 0 0 6 0M14.5 13.5v-1a3 3 0 0 0-3-3h-2M5.5 9.5l2 2m0 0-2 2m2-2h-6" /></g></svg>;
-export { UseInvitation };

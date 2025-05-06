@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const FieldInsertLeft = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="m1.5 10.5 2-2m0 0 2 2m-2-2v3a2 2 0 0 0 2 2h2" /><path fill="currentColor" fillOpacity={0.25} d="M9.5 12.5v-10a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1" /><path d="M1.5 3.5h4m-2 2v-4" /></g></svg>;
-export { FieldInsertLeft };

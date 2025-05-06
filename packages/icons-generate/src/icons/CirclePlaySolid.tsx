@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const CirclePlaySolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path fill="currentColor" fillRule="evenodd" d="M0 8c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8-8-3.6-8-8m6.528-2.882a1 1 0 0 1 1.027.05l2.99 1.993a1 1 0 0 1 0 1.678l-2.99 1.993A1 1 0 0 1 6 10V6a1 1 0 0 1 .528-.882" clipRule="evenodd" /></svg>;
-export { CirclePlaySolid };

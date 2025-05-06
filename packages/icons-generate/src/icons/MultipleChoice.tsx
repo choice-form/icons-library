@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const MultipleChoice = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor"><path d="M11.5 1.5h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2Z" /><path strokeLinecap="round" strokeLinejoin="round" d="m4.5 7.5 2 2 4-4" /></g></svg>;
-export { MultipleChoice };

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://unpkg.com/@choiceform/icons-js@latest/dist/umd/icons-js.js"></script>
+
+    <script>
+      window.onload = function () {
+        // 使用默认导出，其中包含了所有 kebab-case 名称的图标
+        console.log("图标版本信息:", iconsJs);
+
+        // 直接使用默认导出作为图标映射
+        iconsJs.createIcons({
+          icons: iconsJs.default || iconsJs,
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <div>
+      <i data-icon="workspace"></i>
+      <i data-icon="file-upload"></i>
+      <i data-icon="settings"></i>
+    </div>
+  </body>
+</html>

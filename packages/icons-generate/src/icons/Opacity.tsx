@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Opacity = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M11.5 2.5h-8a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1" /><path strokeOpacity={0.25} d="M4.5 10.5h.005m1.995-2h.005m1.995-2h.005m1.995-2h.005m-.005 2h.005M8.5 8.5h.005m-2.005 2h.005m1.995 0h.005m1.995 0h.005m-.005-2h.005" /></g></svg>;
-export { Opacity };

@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Appearance = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M7.5 1.5h5a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-5" /><path fill="currentColor" fillOpacity={0.25} d="M7.5 1.5h-4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h4z" /><path d="M4.5 4.5h1m-1 3h1m-1 3h1" /></g></svg>;
-export { Appearance };

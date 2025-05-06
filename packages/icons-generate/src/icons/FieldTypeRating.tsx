@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const FieldTypeRating = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m7.5 2.5 1.545 3.13 3.455.505L10 8.57l.59 3.44-3.09-1.625-3.09 1.625L5 8.57 2.5 6.135l3.455-.505z" /></svg>;
-export { FieldTypeRating };

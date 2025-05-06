@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Swatchbook = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 2.5v9a2 2 0 1 0 4 0v-9a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1" /><path d="M6.5 6.672 9.621 3.55a1 1 0 0 1 1.415 0l1.414 1.414a1 1 0 0 1 0 1.415l-6.95 6.95" /><path d="M9.5 9.5h3a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-8M4.5 11.5h.005" /></g></svg>;
-export { Swatchbook };

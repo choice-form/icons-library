@@ -11,3 +11,9 @@ node_modules/
 *.swo
 .DS_Store
 .vercel
+
+packages/icons-angular/src
+packages/icons-js/src
+packages/icons-react
+packages/icons-solid/src
+packages/icons-vue/src

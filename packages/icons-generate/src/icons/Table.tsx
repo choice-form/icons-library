@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Table = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M12.5 2.5h-10a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1M1.5 5.5h12m-8 0v8m-4-4h12m-4-4v8" /></g></svg>;
-export { Table };
