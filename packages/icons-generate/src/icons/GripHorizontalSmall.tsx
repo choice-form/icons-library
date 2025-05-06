@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const GripHorizontalSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M8 6.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M12 6.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M4 6.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M8 10.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M12 10.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M4 10.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" /></g></svg>;
-export { GripHorizontalSmall };

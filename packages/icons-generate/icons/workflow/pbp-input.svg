@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="pbp-input[workflow,packaged,arrow,right,input,import,volume,axis,dimension,3d,cube]">
-<path id="Vector" d="M11.5 5.5L7.5 7.5M7.5 7.5L3.5 5.5M7.5 7.5V12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M11.5 7.5V10.5L9.5 11.5" stroke="black" stroke-opacity="0.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M5.5 4.5L7.5 3.5L9.5 4.5" stroke="black" stroke-opacity="0.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M5.5 13.5001L7.27639 14.3883C7.41716 14.4586 7.58284 14.4586 7.72361 14.3883L13.2236 11.6383C13.393 11.5536 13.5 11.3804 13.5 11.191V4.80908C13.5 4.6197 13.393 4.44656 13.2236 4.36187L7.72361 1.61187C7.58284 1.54149 7.41716 1.54149 7.27639 1.61187L1.77639 4.36187C1.607 4.44656 1.5 4.6197 1.5 4.80908V8.50006C1.5 9.60463 2.39543 10.5001 3.5 10.5001H5.5M5.5 10.5001L3.5 12.5001M5.5 10.5001L3.5 8.50006" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

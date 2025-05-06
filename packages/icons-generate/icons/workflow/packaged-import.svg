@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="packaged-import[workflow,packaged,arrow,right,input,import,volume,axis,dimension,3d,cube]">
-<path id="Vector" d="M2.5 9.5V4.80902C2.5 4.61963 2.607 4.4465 2.77639 4.3618L8.27639 1.61181C8.41716 1.54143 8.58284 1.54143 8.72361 1.61181L14.2236 4.3618C14.393 4.4465 14.5 4.61963 14.5 4.80902V11.191C14.5 11.3804 14.393 11.5535 14.2236 11.6382L9.5 14" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M12.5 5.5L8.5 7.5M8.5 7.5L4.5 5.5M8.5 7.5V12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M12.5 7.5V10.5L10.5 11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M6.5 4.5L8.5 3.5L10.5 4.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M4.5 10.5L6.5 12.5M6.5 12.5L4.5 14.5M6.5 12.5H1.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

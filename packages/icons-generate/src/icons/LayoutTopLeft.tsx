@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const LayoutTopLeft = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M12.5 2.5h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1" /><path fill="currentColor" d="M6.5 7.5v-5h-4a1 1 0 0 0-1 1v4z" /></g></svg>;
-export { LayoutTopLeft };

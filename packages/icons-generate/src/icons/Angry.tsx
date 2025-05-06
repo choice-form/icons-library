@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Angry = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M8 15.5a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15" /><path d="M10 9.5H6a1.5 1.5 0 0 0 0 3h4a1.5 1.5 0 0 0 0-3M4.5 5.5l2 1M11.5 5.5l-2 1" /></g></svg>;
-export { Angry };

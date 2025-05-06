@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const TriggerStartedByWebhook = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M9.5 11a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0M8 4l1.714 3M4 11l1.24-2.17 1.51-2.665a2.5 2.5 0 1 1 3.7-1.665M6.292 10A2.5 2.5 0 1 1 3.5 8.55" /><path strokeOpacity={0.25} d="M11.5 11a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0" /><path d="M3.5 11a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M7.5 4a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 11h-3" /></g></svg>;
-export { TriggerStartedByWebhook };

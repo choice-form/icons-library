@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="module-workflow[workspaces,module,workflow]">
-<path id="Vector" d="M10.5 3.5V2.5C10.5 1.94771 10.0523 1.5 9.5 1.5H5.5C4.94772 1.5 4.5 1.94771 4.5 2.5V3.5C4.5 4.05228 4.94772 4.5 5.5 4.5H9.5C10.0523 4.5 10.5 4.05228 10.5 3.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M13.5 13.5V11.5C13.5 10.9477 13.0523 10.5 12.5 10.5H10.5C9.94772 10.5 9.5 10.9477 9.5 11.5V13.5C9.5 14.0523 9.94772 14.5 10.5 14.5H12.5C13.0523 14.5 13.5 14.0523 13.5 13.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M5.5 13.5V11.5C5.5 10.9477 5.05228 10.5 4.5 10.5H2.5C1.94771 10.5 1.5 10.9477 1.5 11.5V13.5C1.5 14.0523 1.94771 14.5 2.5 14.5H4.5C5.05228 14.5 5.5 14.0523 5.5 13.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M3.5 10.5V8.5C3.5 7.94772 3.94772 7.5 4.5 7.5H10.5C11.0523 7.5 11.5 7.94772 11.5 8.5V10.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M7.5 4.5V7.5M7.5 10.5V14.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

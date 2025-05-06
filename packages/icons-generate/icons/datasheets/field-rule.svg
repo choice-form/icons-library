@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="field-rule[data,datasheet,table,field,rule,user,account,profile,avatar,person,human,member]">
-<path id="Vector" d="M5.5 12.5V2.5C5.5 1.94772 5.05229 1.5 4.5 1.5H2.5C1.94772 1.5 1.5 1.94771 1.5 2.5L1.5 12.5C1.5 13.0523 1.94771 13.5 2.5 13.5H4.5C5.05229 13.5 5.5 13.0523 5.5 12.5Z" fill="black" fill-opacity="0.25"/>
-<path id="Vector_2" d="M8.5 4.5V2.5C8.5 1.94771 8.94772 1.5 9.5 1.5H11.5C12.0523 1.5 12.5 1.94771 12.5 2.5V4.5M1.5 2.5L1.5 12.5C1.5 13.0523 1.94771 13.5 2.5 13.5H4.5C5.05229 13.5 5.5 13.0523 5.5 12.5V2.5C5.5 1.94772 5.05229 1.5 4.5 1.5H2.5C1.94772 1.5 1.5 1.94771 1.5 2.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M9.5 8C9.5 8.82843 10.1716 9.5 11 9.5C11.8284 9.5 12.5 8.82843 12.5 8C12.5 7.17157 11.8284 6.5 11 6.5C10.1716 6.5 9.5 7.17157 9.5 8Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M14.5 14.5V13.5C14.5 12.3954 13.6046 11.5 12.5 11.5H9.5C8.39543 11.5 7.5 12.3954 7.5 13.5V14.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

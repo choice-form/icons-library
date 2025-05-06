@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="upload[arrow,top,up,upload,push,data,file]">
-<g id="Group">
-<path id="Vector" d="M5.5 7.5H4C3.60218 7.5 3.22064 7.65804 2.93934 7.93934C2.65804 8.22064 2.5 8.60218 2.5 9V12C2.5 12.3978 2.65804 12.7794 2.93934 13.0607C3.22064 13.342 3.60218 13.5 4 13.5H12C12.3978 13.5 12.7794 13.342 13.0607 13.0607C13.342 12.7794 13.5 12.3978 13.5 12V9C13.5 8.60218 13.342 8.22064 13.0607 7.93934C12.7794 7.65804 12.3978 7.5 12 7.5H10.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M5 5.5L8 2.5L11 5.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M8 10.5V2.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-</svg>

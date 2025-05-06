@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const ViewSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.638 8.528a1.08 1.08 0 0 1 0-1.056C3.308 6.283 5.179 3.5 8 3.5s4.692 2.783 5.362 3.972a1.08 1.08 0 0 1 0 1.056C12.692 9.717 10.821 12.5 8 12.5S3.308 9.717 2.638 8.528" /><path d="M8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /></g></svg>;
-export { ViewSmall };

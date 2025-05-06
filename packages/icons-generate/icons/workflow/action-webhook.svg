@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="action-webhook[workflow,action]">
-<path id="Vector" d="M4 11L5.24056 8.82901L6.75 6.16505C5.55427 5.4747 5.14458 3.94572 5.83494 2.74999C6.52529 1.55426 8.05427 1.14457 9.25 1.83493C10.206 2.38686 10.6595 3.47484 10.4502 4.5M6.29198 10C6.42578 10.3062 6.5 10.6444 6.5 11C6.5 12.3807 5.38071 13.5 4 13.5C2.61929 13.5 1.5 12.3807 1.5 11C1.5 9.79051 2.35888 8.78163 3.5 8.55" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M3.5 11C3.5 11.2761 3.72386 11.5 4 11.5C4.27614 11.5 4.5 11.2761 4.5 11C4.5 10.7239 4.27614 10.5 4 10.5C3.72386 10.5 3.5 10.7239 3.5 11Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M10.925 8.55001L8 4M8 4.5C7.72386 4.5 7.5 4.27614 7.5 4C7.5 3.72386 7.72386 3.5 8 3.5C8.27614 3.5 8.5 3.72386 8.5 4C8.5 4.27614 8.27614 4.5 8 4.5Z" stroke="black" stroke-opacity="0.25" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M8.5 11H6.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M11.5 14.5L13 13M13 13L10.5 11.5C10.5 11.5 11.1667 10.8333 12 10M13 13L14.5 11.5L12 10M13.5 8.5C12.8333 9.16667 12.8333 9.16667 12 10" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

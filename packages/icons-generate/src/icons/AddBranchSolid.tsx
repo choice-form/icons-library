@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const AddBranchSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g fill="currentColor"><path fillRule="evenodd" d="M5 6.5a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0m5-2a.5.5 0 0 0-1 0V6H7.5a.5.5 0 0 0 0 1H9v1.5a.5.5 0 0 0 1 0V7h1.5a.5.5 0 0 0 0-1H10z" clipRule="evenodd" /><path d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4" /></g></svg>;
-export { AddBranchSolid };

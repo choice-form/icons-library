@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const FieldTypeCheckbox = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m6.5 8 1 1 2-2m-5-3.5h7a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1" /></svg>;
-export { FieldTypeCheckbox };

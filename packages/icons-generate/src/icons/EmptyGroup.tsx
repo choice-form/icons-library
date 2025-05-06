@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const EmptyGroup = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round"><path strokeLinejoin="round" d="M1.5 6.5v2a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-2" /><path strokeLinejoin="round" d="m3.5 6.5 1 1 2-2m2 1h3M13.5 14.5v-2a1 1 0 0 0-1-1h-10a1 1 0 0 0-1 1v2" /><path strokeLinejoin="round" d="m3.5 14.5 1 1 2-2m2 1h3" /><path d="M7.5.5v2M13 3l1.5-1.5M2 3 .5 1.5" /></g></svg>;
-export { EmptyGroup };

@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="action-path[workflow,action,list]">
-<path id="Vector" d="M2.5 2.5C2.5 3.05228 2.94772 3.5 3.5 3.5C4.05228 3.5 4.5 3.05228 4.5 2.5C4.5 1.94771 4.05228 1.5 3.5 1.5C2.94772 1.5 2.5 1.94771 2.5 2.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M11.5 2.5C11.5 3.05228 11.9477 3.5 12.5 3.5C13.0523 3.5 13.5 3.05228 13.5 2.5C13.5 1.94771 13.0523 1.5 12.5 1.5C11.9477 1.5 11.5 1.94771 11.5 2.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M11.5 7.5C11.5 8.05228 11.9477 8.5 12.5 8.5C13.0523 8.5 13.5 8.05228 13.5 7.5C13.5 6.94772 13.0523 6.5 12.5 6.5C11.9477 6.5 11.5 6.94772 11.5 7.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M11.5 12.5C11.5 13.0523 11.9477 13.5 12.5 13.5C13.0523 13.5 13.5 13.0523 13.5 12.5C13.5 11.9477 13.0523 11.5 12.5 11.5C11.9477 11.5 11.5 11.9477 11.5 12.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M4.5 2.5H11.5M11.5 7.5H5.5M3.5 5.5V11.5C3.5 12.0523 3.94772 12.5 4.5 12.5H11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

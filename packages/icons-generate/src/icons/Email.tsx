@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Email = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor"><path d="M12.5 2.5h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1Z" /><path strokeLinecap="round" strokeLinejoin="round" d="m1.5 5.5 5.553 2.776a1 1 0 0 0 .894 0L13.5 5.5" /></g></svg>;
-export { Email };

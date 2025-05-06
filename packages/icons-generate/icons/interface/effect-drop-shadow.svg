@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="effect-drop-shadow[interface,effect,shadow]">
-<path id="Vector" d="M13 12.6364C13 13.3895 12.3895 14 11.6364 14H4.36364C3.61052 14 3 13.3895 3 12.6364V10.5252L4.36364 11.4564H11.6364L13 10.5252V12.6364Z" fill="black" fill-opacity="0.25"/>
-<path id="Vector_2" d="M11.6 2.5H4.4C3.90294 2.5 3.5 2.90294 3.5 3.4V10.6C3.5 11.0971 3.90294 11.5 4.4 11.5H11.6C12.0971 11.5 12.5 11.0971 12.5 10.6V3.4C12.5 2.90294 12.0971 2.5 11.6 2.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

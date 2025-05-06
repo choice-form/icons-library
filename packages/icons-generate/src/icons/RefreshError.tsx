@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const RefreshError = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round"><path strokeLinejoin="round" d="m12.25 9.25 2.25 1.25-5 4 1.25-3.75L8.5 9.5l5-4z" /><path d="M10.036 3.964A5 5 0 1 0 7.5 12.4" /><path strokeLinejoin="round" d="M7.5 4.5h3v-3" /></g></svg>;
-export { RefreshError };

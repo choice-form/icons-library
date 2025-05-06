@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="field-type-select-ai[field,type,data,datasheet,table,ai]">
-<path id="Vector" d="M4.5 2.5H3C2.72386 2.5 2.5 2.72386 2.5 3V6C2.5 6.27614 2.72386 6.5 3 6.5H6C6.27614 6.5 6.5 6.27614 6.5 6V5.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M8.5 4.5H12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M5.5 8.5H3C2.72386 8.5 2.5 8.72386 2.5 9V12C2.5 12.2761 2.72386 12.5 3 12.5H5.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M4 4L5 5L7 3" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M7.5 10.5C9 10.5 10.5 9 10.5 7.5C10.5 9 12 10.5 13.5 10.5C12 10.5 10.5 12 10.5 13.5C10.5 12 9 10.5 7.5 10.5Z" stroke="#AB0A83" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

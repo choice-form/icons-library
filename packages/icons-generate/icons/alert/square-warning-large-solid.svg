@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="square-warning-large-solid[solid,alert,warning,square]">
-<g id="Group">
-<path id="Vector" d="M14 0H2C0.895 0 0 0.895 0 2V14C0 15.105 0.895 16 2 16H14C15.105 16 16 15.105 16 14V2C16 0.895 15.105 0 14 0ZM8 12C7.448 12 7 11.552 7 11C7 10.448 7.448 10 8 10C8.552 10 9 10.448 9 11C9 11.552 8.552 12 8 12ZM9 8.5C9 8.776 8.776 9 8.5 9H7.5C7.224 9 7 8.776 7 8.5V4.5C7 4.224 7.224 4 7.5 4H8.5C8.776 4 9 4.224 9 4.5V8.5Z" fill="black"/>
-</g>
-</g>
-</svg>

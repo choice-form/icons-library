@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="logout[arrow,right,forward,more]">
-<g id="Group">
-<path id="Vector" d="M10.5 5L13.5 8L10.5 11" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M13.5 8H5.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M7.5 13.5H4C3.60218 13.5 3.22064 13.342 2.93934 13.0607C2.65804 12.7794 2.5 12.3978 2.5 12V4C2.5 3.60218 2.65804 3.22064 2.93934 2.93934C3.22064 2.65804 3.60218 2.5 4 2.5H7.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-</svg>

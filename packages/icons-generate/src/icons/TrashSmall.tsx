@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const TrashSmall = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M3.5 4.5h9m-1 0v7c0 .5-.5 1-1 1h-5c-.5 0-1-.5-1-1v-7m1.5 0v-1c0-.5.5-1 1-1h2c.5 0 1 .5 1 1v1" /></svg>;
-export { TrashSmall };

@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const LogLists = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor"><path d="M12.5 2.5h-10a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1Z" /><path d="M3.5 5.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0Z" /><path strokeLinecap="round" d="M7.5 5.5h4" /><path d="M3.5 9.5a1 1 0 1 0 2 0 1 1 0 0 0-2 0Z" /><path strokeLinecap="round" d="M7.5 9.5h4" /></g></svg>;
-export { LogLists };

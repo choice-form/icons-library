@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="toolbar-comment[interface,toolbar]">
-<path id="Vector" d="M4.5 5.5H11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M4.5 8.5H11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M15.5 7C15.5 3.41 12.142 0.5 8 0.5C3.858 0.5 0.5 3.41 0.5 7C0.5 10.59 3.858 13.5 8 13.5C8.525 13.5 9.037 13.452 9.532 13.363L13.5 15.5V11.409C14.738 10.25 15.5 8.704 15.5 7Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

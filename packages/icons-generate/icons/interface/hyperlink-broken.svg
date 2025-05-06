@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="hyperlink-broken[interface,link,connection,url,hyperlink,unlink,remove,broken]">
-<path id="Vector" d="M7.5 4.5L8 4C8.82843 3.17157 10.1716 3.17157 11 4C11.8284 4.82843 11.8284 6.17157 11 7L10.5 7.5" stroke="black" stroke-linecap="round"/>
-<path id="Vector_2" d="M7.5 10.5L7 11C6.17157 11.8284 4.82843 11.8284 4 11C3.17157 10.1716 3.17157 8.82843 4 8L4.5 7.5" stroke="black" stroke-linecap="round"/>
-<path id="Vector_3" d="M11 9.5H12.5M9.5 11V12.5M5.5 4V2.5M4 5.5H2.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

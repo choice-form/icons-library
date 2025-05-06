@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const GapH = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 2.5h2v10h-2m10 0h-2v-10h2" /><path strokeOpacity={0.5} d="M7.5 4.5v6" /></g></svg>;
-export { GapH };

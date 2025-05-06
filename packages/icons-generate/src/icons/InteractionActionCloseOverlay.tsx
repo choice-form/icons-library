@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const InteractionActionCloseOverlay = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M11.5 2.5h-8a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1M6 6l3 3m0-3L6 9" /></g></svg>;
-export { InteractionActionCloseOverlay };

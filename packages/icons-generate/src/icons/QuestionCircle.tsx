@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const QuestionCircle = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor"><path d="M1.5 7.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z" /><path strokeLinecap="round" d="M5.5 6.5c0-1 .5-2 2-2s2.5 1 2 2-2 1-2 2.5" /><path strokeLinecap="round" strokeLinejoin="round" d="M7.5 10.5h.005" /></g></svg>;
-export { QuestionCircle };

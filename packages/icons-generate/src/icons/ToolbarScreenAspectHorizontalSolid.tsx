@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const ToolbarScreenAspectHorizontalSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path fill="currentColor" fillRule="evenodd" d="M3 2.5A2.5 2.5 0 0 1 5.5 0h5A2.5 2.5 0 0 1 13 2.5v11a2.5 2.5 0 0 1-2.5 2.5h-5A2.5 2.5 0 0 1 3 13.5z" clipRule="evenodd" /></svg>;
-export { ToolbarScreenAspectHorizontalSolid };

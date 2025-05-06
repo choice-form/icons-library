@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const ReferenceLine = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path strokeOpacity={0.25} d="M1.5 7.5h12m-6-6v12" /><path d="M12.5 4.5v-1a1 1 0 0 0-1-1h-1m2 8v1a1 1 0 0 1-1 1h-1m-8-2v1a1 1 0 0 0 1 1h1m-2-8v-1a1 1 0 0 1 1-1h1" /></g></svg>;
-export { ReferenceLine };

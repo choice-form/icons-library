@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="action-formula-node[workflow,action,equation]">
-<path id="Vector" d="M4.5 8.5H11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M13.5 14.5L10.5 11.5M13.5 11.5L10.5 14.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M12.5 4.5H10.9881C10.1048 4.5 9.3262 5.07934 9.07241 5.9253L6.92759 13.0747C6.6738 13.9207 5.89516 14.5 5.01194 14.5H2.5C1.94771 14.5 1.5 14.0523 1.5 13.5V2.5C1.5 1.94771 1.94771 1.5 2.5 1.5H10.5C11.0523 1.5 11.5 1.94771 11.5 2.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const Reload = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.591 7a5.5 5.5 0 0 1 10.694-.527" /><path d="M13.5 2.5v4l-3.969-.493M13.409 9a5.5 5.5 0 0 1-10.694.527" /><path d="M2.5 13.5v-4l3.969.493" /></g></svg>;
-export { Reload };

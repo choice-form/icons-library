@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const AlignCenterVerticalSolid = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 7.5h2m2 0h2m2 0h2" /><path fill="currentColor" d="M4.5 11.5v-8h2v8zM10.5 9.5h-2v-4h2z" /></g></svg>;
-export { AlignCenterVerticalSolid };

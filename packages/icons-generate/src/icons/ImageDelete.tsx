@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const ImageDelete = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round"><path strokeLinejoin="round" d="M4.5 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2" /><path strokeLinejoin="round" d="M12.5 5.5v-2a2 2 0 0 0-2-2h-7a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h3M2 11l2.5-2.5" /><path d="M14.5 9.5h-7m1 0v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4" /><path strokeLinejoin="round" d="M9.5 9.5v-2h3v2" /></g></svg>;
-export { ImageDelete };

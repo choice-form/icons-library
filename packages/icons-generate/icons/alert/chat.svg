@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="chat[alert,alarm,answer,reply,message,chat]">
-<g id="Group">
-<path id="Vector" d="M2.5 4V9C2.5 9.39782 2.65804 9.77936 2.93934 10.0607C3.22064 10.342 3.60218 10.5 4 10.5H6L8 13.5L10 10.5H12C12.3978 10.5 12.7794 10.342 13.0607 10.0607C13.342 9.77936 13.5 9.39782 13.5 9V4C13.5 3.60218 13.342 3.22064 13.0607 2.93934C12.7794 2.65804 12.3978 2.5 12 2.5H4C3.60218 2.5 3.22064 2.65804 2.93934 2.93934C2.65804 3.22064 2.5 3.60218 2.5 4Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-</svg>

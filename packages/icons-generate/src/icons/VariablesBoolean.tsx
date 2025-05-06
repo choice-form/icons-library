@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const VariablesBoolean = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><g stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><path d="M9 4.5H6a3.5 3.5 0 1 0 0 7h3a3.5 3.5 0 1 0 0-7" /><path d="M4.5 8a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0" /></g></svg>;
-export { VariablesBoolean };

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="trigger-connector-event[workflow,trigger,plug,energy,power]">
-<path id="Vector" d="M7 6L5.5 7.5M10 9L8.5 10.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M13 3C11.6193 1.61929 9.38071 1.61929 8 3L7.5 3.5L12.5 8.5L13 8C14.3807 6.61929 14.3807 4.38071 13 3ZM13 3L14.5 1.5M4 12C5.38071 13.3807 7.61929 13.3807 9 12L9.5 11.5L4.5 6.5L4 7C2.61929 8.38071 2.61929 10.6193 4 12ZM4 12L1.5 14.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>

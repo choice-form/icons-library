@@ -1,3 +1,0 @@
-import type { SVGProps } from "react";
-const InteractionTriggerMouseEnter = (props: SVGProps<SVGSVGElement>) => <svg width={16} height={16} fill="none" viewBox="0 0 16 16" aria-hidden="true" focusable="false" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M2.5 5.5v-1a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-1m2-2h5m0 0-2-2m2 2-2 2" /></svg>;
-export { InteractionTriggerMouseEnter };

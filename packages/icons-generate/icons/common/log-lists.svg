@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-<g id="log-lists[common,system,settings,control,preferences,tools,list]">
-<path id="Vector" d="M12.5 2.5H2.5C1.94771 2.5 1.5 2.94772 1.5 3.5V11.5C1.5 12.0523 1.94771 12.5 2.5 12.5H12.5C13.0523 12.5 13.5 12.0523 13.5 11.5V3.5C13.5 2.94772 13.0523 2.5 12.5 2.5Z" stroke="black"/>
-<path id="Vector_2" d="M3.5 5.5C3.5 6.05228 3.94772 6.5 4.5 6.5C5.05228 6.5 5.5 6.05228 5.5 5.5C5.5 4.94772 5.05228 4.5 4.5 4.5C3.94772 4.5 3.5 4.94772 3.5 5.5Z" stroke="black"/>
-<path id="Vector_3" d="M7.5 5.5H11.5" stroke="black" stroke-linecap="round"/>
-<path id="Vector_4" d="M3.5 9.5C3.5 10.0523 3.94772 10.5 4.5 10.5C5.05228 10.5 5.5 10.0523 5.5 9.5C5.5 8.94772 5.05228 8.5 4.5 8.5C3.94772 8.5 3.5 8.94772 3.5 9.5Z" stroke="black"/>
-<path id="Vector_5" d="M7.5 9.5H11.5" stroke="black" stroke-linecap="round"/>
-</g>
-</svg>
