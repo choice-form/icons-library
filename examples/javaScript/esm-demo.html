@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icons.js ES Modules Demo</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        padding: 20px;
+      }
+      .icon-container {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .icon-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #eee;
+        padding: 15px;
+        border-radius: 8px;
+      }
+      .icon-name {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+      .choiceform-icon {
+        width: 24px;
+        height: 24px;
+        fill: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Icons.js ES Modules Demo</h1>
+    <p>这个示例展示了如何使用 ES 模块方式导入图标</p>
+
+    <div id="icon-container" class="icon-container">
+      <!-- 图标将在这里渲染 -->
+    </div>
+
+    <!-- 使用 ES 模块方式导入 -->
+    <script type="module" src="./icons-demo.js"></script>
+  </body>
+</html>
