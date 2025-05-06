@@ -1,0 +1,30 @@
+import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
+
+@Component({
+  selector: 'cf-square-question-large',
+  standalone: true,
+  template: `
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      [attr.viewBox]="viewBox || '0 0 16 16'" 
+      [attr.width]="width || '16'" 
+      [attr.height]="height || '16'" 
+      [attr.fill]="color" 
+      [attr.aria-hidden]="title ? 'false' : 'true'"
+      class="choiceform-icon"
+    >
+      <ng-container *ngIf="title">
+        <title>{{title}}</title>
+      </ng-container>
+      <g fill="currentColor"><path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m0 14H2V2h12z"/><path d="M8 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2M6.687 5.446c.357-.34.821-.546 1.313-.583 1 0 1 .518 1 .712 0 .366-.159.532-.65.954A3.12 3.12 0 0 0 7 9a1 1 0 0 0 2 0c0-.365.158-.532.649-.952A3.12 3.12 0 0 0 11 5.575c0-1.621-1.2-2.711-3.047-2.711a4.15 4.15 0 0 0-2.64 1.129 1 1 0 1 0 1.374 1.453"/></g>
+    </svg>
+  `,
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class SquareQuestionLargeComponent {
+  @Input() width?: string | number;
+  @Input() height?: string | number;
+  @Input() viewBox?: string;
+  @Input() color: string = 'none';
+  @Input() title?: string;
+}
