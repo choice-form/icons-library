@@ -1,0 +1,43 @@
+{
+  "name": "@choiceform/icons-solid",
+  "version": "1.0.0",
+  "description": "Solid.js components for SVG icons",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./metadata": {
+      "import": "./dist/metadata.js",
+      "types": "./dist/metadata.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run generate && vite build",
+    "generate": "node ./scripts/generate-icons.mjs",
+    "dev": "node ./scripts/generate-icons.mjs --watch"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.5.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.3.0",
+    "solid-js": "^1.9.6",
+    "svelte-preprocess": "^5.1.4",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.0.0",
+    "vite-plugin-solid": "^2.11.6"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,29 @@
+import { splitProps } from 'solid-js';
+
+export interface ChatProps {
+  width?: number | string;
+  height?: number | string;
+  color?: string;
+  title?: string;
+  [key: string]: any;
+}
+
+export function Chat(props: ChatProps) {
+  const [local, others] = splitProps(props, ['width', 'height', 'color', 'title']);
+  
+  return (
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 16 16" 
+      width={local.width ?? "16"} 
+      height={local.height ?? "16"} 
+      fill={local.color ?? "none"} 
+      aria-hidden={local.title ? "false" : "true"}
+      class="choiceform-icon"
+      {...others}
+    >
+      {local.title && <title>{local.title}</title>}
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M2.5 4v5A1.5 1.5 0 0 0 4 10.5h2l2 3 2-3h2A1.5 1.5 0 0 0 13.5 9V4A1.5 1.5 0 0 0 12 2.5H4A1.5 1.5 0 0 0 2.5 4"/>
+    </svg>
+  );
+}

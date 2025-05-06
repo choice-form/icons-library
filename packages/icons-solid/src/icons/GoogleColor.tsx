@@ -1,0 +1,29 @@
+import { splitProps } from 'solid-js';
+
+export interface GoogleColorProps {
+  width?: number | string;
+  height?: number | string;
+  color?: string;
+  title?: string;
+  [key: string]: any;
+}
+
+export function GoogleColor(props: GoogleColorProps) {
+  const [local, others] = splitProps(props, ['width', 'height', 'color', 'title']);
+  
+  return (
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 16 16" 
+      width={local.width ?? "16"} 
+      height={local.height ?? "16"} 
+      fill={local.color ?? "none"} 
+      aria-hidden={local.title ? "false" : "true"}
+      class="choiceform-icon"
+      {...others}
+    >
+      {local.title && <title>{local.title}</title>}
+      <mask id="a" width="16" height="16" x="0" y="0" mask-type="luminance" maskUnits="userSpaceOnUse"><path fill="#fff" d="M16 0H0v16h16z"/></mask><g mask="url(#a)"><path fill="#D94F3D" d="M8 3.667a4.3 4.3 0 0 1 2.782 1.015l2.18-2.076a7.324 7.324 0 0 0-11.531 2.14L3.889 6.64A4.34 4.34 0 0 1 8 3.667"/><path fill="#F2C042" d="M3.667 8c0-.462.075-.922.222-1.36L1.43 4.745a7.31 7.31 0 0 0 0 6.51L3.889 9.36A4.3 4.3 0 0 1 3.667 8"/><path fill="#5085ED" d="M15.033 6.667h-7v3H12a3.58 3.58 0 0 1-1.518 2.054l2.438 1.88c1.559-1.399 2.474-3.673 2.113-6.934"/><path fill="#57A75C" d="M10.48 11.72a4.66 4.66 0 0 1-2.48.613A4.34 4.34 0 0 1 3.889 9.36L1.43 11.255A7.34 7.34 0 0 0 8 15.333a7.3 7.3 0 0 0 4.92-1.733z"/></g>
+    </svg>
+  );
+}

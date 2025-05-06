@@ -1,0 +1,29 @@
+import { splitProps } from 'solid-js';
+
+export interface Transforms3dRotateProps {
+  width?: number | string;
+  height?: number | string;
+  color?: string;
+  title?: string;
+  [key: string]: any;
+}
+
+export function Transforms3dRotate(props: Transforms3dRotateProps) {
+  const [local, others] = splitProps(props, ['width', 'height', 'color', 'title']);
+  
+  return (
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 16 16" 
+      width={local.width ?? "16"} 
+      height={local.height ?? "16"} 
+      fill={local.color ?? "none"} 
+      aria-hidden={local.title ? "false" : "true"}
+      class="choiceform-icon"
+      {...others}
+    >
+      {local.title && <title>{local.title}</title>}
+      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M9.733 5.25C9.321 3.619 8.476 2.5 7.5 2.5 6.12 2.5 5 4.739 5 7.5s1.12 5 2.5 5q.257 0 .5-.1m1.097-4.046 1.907.93-.93 1.906M11 9.286c-.902.442-2.137.715-3.5.715-2.761 0-5-1.12-5-2.5S4.739 5 7.5 5c2.419 0 4.437.859 4.9 2"/>
+    </svg>
+  );
+}
