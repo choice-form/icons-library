@@ -1,0 +1,15 @@
+{
+  "name": "WorkflowFileImport",
+  "filename": "workflow-file-import.svg",
+  "category": "workflow",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "workflow",
+    "arrow",
+    "right",
+    "input",
+    "import",
+    "output"
+  ]
+}

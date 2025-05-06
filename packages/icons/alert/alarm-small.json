@@ -1,0 +1,13 @@
+{
+  "name": "AlarmSmall",
+  "filename": "alarm-small.svg",
+  "category": "alert",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "alert",
+    "alarm",
+    "notification",
+    "bell"
+  ]
+}

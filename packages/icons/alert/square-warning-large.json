@@ -1,0 +1,13 @@
+{
+  "name": "SquareWarningLarge",
+  "filename": "square-warning-large.svg",
+  "category": "alert",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "solid",
+    "alert",
+    "warning",
+    "square"
+  ]
+}

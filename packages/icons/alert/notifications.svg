@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="notifications[alert,alarm,notification,bell]">
+<path id="Vector" d="M3.5 7.5C3.5 9.53527 2.57948 10.1898 1.98745 10.4002C1.72726 10.4927 1.5 10.7239 1.5 11C1.5 11.2761 1.72386 11.5 2 11.5H13C13.2761 11.5 13.5 11.2761 13.5 11C13.5 10.7239 13.2727 10.4927 13.0125 10.4002C12.4205 10.1898 11.5 9.53527 11.5 7.5C11.5 4.45982 8.6784 2.99942 7.77482 2.60969C7.5969 2.53295 7.40088 2.52416 7.21782 2.58767C6.30638 2.90388 3.5 4.14955 3.5 7.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M7.5 2.5V1.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9.5 11.5C9.5 12.6046 8.60457 13.5 7.5 13.5C6.39543 13.5 5.5 12.6046 5.5 11.5H9.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

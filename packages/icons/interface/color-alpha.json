@@ -1,0 +1,13 @@
+{
+  "name": "ColorAlpha",
+  "filename": "color-alpha.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "color",
+    "opacity",
+    "alpha"
+  ]
+}

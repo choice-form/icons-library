@@ -1,0 +1,14 @@
+{
+  "name": "Menu",
+  "filename": "menu.svg",
+  "category": "common",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "common",
+    "bars",
+    "navigation",
+    "hamburger",
+    "options"
+  ]
+}

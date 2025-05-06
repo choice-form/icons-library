@@ -1,0 +1,19 @@
+{
+  "name": "History",
+  "filename": "history.svg",
+  "category": "datasheets",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "data",
+    "datasheet",
+    "table",
+    "back",
+    "loop",
+    "process",
+    "arrow",
+    "clock",
+    "time",
+    "refresh"
+  ]
+}

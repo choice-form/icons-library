@@ -1,0 +1,20 @@
+{
+  "name": "PbpInput",
+  "filename": "pbp-input.svg",
+  "category": "workflow",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "workflow",
+    "packaged",
+    "arrow",
+    "right",
+    "input",
+    "import",
+    "volume",
+    "axis",
+    "dimension",
+    "3d",
+    "cube"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "NetworkConnection",
+  "filename": "network-connection.svg",
+  "category": "common",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "common",
+    "network",
+    "share",
+    "connections"
+  ]
+}

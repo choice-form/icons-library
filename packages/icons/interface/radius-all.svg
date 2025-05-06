@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="radius-all[interface,radius,rounded,border]">
+<path id="Vector" d="M9.5 12.5H10.5C11.6046 12.5 12.5 11.6046 12.5 10.5V9.5M5.5 12.5H4.50001C3.39544 12.5 2.50001 11.6046 2.50001 10.5L2.5 9.5M2.5 5.5L2.50001 4.49999C2.50001 3.39542 3.39544 2.5 4.50001 2.5H5.5M9.5 2.5H10.5C11.6046 2.5 12.5 3.39543 12.5 4.5V5.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

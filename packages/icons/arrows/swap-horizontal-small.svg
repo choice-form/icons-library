@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="swap-horizontal-small[arrow,horizontal,flip,directions,swap]">
+<g id="Group">
+<path id="Vector" d="M11 8L13.5 10.5L11 13" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2.5 10.5H13.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M5 8L2.5 5.5L5 3" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M2.5 5.5H13.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

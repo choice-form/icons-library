@@ -1,0 +1,20 @@
+{
+  "name": "FolderDelete",
+  "filename": "folder-delete.svg",
+  "category": "files",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "folder",
+    "document",
+    "catalog",
+    "file",
+    "clear",
+    "delete",
+    "remove",
+    "close",
+    "exit",
+    "cancel",
+    "discard"
+  ]
+}

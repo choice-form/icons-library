@@ -1,0 +1,16 @@
+{
+  "name": "ViewCalendar",
+  "filename": "view-calendar.svg",
+  "category": "datasheets",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "data",
+    "datasheet",
+    "table",
+    "view",
+    "date",
+    "calendar",
+    "time"
+  ]
+}

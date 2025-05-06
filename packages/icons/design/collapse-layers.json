@@ -1,0 +1,17 @@
+{
+  "name": "CollapseLayers",
+  "filename": "collapse-layers.svg",
+  "category": "design",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "collapse",
+    "expand",
+    "details",
+    "toggle",
+    "accordion",
+    "more",
+    "less",
+    "unfold"
+  ]
+}
