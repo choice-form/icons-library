@@ -1,0 +1,42 @@
+<template>
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    :viewBox="viewBox" 
+    :width="width" 
+    :height="height" 
+    :fill="color" 
+    :aria-hidden="!title" 
+    class="choiceform-icon"
+  >
+    <title v-if="title">{{ title }}</title>
+    <g fill="currentColor"><path d="M5.803 1.534C2.516 1.534 0 3.765 0 6.196s2.172 3.841 2.172 3.841l-.353 1.338a.206.206 0 0 0 .301.232l1.587-.899c.702.223 2.191.295 2.336.301a3.8 3.8 0 0 1-.155-1.048c0-1.877 1.634-4.52 5.266-4.52q.124 0 .248.005c-.484-2.312-2.886-3.912-5.599-3.912M3.639 5.408a.721.721 0 1 1 0-1.443.721.721 0 0 1 0 1.443m4.193 0a.721.721 0 1 1 0-1.443.721.721 0 0 1 0 1.443"/><path d="M16 9.668c0-2.13-2.499-3.69-4.847-3.69-3.321 0-4.73 2.398-4.73 3.983 0 1.588 1.409 3.983 4.73 3.983a6.1 6.1 0 0 0 1.943-.292l1.249.793a.13.13 0 0 0 .197-.14l-.283-1.23C15.439 12.254 16 10.958 16 9.668m-6.365-.405a.637.637 0 1 1 0-1.273.637.637 0 0 1 0 1.273m3.187 0a.637.637 0 1 1 0-1.273.637.637 0 0 1 0 1.273"/></g>
+  </svg>
+</template>
+
+<script>
+export default {
+  name: "Wechat",
+  props: {
+    width: {
+      type: [String, Number],
+      default: "16"
+    },
+    height: {
+      type: [String, Number],
+      default: "16"
+    },
+    viewBox: {
+      type: String,
+      default: "0 0 16 16"
+    },
+    color: {
+      type: String,
+      default: "none"
+    },
+    title: {
+      type: String,
+      default: null
+    }
+  }
+};
+</script>
