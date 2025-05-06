@@ -2,42 +2,39 @@
 
 JavaScript library for SVG icons.
 
-## 特性
-
-- 纯 JavaScript 实现，无框架依赖
-- 支持多种使用方式：CDN、ES 模块
-- 完整保留 SVG 属性，包括 `viewBox`、`stroke-linecap` 等
-- 支持通过配置文件自定义类名
-
-## 安装
+## Installation
 
 ```bash
 # npm
 npm install @choiceform/icons-js
 
-# yarn
-yarn add @choiceform/icons-js
-
 # pnpm
 pnpm add @choiceform/icons-js
+
+# yarn
+yarn add @choiceform/icons-js
 ```
 
-## 使用
+## How to use
 
-### 使用 CDN
+Choiceform Icons for JavaScript is built with ES Modules and is fully tree-shakable.
+
+Each icon can be imported and used to generate SVG strings or DOM elements. This way, only the icons that are imported into your project are included in the final bundle. The rest of the icons are tree-shaken away.
+
+### Using with CDN
 
 ```html
 <!DOCTYPE html>
 <body>
-  <!-- 使用 data-icon 属性指定图标 -->
+  <!-- Use data-icon attribute to specify icons -->
   <i data-icon="workspace"></i>
   <i data-icon="file-upload"></i>
   <i data-icon="settings"></i>
 
-  <!-- 引入 UMD 版本 -->
+  <!-- Include the UMD version -->
   <script src="https://unpkg.com/@choiceform/icons-js@latest/dist/umd/icons-js.js"></script>
   <script>
-    // 初始化所有图标
+    // Initialize all icons
     iconsJs.createIcons({
       icons: iconsJs.default,
     });
@@ -45,7 +42,7 @@ pnpm add @choiceform/icons-js
 </body>
 ```
 
-### 使用 ES 模块
+### Using with ES Modules
 
 ```js
 import {
@@ -55,7 +52,7 @@ import {
   Settings,
 } from "@choiceform/icons-js";
 
-// 只导入需要的图标（推荐方式，减小打包体积）
+// Only import icons you need (recommended, reduces bundle size)
 createIcons({
   icons: {
     Workspace,
@@ -65,17 +62,68 @@ createIcons({
 });
 ```
 
-## 高级用法
+### Generate SVG Strings
 
-### 自定义属性名
+```js
+import { Search, CircleAdd, SettingsSolid } from "@choiceform/icons-js";
 
-默认情况下，图标库使用 `data-icon` 属性查找要替换的元素。你可以自定义这个属性名：
+// Create an SVG string
+const searchSvg = Search.toSvg({
+  width: "16",
+  height: "16",
+  color: "currentColor",
+});
+
+// Append icon to element
+document.getElementById("icon-container").innerHTML = searchSvg;
+
+// Or create multiple icons
+const icons = [Search, CircleAdd, SettingsSolid];
+const container = document.getElementById("icons-container");
+
+icons.forEach((icon) => {
+  container.innerHTML += icon.toSvg();
+});
+```
+
+## Parameters
+
+Each icon accepts the following parameters when calling `toSvg()`:
+
+| Name     | Type               | Default          | Description         |
+| -------- | ------------------ | ---------------- | ------------------- |
+| `width`  | `string \| number` | `'16'`           | Width of the icon   |
+| `height` | `string \| number` | `'16'`           | Height of the icon  |
+| `color`  | `string`           | `'currentColor'` | Color of the icon   |
+| `title`  | `string`           | `undefined`      | Accessibility title |
+
+### Applying parameters
+
+```js
+import { Search } from "@choiceform/icons-js";
+
+// Create an SVG with custom parameters
+const searchSvg = Search.toSvg({
+  width: "32",
+  height: "32",
+  color: "#1976d2",
+  title: "Search icon",
+});
+
+document.getElementById("icon-container").innerHTML = searchSvg;
+```
+
+## Advanced Usage
+
+### Custom attribute name
+
+By default, the library uses the `data-icon` attribute to find elements to replace. You can customize this attribute name:
 
 ```js
 import { createIcons, Workspace, FileUpload } from "@choiceform/icons-js";
 
 createIcons({
-  nameAttr: "data-cf-icon", // 使用 data-cf-icon 代替 data-icon
+  nameAttr: "data-cf-icon", // Use data-cf-icon instead of data-icon
   icons: {
     Workspace,
     FileUpload,
@@ -83,22 +131,22 @@ createIcons({
 });
 ```
 
-然后在 HTML 中这样使用：
+Then use it in HTML like this:
 
 ```html
 <i data-cf-icon="workspace"></i>
 ```
 
-### 自定义属性
+### Custom attributes
 
-你可以为所有图标设置默认属性：
+You can set default attributes for all icons:
 
 ```js
 import { createIcons, Workspace, FileUpload } from "@choiceform/icons-js";
 
 createIcons({
   attrs: {
-    class: ["my-icon-class", "icon"], // 类名会被合并
+    class: ["my-icon-class", "icon"], // Classes will be merged
     width: "20",
     height: "20",
     fill: "#333",
@@ -110,27 +158,27 @@ createIcons({
 });
 ```
 
-### 直接创建元素
+### Creating elements directly
 
-你可以直接创建图标元素，而不是通过替换占位符：
+You can create icon elements directly, instead of replacing placeholders:
 
 ```js
 import { createElement, Workspace } from "@choiceform/icons-js";
 
-// 创建 SVG 元素
-const workspaceIcon = createElement(Workspace); // 返回 HTMLElement (svg)
+// Create an SVG element
+const workspaceIcon = createElement(Workspace); // Returns HTMLElement (svg)
 
-// 添加到 DOM
+// Add to the DOM
 const container = document.getElementById("icon-container");
 container.appendChild(workspaceIcon);
 ```
 
-#### 添加自定义属性
+#### Adding custom attributes
 
 ```js
 import { createElement, FileUpload } from "@choiceform/icons-js";
 
-// 创建带自定义属性的图标
+// Create an icon with custom attributes
 const fileUploadIcon = createElement(FileUpload, {
   class: "custom-icon",
   width: "32",
@@ -138,44 +186,81 @@ const fileUploadIcon = createElement(FileUpload, {
   fill: "#1976d2",
 });
 
-// 添加到 DOM
+// Add to the DOM
 document.body.appendChild(fileUploadIcon);
 ```
 
-## 元数据
+## Styling with CSS
 
-你可以访问所有图标的元数据：
+All icons include a default CSS class name (`choiceform-icon`) that can be used for styling:
 
-```js
-import { iconMetadata } from "@choiceform/icons-js";
-
-// iconMetadata 是一个包含图标信息的数组
-console.log(iconMetadata);
-```
-
-## 配置
-
-通过项目根目录下的 `icon-config.json` 文件，你可以定制图标的全局设置：
-
-```json
-{
-  "iconClassName": "choiceform-icon"
+```css
+.choiceform-icon {
+  /* Your custom styles */
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
 }
 ```
 
-目前支持的配置：
+### Custom Class Name
 
-- `iconClassName`: 图标的默认 CSS 类名
+The default class name can be changed globally by modifying the `icon-config.json` file at the root of the project:
 
-## 开发
+```json
+{
+  "iconClassName": "my-custom-icon-class"
+}
+```
+
+After changing the configuration, regenerate the icons:
 
 ```bash
-# 生成图标
 npm run generate
-
-# 开发模式（监视文件变化）
-npm run dev
-
-# 构建
-npm run build
 ```
+
+## Using Icon Metadata
+
+The library also exports icon metadata that can be useful for building icon pickers, documentation, or other features that need information about available icons.
+
+```js
+import { iconMetadata } from "@choiceform/icons-js/metadata";
+
+// Get total number of icons
+console.log(`Total icons: ${iconMetadata.length}`);
+
+// Create a list of all icon names with categories
+const iconList = iconMetadata.map(
+  (icon) => `${icon.name} - Category: ${icon.category}`
+);
+
+// Display the icon list
+const container = document.getElementById("icon-list");
+iconList.forEach((item) => {
+  const li = document.createElement("li");
+  li.textContent = item;
+  container.appendChild(li);
+});
+```
+
+## Features
+
+- **Tree Shakable**: Only import the icons you use
+- **TypeScript Support**: Full TypeScript definitions
+- **Framework Agnostic**: Use with any JavaScript framework or vanilla JS
+- **Accessible**: Attributes for accessibility are applied automatically
+- **Customizable**: Easy to style with CSS
+- **Optimized SVGs**: All icons are optimized with SVGO
+- **Multiple Usage Methods**: Support for CDN, ES modules, and direct DOM manipulation
+
+## Metadata Properties
+
+Each icon in the metadata includes:
+
+| Property       | Description                        |
+| -------------- | ---------------------------------- |
+| `name`         | The name of the icon               |
+| `category`     | The category the icon belongs to   |
+| `tags`         | Array of tags for search/filtering |
+| `filename`     | Original SVG filename              |
+| `width`        | Width of the SVG (if available)    |
+| `height`       | Height of the SVG (if available)   |
+| `optimizedSvg` | The optimized SVG string           |

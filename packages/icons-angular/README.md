@@ -5,14 +5,19 @@ Angular components for SVG icons.
 ## Installation
 
 ```bash
+# npm
 npm install @choiceform/icons-angular
-# or
-yarn add @choiceform/icons-angular
-# or
+
+# pnpm
 pnpm add @choiceform/icons-angular
+
+# yarn
+yarn add @choiceform/icons-angular
 ```
 
-## Usage
+## How to use
+
+Choiceform Icons for Angular is built with ES Modules and is fully tree-shakable.
 
 ### Import Module (Angular 15+)
 
@@ -53,18 +58,18 @@ import {
 export class ExampleComponent {}
 ```
 
-### Component Props
+## Props
 
 Each icon component accepts the following inputs:
 
 | Input    | Type               | Default          | Description                                     |
 | -------- | ------------------ | ---------------- | ----------------------------------------------- |
-| `width`  | `string \| number` | `'24'`           | Width of the icon                               |
-| `height` | `string \| number` | `'24'`           | Height of the icon                              |
+| `width`  | `string \| number` | `'16'`           | Width of the icon                               |
+| `height` | `string \| number` | `'16'`           | Height of the icon                              |
 | `color`  | `string`           | `'currentColor'` | Color of the icon                               |
 | `title`  | `string`           | `undefined`      | Accessibility title (sets aria-hidden to false) |
 
-### Component Selectors
+## Component Selectors
 
 All components use the prefix `cf-` followed by the kebab-case version of the icon name.
 
@@ -74,7 +79,7 @@ Examples:
 - `<cf-file-upload>`
 - `<cf-workspace-template-add>`
 
-### CSS Class
+## Styling with CSS
 
 Each icon SVG element has the CSS class `choiceform-icon` applied by default. This can be customized by modifying the `icon-config.json` file in the project root:
 
@@ -92,7 +97,7 @@ This allows for easy global styling of all icons using CSS:
 }
 ```
 
-### Metadata
+## Using Icon Metadata
 
 You can access metadata for all the icons:
 
@@ -102,3 +107,26 @@ import { iconMetadata } from "@choiceform/icons-angular";
 // iconMetadata is an array of objects with icon information
 console.log(iconMetadata);
 ```
+
+## Features
+
+- **Tree Shakable**: Only include the icons you use
+- **TypeScript Support**: Full TypeScript definitions for all components
+- **Accessible**: All icons have proper ARIA attributes
+- **Customizable**: Style icons with CSS or component inputs
+- **Optimized SVGs**: All icons are optimized with SVGO
+- **Angular Compatibility**: Works with Angular 15+ and standalone components
+
+## Metadata Properties
+
+Each icon in the metadata includes:
+
+| Property       | Description                        |
+| -------------- | ---------------------------------- |
+| `name`         | The name of the icon               |
+| `category`     | The category the icon belongs to   |
+| `tags`         | Array of tags for search/filtering |
+| `filename`     | Original SVG filename              |
+| `width`        | Width of the SVG (if available)    |
+| `height`       | Height of the SVG (if available)   |
+| `optimizedSvg` | The optimized SVG string           |

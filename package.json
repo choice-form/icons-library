@@ -1,13 +1,27 @@
 {
-  "name": "icons-library",
+  "name": "@choiceform/icons-library",
   "private": true,
   "version": "1.0.0",
   "description": "Icons library workspace including library, Figma plugin and preview app",
   "scripts": {
-    "build": "pnpm -r build",
-    "dev": "pnpm -r dev",
-    "lint": "pnpm -r lint",
-    "test": "pnpm -r test"
+    "generate:core": "cd packages/icons-core && pnpm run generate",
+    "generate:js": "cd packages/icons-js && pnpm run generate",
+    "generate:angular": "cd packages/icons-angular && pnpm run generate",
+    "generate:react": "cd packages/icons-react && pnpm run generate",
+    "generate:vue": "cd packages/icons-vue && pnpm run generate",
+    "generate:solid": "cd packages/icons-solid && pnpm run generate",
+    "build:core": "cd packages/icons-core && pnpm run build",
+    "build:js": "cd packages/icons-js && pnpm run build",
+    "build:angular": "cd packages/icons-angular && pnpm run build",
+    "build:react": "cd packages/icons-react && pnpm run build",
+    "build:vue": "cd packages/icons-vue && pnpm run build",
+    "build:solid": "cd packages/icons-solid && pnpm run build",
+    "generate": "pnpm run generate:angular && pnpm run generate:react && pnpm run generate:vue && pnpm run generate:solid && pnpm run generate:js",
+    "build": "pnpm run build:core && pnpm run build:angular && pnpm run build:react && pnpm run build:vue && pnpm run build:solid && pnpm run build:js",
+    "preview": "pnpm --filter @choiceform/icons-preview run dev",
+    "dev": "ppnpm -r dev",
+    "lint": "ppnpm -r lint",
+    "test": "ppnpm -r test"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
@@ -20,8 +34,20 @@
     "icons",
     "svg",
     "figma",
-    "react"
+    "react",
+    "react-native",
+    "vue",
+    "solid",
+    "angular"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
 }
