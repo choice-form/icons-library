@@ -87,21 +87,26 @@ export const Header = (props: HeaderProps) => {
         <div
           className={tcx(
             "flex items-center gap-2 pr-4 pl-4",
-            isPackagesPage ? "bg-default_bg" : "bg-default_bg lg:bg-transparent"
+            isPackagesPage
+              ? "bg-default-background"
+              : "bg-default-background lg:bg-transparent"
           )}
         >
-          <div
+          <Link
+            to="/"
             className={tcx(
-              "flex items-center gap-2 h-(--nav-height) w-full lg:mr-4",
-              isPackagesPage ? "bg-default_bg" : "lg:bg-secondary_bg"
+              "flex items-center gap-2 h-(--nav-height) w-full lg:mr-4 cursor-default hover:text-accent-foreground",
+              isPackagesPage
+                ? "bg-default-background"
+                : "lg:bg-secondary-background"
             )}
           >
             <Choiceform width={32} height={32} />
             <span className="text-xl font-bold">Icons Library</span>
-          </div>
+          </Link>
         </div>
 
-        <div className="flex items-center justify-end bg-default_bg gap-4 h-(--nav-height)">
+        <div className="flex items-center justify-end bg-default-background gap-4 h-(--nav-height)">
           <div className="flex items-center gap-2">
             <Button
               variant={isIconPage ? "link" : "ghost"}

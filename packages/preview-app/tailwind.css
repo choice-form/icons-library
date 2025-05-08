@@ -37,8 +37,16 @@ body {
 
 .icon-detail__preview-wrapper {
   background-image:
-    linear-gradient(to right, var(--color-default_border) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--color-default_border) 1px, transparent 1px);
+    linear-gradient(
+      to right,
+      var(--color-default-boundary) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      var(--color-default-boundary) 1px,
+      transparent 1px
+    );
   background-size: 8px 8px;
   background-position: -1px -1px;
 }

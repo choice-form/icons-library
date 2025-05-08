@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-preview",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SVG icon preview for Choiceform",
   "type": "module",
   "scripts": {
@@ -34,10 +34,11 @@
     "sonner": "^1.7.4",
     "typescript": "^5.8.3",
     "usehooks-ts": "^3.1.1",
-    "vite": "^5.4.19"
+    "vite": "^5.4.19",
+    "vite-plugin-style-import": "^2.0.0"
   },
   "dependencies": {
-    "@choiceform/design-system": "^0.1.7",
+    "@choiceform/design-system": "^0.2.1",
     "@tailwindcss/typography": "^0.5.16",
     "@types/react-dom": "^18.3.1",
     "react-markdown": "^10.1.0",

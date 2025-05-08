@@ -73,7 +73,7 @@ export const Packages = () => {
   return (
     <>
       <div className="fixed inset-0">
-        <Scroll>
+        <Scroll className="h-screen">
           <Scroll.Viewport
             className="px-8 pb-16 pt-32 w-full h-full max-w-none
             prose dark:prose-invert"
@@ -90,7 +90,7 @@ export const Packages = () => {
                 {packages.map((pkg) => (
                   <div
                     key={pkg.id}
-                    className="flex flex-col items-start gap-4 p-6 bg-secondary_bg rounded-lg no-underline"
+                    className="flex flex-col items-start gap-4 p-6 bg-secondary-background rounded-lg no-underline"
                   >
                     <div className="flex justify-center items-center p-4 bg-white rounded-lg">
                       <img

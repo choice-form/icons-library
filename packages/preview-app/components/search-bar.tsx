@@ -39,9 +39,9 @@ export const SearchBar = memo((props: SearchBarProps) => {
   return (
     <div
       className="sticky top-0 z-10
-      bg-default_bg mb-4 px-5 flex items-center gap-4
-      shadow-[0_16px_24px_var(--color-default_bg)]
-      lg:px-2"
+      bg-default-background mb-4 px-5 flex items-center gap-4
+      shadow-[0_16px_24px_var(--color-default-background)]
+      lg:px-2 w-full"
     >
       {!isLargeScreen && (
         <Dropdown selection={true}>
@@ -53,15 +53,17 @@ export const SearchBar = memo((props: SearchBarProps) => {
             <Folder />
             <span className="hidden md:block truncate">{activeCategory}</span>
           </Dropdown.Trigger>
-          {sortedCategories.map((category) => (
-            <Dropdown.Item
-              key={category}
-              selected={activeCategory === category}
-              onMouseUp={() => handleCategoryClick(category)}
-            >
-              {category}
-            </Dropdown.Item>
-          ))}
+          <Dropdown.Content>
+            {sortedCategories.map((category) => (
+              <Dropdown.Item
+                key={category}
+                selected={activeCategory === category}
+                onMouseUp={() => handleCategoryClick(category)}
+              >
+                {category}
+              </Dropdown.Item>
+            ))}
+          </Dropdown.Content>
         </Dropdown>
       )}
       <SearchInput

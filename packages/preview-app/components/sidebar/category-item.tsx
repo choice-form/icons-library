@@ -33,8 +33,8 @@ export const CategoryItem = memo(
         className={tcx(
           "flex items-center gap-2 cursor-default select-none rounded-md px-2 py-1",
           isActive
-            ? "text-accent_text bg-accent_bg/10"
-            : "hover:bg-secondary-active_bg active:bg-accent_bg/10"
+            ? "text-accent-foreground bg-accent-background/10"
+            : "hover:bg-secondary-active-background active:bg-accent-background/10"
         )}
         onMouseDown={() => handleCategoryClick(category)}
       >
@@ -42,7 +42,7 @@ export const CategoryItem = memo(
         <span className="flex-1 truncate">{categoryName}</span>
         <span
           className={tcx(
-            isActive ? "text-accent_text/50" : "text-secondary_text"
+            isActive ? "text-accent-foreground/50" : "text-secondary-foreground"
           )}
         >
           {iconCount}

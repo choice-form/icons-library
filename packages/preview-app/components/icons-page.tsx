@@ -249,7 +249,7 @@ function App() {
   return (
     <>
       <aside
-        className="fixed z-10 bg-secondary_bg left-0 inset-y-0
+        className="fixed z-10 bg-secondary-background left-0 inset-y-0
          w-(--sidebar-container-width)
          pl-(--sidebar-padding-left) hidden lg:block"
       >
@@ -315,7 +315,7 @@ function App() {
                     {row.type === "title" ? (
                       <div
                         className="w-full h-12 flex items-center
-                         font-medium text-base text-secondary_text
+                         font-medium text-base text-secondary-foreground
                          px-5 lg:px-3"
                       >
                         {row.category}

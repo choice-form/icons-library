@@ -19,7 +19,7 @@ export const CategorySidebar = (props: CategorySidebarProps) => {
   return (
     <div className="pt-(--nav-height) flex flex-col gap-4 pb-32">
       <Customizer />
-      <div className="text-sm font-medium mb-1 px-1 text-secondary_text">
+      <div className="text-sm font-medium mb-1 px-1 text-secondary-foreground">
         Categories
       </div>
       <nav className="flex flex-col gap-1 pr-4">

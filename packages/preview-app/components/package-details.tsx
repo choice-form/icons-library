@@ -107,11 +107,11 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
 
   return (
     <>
-      <aside className="fixed z-10 bg-secondary_bg left-0 inset-y-0 w-(--sidebar-container-width) pl-(--sidebar-padding-left) hidden lg:block">
+      <aside className="fixed z-10 bg-secondary-background left-0 inset-y-0 w-(--sidebar-container-width) pl-(--sidebar-padding-left) hidden lg:block">
         <Scroll className="h-screen">
           <Scroll.Viewport className="h-full">
             <div className="pt-(--nav-height) flex flex-col gap-4 pb-32">
-              <div className="text-sm font-medium mb-1 px-1 text-secondary_text">
+              <div className="text-sm font-medium mb-1 px-1 text-secondary-foreground">
                 Packages
               </div>
               <nav className="flex flex-col gap-1 pr-4">
@@ -121,8 +121,8 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                       className={tcx(
                         "flex items-center gap-2 cursor-default select-none rounded-md px-2 py-1",
                         pkg.id === packageId
-                          ? "text-accent_text bg-accent_bg/10"
-                          : "hover:bg-secondary-active_bg active:bg-accent_bg/10"
+                          ? "text-accent-foreground bg-accent-background/10"
+                          : "hover:bg-secondary-active-background active:bg-accent-background/10"
                       )}
                     >
                       {pkg.name}
@@ -144,7 +144,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                 <Button variant="link" asChild>
                   <Link
                     to="/packages"
-                    className="text-secondary hover:text-primary no-underline cursor-default"
+                    className="text-secondary-foreground hover:text-default-foreground no-underline cursor-default"
                   >
                     Packages
                   </Link>
@@ -168,7 +168,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                           })
                         ) : (
                           <code
-                            className="bg-secondary_hover px-1 py-0.5 rounded"
+                            className="bg-secondary-active-background px-1 py-0.5 rounded"
                             {...props}
                           >
                             {children}
@@ -187,12 +187,15 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                       ),
                       th: (props) => (
                         <th
-                          className="border border-border bg-secondary_hover p-2 text-left"
+                          className="border border-default-boundary bg-secondary-active-background p-2 text-left"
                           {...props}
                         />
                       ),
                       td: (props) => (
-                        <td className="border border-border p-2" {...props} />
+                        <td
+                          className="border border-default-boundary p-2"
+                          {...props}
+                        />
                       ),
                       // 处理相对链接
                       a: ({ href, ...props }) => {

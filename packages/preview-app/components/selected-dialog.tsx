@@ -140,7 +140,7 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
       className="fixed bottom-0 left-4 right-4
       lg:left-(--icon-browser-padding-left)
       lg:right-(--icon-browser-padding-right)
-      rounded-t-lg p-4 bg-default_bg shadow-xl"
+      rounded-t-lg p-4 bg-default-background shadow-xl"
       initial={{ opacity: 0, y: 32 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 32 }}
@@ -149,13 +149,13 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
       <div className="grid sm:grid-cols-[auto_1fr] gap-8">
         <div className="flex flex-col gap-4">
           <div
-            className="bg-secondary_bg rounded-md overflow-hidden
+            className="bg-secondary-background rounded-md overflow-hidden
             flex items-center justify-center self-start
             icon-detail__preview-wrapper relative"
             style={{
               width: `calc(${Number(selectedIcon.width) * 8}px - 1px )`,
               height: `calc(${Number(selectedIcon.height) * 8}px - 1px )`,
-              boxShadow: "0 0 0 1px var(--color-default_border)",
+              boxShadow: "0 0 0 1px var(--color-default-boundary)",
             }}
           >
             <selectedIcon.IconComponent
@@ -188,7 +188,7 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
           <span className="text-lg font-medium">
             {selectedIcon.filename.replace(".svg", "").replace(/\[.*?\]/g, "")}
           </span>
-          <span className="text-sm text-secondary_text capitalize flex gap-2 items-center">
+          <span className="text-sm text-secondary-foreground capitalize flex gap-2 items-center">
             <Folder />
             {selectedIcon.category}
           </span>
