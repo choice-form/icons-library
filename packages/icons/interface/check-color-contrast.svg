@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="check-color-contrast">
+<g id="Vector">
+<path d="M7.5 12.5C10.2614 12.5 12.5 10.2614 12.5 7.5C12.5 4.73858 10.2614 2.5 7.5 2.5C4.73858 2.5 2.5 4.73858 2.5 7.5C2.5 10.2614 4.73858 12.5 7.5 12.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.5 10.5C8.29565 10.5 9.05871 10.1839 9.62132 9.62132C10.1839 9.05871 10.5 8.29565 10.5 7.5C10.5 6.70435 10.1839 5.94129 9.62132 5.37868C9.05871 4.81607 8.29565 4.5 7.5 4.5V10.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

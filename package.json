@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "Icons library workspace including library, Figma plugin and preview app",
   "scripts": {
-    "generate:core": "cd packages/icons-core && pnpm run generate",
     "generate:js": "cd packages/icons-js && pnpm run generate",
     "generate:angular": "cd packages/icons-angular && pnpm run generate",
     "generate:react": "cd packages/icons-react && pnpm run generate",
