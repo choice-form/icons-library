@@ -137,8 +137,8 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
 
       <div className="fixed inset-0">
         <Scroll>
-          <Scroll.Viewport className="flex-1 h-screen min-w-0 overflow-auto pt-16 pb-64 pl-(--sidebar-container-width) pr-(--icon-browser-padding-right)">
-            <div className="w-full relative pl-8">
+          <Scroll.Viewport className="flex-1 max-w-full h-screen min-w-0 overflow-auto pt-16 pb-64 pl-(--sidebar-container-width) pr-(--icon-browser-padding-right)">
+            <div className="w-full relative pl-8 max-w-[calc(100vw-2rem)] min-w-0">
               {/* 面包屑导航 */}
               <div className="my-4 flex items-center">
                 <Button variant="link" asChild>
@@ -154,7 +154,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
               </div>
 
               {/* 内容区域 */}
-              <div className="prose dark:prose-invert max-w-none">
+              <div className="prose dark:prose-invert max-w-none min-w-0 overflow-hidden">
                 <Suspense fallback={<div>Loading...</div>}>
                   <ReactMarkdown
                     remarkPlugins={[remarkGfm]}

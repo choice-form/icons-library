@@ -218,21 +218,23 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
                   Copy Component
                 </div>
               </Dropdown.Trigger>
-              <Dropdown.Item onMouseUp={handleCopyReactComponent}>
-                Copy React
-              </Dropdown.Item>
-              <Dropdown.Item onMouseUp={handleCopyVueComponent}>
-                Copy Vue
-              </Dropdown.Item>
-              <Dropdown.Item onMouseUp={handleCopyAngularComponent}>
-                Copy Angular
-              </Dropdown.Item>
-              <Dropdown.Item onMouseUp={handleCopySolidComponent}>
-                Copy Solid
-              </Dropdown.Item>
-              <Dropdown.Item onMouseUp={handleCopyJsComponent}>
-                Copy JavaScript
-              </Dropdown.Item>
+              <Dropdown.Content>
+                <Dropdown.Item onMouseUp={handleCopyReactComponent}>
+                  Copy React
+                </Dropdown.Item>
+                <Dropdown.Item onMouseUp={handleCopyVueComponent}>
+                  Copy Vue
+                </Dropdown.Item>
+                <Dropdown.Item onMouseUp={handleCopyAngularComponent}>
+                  Copy Angular
+                </Dropdown.Item>
+                <Dropdown.Item onMouseUp={handleCopySolidComponent}>
+                  Copy Solid
+                </Dropdown.Item>
+                <Dropdown.Item onMouseUp={handleCopyJsComponent}>
+                  Copy JavaScript
+                </Dropdown.Item>
+              </Dropdown.Content>
             </Dropdown>
           </div>
 
