@@ -5,11 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite && node scripts/prepare-readmes.js",
+    "dev:with-server": "node scripts/start-with-server.js && node scripts/prepare-readmes.js",
     "prebuild": "node scripts/prepare-readmes.js",
     "build": "vite build",
     "build:full": "./scripts/build.sh",
     "preview": "vite preview",
-    "prepare-readmes": "node scripts/prepare-readmes.js"
+    "prepare-readmes": "node scripts/prepare-readmes.js",
+    "server": "node scripts/server.js",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
   },
   "keywords": [
     "icons",
@@ -22,6 +27,8 @@
   "devDependencies": {
     "@choiceform/icons-react": "workspace:*",
     "@tailwindcss/vite": "^4.1.4",
+    "@tauri-apps/api": "^2.5.0",
+    "@tauri-apps/cli": "^2.5.0",
     "@types/react": "^18.3.20",
     "@types/react-syntax-highlighter": "^15.5.13",
     "@vitejs/plugin-react": "^4.4.1",

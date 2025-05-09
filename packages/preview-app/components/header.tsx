@@ -77,6 +77,7 @@ export const Header = (props: HeaderProps) => {
 
   const isIconPage = location.pathname === "/";
   const isPackagesPage = location.pathname === "/packages";
+  const isNodeApiPage = location.pathname === "/node-api";
 
   return (
     <header className="fixed top-0 left-0 right-0 h-(--nav-height) z-50">
@@ -122,6 +123,14 @@ export const Header = (props: HeaderProps) => {
               active={isPackagesPage}
             >
               <Link to="/packages">Packages</Link>
+            </Button>
+
+            <Button
+              variant={isNodeApiPage ? "link" : "ghost"}
+              asChild
+              active={isNodeApiPage}
+            >
+              <Link to="/node-api">Node API</Link>
             </Button>
           </div>
 
