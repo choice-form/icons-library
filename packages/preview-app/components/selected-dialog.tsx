@@ -76,13 +76,13 @@ const Grid = memo(({ size }: { size: "small" | "medium" | "large" }) => {
 interface SelectedDialogProps {
   selectedIcon: IconItemData;
   handleCloseSelectedIcon: () => void;
-  handleCopySVG: () => void;
-  handleDownloadSVG: () => void;
-  handleCopyReactComponent: () => void;
-  handleCopyVueComponent: () => void;
-  handleCopyAngularComponent: () => void;
-  handleCopySolidComponent: () => void;
-  handleCopyJsComponent: () => void;
+  handleCopySVG: (icon?: IconItemData) => void;
+  handleDownloadSVG: (icon?: IconItemData) => void;
+  handleCopyReactComponent: (icon?: IconItemData) => void;
+  handleCopyVueComponent: (icon?: IconItemData) => void;
+  handleCopyAngularComponent: (icon?: IconItemData) => void;
+  handleCopySolidComponent: (icon?: IconItemData) => void;
+  handleCopyJsComponent: (icon?: IconItemData) => void;
   handleTagClick: (tag: string) => void;
   ReactCodeExample: string;
   VueCodeExample: string;
@@ -202,11 +202,19 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
           </div>
 
           <div className="flex gap-2 flex-wrap">
-            <Button variant="solid" size="large" onClick={handleCopySVG}>
+            <Button
+              variant="solid"
+              size="large"
+              onClick={() => handleCopySVG(selectedIcon)}
+            >
               <Duplicate />
               Copy SVG
             </Button>
-            <Button variant="solid" size="large" onClick={handleDownloadSVG}>
+            <Button
+              variant="solid"
+              size="large"
+              onClick={() => handleDownloadSVG(selectedIcon)}
+            >
               <FilesDownload />
               Download SVG
             </Button>
@@ -219,19 +227,29 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
                 </div>
               </Dropdown.Trigger>
               <Dropdown.Content>
-                <Dropdown.Item onMouseUp={handleCopyReactComponent}>
+                <Dropdown.Item
+                  onMouseUp={() => handleCopyReactComponent(selectedIcon)}
+                >
                   Copy React
                 </Dropdown.Item>
-                <Dropdown.Item onMouseUp={handleCopyVueComponent}>
+                <Dropdown.Item
+                  onMouseUp={() => handleCopyVueComponent(selectedIcon)}
+                >
                   Copy Vue
                 </Dropdown.Item>
-                <Dropdown.Item onMouseUp={handleCopyAngularComponent}>
+                <Dropdown.Item
+                  onMouseUp={() => handleCopyAngularComponent(selectedIcon)}
+                >
                   Copy Angular
                 </Dropdown.Item>
-                <Dropdown.Item onMouseUp={handleCopySolidComponent}>
+                <Dropdown.Item
+                  onMouseUp={() => handleCopySolidComponent(selectedIcon)}
+                >
                   Copy Solid
                 </Dropdown.Item>
-                <Dropdown.Item onMouseUp={handleCopyJsComponent}>
+                <Dropdown.Item
+                  onMouseUp={() => handleCopyJsComponent(selectedIcon)}
+                >
                   Copy JavaScript
                 </Dropdown.Item>
               </Dropdown.Content>

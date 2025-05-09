@@ -1,4 +1,5 @@
 import { Button, Scroll } from "@choiceform/design-system";
+import React from "react";
 import { Link } from "react-router-dom";
 
 // 包列表 - 确保与App.tsx和prepare-readmes.js中的列表保持同步

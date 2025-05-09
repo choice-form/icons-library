@@ -9,7 +9,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Button, Scroll, tcx } from "@choiceform/design-system";
 import { Link } from "react-router-dom";
-import { packages } from "./packages-page";
+import { packages } from "./packages";
 
 const SyntaxHighlighter = Prism as unknown as React.FC<SyntaxHighlighterProps>;
 

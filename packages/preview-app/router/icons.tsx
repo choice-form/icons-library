@@ -1,8 +1,13 @@
-import { Scroll } from "@choiceform/design-system";
+import { ContextMenu, Scroll } from "@choiceform/design-system";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { AnimatePresence } from "framer-motion";
-import { useCallback, useRef, useState } from "react";
+import React, { useCallback, useRef, useState } from "react";
 import { toast } from "sonner";
+import { IconItem } from "../components/icon-item";
+import { SearchBar } from "../components/search-bar";
+import { SearchEmpty } from "../components/search-empty";
+import { SelectedDialog } from "../components/selected-dialog";
+import { CategorySidebar } from "../components/sidebar";
 import {
   useCategorySync,
   useGridLayout,
@@ -10,13 +15,8 @@ import {
   useVirtualRows,
 } from "../hooks";
 import type { IconItemData } from "../types";
-import { IconItem } from "./icon-item";
-import { SearchBar } from "./search-bar";
-import { SearchEmpty } from "./search-empty";
-import { SelectedDialog } from "./selected-dialog";
-import { CategorySidebar } from "./sidebar";
 
-export const IconBrowser = () => {
+export const Icons = () => {
   const [selectedIcon, setSelectedIcon] = useState<IconItemData | null>(null);
 
   const parentRef = useRef<HTMLDivElement>(null);
@@ -57,79 +57,111 @@ export const IconBrowser = () => {
     setSelectedIcon(iconData);
   }, []);
 
-  const handleCopySVG = useCallback(() => {
-    if (selectedIcon) {
-      const formattedSVG = selectedIcon.optimizedSvg;
-      navigator.clipboard.writeText(formattedSVG);
-      toast.success("SVG copied to clipboard");
-    }
-  }, [selectedIcon]);
+  const handleCopySVG = useCallback(
+    (icon?: IconItemData) => {
+      const iconToUse = icon || selectedIcon;
+      if (iconToUse) {
+        const formattedSVG = iconToUse.optimizedSvg;
+        navigator.clipboard.writeText(formattedSVG);
+        toast.success("SVG copied to clipboard");
+      }
+    },
+    [selectedIcon]
+  );
 
-  const handleDownloadSVG = useCallback(() => {
-    if (selectedIcon) {
-      const formattedSVG = selectedIcon.optimizedSvg;
-      const blob = new Blob([formattedSVG], { type: "image/svg+xml" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `${selectedIcon.name}.svg`;
-      a.click();
-      URL.revokeObjectURL(url);
-      toast.success("SVG downloaded");
-    }
-  }, [selectedIcon]);
+  const handleDownloadSVG = useCallback(
+    (icon?: IconItemData) => {
+      const iconToUse = icon || selectedIcon;
+      if (iconToUse) {
+        const formattedSVG = iconToUse.optimizedSvg;
+        const blob = new Blob([formattedSVG], { type: "image/svg+xml" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `${iconToUse.name}.svg`;
+        a.click();
+        URL.revokeObjectURL(url);
+        toast.success("SVG downloaded");
+      }
+    },
+    [selectedIcon]
+  );
 
-  const dashedName = selectedIcon?.name
-    .replace(/([A-Z])/g, (match) =>
-      match === match.toUpperCase() ? `-${match}` : match
-    )
-    .toLowerCase()
-    .replace(/^-/, "");
+  const getDashedName = useCallback((name: string) => {
+    return name
+      .replace(/([A-Z])/g, (match) =>
+        match === match.toUpperCase() ? `-${match}` : match
+      )
+      .toLowerCase()
+      .replace(/^-/, "");
+  }, []);
 
-  const handleCopyReactComponent = useCallback(() => {
-    if (selectedIcon) {
-      const reactComponent = `<${selectedIcon.name} />`;
-      navigator.clipboard.writeText(reactComponent);
-      toast.success("React component copied to clipboard");
-    }
-  }, [selectedIcon]);
+  const handleCopyReactComponent = useCallback(
+    (icon?: IconItemData) => {
+      const iconToUse = icon || selectedIcon;
+      if (iconToUse) {
+        const reactComponent = `<${iconToUse.name} />`;
+        navigator.clipboard.writeText(reactComponent);
+        toast.success("React component copied to clipboard");
+      }
+    },
+    [selectedIcon]
+  );
 
   const handleCloseSelectedIcon = useCallback(() => {
     setSelectedIcon(null);
   }, []);
 
-  const handleCopyVueComponent = useCallback(() => {
-    if (selectedIcon) {
-      const vueComponent = `<${selectedIcon.name} />`;
-      navigator.clipboard.writeText(vueComponent);
-      toast.success("Vue component copied to clipboard");
-    }
-  }, [selectedIcon]);
+  const handleCopyVueComponent = useCallback(
+    (icon?: IconItemData) => {
+      const iconToUse = icon || selectedIcon;
+      if (iconToUse) {
+        const vueComponent = `<${iconToUse.name} />`;
+        navigator.clipboard.writeText(vueComponent);
+        toast.success("Vue component copied to clipboard");
+      }
+    },
+    [selectedIcon]
+  );
 
-  const handleCopyAngularComponent = useCallback(() => {
-    if (selectedIcon) {
-      const angularComponent = `<cf-${dashedName}>
+  const handleCopyAngularComponent = useCallback(
+    (icon?: IconItemData) => {
+      const iconToUse = icon || selectedIcon;
+      if (iconToUse) {
+        const dashedName = getDashedName(iconToUse.name);
+        const angularComponent = `<cf-${dashedName}>
       </cf-${dashedName}>`;
-      navigator.clipboard.writeText(angularComponent);
-      toast.success("Angular component copied to clipboard");
-    }
-  }, [selectedIcon]);
+        navigator.clipboard.writeText(angularComponent);
+        toast.success("Angular component copied to clipboard");
+      }
+    },
+    [getDashedName, selectedIcon]
+  );
 
-  const handleCopySolidComponent = useCallback(() => {
-    if (selectedIcon) {
-      const solidComponent = `<${selectedIcon.name} />`;
-      navigator.clipboard.writeText(solidComponent);
-      toast.success("Solid component copied to clipboard");
-    }
-  }, [selectedIcon]);
+  const handleCopySolidComponent = useCallback(
+    (icon?: IconItemData) => {
+      const iconToUse = icon || selectedIcon;
+      if (iconToUse) {
+        const solidComponent = `<${iconToUse.name} />`;
+        navigator.clipboard.writeText(solidComponent);
+        toast.success("Solid component copied to clipboard");
+      }
+    },
+    [selectedIcon]
+  );
 
-  const handleCopyJsComponent = useCallback(() => {
-    if (selectedIcon) {
-      const jsComponent = `<i data-icon="${dashedName}"></i>`;
-      navigator.clipboard.writeText(jsComponent);
-      toast.success("JavaScript component copied to clipboard");
-    }
-  }, [selectedIcon]);
+  const handleCopyJsComponent = useCallback(
+    (icon?: IconItemData) => {
+      const iconToUse = icon || selectedIcon;
+      if (iconToUse) {
+        const dashedName = getDashedName(iconToUse.name);
+        const jsComponent = `<i data-icon="${dashedName}"></i>`;
+        navigator.clipboard.writeText(jsComponent);
+        toast.success("JavaScript component copied to clipboard");
+      }
+    },
+    [getDashedName, selectedIcon]
+  );
 
   const reactCodeExample = selectedIcon
     ? `
@@ -168,7 +200,7 @@ import { ${selectedIcon.name}Component } from '@choiceform/icons-angular';
     ${selectedIcon.name}Component,
   ],
   template: \`
-    <cf-${dashedName} />
+    <cf-${selectedIcon ? getDashedName(selectedIcon.name) : ""} />
   \`
 })
 
@@ -193,7 +225,7 @@ function App() {
   const jsCodeExample = selectedIcon
     ? `
 <body>
-  <i data-icon="${dashedName}"></i>
+  <i data-icon="${selectedIcon ? getDashedName(selectedIcon.name) : ""}"></i>
 
   <script src="https://unpkg.com/@choiceform/icons-js@latest/dist/umd/icons-js.js"></script>
 
@@ -237,6 +269,13 @@ function App() {
                 IconComponent={icon.IconComponent}
                 isSelected={isSelected(icon.name)}
                 onIconSelect={onIconSelect}
+                handleCopySVG={handleCopySVG}
+                handleDownloadSVG={handleDownloadSVG}
+                handleCopyReactComponent={handleCopyReactComponent}
+                handleCopyVueComponent={handleCopyVueComponent}
+                handleCopyAngularComponent={handleCopyAngularComponent}
+                handleCopySolidComponent={handleCopySolidComponent}
+                handleCopyJsComponent={handleCopyJsComponent}
               />
             </div>
           ))}
@@ -294,6 +333,10 @@ function App() {
               style={{
                 height: `${rowVirtualizer.getTotalSize()}px`,
               }}
+              onContextMenu={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+              }}
             >
               {rowVirtualizer.getVirtualItems().map((virtualRow) => {
                 const row = virtualRows[virtualRow.index];
@@ -316,7 +359,7 @@ function App() {
                       <div
                         className="w-full h-12 flex items-center
                          font-medium text-base text-secondary-foreground
-                         px-5 lg:px-3"
+                         px-5 lg:px-3 capitalize"
                       >
                         {row.category}
                       </div>

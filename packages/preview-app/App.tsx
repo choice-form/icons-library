@@ -1,11 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import {
-  Guide,
-  IconBrowser,
-  Layout,
-  Packages,
-  PackageDetails,
-} from "./components";
+import { Layout } from "./components";
+import { Guide, Icons, PackageDetails, Packages } from "./router";
 
 // 包列表 - 确保与prepare-readmes.js中的列表保持同步
 const packages = [
@@ -24,7 +19,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<IconBrowser />} />
+          <Route index element={<Icons />} />
           <Route path="guide" element={<Guide />} />
 
           {/* 包文档路由 */}

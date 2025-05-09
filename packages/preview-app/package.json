@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-preview",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SVG icon preview for Choiceform",
   "type": "module",
   "scripts": {
