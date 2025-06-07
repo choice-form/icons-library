@@ -1,8 +1,8 @@
 # @choiceform/icons-sprite
 
-将 SVG 图标文件生成为 SVG sprite（symbol 格式），支持 CLI 和 API 两种使用方式。
+Generate SVG sprite files with symbols from individual SVG icons. Supports CLI, API, and Vite plugin usage.
 
-## 📦 安装
+## 📦 Installation
 
 ```bash
 # pnpm
@@ -15,25 +15,61 @@ npm install @choiceform/icons-sprite
 yarn add @choiceform/icons-sprite
 ```
 
-## 🚀 快速开始
+## ✨ Features
 
-### CLI 使用
+- 🔧 **Multiple Usage Methods**: CLI, API, Vite plugin
+- ⚡ **Great DX**: File watching, hot reload, auto-regeneration
+- 📝 **TypeScript Support**: Auto-generated type definitions with full type safety
+- 🚀 **SVG Optimization**: Built-in SVGO optimization to reduce file size
+- 🎯 **Flexible Configuration**: Custom ID generation, file filtering, prefix/suffix
+- 🔌 **Framework Integration**: Supports React, Vue, Angular, HTML, etc.
+
+## 🚀 Quick Start
+
+### CLI Usage
 
 ```bash
-# 基础使用
+# Basic usage
 npx icons-sprite ./src/icons --output ./public/icons.svg
 
-# 生成类型定义
+# Generate type definitions
 npx icons-sprite ./src/icons --output ./public/icons.svg --generate-types --types-output ./src/types/icons.d.ts
 
-# 使用配置文件
+# Use config file
 npx icons-sprite --config ./sprite.config.js
 
-# 创建配置文件
+# Create config file
 npx icons-sprite init
 ```
 
-### API 使用
+### Vite Project Integration
+
+For Vite projects, using the plugin is recommended:
+
+```bash
+# Installation
+npm install @choiceform/icons-sprite --save-dev
+```
+
+```typescript
+// vite.config.ts
+import { defineConfig } from "vite";
+import { viteIconsSprite } from "@choiceform/icons-sprite/vite";
+
+export default defineConfig({
+  plugins: [
+    viteIconsSprite({
+      input: "./src/icons",
+      output: "./public/icons.svg",
+      prefix: "icon-",
+      generateTypes: true,
+      typesOutput: "./src/types/icons.d.ts",
+    }),
+  ],
+});
+```
+
+### API Usage
 
 ```typescript
 import { generateSprite } from "@choiceform/icons-sprite";
@@ -47,14 +83,54 @@ const result = await generateSprite({
   typesOutput: "./src/types/icons.d.ts",
 });
 
-console.log(`生成了 ${result.symbolCount} 个图标`);
+console.log(`Generated ${result.symbolCount} icons`);
 ```
 
-## ⚙️ 配置
+### Vite Plugin Usage
 
-### 配置文件
+```typescript
+// vite.config.ts
+import { defineConfig } from "vite";
+import { viteIconsSprite } from "@choiceform/icons-sprite/vite";
 
-支持以下配置文件名：
+export default defineConfig({
+  plugins: [
+    viteIconsSprite({
+      // Input directory
+      input: "./src/icons",
+      // Output file
+      output: "./public/icons.svg",
+      // ID prefix
+      prefix: "icon-",
+      // Generate TypeScript types
+      generateTypes: true,
+      typesOutput: "./src/types/icons.d.ts",
+      // Enable in development mode
+      dev: true,
+      // Enable in build mode
+      build: true,
+      // Watch file changes
+      watch: true,
+    }),
+  ],
+});
+```
+
+#### Vite Plugin Configuration Options
+
+| Option  | Type      | Default | Description                              |
+| ------- | --------- | ------- | ---------------------------------------- |
+| `dev`   | `boolean` | `true`  | Enable in development mode               |
+| `build` | `boolean` | `true`  | Enable in build mode                     |
+| `watch` | `boolean` | `true`  | Watch file changes for auto-regeneration |
+
+Other configuration options are the same as CLI.
+
+## ⚙️ Configuration
+
+### Configuration File
+
+Supports the following configuration file names:
 
 - `sprite.config.js`
 - `sprite.config.mjs`
@@ -74,40 +150,40 @@ export default {
   generateTypes: true,
   typesOutput: "./src/types/icons.d.ts",
 
-  // 自定义 ID 生成
+  // Custom ID generation
   idGenerator: (filename, filepath) => {
     return filename.replace(/\.svg$/, "").toLowerCase();
   },
 
-  // 文件过滤
+  // File filtering
   filter: (filepath) => {
     return !filepath.includes("deprecated");
   },
 
-  // SVGO 配置
+  // SVGO configuration
   svgoConfig: {
     plugins: ["preset-default", { name: "removeViewBox", active: false }],
   },
 };
 ```
 
-### 配置选项
+### Configuration Options
 
-| 选项            | 类型                 | 默认值  | 描述                     |
-| --------------- | -------------------- | ------- | ------------------------ |
-| `input`         | `string \| string[]` | -       | 输入目录或文件模式       |
-| `output`        | `string`             | -       | 输出文件路径             |
-| `prefix`        | `string`             | `''`    | Symbol ID 前缀           |
-| `suffix`        | `string`             | `''`    | Symbol ID 后缀           |
-| `optimize`      | `boolean`            | `true`  | 是否优化 SVG             |
-| `svgoConfig`    | `SvgoConfig`         | -       | SVGO 配置                |
-| `generateTypes` | `boolean`            | `false` | 是否生成 TypeScript 类型 |
-| `typesOutput`   | `string`             | -       | TypeScript 类型输出路径  |
-| `idGenerator`   | `function`           | -       | 自定义 ID 生成函数       |
-| `includeHidden` | `boolean`            | `false` | 是否包含隐藏文件         |
-| `filter`        | `function`           | -       | 文件过滤函数             |
+| Option          | Type                 | Default | Description                          |
+| --------------- | -------------------- | ------- | ------------------------------------ |
+| `input`         | `string \| string[]` | -       | Input directory or file patterns     |
+| `output`        | `string`             | -       | Output file path                     |
+| `prefix`        | `string`             | `''`    | Symbol ID prefix                     |
+| `suffix`        | `string`             | `''`    | Symbol ID suffix                     |
+| `optimize`      | `boolean`            | `true`  | Whether to optimize SVG              |
+| `svgoConfig`    | `SvgoConfig`         | -       | SVGO configuration                   |
+| `generateTypes` | `boolean`            | `false` | Whether to generate TypeScript types |
+| `typesOutput`   | `string`             | -       | TypeScript types output path         |
+| `idGenerator`   | `function`           | -       | Custom ID generation function        |
+| `includeHidden` | `boolean`            | `false` | Whether to include hidden files      |
+| `filter`        | `function`           | -       | File filtering function              |
 
-## 📄 输出格式
+## 📄 Output Format
 
 ### SVG Sprite
 
@@ -122,7 +198,7 @@ export default {
 </svg>
 ```
 
-### TypeScript 类型
+### TypeScript Types
 
 ```typescript
 // Auto-generated by @choiceform/icons-sprite
@@ -137,28 +213,28 @@ export interface IconMap {
 export const iconNames = ["search", "home", "user"] as const;
 ```
 
-## 🔧 在项目中使用
+## 🔧 Usage in Projects
 
-### 1. HTML 中使用
+### 1. HTML Usage
 
 ```html
-<!-- 引入 sprite 文件 -->
+<!-- Include sprite file -->
 <svg style="display: none;">
-  <!-- sprite 内容 -->
+  <!-- sprite content -->
 </svg>
 
-<!-- 使用图标 -->
+<!-- Use icons -->
 <svg>
   <use href="#icon-search"></use>
 </svg>
 ```
 
-### 2. React 中使用
+### 2. React Usage
 
 ```tsx
 // IconSprite.tsx
 export function IconSprite() {
-  return <svg style={{ display: "none" }}>{/* sprite 内容 */}</svg>;
+  return <svg style={{ display: "none" }}>{/* sprite content */}</svg>;
 }
 
 // Icon.tsx
@@ -176,11 +252,11 @@ export function Icon({ name, size = 24, className }: IconProps) {
   );
 }
 
-// 使用
+// Usage
 <Icon name="icon-search" size={20} />;
 ```
 
-### 3. Vue 中使用
+### 3. Vue Usage
 
 ```vue
 <!-- Icon.vue -->
@@ -202,30 +278,30 @@ withDefaults(defineProps<Props>(), {
 });
 </script>
 
-<!-- 使用 -->
+<!-- Usage -->
 <Icon name="icon-search" :size="20" />
 ```
 
-## 🔨 开发
+## 🔨 Development
 
 ```bash
-# 克隆项目
+# Clone project
 git clone <repo-url>
 cd icons-sprite
 
-# 安装依赖
+# Install dependencies
 pnpm install
 
-# 开发模式
+# Development mode
 pnpm dev
 
-# 构建
+# Build
 pnpm build
 
-# 测试
+# Test
 pnpm test
 ```
 
-## 📄 许可证
+## 📄 License
 
 MIT

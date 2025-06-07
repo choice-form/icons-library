@@ -7,7 +7,15 @@ export default defineConfig([
     format: ["esm"],
     dts: true,
     clean: true,
-    external: ["@choiceform/icons-core"],
+    external: [],
+  },
+  // Vite plugin module
+  {
+    entry: ["src/vite-plugin.ts"],
+    format: ["esm"],
+    dts: true,
+    clean: false,
+    external: ["vite"],
   },
   // CLI module
   {
@@ -15,7 +23,7 @@ export default defineConfig([
     format: ["esm"],
     dts: false,
     clean: false,
-    external: ["@choiceform/icons-core"],
+    external: [],
     banner: {
       js: "#!/usr/bin/env node",
     },

@@ -1,7 +1,7 @@
 import * as path from "path";
 import fs from "fs-extra";
 import fg from "fast-glob";
-import { optimizeSvg, defaultSvgoConfig } from "@choiceform/icons-core";
+import { optimizeSvg, defaultSvgoConfig } from "./svg-optimizer.js";
 import type { SpriteConfig, SvgSymbol, GenerateResult } from "./types.js";
 import {
   extractViewBox,

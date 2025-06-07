@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-sprite",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Generate SVG sprite files with symbols from individual SVG icons",
   "type": "module",
   "main": "./dist/index.js",
@@ -12,6 +12,10 @@
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./vite": {
+      "import": "./dist/vite-plugin.js",
+      "types": "./dist/vite-plugin.d.ts"
     },
     "./cli": {
       "import": "./dist/cli.js"
@@ -38,25 +42,33 @@
   "author": "Choiceform Team",
   "license": "MIT",
   "dependencies": {
-    "@choiceform/icons-core": "workspace:*",
     "commander": "^12.0.0",
     "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
-    "picocolors": "^1.0.0"
+    "picocolors": "^1.0.0",
+    "svgo": "^3.3.2"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^22.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.4.5",
+    "vite": "^6.3.5",
     "vitest": "^1.6.0"
   },
   "peerDependencies": {
-    "typescript": ">=4.9.0"
+    "typescript": ">=4.9.0",
+    "vite": ">=3.0.0"
   },
   "peerDependenciesMeta": {
     "typescript": {
       "optional": true
+    },
+    "vite": {
+      "optional": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

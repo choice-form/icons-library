@@ -1,4 +1,9 @@
-import type { SvgoConfig } from "@choiceform/icons-core";
+/**
+ * SVGO 配置类型
+ */
+export interface SvgoConfig {
+  plugins: any[];
+}
 
 /**
  * SVG Symbol 元数据
