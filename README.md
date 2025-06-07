@@ -20,6 +20,7 @@ Choiceform Icons is a collection of beautifully designed SVG icons, optimized fo
 | [`@choiceform/icons-angular`](./packages/icons-angular) | Angular components               | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-angular)](https://www.npmjs.com/package/@choiceform/icons-angular) |
 | [`@choiceform/icons-solid`](./packages/icons-solid)     | SolidJS components               | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-solid)](https://www.npmjs.com/package/@choiceform/icons-solid)     |
 | [`@choiceform/icons-js`](./packages/icons-js)           | JavaScript library               | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-js)](https://www.npmjs.com/package/@choiceform/icons-js)           |
+| [`@choiceform/icons-sprite`](./packages/icons-sprite)   | SVG sprite generator             | [![npm version](https://img.shields.io/npm/v/@choiceform/icons-sprite)](https://www.npmjs.com/package/@choiceform/icons-sprite)   |
 | [`@choiceform/icons-core`](./packages/icons-core)       | Core utilities                   | -                                                                                                                                 |
 | [`@choiceform/figma-plugin`](./packages/figma-plugin)   | Figma plugin                     | -                                                                                                                                 |
 
