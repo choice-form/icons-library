@@ -25,6 +25,7 @@ console.log(`输出目录: ${README_OUTPUT_DIR}`);
 const PACKAGES = [
   "icons",
   "icons-core",
+  "icons-sprite",
   "icons-react",
   "icons-vue",
   "icons-angular",

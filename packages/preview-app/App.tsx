@@ -6,6 +6,7 @@ import { Guide, Icons, PackageDetails, Packages } from "./router";
 const packages = [
   { id: "icons", name: "Icons" },
   { id: "icons-core", name: "Icons Core" },
+  { id: "icons-sprite", name: "Icons Sprite" },
   { id: "icons-react", name: "Icons React" },
   { id: "icons-vue", name: "Icons Vue" },
   { id: "icons-angular", name: "Icons Angular" },

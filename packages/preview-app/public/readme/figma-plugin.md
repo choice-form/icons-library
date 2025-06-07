@@ -1,6 +1,4 @@
-
 ![cover](https://github.com/user-attachments/assets/d9cb55e3-7e8e-4f85-8f33-574b7e3e2c9a)
-
 
 # SVG Icons Exporter - Figma Plugin
 

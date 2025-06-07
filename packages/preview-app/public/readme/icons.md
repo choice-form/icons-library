@@ -90,11 +90,6 @@ If you want to contribute to the Choiceform icon library, please see our [Contri
 
 1. Add your SVG file to the `svg` directory
 2. Follow the naming conventions (kebab-case)
-3. Run the build process to regenerate the icon packages:
-
-```bash
-npm run build
-```
 
 ## License
 

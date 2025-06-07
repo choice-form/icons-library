@@ -1,7 +1,7 @@
-import { ContextMenu, Scroll } from "@choiceform/design-system";
+import { Scroll } from "@choiceform/design-system";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { AnimatePresence } from "framer-motion";
-import React, { useCallback, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import { toast } from "sonner";
 import { IconItem } from "../components/icon-item";
 import { SearchBar } from "../components/search-bar";

@@ -69,8 +69,8 @@ import { Search, CircleAdd, SettingsSolid } from "@choiceform/icons-js";
 
 // Create an SVG string
 const searchSvg = Search.toSvg({
-  width: "24",
-  height: "24",
+  width: "16",
+  height: "16",
   color: "currentColor",
 });
 
@@ -250,3 +250,17 @@ iconList.forEach((item) => {
 - **Customizable**: Easy to style with CSS
 - **Optimized SVGs**: All icons are optimized with SVGO
 - **Multiple Usage Methods**: Support for CDN, ES modules, and direct DOM manipulation
+
+## Metadata Properties
+
+Each icon in the metadata includes:
+
+| Property       | Description                        |
+| -------------- | ---------------------------------- |
+| `name`         | The name of the icon               |
+| `category`     | The category the icon belongs to   |
+| `tags`         | Array of tags for search/filtering |
+| `filename`     | Original SVG filename              |
+| `width`        | Width of the SVG (if available)    |
+| `height`       | Height of the SVG (if available)   |
+| `optimizedSvg` | The optimized SVG string           |

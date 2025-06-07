@@ -1,5 +1,4 @@
 import { Button, Scroll } from "@choiceform/design-system";
-import React from "react";
 import { Link } from "react-router-dom";
 
 // 包列表 - 确保与App.tsx和prepare-readmes.js中的列表保持同步
@@ -15,6 +14,16 @@ export const packages = [
     logo: "core.svg",
     name: "Icons Core",
     description: "Core utilities for SVG icons",
+  },
+  {
+    id: "icons-sprite",
+    logo: "sprite.svg",
+    name: "Icons Sprite",
+    description:
+      "Generate SVG sprite files with symbols from individual SVG icons",
+    npm: "https://www.npmjs.com/package/@choiceform/icons-sprite",
+    shields: "https://img.shields.io/npm/v/@choiceform/icons-sprite",
+    npm_downloads: "https://img.shields.io/npm/dm/@choiceform/icons-sprite",
   },
   {
     id: "icons-react",

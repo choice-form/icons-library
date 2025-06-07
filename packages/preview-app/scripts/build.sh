@@ -7,7 +7,7 @@ echo "=== 开始构建 preview-app ==="
 
 # 步骤1: 收集README.md文件
 echo "步骤1: 收集README.md文件"
-node scripts/prepare-readmes.js
+node prepare-readmes.js
 
 # 步骤2: 构建应用
 echo "步骤2: 构建应用"

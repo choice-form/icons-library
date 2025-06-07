@@ -45,8 +45,8 @@ Each icon component accepts the following props:
 
 | Name     | Type               | Default          | Description         |
 | -------- | ------------------ | ---------------- | ------------------- |
-| `width`  | `string \| number` | `'24'`           | Width of the icon   |
-| `height` | `string \| number` | `'24'`           | Height of the icon  |
+| `width`  | `string \| number` | `'16'`           | Width of the icon   |
+| `height` | `string \| number` | `'16'`           | Height of the icon  |
 | `color`  | `string`           | `'currentColor'` | Color of the icon   |
 | `title`  | `string`           | `undefined`      | Accessibility title |
 
