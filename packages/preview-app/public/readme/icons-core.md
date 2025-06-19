@@ -106,6 +106,5 @@ interface IconMetadata {
   filename: string;
   width?: string;
   height?: string;
-  optimizedSvg: string;
 }
 ```

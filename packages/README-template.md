@@ -92,12 +92,11 @@ The library also exports icon metadata that can be useful for building icon pick
 
 Each icon in the metadata includes:
 
-| Property       | Description                        |
-| -------------- | ---------------------------------- |
-| `name`         | The name of the icon               |
-| `category`     | The category the icon belongs to   |
-| `tags`         | Array of tags for search/filtering |
-| `filename`     | Original SVG filename              |
-| `width`        | Width of the SVG (if available)    |
-| `height`       | Height of the SVG (if available)   |
-| `optimizedSvg` | The optimized SVG string           |
+| Property   | Description                        |
+| ---------- | ---------------------------------- |
+| `name`     | The name of the icon               |
+| `category` | The category the icon belongs to   |
+| `tags`     | Array of tags for search/filtering |
+| `filename` | Original SVG filename              |
+| `width`    | Width of the SVG (if available)    |
+| `height`   | Height of the SVG (if available)   |

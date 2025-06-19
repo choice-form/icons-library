@@ -8,7 +8,6 @@ export interface IconMetadata {
   tags: string[];
   width: number | null;
   height: number | null;
-  optimizedSvg?: string;
 }
 
 /**

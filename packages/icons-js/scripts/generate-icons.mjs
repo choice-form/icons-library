@@ -270,7 +270,6 @@ export default iconExports;
           icons.push({ name: componentName, path: `./${componentName}` });
           metadata.push({
             ...iconMetadata,
-            optimizedSvg: optimizedSvgContent,
           });
         }
       } catch (error) {
@@ -306,7 +305,6 @@ export const iconMetadata: Array<{
   filename: string;
   width: number | null;
   height: number | null;
-  optimizedSvg: string;
 }>;
 `;
 

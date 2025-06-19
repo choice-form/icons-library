@@ -29,7 +29,6 @@ const metadataCopyPlugin = () => {
   filename: string; 
   width: number | null;
   height: number | null;
-  optimizedSvg: string; 
 }>;`;
         fs.writeFileSync(metadataTypeDest, dtsContent);
         console.log("✅ Generated metadata.d.ts in dist folder");

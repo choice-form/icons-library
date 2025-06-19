@@ -3,9 +3,10 @@ import { resolve } from "path";
 import dts from "vite-plugin-dts";
 import vue from "@vitejs/plugin-vue";
 import fs from "fs-extra";
+import type { PluginOption } from "vite";
 
 // Custom plugin to copy metadata files to dist directory
-const metadataCopyPlugin = () => {
+const metadataCopyPlugin = (): PluginOption => {
   return {
     name: "metadata-copy",
     closeBundle() {
@@ -30,7 +31,6 @@ const metadataCopyPlugin = () => {
   filename: string; 
   width: number | null;
   height: number | null;
-  optimizedSvg: string; 
 }>;`;
         fs.writeFileSync(metadataTypeDest, dtsContent);
         console.log("✅ Generated metadata.d.ts in dist folder");
@@ -57,7 +57,7 @@ export default defineConfig({
       beforeWriteFile: (filePath, content) => {
         return { filePath, content };
       },
-    }),
+    }) as PluginOption,
     metadataCopyPlugin(),
   ],
   build: {

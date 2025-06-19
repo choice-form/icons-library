@@ -203,7 +203,6 @@ export default {
           components.push({ name: componentName, path: `./${componentName}` });
           metadata.push({
             ...iconMetadata,
-            optimizedSvg: optimizedSvgContent,
           });
         }
       } catch (error) {

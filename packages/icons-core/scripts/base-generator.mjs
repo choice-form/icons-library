@@ -43,7 +43,6 @@ export class BaseIconGenerator {
   filename: string; 
   width: number | null;
   height: number | null;
-  optimizedSvg: string; 
 }> = ${JSON.stringify(metadata, null, 2)};\n`;
     await fs.writeFile(this.metadataSourceFile, metadataContent);
   }
