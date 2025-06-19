@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-solid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Solid.js components for SVG icons",
   "type": "module",
   "main": "dist/index.js",
