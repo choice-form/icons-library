@@ -49,8 +49,7 @@ const svgrConfig = {
   typescript: true,
   svgo: false, // 单独运行 SVGO
   jsxRuntime: "automatic",
-  exportType: "named",
-  namedExport: "ReactComponent", // 临时导出名，会被替换
+  exportType: "default", // 改为默认导出
   jsxSvgProps: `{...props}`,
   svgProps: {
     "aria-hidden": "true",
@@ -83,8 +82,7 @@ class ReactIconGenerator extends BaseIconGenerator {
       optimizedSvg,
       {
         ...svgrConfig,
-        exportType: "named",
-        namedExport: componentName,
+        exportType: "default",
       },
       { componentName: componentName }
     );
@@ -100,7 +98,10 @@ class ReactIconGenerator extends BaseIconGenerator {
     console.log("📝 Generating source index.ts file...");
     const indexContent =
       components
-        .map((comp) => `export { ${comp.name} } from './icons/${comp.name}';`)
+        .map(
+          (comp) =>
+            `export { default as ${comp.name} } from './icons/${comp.name}';`
+        )
         .join("\n") + "\nexport { iconMetadata } from './icons/metadata';";
 
     await fs.ensureFile(path.resolve(this.packageRoot, "src/index.ts"));
