@@ -34,7 +34,7 @@ export const CategoryItem = memo(
           "flex items-center gap-2 cursor-default select-none rounded-md px-2 py-1",
           isActive
             ? "text-accent-foreground bg-accent-background/10"
-            : "hover:bg-secondary-active-background active:bg-accent-background/10"
+            : "hover:bg-secondary-hover-background active:bg-accent-background/10"
         )}
         onMouseDown={() => handleCategoryClick(category)}
       >

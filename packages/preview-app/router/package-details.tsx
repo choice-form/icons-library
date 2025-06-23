@@ -122,7 +122,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                         "flex items-center gap-2 cursor-default select-none rounded-md px-2 py-1",
                         pkg.id === packageId
                           ? "text-accent-foreground bg-accent-background/10"
-                          : "hover:bg-secondary-active-background active:bg-accent-background/10"
+                          : "hover:bg-secondary-hover-background active:bg-accent-background/10"
                       )}
                     >
                       {pkg.name}
@@ -168,7 +168,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                           })
                         ) : (
                           <code
-                            className="bg-secondary-active-background px-1 py-0.5 rounded"
+                            className="bg-secondary-hover-background px-1 py-0.5 rounded"
                             {...props}
                           >
                             {children}
@@ -187,7 +187,7 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                       ),
                       th: (props) => (
                         <th
-                          className="border border-default-boundary bg-secondary-active-background p-2 text-left"
+                          className="border border-default-boundary bg-secondary-hover-background p-2 text-left"
                           {...props}
                         />
                       ),
