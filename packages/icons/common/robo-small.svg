@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="robo-small[common,sparks,ai,effect,brightness,interlligence]">
+<path id="Vector" d="M8 6V4H6" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M11 6H5C4.44772 6 4 6.44772 4 7V11C4 11.5523 4.44772 12 5 12H11C11.5523 12 12 11.5523 12 11V7C12 6.44772 11.5523 6 11 6Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M3 9H4" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M12 9H13" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M9.5 8.5V9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M6.5 8.5V9.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
