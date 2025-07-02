@@ -1,0 +1,17 @@
+{
+  "name": "CloudAlert",
+  "filename": "cloud-alert.svg",
+  "category": "sync",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "connection",
+    "wireless",
+    "sync",
+    "network",
+    "danger",
+    "warning",
+    "alert",
+    "error"
+  ]
+}
