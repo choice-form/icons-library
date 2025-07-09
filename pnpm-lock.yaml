@@ -424,8 +424,8 @@ importers:
   packages/preview-app:
     dependencies:
       '@choiceform/design-system':
-        specifier: ^0.9.954
-        version: 0.9.954(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(slate-dom@0.114.0(slate@0.114.0))(tailwindcss@4.1.5)
+        specifier: ^0.9.955
+        version: 0.9.955(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(slate-dom@0.114.0(slate@0.114.0))(tailwindcss@4.1.5)
       '@tailwindcss/typography':
         specifier: ^0.5.16
         version: 0.5.16(tailwindcss@4.1.5)
@@ -1287,8 +1287,8 @@ packages:
     resolution: {integrity: sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==}
     engines: {node: '>=6.9.0'}
 
-  '@choiceform/design-system@0.9.954':
-    resolution: {integrity: sha512-196yQa1cOgcoTGw62Vo821hbGfXnODj85TXwy5ZE0frF81nmaoiqVgrFXFGF05sDAE3jsWbFhltwKQDvv5dihg==}
+  '@choiceform/design-system@0.9.955':
+    resolution: {integrity: sha512-Rw9LDbO2+D2ANUGHctR90VvfO6oNig7XJvLSE9ZvicCDNb9PZrc0voZaNQBRnCEilU7egrmp6+YeKiW/i9qZcA==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -10106,7 +10106,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@choiceform/design-system@0.9.954(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(slate-dom@0.114.0(slate@0.114.0))(tailwindcss@4.1.5)':
+  '@choiceform/design-system@0.9.955(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(slate-dom@0.114.0(slate@0.114.0))(tailwindcss@4.1.5)':
     dependencies:
       '@date-fns/tz': 1.2.0
       '@floating-ui/react': 0.27.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)

@@ -38,7 +38,7 @@
     "vite-plugin-style-import": "^2.0.0"
   },
   "dependencies": {
-    "@choiceform/design-system": "^0.9.954",
+    "@choiceform/design-system": "^0.9.955",
     "@tailwindcss/typography": "^0.5.16",
     "@types/react-dom": "^18.3.1",
     "react-markdown": "^10.1.0",
