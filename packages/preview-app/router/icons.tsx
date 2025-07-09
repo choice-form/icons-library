@@ -1,4 +1,4 @@
-import { Scroll } from "@choiceform/design-system";
+import { ScrollArea } from "@choiceform/design-system";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { AnimatePresence } from "framer-motion";
 import { useCallback, useRef, useState } from "react";
@@ -15,6 +15,37 @@ import {
   useVirtualRows,
 } from "../hooks";
 import type { IconItemData } from "../types";
+import { createRoot } from "react-dom/client";
+
+// 辅助函数：从React组件生成SVG字符串
+const generateSvgFromComponent = (
+  IconComponent: React.ComponentType<any>,
+  props: any = {}
+): Promise<string> => {
+  return new Promise((resolve) => {
+    const container = document.createElement("div");
+    container.style.position = "absolute";
+    container.style.left = "-9999px";
+    container.style.top = "-9999px";
+    document.body.appendChild(container);
+
+    const root = createRoot(container);
+
+    root.render(<IconComponent {...props} />);
+
+    // 使用requestAnimationFrame确保DOM更新完成
+    requestAnimationFrame(() => {
+      const svgElement = container.querySelector("svg");
+      if (svgElement) {
+        resolve(svgElement.outerHTML);
+      } else {
+        resolve("");
+      }
+      root.unmount();
+      document.body.removeChild(container);
+    });
+  });
+};
 
 export const Icons = () => {
   const [selectedIcon, setSelectedIcon] = useState<IconItemData | null>(null);
@@ -58,30 +89,54 @@ export const Icons = () => {
   }, []);
 
   const handleCopySVG = useCallback(
-    (icon?: IconItemData) => {
+    async (icon: IconItemData | null) => {
       const iconToUse = icon || selectedIcon;
       if (iconToUse) {
-        const formattedSVG = iconToUse.optimizedSvg;
-        navigator.clipboard.writeText(formattedSVG);
-        toast.success("SVG copied to clipboard");
+        try {
+          const svgString = await generateSvgFromComponent(
+            iconToUse.IconComponent,
+            {
+              width: iconToUse.width,
+              height: iconToUse.height,
+              color: "currentColor",
+            }
+          );
+          navigator.clipboard.writeText(svgString);
+          toast.success("SVG copied to clipboard");
+        } catch (error) {
+          console.error("Failed to generate SVG:", error);
+          toast.error("Failed to copy SVG");
+        }
       }
     },
     [selectedIcon]
   );
 
   const handleDownloadSVG = useCallback(
-    (icon?: IconItemData) => {
+    async (icon: IconItemData | null) => {
       const iconToUse = icon || selectedIcon;
       if (iconToUse) {
-        const formattedSVG = iconToUse.optimizedSvg;
-        const blob = new Blob([formattedSVG], { type: "image/svg+xml" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = `${iconToUse.name}.svg`;
-        a.click();
-        URL.revokeObjectURL(url);
-        toast.success("SVG downloaded");
+        try {
+          const svgString = await generateSvgFromComponent(
+            iconToUse.IconComponent,
+            {
+              width: iconToUse.width,
+              height: iconToUse.height,
+              color: "currentColor",
+            }
+          );
+          const blob = new Blob([svgString], { type: "image/svg+xml" });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = `${iconToUse.name}.svg`;
+          a.click();
+          URL.revokeObjectURL(url);
+          toast.success("SVG downloaded");
+        } catch (error) {
+          console.error("Failed to generate SVG:", error);
+          toast.error("Failed to download SVG");
+        }
       }
     },
     [selectedIcon]
@@ -97,7 +152,7 @@ export const Icons = () => {
   }, []);
 
   const handleCopyReactComponent = useCallback(
-    (icon?: IconItemData) => {
+    (icon: IconItemData | null) => {
       const iconToUse = icon || selectedIcon;
       if (iconToUse) {
         const reactComponent = `<${iconToUse.name} />`;
@@ -113,7 +168,7 @@ export const Icons = () => {
   }, []);
 
   const handleCopyVueComponent = useCallback(
-    (icon?: IconItemData) => {
+    (icon: IconItemData | null) => {
       const iconToUse = icon || selectedIcon;
       if (iconToUse) {
         const vueComponent = `<${iconToUse.name} />`;
@@ -125,7 +180,7 @@ export const Icons = () => {
   );
 
   const handleCopyAngularComponent = useCallback(
-    (icon?: IconItemData) => {
+    (icon: IconItemData | null) => {
       const iconToUse = icon || selectedIcon;
       if (iconToUse) {
         const dashedName = getDashedName(iconToUse.name);
@@ -139,7 +194,7 @@ export const Icons = () => {
   );
 
   const handleCopySolidComponent = useCallback(
-    (icon?: IconItemData) => {
+    (icon: IconItemData | null) => {
       const iconToUse = icon || selectedIcon;
       if (iconToUse) {
         const solidComponent = `<${iconToUse.name} />`;
@@ -151,7 +206,7 @@ export const Icons = () => {
   );
 
   const handleCopyJsComponent = useCallback(
-    (icon?: IconItemData) => {
+    (icon: IconItemData | null) => {
       const iconToUse = icon || selectedIcon;
       if (iconToUse) {
         const dashedName = getDashedName(iconToUse.name);
@@ -292,91 +347,95 @@ function App() {
          w-(--sidebar-container-width)
          pl-(--sidebar-padding-left) hidden lg:block"
       >
-        <Scroll className="h-screen">
-          <Scroll.Viewport className="h-full">
-            <CategorySidebar
-              sortedCategories={sortedCategories}
-              activeCategory={activeCategory}
-              handleCategoryClick={handleCategoryClick}
-              groupedAndSortedIcons={groupedAndSortedIcons}
-            />
-          </Scroll.Viewport>
-        </Scroll>
+        <ScrollArea className="h-screen">
+          <ScrollArea.Viewport className="h-full">
+            <ScrollArea.Content>
+              <CategorySidebar
+                sortedCategories={sortedCategories}
+                activeCategory={activeCategory}
+                handleCategoryClick={handleCategoryClick}
+                groupedAndSortedIcons={groupedAndSortedIcons}
+              />
+            </ScrollArea.Content>
+          </ScrollArea.Viewport>
+        </ScrollArea>
       </aside>
 
       <div className="fixed inset-0">
-        <Scroll>
-          <Scroll.Viewport
-            className="flex-1 h-screen min-w-0 overflow-auto pt-16 pb-64
+        <ScrollArea>
+          <ScrollArea.Viewport
+            className="flex-1 h-screen min-w-0 overflow-auto pt-16 pb-128
              pl-(--icon-browser-padding-left)
              pr-(--icon-browser-padding-right)"
             ref={parentRef}
           >
-            <SearchBar
-              totalIcons={totalIcons}
-              searchTerm={searchTerm}
-              setSearchTerm={setSearchTerm}
-              sortedCategories={sortedCategories}
-              activeCategory={activeCategory}
-              handleCategoryClick={handleCategoryClick}
-            />
-
-            {sortedCategories.length === 0 && searchTerm && (
-              <SearchEmpty
+            <ScrollArea.Content>
+              <SearchBar
+                totalIcons={totalIcons}
                 searchTerm={searchTerm}
-                onClear={() => setSearchTerm("")}
+                setSearchTerm={setSearchTerm}
+                sortedCategories={sortedCategories}
+                activeCategory={activeCategory}
+                handleCategoryClick={handleCategoryClick}
               />
-            )}
-            <div
-              ref={gridRef}
-              className="w-full relative"
-              style={{
-                height: `${rowVirtualizer.getTotalSize()}px`,
-              }}
-              onContextMenu={(e) => {
-                e.preventDefault();
-                e.stopPropagation();
-              }}
-            >
-              {rowVirtualizer.getVirtualItems().map((virtualRow) => {
-                const row = virtualRows[virtualRow.index];
 
-                return (
-                  <div
-                    key={virtualRow.index}
-                    data-index={virtualRow.index}
-                    data-category={
-                      row.type === "title" ? row.category : undefined
-                    }
-                    id={row.type === "title" ? row.category : undefined}
-                    className="absolute w-full"
-                    style={{
-                      height: `${virtualRow.size}px`,
-                      transform: `translateY(${virtualRow.start}px)`,
-                    }}
-                  >
-                    {row.type === "title" ? (
-                      <div
-                        className="w-full h-12 flex items-center
+              {sortedCategories.length === 0 && searchTerm && (
+                <SearchEmpty
+                  searchTerm={searchTerm}
+                  onClear={() => setSearchTerm("")}
+                />
+              )}
+              <div
+                ref={gridRef}
+                className="w-full relative"
+                style={{
+                  height: `${rowVirtualizer.getTotalSize()}px`,
+                }}
+                onContextMenu={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                }}
+              >
+                {rowVirtualizer.getVirtualItems().map((virtualRow) => {
+                  const row = virtualRows[virtualRow.index];
+
+                  return (
+                    <div
+                      key={virtualRow.index}
+                      data-index={virtualRow.index}
+                      data-category={
+                        row.type === "title" ? row.category : undefined
+                      }
+                      id={row.type === "title" ? row.category : undefined}
+                      className="absolute w-full"
+                      style={{
+                        height: `${virtualRow.size}px`,
+                        transform: `translateY(${virtualRow.start}px)`,
+                      }}
+                    >
+                      {row.type === "title" ? (
+                        <div
+                          className="w-full h-12 flex items-center
                          font-medium text-base text-secondary-foreground
                          px-5 lg:px-3 capitalize"
-                      >
-                        {row.category}
-                      </div>
-                    ) : (
-                      renderIconRow(
-                        row.icons || [],
-                        (name) => selectedIcon?.name === name,
-                        handleIconSelect,
-                        columnCount
-                      )
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </Scroll.Viewport>
-        </Scroll>
+                        >
+                          {row.category}
+                        </div>
+                      ) : (
+                        renderIconRow(
+                          row.icons || [],
+                          (name) => selectedIcon?.name === name,
+                          handleIconSelect,
+                          columnCount
+                        )
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </ScrollArea.Content>
+          </ScrollArea.Viewport>
+        </ScrollArea>
       </div>
 
       <AnimatePresence mode="wait">

@@ -1,4 +1,4 @@
-import { Button, Scroll } from "@choiceform/design-system";
+import { Button, ScrollArea } from "@choiceform/design-system";
 import { Link } from "react-router-dom";
 
 // 包列表 - 确保与App.tsx和prepare-readmes.js中的列表保持同步
@@ -83,12 +83,12 @@ export const Packages = () => {
   return (
     <>
       <div className="fixed inset-0">
-        <Scroll className="h-screen">
-          <Scroll.Viewport
+        <ScrollArea className="h-screen">
+          <ScrollArea.Viewport
             className="px-8 pb-16 pt-32 w-full h-full max-w-none
             prose dark:prose-invert"
           >
-            <div className="mx-auto xl:container xl:px-8">
+            <ScrollArea.Content className="mx-auto xl:container xl:px-8 w-auto min-w-0">
               <div className="mb-8">
                 <h1 className="text-3xl font-bold">Packages</h1>
                 <p className="text-secondary mt-2">
@@ -100,9 +100,9 @@ export const Packages = () => {
                 {packages.map((pkg) => (
                   <div
                     key={pkg.id}
-                    className="flex flex-col items-start gap-4 p-6 bg-secondary-background rounded-lg no-underline"
+                    className="flex flex-col items-start gap-4 p-6 bg-secondary-background rounded-xl no-underline"
                   >
-                    <div className="flex justify-center items-center p-4 bg-white rounded-lg">
+                    <div className="flex justify-center items-center p-4 bg-white rounded-xl">
                       <img
                         src={`./framework-logo/${pkg.logo}`}
                         alt={pkg.name}
@@ -132,9 +132,9 @@ export const Packages = () => {
                   </div>
                 ))}
               </div>
-            </div>
-          </Scroll.Viewport>
-        </Scroll>
+            </ScrollArea.Content>
+          </ScrollArea.Viewport>
+        </ScrollArea>
       </div>
     </>
   );

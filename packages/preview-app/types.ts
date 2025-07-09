@@ -5,7 +5,6 @@ export interface IconMetadata {
   filename: string;
   width: number | string;
   height: number | string;
-  optimizedSvg: string;
 }
 
 export interface IconComponentProps extends React.SVGProps<SVGSVGElement> {}

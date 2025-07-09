@@ -40,7 +40,7 @@ export const Layout = () => {
         }}
       >
         <Toaster />
-        <TooltipProvider>
+        <TooltipProvider delay={{ open: 400, close: 200 }}>
           <div className="w-screen h-screen" style={styles}>
             <Header theme={theme} onThemeChange={handleThemeChange} />
             <Outlet />

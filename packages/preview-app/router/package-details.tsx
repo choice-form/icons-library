@@ -1,14 +1,14 @@
-import React, { useState, useEffect, Suspense } from "react";
+import { Button, ScrollArea, tcx } from "@choiceform/design-system";
+import React, { Suspense, useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import { Link } from "react-router-dom";
 import { Prism, SyntaxHighlighterProps } from "react-syntax-highlighter";
 import {
   oneLight,
   vscDarkPlus,
 } from "react-syntax-highlighter/dist/esm/styles/prism";
-import { useThemeContext } from "../context";
-import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { Button, Scroll, tcx } from "@choiceform/design-system";
-import { Link } from "react-router-dom";
+import { useThemeContext } from "../context";
 import { packages } from "./packages";
 
 const SyntaxHighlighter = Prism as unknown as React.FC<SyntaxHighlighterProps>;
@@ -108,9 +108,9 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
   return (
     <>
       <aside className="fixed z-10 bg-secondary-background left-0 inset-y-0 w-(--sidebar-container-width) pl-(--sidebar-padding-left) hidden lg:block">
-        <Scroll className="h-screen">
-          <Scroll.Viewport className="h-full">
-            <div className="pt-(--nav-height) flex flex-col gap-4 pb-32">
+        <ScrollArea className="h-screen">
+          <ScrollArea.Viewport className="h-full">
+            <ScrollArea.Content className="pt-(--nav-height) flex flex-col gap-4 pb-32">
               <div className="text-sm font-medium mb-1 px-1 text-secondary-foreground">
                 Packages
               </div>
@@ -130,15 +130,15 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                   </Link>
                 ))}
               </nav>
-            </div>
-          </Scroll.Viewport>
-        </Scroll>
+            </ScrollArea.Content>
+          </ScrollArea.Viewport>
+        </ScrollArea>
       </aside>
 
       <div className="fixed inset-0">
-        <Scroll>
-          <Scroll.Viewport className="flex-1 max-w-full h-screen min-w-0 overflow-auto pt-16 pb-64 pl-(--sidebar-container-width) pr-(--icon-browser-padding-right)">
-            <div className="w-full relative pl-8 max-w-[calc(100vw-2rem)] min-w-0">
+        <ScrollArea>
+          <ScrollArea.Viewport className="flex-1 max-w-full h-screen min-w-0 overflow-auto pt-16 pb-64 pl-(--sidebar-container-width) pr-(--icon-browser-padding-right)">
+            <ScrollArea.Content className="w-full relative pl-8 max-w-[calc(100vw-2rem)] min-w-0">
               {/* 面包屑导航 */}
               <div className="my-4 flex items-center">
                 <Button variant="link" asChild>
@@ -224,9 +224,9 @@ export const PackageDetails: React.FC<PackageDetailsProps> = ({
                   </ReactMarkdown>
                 </Suspense>
               </div>
-            </div>
-          </Scroll.Viewport>
-        </Scroll>
+            </ScrollArea.Content>
+          </ScrollArea.Viewport>
+        </ScrollArea>
       </div>
     </>
   );

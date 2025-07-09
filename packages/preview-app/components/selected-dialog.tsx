@@ -76,13 +76,13 @@ const Grid = memo(({ size }: { size: "small" | "medium" | "large" }) => {
 interface SelectedDialogProps {
   selectedIcon: IconItemData;
   handleCloseSelectedIcon: () => void;
-  handleCopySVG: (icon?: IconItemData) => void;
-  handleDownloadSVG: (icon?: IconItemData) => void;
-  handleCopyReactComponent: (icon?: IconItemData) => void;
-  handleCopyVueComponent: (icon?: IconItemData) => void;
-  handleCopyAngularComponent: (icon?: IconItemData) => void;
-  handleCopySolidComponent: (icon?: IconItemData) => void;
-  handleCopyJsComponent: (icon?: IconItemData) => void;
+  handleCopySVG: (icon: IconItemData | null) => Promise<void>;
+  handleDownloadSVG: (icon: IconItemData | null) => Promise<void>;
+  handleCopyReactComponent: (icon: IconItemData | null) => void;
+  handleCopyVueComponent: (icon: IconItemData | null) => void;
+  handleCopyAngularComponent: (icon: IconItemData | null) => void;
+  handleCopySolidComponent: (icon: IconItemData | null) => void;
+  handleCopyJsComponent: (icon: IconItemData | null) => void;
   handleTagClick: (tag: string) => void;
   ReactCodeExample: string;
   VueCodeExample: string;
@@ -140,7 +140,7 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
       className="fixed bottom-0 left-4 right-4
       lg:left-(--icon-browser-padding-left)
       lg:right-(--icon-browser-padding-right)
-      rounded-t-lg p-4 bg-default-background shadow-xl"
+      rounded-t-xl p-4 bg-default-background shadow-xl"
       initial={{ opacity: 0, y: 32 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 32 }}
@@ -205,7 +205,7 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
             <Button
               variant="solid"
               size="large"
-              onClick={() => handleCopySVG(selectedIcon)}
+              onClick={async () => await handleCopySVG(selectedIcon)}
             >
               <Duplicate />
               Copy SVG
@@ -213,7 +213,7 @@ export const SelectedDialog = (props: SelectedDialogProps) => {
             <Button
               variant="solid"
               size="large"
-              onClick={() => handleDownloadSVG(selectedIcon)}
+              onClick={async () => await handleDownloadSVG(selectedIcon)}
             >
               <FilesDownload />
               Download SVG

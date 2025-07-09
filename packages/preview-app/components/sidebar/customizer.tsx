@@ -21,7 +21,7 @@ export const Customizer = forwardRef<
     <div
       ref={ref}
       {...props}
-      className="pl-4 pr-2 pt-2 pb-4 bg-default-background rounded-lg mr-4
+      className="pl-4 pr-2 pt-2 pb-4 bg-default-background rounded-xl mr-4
       grid grid-cols-[1fr_auto] gap-2 items-center"
     >
       <h2 className="text-sm font-medium">Customizer</h2>

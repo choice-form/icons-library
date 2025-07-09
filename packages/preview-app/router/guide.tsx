@@ -1,4 +1,4 @@
-import { Scroll } from "@choiceform/design-system";
+import { ScrollArea } from "@choiceform/design-system";
 import React from "react";
 import { Prism, SyntaxHighlighterProps } from "react-syntax-highlighter";
 import {
@@ -16,12 +16,9 @@ export const Guide = () => {
 
   return (
     <div className="fixed inset-0">
-      <Scroll className="h-full">
-        <Scroll.Viewport
-          className="px-8 pb-16 pt-32 w-full h-full max-w-none
-          prose dark:prose-invert"
-        >
-          <div className="mx-auto xl:container xl:px-8">
+      <ScrollArea className="h-full">
+        <ScrollArea.Viewport className="px-8 pb-16 pt-32 w-full h-full max-w-none prose dark:prose-invert">
+          <ScrollArea.Content className="mx-auto xl:container xl:px-8">
             <h1>Usage Guide</h1>
 
             <section>
@@ -188,9 +185,9 @@ function MyComponent() {
                 </li>
               </ul>
             </section>
-          </div>
-        </Scroll.Viewport>
-      </Scroll>
+          </ScrollArea.Content>
+        </ScrollArea.Viewport>
+      </ScrollArea>
     </div>
   );
 };
