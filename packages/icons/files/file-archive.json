@@ -1,0 +1,20 @@
+{
+  "name": "FileArchive",
+  "filename": "file-archive.svg",
+  "category": "files",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "file",
+    "zip",
+    "document",
+    "note",
+    "page",
+    "draft",
+    "item",
+    "sheet",
+    "content",
+    "data",
+    "archive"
+  ]
+}

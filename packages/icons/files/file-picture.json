@@ -1,0 +1,15 @@
+{
+  "name": "FilePicture",
+  "filename": "file-picture.svg",
+  "category": "files",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "file",
+    "document",
+    "note",
+    "draft",
+    "item",
+    "data"
+  ]
+}
