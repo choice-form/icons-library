@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="nodes-tidy">
+<path id="Vector 3" d="M3 1.5H2.5C1.94772 1.5 1.5 1.94772 1.5 2.5V3" stroke="black" stroke-linecap="round"/>
+<path id="Vector 9" d="M5 1.5H5.5C6.05228 1.5 6.5 1.94772 6.5 2.5V3" stroke="black" stroke-linecap="round"/>
+<path id="Vector 10" d="M3 6.5H2.5C1.94772 6.5 1.5 6.05228 1.5 5.5V5" stroke="black" stroke-linecap="round"/>
+<path id="Vector 11" d="M5 6.5H5.5C6.05228 6.5 6.5 6.05228 6.5 5.5V5" stroke="black" stroke-linecap="round"/>
+<path id="Vector 12" d="M9 1.5H9.5C10.0523 1.5 10.5 1.94772 10.5 2.5V3" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path id="Vector 13" d="M9 6.5H9.5C10.0523 6.5 10.5 6.05228 10.5 5.5V5" stroke="black" stroke-opacity="0.5" stroke-linecap="round"/>
+<path id="Vector 14" d="M13 1.5H13.5C14.0523 1.5 14.5 1.94772 14.5 2.5V3" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+<path id="Vector 15" d="M13 6.5H13.5C14.0523 6.5 14.5 6.05228 14.5 5.5V5" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+<path id="Vector 7" d="M13.5 9.5H10.5C9.94772 9.5 9.5 9.94772 9.5 10.5V13.5C9.5 14.0523 9.94772 14.5 10.5 14.5H13.5C14.0523 14.5 14.5 14.0523 14.5 13.5V10.5C14.5 9.94772 14.0523 9.5 13.5 9.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector 8" d="M6.5 12.5H3.5C2.94772 12.5 2.5 12.0523 2.5 11.5V9.5M6.5 12.5L5 11M6.5 12.5L5 14" stroke="black" stroke-linecap="round"/>
+</g>
+</svg>
