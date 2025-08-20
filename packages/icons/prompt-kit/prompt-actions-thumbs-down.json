@@ -1,0 +1,11 @@
+{
+  "name": "PromptActionsThumbsDown",
+  "filename": "prompt-actions-thumbs-down.svg",
+  "category": "prompt-kit",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "prompt-kit",
+    "actions"
+  ]
+}

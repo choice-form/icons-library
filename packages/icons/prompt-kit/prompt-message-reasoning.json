@@ -1,0 +1,11 @@
+{
+  "name": "PromptMessageReasoning",
+  "filename": "prompt-message-reasoning.svg",
+  "category": "prompt-kit",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "prompt-kit",
+    "message"
+  ]
+}

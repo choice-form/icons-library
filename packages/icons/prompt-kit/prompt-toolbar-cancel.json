@@ -1,0 +1,11 @@
+{
+  "name": "PromptToolbarCancel",
+  "filename": "prompt-toolbar-cancel.svg",
+  "category": "prompt-kit",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "prompt-kit",
+    "toolbar"
+  ]
+}

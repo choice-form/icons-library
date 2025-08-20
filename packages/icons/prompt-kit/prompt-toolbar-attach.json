@@ -1,0 +1,11 @@
+{
+  "name": "PromptToolbarAttach",
+  "filename": "prompt-toolbar-attach.svg",
+  "category": "prompt-kit",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "prompt-kit",
+    "toolbar"
+  ]
+}

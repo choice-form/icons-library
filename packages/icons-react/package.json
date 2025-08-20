@@ -1,6 +1,6 @@
 {
   "name": "@choiceform/icons-react",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "React components for SVG icons",
   "type": "module",
   "scripts": {

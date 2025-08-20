@@ -1,0 +1,11 @@
+{
+  "name": "PromptToolbarSubmit",
+  "filename": "prompt-toolbar-submit.svg",
+  "category": "prompt-kit",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "prompt-kit",
+    "toolbar"
+  ]
+}

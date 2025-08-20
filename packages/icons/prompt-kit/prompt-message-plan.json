@@ -1,0 +1,11 @@
+{
+  "name": "PromptMessagePlan",
+  "filename": "prompt-message-plan.svg",
+  "category": "prompt-kit",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "prompt-kit",
+    "message"
+  ]
+}
