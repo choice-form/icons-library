@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
 <g id="flow-sidebar">
-<g id="Group">
-<path id="Vector" d="M13.5 3.5H10.5V12.5H13.5V3.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M14 1.5H2C1.17157 1.5 0.5 2.17157 0.5 3V13C0.5 13.8284 1.17157 14.5 2 14.5H14C14.8284 14.5 15.5 13.8284 15.5 13V3C15.5 2.17157 14.8284 1.5 14 1.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
+<path id="Vector" d="M13 3.5H11C10.7239 3.5 10.5 3.72386 10.5 4V12C10.5 12.2761 10.7239 12.5 11 12.5H13C13.2761 12.5 13.5 12.2761 13.5 12V4C13.5 3.72386 13.2761 3.5 13 3.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 45" d="M13.5 1.5H2.5C1.39543 1.5 0.5 2.39543 0.5 3.5V12.5C0.5 13.6046 1.39543 14.5 2.5 14.5H13.5C14.6046 14.5 15.5 13.6046 15.5 12.5V3.5C15.5 2.39543 14.6046 1.5 13.5 1.5Z" stroke="black" stroke-linecap="round"/>
 </g>
 </svg>

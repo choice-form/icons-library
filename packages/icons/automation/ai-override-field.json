@@ -1,7 +1,7 @@
 {
   "name": "AiOverrideField",
   "filename": "ai-override-field.svg",
-  "category": "interface",
+  "category": "automation",
   "width": 16,
   "height": 16,
   "tags": [
@@ -9,6 +9,7 @@
     "integration",
     "extension",
     "sparkle",
-    "magic"
+    "magic",
+    "automation"
   ]
 }
