@@ -19,7 +19,10 @@ frontend:
         - pnpm install --no-frozen-lockfile
     build:
       commands:
-        # Build the React icon package first — preview-app depends on it
+        # icons-core must be built first: icons-react's generate step imports
+        # icons-core/dist/index.js (dist is gitignored, absent on a clean CI).
+        - pnpm run build:core
+        # Then build the React icon package — preview-app depends on it
         # (workspace:*) and resolves it from its built dist.
         - pnpm run build:react
         # Build the preview app (runs prepare-readmes via its prebuild hook).
