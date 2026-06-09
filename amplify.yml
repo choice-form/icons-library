@@ -6,10 +6,9 @@ frontend:
         # Pin pnpm 8 to match lockfileVersion 6.0 (pnpm 9/10 use a different
         # lockfile format and reject `pnpm config set node-linker`).
         - npm install --global pnpm@8
-        # Generate .npmrc at build time: .npmrc is gitignored (it holds the
-        # npm auth token), so the checkout has none. Hoisting settings live
-        # here; the token comes from the NPM_TOKEN env var (set it in the
-        # Amplify console → Environment variables).
+        # .npmrc is gitignored (it holds a publish token locally), so the
+        # checkout has none. Recreate it here with just the hoisting settings
+        # the build needs — all deps are public, so no auth token is required.
         - |
           cat > .npmrc <<'EOF'
           shamefully-hoist=true
@@ -17,7 +16,6 @@ frontend:
           auto-install-peers=true
           node-linker=hoisted
           EOF
-        - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
         - pnpm install --no-frozen-lockfile
     build:
       commands:
