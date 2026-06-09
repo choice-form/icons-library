@@ -44,5 +44,10 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
 }

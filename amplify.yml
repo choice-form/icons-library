@@ -1,0 +1,36 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Pin pnpm 8 to match lockfileVersion 6.0 (pnpm 9/10 use a different
+        # lockfile format and reject `pnpm config set node-linker`).
+        - npm install --global pnpm@8
+        # Generate .npmrc at build time: .npmrc is gitignored (it holds the
+        # npm auth token), so the checkout has none. Hoisting settings live
+        # here; the token comes from the NPM_TOKEN env var (set it in the
+        # Amplify console → Environment variables).
+        - |
+          cat > .npmrc <<'EOF'
+          shamefully-hoist=true
+          strict-peer-dependencies=false
+          auto-install-peers=true
+          node-linker=hoisted
+          EOF
+        - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
+        - pnpm install --no-frozen-lockfile
+    build:
+      commands:
+        # Build the React icon package first — preview-app depends on it
+        # (workspace:*) and resolves it from its built dist.
+        - pnpm run build:react
+        # Build the preview app (runs prepare-readmes via its prebuild hook).
+        - pnpm --filter @choiceform/icons-preview run build
+  artifacts:
+    baseDirectory: packages/preview-app/dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+      - packages/*/node_modules/**/*
