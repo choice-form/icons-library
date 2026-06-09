@@ -1,0 +1,12 @@
+{
+  "name": "CloseWindow",
+  "filename": "close-window.svg",
+  "category": "automation",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "automation",
+    "windows",
+    "close"
+  ]
+}

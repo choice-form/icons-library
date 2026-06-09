@@ -1,0 +1,12 @@
+{
+  "name": "ToolsEllipse",
+  "filename": "tools-ellipse.svg",
+  "category": "interface",
+  "width": 24,
+  "height": 24,
+  "tags": [
+    "interface",
+    "toolbar",
+    "shape"
+  ]
+}

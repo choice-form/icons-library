@@ -17,3 +17,6 @@ packages/icons-js/src
 packages/icons-react
 packages/icons-solid/src
 packages/icons-vue/src
+
+# npm auth (contains token — keep local only)
+.npmrc

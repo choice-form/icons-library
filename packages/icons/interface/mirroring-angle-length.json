@@ -1,0 +1,13 @@
+{
+  "name": "MirroringAngleLength",
+  "filename": "mirroring-angle-length.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "stroke",
+    "mirroring",
+    "handle",
+    "vector"
+  ]
+}

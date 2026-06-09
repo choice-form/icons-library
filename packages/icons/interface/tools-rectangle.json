@@ -1,0 +1,12 @@
+{
+  "name": "ToolsRectangle",
+  "filename": "tools-rectangle.svg",
+  "category": "interface",
+  "width": 24,
+  "height": 24,
+  "tags": [
+    "interface",
+    "toolbar",
+    "shape"
+  ]
+}

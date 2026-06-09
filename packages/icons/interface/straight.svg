@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="straight[stroke,mirroring,handle,vector]">
+<path id="Vector 3" d="M6.5 4.5C6.5 5.32843 7.17157 6 8 6C8.82843 6 9.5 5.32843 9.5 4.5C9.5 3.67157 8.82843 3 8 3C7.17157 3 6.5 3.67157 6.5 4.5Z" stroke="black"/>
+<path id="Vector" d="M9.80556 7L14.5 13.5M6.19444 7L1.5 13.5" stroke="black" stroke-opacity="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
