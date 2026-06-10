@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 <g id="tools-frame[interface,toolbar,frame]">
-<rect id="Rectangle 2126" x="7" y="4" width="1" height="16" rx="0.5" fill="black" fill-opacity="0.9"/>
-<rect id="Rectangle 2127" x="4" y="7" width="16" height="1" rx="0.5" fill="black" fill-opacity="0.9"/>
-<rect id="Rectangle 2128" x="4" y="16" width="16" height="1" rx="0.5" fill="black" fill-opacity="0.9"/>
-<rect id="Rectangle 2129" x="16" y="4" width="1" height="16" rx="0.5" fill="black" fill-opacity="0.9"/>
+<path id="Vector 2477" d="M4.5 7.5H19.5M4.5 16.5H19.5M7.5 4.5V19.5M16.5 4.5V19.5" stroke="black" stroke-linecap="round"/>
 </g>
 </svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
 <g id="tools-rectangle-small[interface,toolbar,shape]">
-<path id="Rectangle 2130" d="M3.5 2.5H12.5C13.0523 2.5 13.5 2.94772 13.5 3.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H3.5C2.94772 13.5 2.5 13.0523 2.5 12.5V3.5C2.5 2.94772 2.94772 2.5 3.5 2.5Z" stroke="black" stroke-opacity="0.9"/>
+<path id="Rectangle 2130" d="M2 3.5C2 2.67157 2.67157 2 3.5 2H12.5C13.3284 2 14 2.67157 14 3.5V12.5C14 13.3284 13.3284 14 12.5 14H3.5C2.67157 14 2 13.3284 2 12.5V3.5Z" stroke="black"/>
 </g>
 </svg>

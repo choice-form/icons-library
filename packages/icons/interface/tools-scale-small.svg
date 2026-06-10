@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
 <g id="tools-scale-small[interface,toolbar,scale]">
-<path id="Vector 2447" d="M5.5 7.5H3C2.72386 7.5 2.5 7.72386 2.5 8V13C2.5 13.2761 2.72386 13.5 3 13.5H8C8.27614 13.5 8.5 13.2761 8.5 13V10.5" stroke="black" stroke-opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector 2448" d="M2.5 5.5V3.5C2.5 2.94772 2.94772 2.5 3.5 2.5H12.5C13.0523 2.5 13.5 2.94772 13.5 3.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H10.5" stroke="black" stroke-opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector 2445" d="M10.5 5.5L5.5 10.5M10.5 8.5V5.5H7.5" stroke="black" stroke-opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2447" d="M5.5 7.5H3C2.72386 7.5 2.5 7.72386 2.5 8V13C2.5 13.2761 2.72386 13.5 3 13.5H8C8.27614 13.5 8.5 13.2761 8.5 13V10.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2448" d="M2.5 5.5V3.5C2.5 2.94772 2.94772 2.5 3.5 2.5H12.5C13.0523 2.5 13.5 2.94772 13.5 3.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H10.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2445" d="M10.5 5.5L5.5 10.5M10.5 8.5V5.5H7.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>
