@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
 <g id="tools-video-small[interface,toolbar]">
-<path id="Vector 2480" d="M1.5 10.5V5.5C1.5 4.94772 1.94772 4.5 2.5 4.5H9.5C10.0523 4.5 10.5 4.94772 10.5 5.5V10.5C10.5 11.0523 10.0523 11.5 9.5 11.5H2.5C1.94772 11.5 1.5 11.0523 1.5 10.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector 2480" d="M1.5 11.5V4.5C1.5 3.94772 1.94772 3.5 2.5 3.5H9.5C10.0523 3.5 10.5 3.94772 10.5 4.5V11.5C10.5 12.0523 10.0523 12.5 9.5 12.5H2.5C1.94772 12.5 1.5 12.0523 1.5 11.5Z" stroke="black" stroke-linecap="round"/>
 <path id="Vector 2481" d="M10.5 7L13.7764 5.3618C14.1088 5.19558 14.5 5.43733 14.5 5.80902V10.191C14.5 10.5627 14.1088 10.8044 13.7764 10.6382L10.5 9" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>
