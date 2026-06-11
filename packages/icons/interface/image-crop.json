@@ -1,0 +1,11 @@
+{
+  "name": "ImageCrop",
+  "filename": "image-crop.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "image",
+    "picture"
+  ]
+}
