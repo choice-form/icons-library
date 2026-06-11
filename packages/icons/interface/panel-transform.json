@@ -1,0 +1,11 @@
+{
+  "name": "PanelTransform",
+  "filename": "panel-transform.svg",
+  "category": "interface",
+  "width": 24,
+  "height": 24,
+  "tags": [
+    "interface",
+    "panel"
+  ]
+}

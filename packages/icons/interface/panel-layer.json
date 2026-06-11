@@ -1,0 +1,11 @@
+{
+  "name": "PanelLayer",
+  "filename": "panel-layer.svg",
+  "category": "interface",
+  "width": 24,
+  "height": 24,
+  "tags": [
+    "interface",
+    "panel"
+  ]
+}

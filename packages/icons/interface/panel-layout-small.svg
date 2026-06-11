@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="panel-layout-small[interface,panel]">
+<path id="Vector 2511" d="M2.5 2.5L13.5 2.5L13.5 7.5H2.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2512" d="M8.5 9.5H2.5L2.5 13.5H8.5V9.5Z" fill="black" fill-opacity="0.25" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2513" d="M13.5 13.5V9.5H10.5V13.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
