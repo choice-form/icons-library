@@ -1,0 +1,11 @@
+{
+  "name": "AiEraser",
+  "filename": "ai-eraser.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "inpaint",
+    "interface"
+  ]
+}
