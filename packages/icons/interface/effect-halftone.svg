@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="effect-halftone[interface,effect,gradient,opacity,blur,alpha]">
+<path id="Vector 2597" d="M12.5 1.5H3.5C2.94772 1.5 2.5 1.94771 2.5 2.5V11.5C2.5 12.0523 2.94771 12.5 3.5 12.5H12.5C13.0523 12.5 13.5 12.0523 13.5 11.5V2.5C13.5 1.94772 13.0523 1.5 12.5 1.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector 2598" d="M6 3H4V5H6V3Z" fill="black"/>
+<path id="Vector 2602" d="M6 7H4V9H6V7Z" fill="black"/>
+<path id="Vector 2600" d="M10 3H8V5H10V3Z" fill="black"/>
+<path id="Vector 2603" d="M10 7H8V9H10V7Z" fill="black"/>
+<path id="Vector 2601" d="M12 5H10V7H12V5Z" fill="black"/>
+<path id="Vector 2606" d="M8 1H6V3H8V1Z" fill="black"/>
+<path id="Vector 2608" d="M12 1H10V3H12V1Z" fill="black"/>
+<path id="Vector 2609" d="M14 3H12V5H14V3Z" fill="black"/>
+<path id="Vector 2610" d="M4 5H2V7H4V5Z" fill="black"/>
+<path id="Vector 2611" d="M4 9H2V11H4V9Z" fill="black"/>
+<path id="Vector 2612" d="M6 11H4V13H6V11Z" fill="black"/>
+<path id="Vector 2613" d="M10 11H8V13H10V11Z" fill="black"/>
+<path id="Vector 2614" d="M14 11H12V13L14 11Z" fill="black"/>
+<path id="Vector 2615" d="M14 7H12V9H14V7Z" fill="black"/>
+<path id="Vector 2607" d="M4 3V1L2 3H4Z" fill="black"/>
+<path id="Vector 2604" d="M12 9H10V11H12V9Z" fill="black"/>
+<path id="Vector 2599" d="M8 5H6V7H8V5Z" fill="black"/>
+<path id="Vector 2605" d="M8 9H6V11H8V9Z" fill="black"/>
+</g>
+</svg>
