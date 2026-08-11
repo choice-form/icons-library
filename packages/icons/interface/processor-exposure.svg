@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="processor-exposure[interface,processor,colors]">
+<path id="Vector" d="M12.5 3.5L3.5 12.5M4.5 2.5H11.5C12.6046 2.5 13.5 3.39543 13.5 4.5V11.5C13.5 12.6046 12.6046 13.5 11.5 13.5H4.5C3.39543 13.5 2.5 12.6046 2.5 11.5V4.5C2.5 3.39543 3.39543 2.5 4.5 2.5Z" stroke="black" stroke-linecap="round"/>
+<path id="Vector 2564" d="M4.5 2.5H12.2929C12.7383 2.5 12.9614 3.03857 12.6464 3.35355L3.35355 12.6464C3.03857 12.9614 2.5 12.7383 2.5 12.2929V4.5C2.5 3.39543 3.39543 2.5 4.5 2.5Z" fill="black" fill-opacity="0.25"/>
+<path id="Vector 2562" d="M4.5 5.5H6.5M5.5 4.5V6.5" stroke="black" stroke-linecap="round"/>
+<path id="Vector 2563" d="M9.5 10.5H11.5" stroke="black" stroke-linecap="round"/>
+</g>
+</svg>

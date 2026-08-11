@@ -1,0 +1,12 @@
+{
+  "name": "ProcessorBrightnessContrast",
+  "filename": "processor-brightness-contrast.svg",
+  "category": "interface",
+  "width": 16,
+  "height": 16,
+  "tags": [
+    "interface",
+    "processor",
+    "colors"
+  ]
+}

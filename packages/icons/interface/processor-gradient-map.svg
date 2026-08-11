@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="processor-gradient-map[interface,processor,colors]">
+<path id="Vector" d="M11.5 2.5H4.5C3.39543 2.5 2.5 3.39543 2.5 4.5V11.5C2.5 12.6046 3.39543 13.5 4.5 13.5H11.5C12.6046 13.5 13.5 12.6046 13.5 11.5V4.5C13.5 3.39543 12.6046 2.5 11.5 2.5Z" fill="url(#paint0_linear_4988_179)" stroke="black" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_4988_179" x1="13.5" y1="8" x2="2.5" y2="8" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0"/>
+<stop offset="1" stop-opacity="0.75"/>
+</linearGradient>
+</defs>
+</svg>
