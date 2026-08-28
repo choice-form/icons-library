@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="orient-transform[vector,interface,path]">
+<path id="Vector 2635" d="M4.5 3.5C4.5 4.05228 4.05228 4.5 3.5 4.5C2.94772 4.5 2.5 4.05228 2.5 3.5C2.5 2.94772 2.94772 2.5 3.5 2.5C4.05228 2.5 4.5 2.94772 4.5 3.5Z" stroke="black"/>
+<path id="Vector 2647" d="M4.5 8.5C4.5 9.05228 4.05228 9.5 3.5 9.5C2.94772 9.5 2.5 9.05228 2.5 8.5C2.5 7.94772 2.94772 7.5 3.5 7.5C4.05228 7.5 4.5 7.94772 4.5 8.5Z" stroke="black"/>
+<path id="Vector 2648" d="M8.5 12.5C8.5 13.0523 8.05228 13.5 7.5 13.5C6.94772 13.5 6.5 13.0523 6.5 12.5C6.5 11.9477 6.94772 11.5 7.5 11.5C8.05228 11.5 8.5 11.9477 8.5 12.5Z" stroke="black"/>
+<path id="Vector 2636" d="M14.5 4.5C14.5 5.05228 14.0523 5.5 13.5 5.5C12.9477 5.5 12.5 5.05228 12.5 4.5C12.5 3.94772 12.9477 3.5 13.5 3.5C14.0523 3.5 14.5 3.94772 14.5 4.5Z" stroke="black"/>
+<path id="Vector 2646" d="M4.5 3.5L12.5 4.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2649" d="M4.5 9.5L6.5 11.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2650" d="M10 9V11L12 10.5M10 11C11.5 9.5 12.5 7.5 12.5 7.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="mirror-me[vector,interface,path]">
+<path id="Vector" d="M4 6C4.55228 6 5 5.55228 5 5C5 4.44772 4.55228 4 4 4C3.44772 4 3 4.44772 3 5C3 5.55228 3.44772 6 4 6Z" fill="black"/>
+<path id="Vector_2" d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z" fill="black" fill-opacity="0.25"/>
+<path id="Vector_3" d="M8 8C7.83333 5.5 6.5 1.5 1.5 1.5C1.5 1.5 0.999989 4.5 1.5 6.5C2 8.5 3.5 9.5 5.5 9.5C3.5 11 1.72409 10.8361 3.5 13.5C5.5 16.5 8 12.5 8 12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M8 8C8.16667 5.5 9.5 1.5 14.5 1.5C14.5 1.5 15 4.5 14.5 6.5C14 8.5 12.5 9.5 10.5 9.5C12.5 11 14.2759 10.8361 12.5 13.5C10.5 16.5 8 12.5 8 12.5" stroke="black" stroke-opacity="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 2653" d="M8 8V12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

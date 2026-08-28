@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="tangent-line[vector,interface,path]">
+<path id="Vector 2617" d="M3 4.5C3 5.05228 3.44772 5.5 4 5.5C4.55228 5.5 5 5.05228 5 4.5C5 3.94772 4.55228 3.5 4 3.5C3.44772 3.5 3 3.94772 3 4.5Z" stroke="black"/>
+<path id="Vector 2632" d="M11 4.5C11 5.05228 11.4477 5.5 12 5.5C12.5523 5.5 13 5.05228 13 4.5C13 3.94772 12.5523 3.5 12 3.5C11.4477 3.5 11 3.94772 11 4.5Z" stroke="black"/>
+<path id="Vector 2631" d="M3 4.64496C1.55426 5.07523 0.5 6.41451 0.5 8.00002C0.5 9.93302 2.067 11.5 4 11.5C5.933 11.5 7.5 9.93302 7.5 8.00002C7.5 6.41451 6.44574 5.07523 5 4.64496" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+<path id="Vector 2633" d="M11 4.64496C9.55426 5.07523 8.5 6.41451 8.5 8.00002C8.5 9.93302 10.067 11.5 12 11.5C13.933 11.5 15.5 9.93302 15.5 8.00002C15.5 6.41451 14.4457 5.07523 13 4.64496" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+<path id="Vector 2634" d="M5 4.5H11" stroke="black" stroke-linecap="round"/>
+</g>
+</svg>

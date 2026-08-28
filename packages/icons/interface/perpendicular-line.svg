@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="perpendicular-line[vector,interface,path]">
+<path id="Vector 2632" d="M9.5 7.5C9.5 8.05228 9.94772 8.5 10.5 8.5C11.0523 8.5 11.5 8.05228 11.5 7.5C11.5 6.94772 11.0523 6.5 10.5 6.5C9.94772 6.5 9.5 6.94772 9.5 7.5Z" stroke="black"/>
+<path id="Vector 2635" d="M6.5 7.5C6.5 8.05228 6.05228 8.5 5.5 8.5C4.94772 8.5 4.5 8.05228 4.5 7.5C4.5 6.94772 4.94772 6.5 5.5 6.5C6.05228 6.5 6.5 6.94772 6.5 7.5Z" stroke="black"/>
+<path id="Vector 2634" d="M6.5 7.5H9.5" stroke="black" stroke-linecap="round"/>
+<path id="Vector 2637" d="M10.626 6.5C11.0701 4.77477 12.6362 3.5 14.5 3.5C14.8453 3.5 15.1804 3.54375 15.5 3.62602M10.626 8.5C11.0701 10.2252 12.6362 11.5 14.5 11.5C14.8453 11.5 15.1804 11.4562 15.5 11.374" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+<path id="Vector 2638" d="M5.37399 6.5C4.92995 4.77477 3.36385 3.5 1.50001 3.5C1.15471 3.5 0.81963 3.54375 0.50001 3.62602M5.37399 8.5C4.92995 10.2252 3.36385 11.5 1.50001 11.5C1.15471 11.5 0.81963 11.4562 0.50001 11.374" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+</g>
+</svg>

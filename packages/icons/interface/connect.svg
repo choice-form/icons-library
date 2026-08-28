@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<g id="connect[vector,interface,path]">
+<path id="Vector 2632" d="M11.5 5.5C11.5 6.05228 11.9477 6.5 12.5 6.5C13.0523 6.5 13.5 6.05228 13.5 5.5C13.5 4.94772 13.0523 4.5 12.5 4.5C11.9477 4.5 11.5 4.94772 11.5 5.5Z" stroke="black"/>
+<path id="Vector 2635" d="M4.5 10.5C4.5 11.0523 4.05228 11.5 3.5 11.5C2.94772 11.5 2.5 11.0523 2.5 10.5C2.5 9.94772 2.94772 9.5 3.5 9.5C4.05228 9.5 4.5 9.94772 4.5 10.5Z" stroke="black"/>
+<path id="Vector 2634" d="M13.5 5.5H15.5" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+<path id="Vector 2636" d="M0.5 10.5H2.5" stroke="black" stroke-opacity="0.25" stroke-linecap="round"/>
+<path id="Vector 2639" d="M4.5 10.5C8.5 10.5 7.5 5.5 11.5 5.5" stroke="black" stroke-linecap="round"/>
+</g>
+</svg>
